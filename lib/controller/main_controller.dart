@@ -45,10 +45,12 @@ class MainController extends GetxController
   late Timer timer;
 
   // 多语言选项配置
-  var currentLocale = Get.deviceLocale.obs;
+  var currentLocale = const Locale('zh', 'CN').obs;
   List<Locale> supportedLocales = [
     const Locale('zh', 'CN'),
     const Locale('en', 'US'),
+    // const Locale.fromSubtags(
+    //     languageCode: 'zh', scriptCode: 'Hans', countryCode: 'CN'),
   ];
 
   void setIndex(int index) {
