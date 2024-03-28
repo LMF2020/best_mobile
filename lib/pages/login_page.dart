@@ -17,6 +17,8 @@ class LoginPage extends GetView<MainController> {
   @override
   Widget build(BuildContext context) {
     final state = controller.mainState;
+    String? lastUserInput = controller.getData(APP.keyUserName);
+    _emailTextController.text = lastUserInput;
 
     /// 组件加载完毕后，Obx才可以刷新子组件。
     WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -53,6 +55,11 @@ class LoginPage extends GetView<MainController> {
                                     EmailValidator.validate(value!)
                                         ? null
                                         : 'check.enter.valid.email'.tr,
+                                onFieldSubmitted: (String? value) {
+                                  // 记录登陆邮箱的历史
+                                  controller.setData(
+                                      APP.keyUserName, value ?? "");
+                                },
                               )),
                           const SizedBox(height: 8),
                           Obx(() => TextFormField(
@@ -191,11 +198,8 @@ class LoginPage extends GetView<MainController> {
                               padding:
                                   const EdgeInsets.fromLTRB(20, 15, 20, 15),
                               onPressed: () {
-                                // 点击加会
-                                Get.to(
-                                  () => JoinMeetingPage(key: UniqueKey()),
-                                  transition: Transition.downToUp,
-                                );
+                                // 点击进入加会页面
+                                controller.onClickJoinMeeting(context: context);
                               },
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.center,

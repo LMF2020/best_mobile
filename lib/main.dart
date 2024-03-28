@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_logs/flutter_logs.dart';
 import 'package:get/get.dart';
+import 'package:get_storage/get_storage.dart';
 import 'package:sparkmob/config/route_config.dart';
 import 'package:sparkmob/utils/messages.dart';
 
@@ -16,6 +17,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   PermissionStatus status = await Permission.bluetooth.request();
 
+  await GetStorage.init();
   setUpLogs();
 
   if (status == PermissionStatus.granted) {

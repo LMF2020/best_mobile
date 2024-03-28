@@ -10,6 +10,7 @@ import 'package:get/get.dart';
 import 'package:sparkmob/controller/main_state.dart';
 import 'package:sparkmob/model/destination.dart';
 import 'package:sparkmob/model/scheduleOptions.dart';
+import 'package:sparkmob/subpages/join_meeting.dart';
 import 'package:sparkmob/utils/common_utils.dart';
 import 'package:sparkmob/utils/db_user.dart';
 import 'package:sparkmob/widgets/common_ui.dart';
@@ -68,6 +69,15 @@ class MainController extends GetxController
   void onClose() {
     DBUtil.db.close();
     super.onClose();
+  }
+
+  // 本地保存一些属性，如 用户名 密码等
+  void setData(String key, String value) {
+    mainState.storge.write(key, value);
+  }
+
+  String getData(String key) {
+    return mainState.storge.read(key) ?? "";
   }
 
   /// 免责声明
@@ -456,6 +466,9 @@ class MainController extends GetxController
       required String password,
       required BuildContext context}) async {
     if (APP.useWebLogin) {
+      // 记录登陆邮箱的历史
+      setData(APP.keyUserName, email);
+      // 登陆API
       webLogin(email: email, password: password, context: context);
       return;
     }
@@ -507,6 +520,31 @@ class MainController extends GetxController
         print(error);
       }
       FlutterLogs.logError("sdkLogIn", "SDKError", "$error");
+    });
+  }
+
+  /// 直接加会界面
+  void onClickJoinMeeting({required BuildContext context}) {
+    var zoom = ZoomView();
+    zoom.isSdkInit().then((success) async {
+      /// sdk初始化失败
+      if (!success) {
+        CommonUI.showBanner(context, "message.app_fail_reconnect".tr, () {
+          sdkInit();
+        });
+        return;
+      }
+      // 点击加会
+      Get.to(
+        () => JoinMeetingPage(key: UniqueKey()),
+        transition: Transition.downToUp,
+      );
+    }).catchError((error) {
+      showToast('login.fail', 5);
+      if (kDebugMode) {
+        print("[webLogin] failed：$error");
+      }
+      FlutterLogs.logError("webLogIn", "initSDKError", "$error");
     });
   }
 
@@ -563,6 +601,7 @@ class MainController extends GetxController
         '', // 起始时间默认当前时间
         type: 1,
         optionJbh: true,
+        optionHostVideo: mainState.showEnableVideoBtn.value,
       );
       onSuccess(Meeting meeting) {
         // 开会

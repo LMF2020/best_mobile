@@ -33,4 +33,8 @@ class APP {
 
   /// 是否使用sdk登录，sdk 5.9.6 以后无法使用sdkLogin
   static const bool useWebLogin = true;
+
+  /// 定义用户名和密码的key
+  static const String keyUserName = "username";
+  static const String keyPassword = "pwd";
 }
