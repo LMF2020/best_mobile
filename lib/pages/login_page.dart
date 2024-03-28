@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -25,6 +27,9 @@ class LoginPage extends GetView<MainController> {
       // 隐私声明的变量
       state.disclaimer.value = controller.isDisclaimerChecked();
     });
+
+    var clientVerNumber =
+        Platform.isAndroid ? APP.clientVerAndroid : APP.clientVerIOS;
 
     return Scaffold(
       backgroundColor: Colors.white,
@@ -223,7 +228,7 @@ class LoginPage extends GetView<MainController> {
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               Text(
-                                'client.version'.tr,
+                                'client.version'.tr + clientVerNumber,
                                 style: const TextStyle(
                                   color: Colors.grey,
                                   fontSize: 12.0,

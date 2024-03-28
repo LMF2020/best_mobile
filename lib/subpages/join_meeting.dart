@@ -22,7 +22,7 @@ class JoinMeetingPage extends StatelessWidget {
     MainState state = controller.mainState;
 
     /// 从本地读取缓存的加会用户名，不存在则尝试获取登录用户名，未登录则为空
-    var displayName = state.storge.read("displayName");
+    var displayName = controller.getData(APP.keyJoinDisplayName);
     if (Utils.validateInput(displayName)) {
       meetingTopicController.text = displayName;
     } else {
@@ -104,7 +104,8 @@ class JoinMeetingPage extends StatelessWidget {
                               String meetingNumb = meetingNumberController.text;
                               String displayName = meetingTopicController.text;
                               // 写入本地缓存，以便下次仍旧可以获取到displayName
-                              state.storge.write("displayName", displayName);
+                              controller.setData(
+                                  APP.keyJoinDisplayName, displayName);
                               // join meeting
                               print("--- joining meeting ---$displayName");
 

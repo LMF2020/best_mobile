@@ -150,7 +150,7 @@ class MainController extends GetxController
     Fluttertoast.showToast(
       msg: msgKey.tr,
       toastLength: Toast.LENGTH_SHORT,
-      gravity: ToastGravity.BOTTOM,
+      gravity: ToastGravity.TOP,
       timeInSecForIosWeb: 5,
       backgroundColor: Colors.black,
       textColor: Colors.white,
@@ -161,7 +161,7 @@ class MainController extends GetxController
     Fluttertoast.showToast(
       msg: '${msgKey.tr} $errMsg',
       toastLength: Toast.LENGTH_SHORT,
-      gravity: ToastGravity.BOTTOM,
+      gravity: ToastGravity.TOP,
       timeInSecForIosWeb: 10,
       backgroundColor: Colors.black,
       textColor: Colors.white,

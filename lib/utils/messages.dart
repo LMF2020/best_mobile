@@ -5,7 +5,7 @@ class Messages extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
         'zh_CN': {
-          'client.version': '版本 v1.0.3+2',
+          'client.version': '版本 ',
           'login.name': '百佳会',
           'login.email': '登录邮箱',
           'login.pwd': '密码',
@@ -98,7 +98,7 @@ class Messages extends Translations {
           'my.schedule_meeting_topic': '我的预约会议',
         },
         'en_US': {
-          'client.version': 'Version v1.0.3',
+          'client.version': 'Version ',
           'login.name': 'Best Meeting',
           'login.email': 'Email',
           'login.pwd': 'Password',
