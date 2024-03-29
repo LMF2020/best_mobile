@@ -29,6 +29,73 @@ class JoinMeetingPage extends StatelessWidget {
       meetingTopicController.text = state.loginUser.value.displayName ?? "";
     }
 
+    String? selectedMeeting;
+
+    // 历史会议列表
+    // final List<Map<String, dynamic>> historyMeetings = [
+    //   {'title': 'Meeting 11111111111111111111111111111111', 'number': '123456'},
+    //   {'title': 'Meeting 2进口机动车看见到处能看到才能看多久才能打开', 'number': '789012'},
+    //   {'title': 'Meeting 3', 'number': '345678'},
+    //   {'title': 'Meeting 3', 'number': '345678'},
+    //   {'title': 'Meeting 3', 'number': '345678'},
+    //   {'title': 'Meeting 3', 'number': '345678'},
+    //   {'title': 'Meeting 3', 'number': '345678'},
+    //   {'title': 'Meeting 3', 'number': '345678'},
+    //   {'title': 'Meeting 3', 'number': '345678'},
+    //   {'title': 'Meeting 3', 'number': '345678'},
+    //   {'title': 'Meeting 3', 'number': '345678'},
+    //   {'title': 'Meeting 3', 'number': '345678'},
+    //   {'title': 'Meeting 3', 'number': '345678'},
+    //   {'title': 'Meeting 3', 'number': '345678'},
+    //   {'title': 'Meeting 3', 'number': '345678'},
+    // ];
+
+    // 清除历史记录
+    void clearHistory() {
+      state.meetingHistoryList.clear();
+      controller.setMeetingHistory([]);
+      Navigator.pop(context); // 关闭底部弹出框
+    }
+
+    // 底部弹出选择框
+    void showMeetingOptions() {
+      showModalBottomSheet(
+        context: context,
+        builder: (BuildContext context) {
+          return Column(
+            children: [
+              ElevatedButton(
+                onPressed: clearHistory,
+                child: Text('meeting.clear_history'.tr),
+              ),
+              Expanded(
+                child: ListView(
+                  children: state.meetingHistoryList.map((meeting) {
+                    return ListTile(
+                      contentPadding: const EdgeInsets.symmetric(
+                          horizontal: 16, vertical: 8),
+                      title: Row(
+                        children: [
+                          Expanded(child: Text(meeting['title'])),
+                          const SizedBox(width: 8),
+                          Text('${meeting['number']}'),
+                        ],
+                      ),
+                      onTap: () {
+                        selectedMeeting = meeting['number'];
+                        meetingNumberController.text = selectedMeeting!;
+                        Navigator.pop(context);
+                      },
+                    );
+                  }).toList(),
+                ),
+              ),
+            ],
+          );
+        },
+      );
+    }
+
     return Scaffold(
       appBar: AppBar(
         title: Text('meeting.join'.tr),
@@ -47,24 +114,49 @@ class JoinMeetingPage extends StatelessWidget {
                     'text.meeting_numb'.tr,
                     // style: TextStyle(fontSize: 18.0),
                   ),
-                  TextFormField(
-                    // 输入会议号
-                    controller: meetingNumberController,
-                    keyboardType: TextInputType.number,
-                    decoration: InputDecoration(
-                      hintText: 'hint.meeting_numb'.tr,
-                      hintStyle: const TextStyle(fontSize: 12.0),
-                    ),
-                    validator: (String? value) {
-                      if (value!.trim().isEmpty) {
-                        return 'check.meeting_numb.not_empty'.tr;
-                      }
-                      if (!Utils.isNumeric(value) || value.length < 5) {
-                        return 'check.meeting_numb.format_error'.tr;
-                      }
-                      return null;
-                    },
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Stack(
+                          children: [
+                            TextFormField(
+                              // 输入会议号
+                              controller: meetingNumberController,
+                              keyboardType: TextInputType.number,
+                              decoration: InputDecoration(
+                                hintText: 'hint.meeting_numb'.tr,
+                                hintStyle: const TextStyle(fontSize: 12.0),
+                              ),
+                              validator: (String? value) {
+                                if (value!.trim().isEmpty) {
+                                  return 'check.meeting_numb.not_empty'.tr;
+                                }
+                                if (!Utils.isNumeric(value) ||
+                                    value.length < 5) {
+                                  return 'check.meeting_numb.format_error'.tr;
+                                }
+                                return null;
+                              },
+                            ),
+                            // 下拉按钮 - 弹出历史会议记录
+                            Positioned(
+                              right: 0,
+                              bottom: 0,
+                              top: 0,
+                              child: IconButton(
+                                onPressed: showMeetingOptions,
+                                icon: const Icon(
+                                  Icons.arrow_drop_down,
+                                  size: 36,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
                   ),
+
                   const SizedBox(height: 16.0),
                   Text(
                     'join.participant_name'.tr,
@@ -100,6 +192,8 @@ class JoinMeetingPage extends StatelessWidget {
                     onPressed: state.isButtonDisabled.isTrue
                         ? null
                         : () {
+                            // 隐藏数字键盘
+                            FocusScope.of(context).unfocus();
                             if (_formKey.currentState!.validate()) {
                               String meetingNumb = meetingNumberController.text;
                               String displayName = meetingTopicController.text;
@@ -124,13 +218,18 @@ class JoinMeetingPage extends StatelessWidget {
                                   controller.setSubmitButtonAvailable();
                                   // 不带密码，直接加会
                                   controller.joinMeeting("",
+                                      topic: meeting.topic,
                                       displayName: displayName,
                                       meetingNumb: meetingNumb);
                                   return;
                                 }
                                 // 带密码，弹框提示输入密码
-                                controller.showJoinPasswordDialog(displayName,
-                                    meeting.meetingNumb, meeting.password);
+                                controller.showJoinPasswordDialog(
+                                  displayName,
+                                  meeting.meetingNumb,
+                                  meeting.password,
+                                  meeting.topic,
+                                );
                               }
 
                               // 调用API 通过会议号获取会议失败

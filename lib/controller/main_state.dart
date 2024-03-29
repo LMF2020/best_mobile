@@ -40,5 +40,8 @@ class MainState {
   // 登录用户
   Rx<User> loginUser = User().obs;
 
+  // 内存里保存会议历史记录
+  var meetingHistoryList = [];
+
   MainState();
 }

@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
@@ -62,6 +63,8 @@ class MainController extends GetxController
   void onInit() {
     // 初始化应用
     sdkInit();
+    // 初始化会议历史记录
+    mainState.meetingHistoryList = getMeetingHistory();
     super.onInit();
   }
 
@@ -69,6 +72,41 @@ class MainController extends GetxController
   void onClose() {
     DBUtil.db.close();
     super.onClose();
+  }
+
+  // 本地保存会议历史记录
+  void setMeetingHistory(dynamic value) {
+    mainState.storge.write(APP.keyMeetingHistory, value);
+  }
+
+  // 本地读取会议历史记录
+  List<Map<String, dynamic>> getMeetingHistory() {
+    var jsonData = mainState.storge.read(APP.keyMeetingHistory) ?? [];
+    if (jsonData is List<dynamic>) {
+      List<Map<String, dynamic>> dataList =
+          jsonData.cast<Map<String, dynamic>>();
+      return dataList;
+    }
+    return [];
+
+    // var jsonData = jsonDecode(result);
+    // return result;
+    // print("read meeting history from storage");
+    // print(jsonData);
+    // print(jsonData.runtimeType);
+
+    // List<Map<String, dynamic>> dataList = [];
+
+    // jsonData.forEach((key, value) {
+    //   dataList.add({key: value});
+    // });
+
+    // if (jsonData is List<dynamic>) {
+    //   List<Map<String, dynamic>> dataList =
+    //       jsonData.cast<Map<String, dynamic>>();
+    //   return dataList;
+    // }
+    // return [];
   }
 
   // 本地保存一些属性，如 用户名 密码等
@@ -381,7 +419,11 @@ class MainController extends GetxController
 
   /// 显示加会密码对话框
   void showJoinPasswordDialog(
-      String displayName, String meetingNumb, String meetingPasswd) {
+    String displayName,
+    String meetingNumb,
+    String meetingPasswd,
+    String? topic,
+  ) {
     joinMeetingPasswordTitle.value = 'meeting.pwd.required'.tr;
     Get.dialog(AlertDialog(
       title: Obx(() => Text(joinMeetingPasswordTitle.value)),
@@ -405,11 +447,18 @@ class MainController extends GetxController
                     /// 设置按钮3秒后可点击
                     setSubmitButtonAvailable();
                     // 直接加会
-                    joinMeeting(meetingPasswd,
-                        displayName: displayName, meetingNumb: meetingNumb);
+                    joinMeeting(
+                      meetingPasswd,
+                      topic: topic,
+                      displayName: displayName,
+                      meetingNumb: meetingNumb,
+                    );
                     // 隐藏弹框
                     joinMeetingPasswordTitle.value = 'meeting.pwd.required'.tr;
                     Get.back();
+                    Get.back();
+                    print("Get back successfully.....");
+                    Get.focusScope?.unfocus();
                   } else {
                     // 显示错误提示
                     joinMeetingPasswordTitle.value = 'meeting.pwd.error'.tr;
@@ -842,7 +891,9 @@ class MainController extends GetxController
 
   /// 加会
   void joinMeeting(String meetingPass,
-      {required String displayName, required String meetingNumb}) {
+      {required String displayName,
+      required String meetingNumb,
+      required String? topic}) {
     bool isMeetingEnded(String status) {
       var result = false;
 
@@ -905,6 +956,17 @@ class MainController extends GetxController
         });
       });
     });
+
+    // 保存会议历史记录
+    String numbers = mainState.meetingHistoryList
+        .map((meeting) => meeting['number'])
+        .join(',');
+    // 确保会议记录不重复
+    if (topic != null && topic.isNotEmpty && !numbers.contains(meetingNumb)) {
+      var record = {"title": topic, "number": meetingNumb};
+      mainState.meetingHistoryList.add(record);
+      setMeetingHistory(mainState.meetingHistoryList);
+    }
   }
 
   /// 选择开会时间

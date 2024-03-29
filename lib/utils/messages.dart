@@ -53,7 +53,7 @@ class Messages extends Translations {
           'meeting.pwd': '会议密码',
           'meeting.del': '删除会议',
           'meeting.del_prompt': '您确定删除该会议吗?',
-          'message.gotcha': '好的',
+          'message.gotcha': '重试',
           'meeting.join': '加入会议',
           'hint.meeting_numb': '请输入会议号',
           'hint.participant_name': '输入参会者名称',
@@ -66,7 +66,8 @@ class Messages extends Translations {
           'snack-bar.message_warning': '提示',
           'meeting.pwd.required': '请输入会议密码',
           'meeting.pwd.error': '会议密码错误，请重试!',
-          'message.app_fail_reconnect': '应用初始化失败，请确认网络正常',
+          'message.app_fail_reconnect':
+              '应用初始化失败，请确认网络正常，点击右侧【重试】, 若仍旧失败，请尝试重启应用！',
           'message.app_login_fail': '与服务器断开连接，请确保网络正常，重新登录',
           'message.app_login_fail_userpass_error': '登录失败，邮箱或密码错误！',
           'btn.continue': '继续',
@@ -96,6 +97,7 @@ class Messages extends Translations {
           'meeting.pwd.invalid': '会议密码无效',
           'schedule.default_meeting_topic': ' 的会议',
           'my.schedule_meeting_topic': '我的预约会议',
+          'meeting.clear_history': '清除历史记录',
         },
         'en_US': {
           'client.version': 'Version ',
@@ -146,9 +148,9 @@ class Messages extends Translations {
           'meeting.number': 'Meeting Number',
           'meeting.pwd': 'Password',
           'meeting.del': 'Delete',
-          'message.gotcha': 'Got it!',
+          'message.gotcha': 'Retry',
           'message.app_fail_reconnect':
-              'Application init failed, please reconnect...',
+              'Application init failed, click [Retry] on right side, if still not working, please restart your app!',
           'meeting.del_prompt': 'Are you sure to delete this meeting?',
           'meeting.join': 'Join meeting',
           'hint.meeting_numb': 'Please input meeting number',
@@ -193,6 +195,7 @@ class Messages extends Translations {
           'meeting.pwd.invalid': 'Invalid password',
           'schedule.default_meeting_topic': ' \'s meeting',
           'my.schedule_meeting_topic': 'My schedule meeting',
+          'meeting.clear_history': 'Clear history',
         }
       };
 }
