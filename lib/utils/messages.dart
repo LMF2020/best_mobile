@@ -5,6 +5,7 @@ class Messages extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
         'zh_CN': {
+          'toast.connection_error': '警告：网络不可用！',
           'client.version': '版本 ',
           'login.name': '百佳会',
           'login.email': '登录邮箱',
@@ -142,6 +143,7 @@ class Messages extends Translations {
           'toast.delete_meeting.failed': 'Delete meeting failed',
           'toast.login_must_agree_disclaimer':
               'Please agree user policy and privacy',
+          'toast.connection_error': 'Warning: Connection unavailable!',
           'meeting.detail': 'Meeting Detail',
           'text.meeting_topic': 'Topic',
           'meeting.start_time': 'Start Time',

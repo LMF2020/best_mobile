@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sparkmob/utils/common_utils.dart';
+import 'package:sparkmob/widgets/connection_widget.dart';
 
 import '../config/route_config.dart';
 import '../controller/main_controller.dart';
@@ -30,6 +31,7 @@ class MeetingDetailPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            ConnectionWidget(), // 网络连接检测
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [

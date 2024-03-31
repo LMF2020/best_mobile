@@ -5,8 +5,8 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sparkmob/controller/main_controller.dart';
-import 'package:sparkmob/subpages/join_meeting.dart';
 import 'package:sparkmob/utils/app_const.dart';
+import 'package:sparkmob/widgets/connection_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class LoginPage extends GetView<MainController> {
@@ -45,6 +45,7 @@ class LoginPage extends GetView<MainController> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
+                          ConnectionWidget(),
                           Image.asset(
                             "assets/logo.png",
                             width: 200,

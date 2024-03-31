@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:sparkmob/controller/main_controller.dart';
 import 'package:sparkmob/controller/main_state.dart';
 import 'package:sparkmob/model/editOptions.dart';
+import 'package:sparkmob/widgets/connection_widget.dart';
 import 'package:sparkmob/widgets/timezone_picker.dart';
 
 import '../config/route_config.dart';
@@ -141,6 +142,7 @@ class EditMeetingPage extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  ConnectionWidget(), // 网络连接检测
                   const SizedBox(height: 12.0),
                   SizedBox(
                       height: 90.0,

@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
@@ -15,6 +14,7 @@ import 'package:sparkmob/subpages/join_meeting.dart';
 import 'package:sparkmob/utils/common_utils.dart';
 import 'package:sparkmob/utils/db_user.dart';
 import 'package:sparkmob/widgets/common_ui.dart';
+import 'package:sparkmob/widgets/connection_util.dart';
 
 import '../api/http_api.dart';
 import '../config/route_config.dart';
@@ -46,6 +46,8 @@ class MainController extends GetxController
 
   late Timer timer;
 
+  ConnectionUtil netUtil = ConnectionUtil();
+
   // 多语言选项配置
   var currentLocale = const Locale('zh', 'CN').obs;
   List<Locale> supportedLocales = [
@@ -65,11 +67,15 @@ class MainController extends GetxController
     sdkInit();
     // 初始化会议历史记录
     mainState.meetingHistoryList = getMeetingHistory();
+    // 初始化网络🛜
+    netUtil.initConnectvity(mainState);
     super.onInit();
   }
 
   @override
   void onClose() {
+    // 释放资源
+    netUtil.cancel();
     DBUtil.db.close();
     super.onClose();
   }
@@ -1054,3 +1060,5 @@ class MainController extends GetxController
     );
   }
 }
+
+void initConnectvity() {}

@@ -43,5 +43,7 @@ class MainState {
   // 内存里保存会议历史记录
   var meetingHistoryList = [];
 
+  var connectionError = true.obs; // 本地网络连接状况
+
   MainState();
 }

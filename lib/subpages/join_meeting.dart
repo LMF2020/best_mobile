@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'package:sparkmob/controller/main_controller.dart';
 import 'package:sparkmob/controller/main_state.dart';
 import 'package:sparkmob/utils/app_const.dart';
+import 'package:sparkmob/widgets/connection_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../utils/common_utils.dart';
@@ -110,6 +111,7 @@ class JoinMeetingPage extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  ConnectionWidget(), // 网络连接检测
                   Text(
                     'text.meeting_numb'.tr,
                     // style: TextStyle(fontSize: 18.0),

@@ -5,6 +5,7 @@ import 'package:sparkmob/subpages/join_meeting.dart';
 import 'package:sparkmob/subpages/meeting_detail.dart';
 import 'package:sparkmob/subpages/schedule_meeting.dart';
 import 'package:sparkmob/subpages/start_meeting.dart';
+import 'package:sparkmob/widgets/connection_widget.dart';
 
 class MeetingPage extends StatelessWidget {
   const MeetingPage({super.key});
@@ -38,6 +39,7 @@ class MeetingPage extends StatelessWidget {
         margin: const EdgeInsets.only(top: 20.0), // 设置顶部间距为16
         child: Column(
           children: [
+            ConnectionWidget(), // 网络连接检测
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [

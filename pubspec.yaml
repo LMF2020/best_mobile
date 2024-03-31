@@ -54,6 +54,7 @@ dependencies:
   path_provider: ^2.1.2
   flutter_logs: 
     git: https://github.com/Hyla96/flutter_logs
+  connectivity_plus: ^6.0.1
 dev_dependencies:
   flutter_test:
     sdk: flutter

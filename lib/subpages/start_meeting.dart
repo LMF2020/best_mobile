@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sparkmob/controller/main_controller.dart';
 import 'package:sparkmob/controller/main_state.dart';
+import 'package:sparkmob/widgets/connection_widget.dart';
 
 class StartMeetingPage extends StatelessWidget {
   const StartMeetingPage({super.key});
@@ -23,6 +24,7 @@ class StartMeetingPage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              ConnectionWidget(), // 网络连接检测
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
