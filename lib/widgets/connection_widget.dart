@@ -5,6 +5,8 @@ import 'package:sparkmob/controller/main_controller.dart';
 class ConnectionWidget extends StatelessWidget {
   final _controller = Get.put(MainController());
 
+  ConnectionWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Obx(

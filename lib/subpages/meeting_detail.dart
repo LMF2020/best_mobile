@@ -74,7 +74,7 @@ class MeetingDetailPage extends StatelessWidget {
                   ),
                   Text(Utils.formatDateTimeLocal(
                       meeting.startTimeDate ?? DateTime.now(),
-                      controller.currentLocale.value!.languageCode))
+                      controller.currentLocale.value.languageCode))
                 ],
               ),
             if (meeting.startTimeUTC != '') const SizedBox(height: 16.0),

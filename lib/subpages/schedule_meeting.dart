@@ -184,13 +184,13 @@ class ScheduleMeetingPage extends StatelessWidget {
                         onTap: () {
                           // 选择时间
                           String locale =
-                              controller.currentLocale.value!.languageCode;
+                              controller.currentLocale.value.languageCode;
                           controller.showChoseScheduleDatePicker(
                               context, locale);
                         },
                         child: Obx(
                           () => Text(
-                              "${Utils.formatDateTimeLocal(controller.choseScheduleDateTime.value, controller.currentLocale.value!.languageCode)} >",
+                              "${Utils.formatDateTimeLocal(controller.choseScheduleDateTime.value, controller.currentLocale.value.languageCode)} >",
                               style:
                                   const TextStyle(fontWeight: FontWeight.w300)),
                         ),
@@ -210,12 +210,12 @@ class ScheduleMeetingPage extends StatelessWidget {
                         onTap: () {
                           // 选择时间
                           String locale =
-                              controller.currentLocale.value!.languageCode;
+                              controller.currentLocale.value.languageCode;
                           controller.showChoseTimePicker(context, locale);
                         },
                         child: Obx(
                           () => Text(
-                              "${Utils.formatTimeLocal(controller.choseScheduleDuration.value, controller.currentLocale.value!.languageCode)} >",
+                              "${Utils.formatTimeLocal(controller.choseScheduleDuration.value, controller.currentLocale.value.languageCode)} >",
                               style:
                                   const TextStyle(fontWeight: FontWeight.w300)),
                         ),

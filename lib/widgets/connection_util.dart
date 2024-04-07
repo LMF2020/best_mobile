@@ -4,7 +4,7 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:sparkmob/controller/main_state.dart';
 
 class ConnectionUtil {
-  List<ConnectivityResult> _connectionStatus = [ConnectivityResult.none];
+  final List<ConnectivityResult> _connectionStatus = [ConnectivityResult.none];
   final Connectivity _connectivity = Connectivity();
   late StreamSubscription<List<ConnectivityResult>> _connectivitySubscription;
 

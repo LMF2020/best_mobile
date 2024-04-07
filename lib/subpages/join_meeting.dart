@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:sparkmob/config/route_config.dart';
 import 'package:sparkmob/controller/main_controller.dart';
 import 'package:sparkmob/controller/main_state.dart';
 import 'package:sparkmob/utils/app_const.dart';
@@ -125,6 +126,7 @@ class JoinMeetingPage extends StatelessWidget {
                               // 输入会议号
                               controller: meetingNumberController,
                               keyboardType: TextInputType.number,
+                              autofocus: true,
                               decoration: InputDecoration(
                                 hintText: 'hint.meeting_numb'.tr,
                                 hintStyle: const TextStyle(fontSize: 12.0),
@@ -179,86 +181,124 @@ class JoinMeetingPage extends StatelessWidget {
                     },
                   ),
                   const SizedBox(height: 16.0),
-                  ElevatedButton(
-                    style: ButtonStyle(
-                      minimumSize:
-                          MaterialStateProperty.all(const Size(120, 40)),
-                      backgroundColor: MaterialStateProperty.all(Colors.blue),
-                      foregroundColor: MaterialStateProperty.all(Colors.white),
-                      textStyle: MaterialStateProperty.all(
-                          const TextStyle(fontSize: 12)),
-                      // 设置文字样式
-                      shape: MaterialStateProperty.all(RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12))), // 设置形状
-                    ),
-                    onPressed: state.isButtonDisabled.isTrue
-                        ? null
-                        : () {
-                            // 隐藏数字键盘
-                            FocusScope.of(context).unfocus();
-                            if (_formKey.currentState!.validate()) {
-                              String meetingNumb = meetingNumberController.text;
-                              String displayName = meetingTopicController.text;
-                              // 写入本地缓存，以便下次仍旧可以获取到displayName
-                              controller.setData(
-                                  APP.keyJoinDisplayName, displayName);
-                              // join meeting
-                              print("--- joining meeting ---$displayName");
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      ElevatedButton(
+                        style: ButtonStyle(
+                          minimumSize:
+                              MaterialStateProperty.all(const Size(120, 40)),
+                          backgroundColor:
+                              MaterialStateProperty.all(Colors.blue),
+                          foregroundColor:
+                              MaterialStateProperty.all(Colors.white),
+                          textStyle: MaterialStateProperty.all(
+                              const TextStyle(fontSize: 12)),
+                          // 设置文字样式
+                          shape: MaterialStateProperty.all(
+                              RoundedRectangleBorder(
+                                  borderRadius:
+                                      BorderRadius.circular(12))), // 设置形状
+                        ),
+                        onPressed: state.isButtonDisabled.isTrue
+                            ? null
+                            : () {
+                                // 隐藏数字键盘
+                                FocusScope.of(context).unfocus();
+                                if (_formKey.currentState!.validate()) {
+                                  String meetingNumb =
+                                      meetingNumberController.text;
+                                  String displayName =
+                                      meetingTopicController.text;
+                                  // 写入本地缓存，以便下次仍旧可以获取到displayName
+                                  controller.setData(
+                                      APP.keyJoinDisplayName, displayName);
+                                  // join meeting
+                                  print("--- joining meeting ---$displayName");
 
-                              // 调用API 通过会议号获取会议成功
-                              onSuccess(meeting) {
-                                print(
-                                    'ret meeting numb: ' + meeting.meetingNumb);
-                                print('ret meeting pass: ' + meeting?.password);
+                                  // 调用API 通过会议号获取会议成功
+                                  onSuccess(meeting) {
+                                    print('ret meeting numb: ' +
+                                        meeting.meetingNumb);
+                                    print('ret meeting pass: ' +
+                                        meeting?.password);
 
-                                if (meeting.password == '' ||
-                                    meeting.password == null) {
-                                  /// 设置按钮不可点击
-                                  controller.setSubmitButtonDisable();
+                                    if (meeting.password == '' ||
+                                        meeting.password == null) {
+                                      /// 设置按钮不可点击
+                                      controller.setSubmitButtonDisable();
 
-                                  /// 设置按钮3秒后可点击
-                                  controller.setSubmitButtonAvailable();
-                                  // 不带密码，直接加会
-                                  controller.joinMeeting("",
-                                      topic: meeting.topic,
-                                      displayName: displayName,
-                                      meetingNumb: meetingNumb);
-                                  return;
+                                      /// 设置按钮3秒后可点击
+                                      controller.setSubmitButtonAvailable();
+                                      // 不带密码，直接加会
+                                      controller.joinMeeting("",
+                                          topic: meeting.topic,
+                                          displayName: displayName,
+                                          meetingNumb: meetingNumb);
+                                      return;
+                                    }
+                                    // 带密码，弹框提示输入密码
+                                    controller.showJoinPasswordDialog(
+                                      displayName,
+                                      meeting.meetingNumb,
+                                      meeting.password,
+                                      meeting.topic,
+                                    );
+                                  }
+
+                                  // 调用API 通过会议号获取会议失败
+                                  onFail(error) {
+                                    // print("ret error code: " + errorMap['code']);
+                                    // print("ret error message: " +
+                                    //     errorMap['message']);
+                                    // Get.snackbar(
+                                    //   "snack-bar.message_warning".tr,
+                                    //   errorMap['message'],
+                                    //   colorText: Colors.white,
+                                    //   backgroundColor: Colors.brown,
+                                    //   duration: const Duration(seconds: 5),
+                                    // );
+                                    /// 获取会议失败提示框
+                                    controller.failAlert(
+                                        'toast.get_meeting.failed',
+                                        error.toString());
+                                  }
+
+                                  /// API 根据会议号获取会议
+                                  /// 如果会议不存在 -> 弹框会议不存在或过期
+                                  /// 如果会议存在 -> 返回会议密码
+                                  controller.getMeetingByNumb(
+                                      meetingNumb, onSuccess, onFail);
                                 }
-                                // 带密码，弹框提示输入密码
-                                controller.showJoinPasswordDialog(
-                                  displayName,
-                                  meeting.meetingNumb,
-                                  meeting.password,
-                                  meeting.topic,
-                                );
-                              }
-
-                              // 调用API 通过会议号获取会议失败
-                              onFail(error) {
-                                // print("ret error code: " + errorMap['code']);
-                                // print("ret error message: " +
-                                //     errorMap['message']);
-                                // Get.snackbar(
-                                //   "snack-bar.message_warning".tr,
-                                //   errorMap['message'],
-                                //   colorText: Colors.white,
-                                //   backgroundColor: Colors.brown,
-                                //   duration: const Duration(seconds: 5),
-                                // );
-                                /// 获取会议失败提示框
-                                controller.failAlert('toast.get_meeting.failed',
-                                    error.toString());
-                              }
-
-                              /// API 根据会议号获取会议
-                              /// 如果会议不存在 -> 弹框会议不存在或过期
-                              /// 如果会议存在 -> 返回会议密码
-                              controller.getMeetingByNumb(
-                                  meetingNumb, onSuccess, onFail);
-                            }
+                              },
+                        child: Text('btn.join_meeting'.tr),
+                      ),
+                      const SizedBox(width: 20), // 添加一些间距
+                      if (controller.isLoggedIn.isFalse &&
+                          !controller.isTokenExist()) // token不存在或者未登陆，则显示登陆按钮
+                        ElevatedButton(
+                          style: ButtonStyle(
+                            minimumSize:
+                                MaterialStateProperty.all(const Size(120, 40)),
+                            backgroundColor:
+                                MaterialStateProperty.all(Colors.white70),
+                            foregroundColor:
+                                MaterialStateProperty.all(Colors.purple),
+                            textStyle: MaterialStateProperty.all(
+                                const TextStyle(fontSize: 12)),
+                            // 设置文字样式
+                            shape: MaterialStateProperty.all(
+                                RoundedRectangleBorder(
+                                    borderRadius:
+                                        BorderRadius.circular(12))), // 设置形状
+                          ),
+                          onPressed: () {
+                            // 返回登陆页面
+                            Get.toNamed(RouteConfig.login);
                           },
-                    child: Text('btn.join_meeting'.tr),
+                          child: Text('login.back_to_login'.tr),
+                        ),
+                    ],
                   ),
                   const SizedBox(height: 8.0),
                   Row(

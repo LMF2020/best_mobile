@@ -41,7 +41,7 @@ class HttpsAPI {
   Future<List<Meeting>> listMeeting({required String userId}) async {
     try {
       if (kDebugMode) {
-        print('[listMeeting request] userId: ${userId}, apiKey: ${APP.apiKey}');
+        print('[listMeeting request] userId: $userId, apiKey: ${APP.apiKey}');
       }
       var response = await dio.post(
         '/v1/meeting/list',

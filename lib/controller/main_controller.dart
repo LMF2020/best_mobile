@@ -299,12 +299,23 @@ class MainController extends GetxController
           FlutterLogs.logError("sdkInit", "autoLoginFailed", "error: $error");
         });
       } else {
+        // 应用初始化后 -> 是否跳转到加会页面
+        if (APP.toJoinPageAfterAppInit) {
+          toJoinPage();
+        }
         if (kDebugMode) {
           print("[auto-login] Error occurred: user not found");
         }
         FlutterLogs.logWarn("sdkInit", "autoLoginFailed", "user not found");
       }
     });
+  }
+
+  void toJoinPage() {
+    Get.to(
+      () => JoinMeetingPage(key: UniqueKey()),
+      transition: Transition.downToUp,
+    );
   }
 
   // 登录成功-创建用户
@@ -315,6 +326,7 @@ class MainController extends GetxController
 
       mainState.accessToken.value = user.apiToken ?? "";
       mainState.zak.value = user.zak ?? "";
+      isLoggedIn(true);
 
       /// 用来开会的token
       if (kDebugMode) {
@@ -489,6 +501,7 @@ class MainController extends GetxController
     await DBUtil.db.deleteUser();
     mainState.accessToken.value = "";
     mainState.zak.value = "";
+    isLoggedIn(false);
     onSuccess?.call();
   }
 
