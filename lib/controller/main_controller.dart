@@ -77,6 +77,11 @@ class MainController extends GetxController
     // 释放资源
     netUtil.cancel();
     DBUtil.db.close();
+    // 清理用户设备缓存
+    _api.loadDeviceInfo(
+        userId: mainState.loginUser.value.id,
+        keepLogin: false,
+        needLogout: true);
     super.onClose();
   }
 
@@ -94,25 +99,6 @@ class MainController extends GetxController
       return dataList;
     }
     return [];
-
-    // var jsonData = jsonDecode(result);
-    // return result;
-    // print("read meeting history from storage");
-    // print(jsonData);
-    // print(jsonData.runtimeType);
-
-    // List<Map<String, dynamic>> dataList = [];
-
-    // jsonData.forEach((key, value) {
-    //   dataList.add({key: value});
-    // });
-
-    // if (jsonData is List<dynamic>) {
-    //   List<Map<String, dynamic>> dataList =
-    //       jsonData.cast<Map<String, dynamic>>();
-    //   return dataList;
-    // }
-    // return [];
   }
 
   // 本地保存一些属性，如 用户名 密码等
@@ -277,6 +263,22 @@ class MainController extends GetxController
       String? email = dbUser?.email;
       if (email != null) {
         _api.getUserByEmail(email: email).then((user) {
+          String? deviceId = user.deviceId;
+          bool canLogin =
+              deviceId == null || deviceId == "" || deviceId == APP.deviceId;
+          if (!canLogin) {
+            // 提示用户：您的账号已在其他设备登陆
+            CommonUI.showCupertinoAlertDialog(
+              okBtn: 'btn.confirm'.tr,
+              title: 'title.login.fail'.tr,
+              content: 'login.fail.otherLogin'.tr,
+            );
+            return;
+          }
+          // 发送请求：更新设备登陆状态
+          _api.loadDeviceInfo(
+              userId: user.id, keepLogin: true, needLogout: false);
+
           mainState.loginUser.value = user;
           mainState.accessToken.value = user.apiToken ?? "";
           mainState.zak.value = user.zak ?? "";
@@ -321,6 +323,21 @@ class MainController extends GetxController
   // 登录成功-创建用户
   void createUserAfterLoginSuccess(String email) {
     _api.getUserByEmail(email: email).then((user) {
+      String? deviceId = user.deviceId;
+      bool canLogin =
+          deviceId == null || deviceId == "" || deviceId == APP.deviceId;
+      if (!canLogin) {
+        // 提示用户：正在其他设备登陆
+        CommonUI.showCupertinoAlertDialog(
+          okBtn: 'btn.confirm'.tr,
+          title: 'title.login.fail'.tr,
+          content: 'login.fail.otherLogin'.tr,
+        );
+        return;
+      }
+      // 发送请求：更新设备登陆状态
+      _api.loadDeviceInfo(userId: user.id, keepLogin: true, needLogout: false);
+
       mainState.loginUser.value = user;
       DBUtil.db.saveLoginUser(user);
 
@@ -334,6 +351,11 @@ class MainController extends GetxController
       }
       FlutterLogs.logInfo("sdkInit", "firstLoginSuccess", "userInfo: $user");
       listHostMeetings();
+
+      isLoggedIn(true);
+      showToast('login.success', 5);
+      // 跳转到主页
+      Get.toNamed(RouteConfig.main);
     }).catchError((error) {
       throw Exception('Failed to create user: errorCode is $error');
     });
@@ -499,6 +521,11 @@ class MainController extends GetxController
 
   // 登出
   Future webLogout([void Function()? onSuccess]) async {
+    // 清理用户设备缓存
+    _api.loadDeviceInfo(
+        userId: mainState.loginUser.value.id,
+        keepLogin: false,
+        needLogout: true);
     await DBUtil.db.deleteUser();
     mainState.accessToken.value = "";
     mainState.zak.value = "";
@@ -578,10 +605,6 @@ class MainController extends GetxController
       } else {
         // 登录成功
         createUserAfterLoginSuccess(loginResult[1]);
-        isLoggedIn(true);
-        showToast('login.success', 5);
-        // 跳转到主页
-        Get.toNamed(RouteConfig.main);
       }
     }).catchError((error) {
       showToast('login.fail', 5);
@@ -645,10 +668,6 @@ class MainController extends GetxController
 
       // 登录成功
       createUserAfterLoginSuccess(email);
-      isLoggedIn(true);
-      showToast('login.success', 5);
-      // 跳转到主页
-      Get.toNamed(RouteConfig.main);
     }).catchError((error) {
       showToast('login.fail', 5);
       if (kDebugMode) {

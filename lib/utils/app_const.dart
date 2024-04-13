@@ -36,6 +36,9 @@ class APP {
 
   static const bool toJoinPageAfterAppInit = true;
 
+  // 获取设备唯一ID
+  static String? deviceId = "";
+
   /// 定义用户名和密码的key
   static const String keyUserName = "username";
   static const String keyPassword = "pwd";

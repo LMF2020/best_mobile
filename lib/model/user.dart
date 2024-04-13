@@ -10,6 +10,8 @@ class User {
   final String? displayName;
   final String? zak;
   final String? apiToken;
+  final String? deviceId;
+  final String? deviceOS;
 
   User({
     this.id,
@@ -23,6 +25,8 @@ class User {
     this.displayName,
     this.zak,
     this.apiToken,
+    this.deviceId,
+    this.deviceOS,
   });
 
   // Convert a User into a Map. The keys must correspond to the names of the
@@ -58,6 +62,8 @@ class User {
       displayName: displayName,
       zak: map['zak'],
       apiToken: map['token'],
+      deviceId: map['deviceId'],
+      deviceOS: map['deviceOS'],
     );
   }
 

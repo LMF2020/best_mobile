@@ -1,8 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_logs/flutter_logs.dart';
+import 'package:sparkmob/model/deviceInfo.dart';
 import 'package:sparkmob/model/meeting.dart';
 import 'package:sparkmob/model/user.dart';
+import 'package:sparkmob/utils/common_utils.dart';
 import '../model/editOptions.dart';
 import '../model/scheduleOptions.dart';
 import '../utils/app_const.dart';
@@ -81,12 +83,14 @@ class HttpsAPI {
   /// 通过邮箱获取用户信息
   Future<User> getUserByEmail({required String email}) async {
     try {
+      print("getUserByEmail +deviceId ====== ${APP.deviceId}");
       var response = await dio.post(
         '/v1/user/getbyemail',
         data: {
           'api_key': APP.apiKey,
           'api_secret': APP.apiSecret,
           'email': email,
+          'device_id': APP.deviceId
         },
         options: Options(contentType: Headers.formUrlEncodedContentType),
       );
@@ -367,6 +371,57 @@ class HttpsAPI {
       }
       FlutterLogs.logError("editMeeting", "UnknownCase", '$e');
       return null;
+    }
+  }
+
+  /// 检查设备登陆状态
+  ///
+  /// @param 当前用户ID
+  /// @param needLogout 是否退出登陆，清理缓存
+  /// @param keepLogin  是否保持登陆，更新缓存
+  Future<DeviceInfo> loadDeviceInfo({
+    required String? userId,
+    required bool needLogout,
+    required bool keepLogin,
+  }) async {
+    try {
+      if (userId == null || userId == "") {
+        return DeviceInfo(deviceId: "", deviceOS: "");
+      }
+      var response = await dio.post(
+        '/v1/user/login/device',
+        data: {
+          'user_id': userId,
+          'api_key': APP.apiKey,
+          'api_secret': APP.apiSecret,
+          'device_os': Utils.getDeviceOS(),
+          'device_id': APP.deviceId,
+          'need_logout': needLogout,
+          'keep_login': keepLogin,
+        },
+        options: Options(contentType: Headers.formUrlEncodedContentType),
+      );
+      Map<String, dynamic> responseData = response.data;
+      if (response.statusCode == 200) {
+        if (responseData.containsKey('error')) {
+          // throw Exception(
+          // 'Failed to load device info because errorCode is $responseData');
+          print('[loadDeviceInfo] error: $responseData');
+          return DeviceInfo(deviceId: "", deviceOS: "");
+        }
+        DeviceInfo deviceInfo = DeviceInfo.fromMap(responseData);
+        return deviceInfo;
+      } else {
+        // 处理请求失败的情况
+        // throw Exception(
+        // 'Failed to load device info, error occurs $responseData');
+        print('[loadDeviceInfo] error: $responseData');
+        return DeviceInfo(deviceId: "", deviceOS: "");
+      }
+    } catch (e) {
+      // throw Exception('Error: $e');
+      print('[loadDeviceInfo] error: $e');
+      return DeviceInfo(deviceId: "", deviceOS: "");
     }
   }
 }

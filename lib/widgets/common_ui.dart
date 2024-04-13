@@ -1,7 +1,33 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class CommonUI {
+  /// IOS风格的确认框
+  static showCupertinoAlertDialog({
+    required title,
+    required content,
+    required okBtn,
+  }) {
+    showCupertinoDialog(
+      context: Get.context!,
+      builder: (BuildContext context) {
+        return CupertinoAlertDialog(
+          title: Text(title),
+          content: Text(content),
+          actions: <Widget>[
+            CupertinoDialogAction(
+              child: Text(okBtn),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+          ],
+        );
+      },
+    );
+  }
+
   /// 弹出确认框
   static showConfirmationAlertDialog(
     BuildContext context, {
@@ -15,7 +41,7 @@ class CommonUI {
       context: context,
       barrierDismissible: false,
       builder: (BuildContext context) {
-        return AlertDialog(
+        return CupertinoAlertDialog(
           title: Text(title),
           content: Text(middleText),
           actions: <Widget>[
@@ -45,7 +71,8 @@ class CommonUI {
     );
   }
 
-  static void showBanner(BuildContext context, String message, Function? onClick) {
+  static void showBanner(
+      BuildContext context, String message, Function? onClick) {
     ScaffoldMessenger.of(context)
       ..removeCurrentMaterialBanner()
       ..showMaterialBanner(_showMaterialBanner(context, message, onClick));
@@ -55,7 +82,8 @@ class CommonUI {
     ScaffoldMessenger.of(context).hideCurrentMaterialBanner();
   }
 
-  static MaterialBanner _showMaterialBanner(BuildContext context, String message, Function? onClick) {
+  static MaterialBanner _showMaterialBanner(
+      BuildContext context, String message, Function? onClick) {
     return MaterialBanner(
         content: Text(message),
         leading: const Icon(Icons.error),
@@ -78,7 +106,10 @@ class CommonUI {
             },
             child: Text(
               'message.gotcha'.tr,
-              style: const TextStyle(color: Colors.purple, fontSize: 12, fontWeight: FontWeight.bold),
+              style: const TextStyle(
+                  color: Colors.purple,
+                  fontSize: 12,
+                  fontWeight: FontWeight.bold),
             ),
           ),
         ]);

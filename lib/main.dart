@@ -1,9 +1,14 @@
+import 'dart:io';
+
+import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_logs/flutter_logs.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:sparkmob/config/route_config.dart';
+import 'package:sparkmob/utils/app_const.dart';
 import 'package:sparkmob/utils/messages.dart';
 
 import 'controller/main_binding.dart';
@@ -18,6 +23,7 @@ void main() async {
   PermissionStatus status = await Permission.bluetooth.request();
 
   await GetStorage.init();
+  await setUpDeviceDetails();
   setUpLogs();
 
   if (status == PermissionStatus.granted) {
@@ -27,6 +33,24 @@ void main() async {
   }
   // 解决白屏问题
   Future.delayed(const Duration(seconds: 2), () => runApp(const SparkApp()));
+}
+
+Future<String?> setUpDeviceDetails() async {
+  final DeviceInfoPlugin deviceInfoPlugin = DeviceInfoPlugin();
+  try {
+    if (Platform.isAndroid) {
+      var build = await deviceInfoPlugin.androidInfo;
+      APP.deviceId = build.serialNumber;
+      print("device UUID for Android ====== ${APP.deviceId}");
+    } else if (Platform.isIOS) {
+      var data = await deviceInfoPlugin.iosInfo;
+      APP.deviceId = data.identifierForVendor;
+      print("device UUID for IOS ====== ${APP.deviceId}");
+    }
+  } on PlatformException {
+    print('Failed to get device UUID');
+  }
+  return "";
 }
 
 void setUpLogs() async {

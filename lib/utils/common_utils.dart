@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:intl/intl.dart';
 
 class Utils {
@@ -69,5 +71,15 @@ class Utils {
       return false;
     }
     return true;
+  }
+
+  static String getDeviceOS() {
+    if (Platform.isAndroid) {
+      return "android";
+    }
+    if (Platform.isIOS) {
+      return "ios";
+    }
+    return "unknow";
   }
 }
