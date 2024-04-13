@@ -446,6 +446,7 @@ class MainController extends GetxController
     Get.dialog(AlertDialog(
       title: Obx(() => Text(joinMeetingPasswordTitle.value)),
       content: TextField(
+        autofocus: true,
         controller: joinMeetingPasswordCtrl,
         obscureText: true,
       ),
