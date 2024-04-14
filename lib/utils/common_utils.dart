@@ -1,6 +1,12 @@
+import 'dart:async';
 import 'dart:io';
 
+import 'package:flutter_logs/flutter_logs.dart';
 import 'package:intl/intl.dart';
+import 'package:sparkmob/api/http_api.dart';
+import 'package:sparkmob/controller/main_controller.dart';
+import 'package:sparkmob/model/deviceInfo.dart';
+import 'package:sparkmob/utils/app_const.dart';
 
 class Utils {
   /// 把utc时间转化为本地时区的时间和格式
@@ -87,5 +93,50 @@ class Utils {
       return "macos";
     }
     return "unknow";
+  }
+
+  static clearTimer() {
+    Timer? timer = APP.currentTimer;
+    if (timer != null) {
+      timer.cancel();
+    }
+  }
+
+  // 创建一个timer 每分钟检查一次设备绑定情况
+  static void createDeviceCheckTimer({
+    required MainController controller,
+    required HttpsAPI api,
+  }) {
+    clearTimer();
+    // 创建timer
+    Timer.periodic(const Duration(minutes: 1), (timer) async {
+      APP.currentTimer = timer;
+      try {
+        bool isLoggedIn = controller.isLoggedIn.value;
+        bool isTokenAlive = controller.isTokenExist();
+        String userId = controller.mainState.loginUser.value.id ?? "";
+        if (!isLoggedIn ||
+            !isTokenAlive ||
+            userId.isEmpty ||
+            APP.deviceId == null) {
+          return; // 没有登陆
+        }
+        // 登陆状态下更新缓存，使其保持登陆状态
+        DeviceInfo deviceInfo = await api.loadDeviceInfo(
+            userId: userId, keepLogin: true, needLogout: false);
+        print(
+          "[CheckDeviceTimer] Keep Login: User:$userId === ${timer.tick}",
+        );
+        // 请求查询到其他设备登陆 取消定时任务
+        if (deviceInfo.deviceId != "" && deviceInfo.deviceId != APP.deviceId) {
+          timer.cancel();
+          APP.currentTimer = null;
+          FlutterLogs.logInfo(
+              "[CheckDeviceTimer]", "Lose Login Connection", "User:$userId");
+        }
+      } catch (e) {
+        print("checkDeviceLogin error $e");
+      }
+    });
   }
 }

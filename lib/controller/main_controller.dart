@@ -77,6 +77,10 @@ class MainController extends GetxController
     // 释放资源
     netUtil.cancel();
     DBUtil.db.close();
+    mainState.accessToken.value = "";
+    mainState.zak.value = "";
+    isLoggedIn(false);
+    Utils.clearTimer();
     // 清理用户设备缓存
     _api.loadDeviceInfo(
         userId: mainState.loginUser.value.id,
@@ -284,6 +288,9 @@ class MainController extends GetxController
           mainState.loginUser.value = user;
           mainState.accessToken.value = user.apiToken ?? "";
           mainState.zak.value = user.zak ?? "";
+          isLoggedIn(true);
+          // 创建定时器：每分钟更新缓存
+          Utils.createDeviceCheckTimer(controller: this, api: _api);
           if (kDebugMode) {
             print("[auto-login] Load user success: $user");
           }
@@ -292,7 +299,6 @@ class MainController extends GetxController
           listHostMeetings();
           // 自动登录成功, 跳转到主页
           // 获取到用户才能跳转！
-          isLoggedIn(true);
           Get.toNamed(RouteConfig.main);
           showToast('toast.auto_login_success', 5);
         }).catchError((error) {
@@ -348,6 +354,8 @@ class MainController extends GetxController
       mainState.accessToken.value = user.apiToken ?? "";
       mainState.zak.value = user.zak ?? "";
       isLoggedIn(true);
+      // 创建定时器：每分钟更新缓存
+      Utils.createDeviceCheckTimer(controller: this, api: _api);
 
       /// 用来开会的token
       if (kDebugMode) {
@@ -525,15 +533,16 @@ class MainController extends GetxController
 
   // 登出
   Future webLogout([void Function()? onSuccess]) async {
+    await DBUtil.db.deleteUser();
+    Utils.clearTimer();
+    mainState.accessToken.value = "";
+    mainState.zak.value = "";
+    isLoggedIn(false);
     // 清理用户设备缓存
     _api.loadDeviceInfo(
         userId: mainState.loginUser.value.id,
         keepLogin: false,
         needLogout: true);
-    await DBUtil.db.deleteUser();
-    mainState.accessToken.value = "";
-    mainState.zak.value = "";
-    isLoggedIn(false);
     onSuccess?.call();
   }
 
@@ -1097,5 +1106,3 @@ class MainController extends GetxController
     );
   }
 }
-
-void initConnectvity() {}

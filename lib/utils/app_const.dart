@@ -1,3 +1,5 @@
+import 'dart:async';
+
 class APP {
   // dryrun env 150
   // static const domain = "dev.meetspark.com.cn";
@@ -38,6 +40,7 @@ class APP {
 
   // 获取设备唯一ID
   static String? deviceId = "";
+  static Timer? currentTimer;
 
   /// 定义用户名和密码的key
   static const String keyUserName = "username";
