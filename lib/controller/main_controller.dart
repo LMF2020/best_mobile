@@ -267,7 +267,7 @@ class MainController extends GetxController
           String os = user.deviceOS ?? "";
           bool canLogin =
               deviceId == null || deviceId == "" || deviceId == APP.deviceId;
-          if (true) {
+          if (!canLogin) {
             // 提示用户：您的账号已在其他设备登陆
             CommonUI.showCupertinoAlertDialog(
               okBtn: 'btn.confirm'.tr,
@@ -335,7 +335,7 @@ class MainController extends GetxController
           okBtn: 'btn.confirm'.tr,
           title: 'title.login.fail'.tr,
           content: 'login.fail.otherLogin'.tr,
-          subContent: "OS: [$os]",
+          subContent: "",
         );
         return;
       }
