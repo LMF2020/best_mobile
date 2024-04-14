@@ -74,7 +74,7 @@ class Messages extends Translations {
           'message.app_login_fail_userpass_error': '登录失败，邮箱或密码错误！',
           'btn.continue': '继续',
           'title.profile': '个人资料',
-          'title.login.fail': '提示：登陆失败',
+          'title.login.fail': '登陆失败',
           'login.fail.otherLogin': '您的账号已在其他设备登陆',
           'profile.email': '账户',
           'profile.display_name': '显示名称',
@@ -176,7 +176,7 @@ class Messages extends Translations {
               'Email or Password is not correct!',
           'btn.continue': 'Continue',
           'title.profile': 'Profile',
-          'title.login.fail': 'Info：Unable to Login',
+          'title.login.fail': 'Login Failed',
           'login.fail.otherLogin':
               'Your account has been logged-In on another device',
           'profile.email': 'Account',

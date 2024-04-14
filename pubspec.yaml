@@ -55,6 +55,7 @@ dependencies:
     git: https://github.com/Hyla96/flutter_logs
   connectivity_plus: ^6.0.1
   device_info_plus: ^10.1.0
+  android_id: ^0.3.6
 dev_dependencies:
   flutter_test:
     sdk: flutter

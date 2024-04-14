@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:android_id/android_id.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -37,18 +38,31 @@ void main() async {
 
 Future<String?> setUpDeviceDetails() async {
   final DeviceInfoPlugin deviceInfoPlugin = DeviceInfoPlugin();
+  const androidIdPlugin = AndroidId();
   try {
     if (Platform.isAndroid) {
-      var build = await deviceInfoPlugin.androidInfo;
-      APP.deviceId = build.serialNumber;
-      print("device UUID for Android ====== ${APP.deviceId}");
+      try {
+        APP.deviceId = await androidIdPlugin.getId() ?? 'Unknown ID';
+      } on PlatformException {
+        print('OS: Failed to get Android ID.');
+        return "";
+      }
+      print("OS: device UUID for Android ====== ${APP.deviceId}");
     } else if (Platform.isIOS) {
       var data = await deviceInfoPlugin.iosInfo;
       APP.deviceId = data.identifierForVendor;
-      print("device UUID for IOS ====== ${APP.deviceId}");
+      print("OS: device UUID for IOS ====== ${APP.deviceId}");
+    } else if (Platform.isLinux) {
+      var data = await deviceInfoPlugin.linuxInfo;
+      APP.deviceId = data.machineId;
+      print("OS: device UUID for Linux ====== ${APP.deviceId}");
+    } else if (Platform.isMacOS) {
+      var data = await deviceInfoPlugin.macOsInfo;
+      APP.deviceId = data.systemGUID;
+      print("OS: device UUID for MacOS ====== ${APP.deviceId}");
     }
   } on PlatformException {
-    print('Failed to get device UUID');
+    print('OS: Failed to get device UUID');
   }
   return "";
 }

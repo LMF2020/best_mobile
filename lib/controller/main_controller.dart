@@ -264,14 +264,16 @@ class MainController extends GetxController
       if (email != null) {
         _api.getUserByEmail(email: email).then((user) {
           String? deviceId = user.deviceId;
+          String os = user.deviceOS ?? "";
           bool canLogin =
               deviceId == null || deviceId == "" || deviceId == APP.deviceId;
-          if (!canLogin) {
+          if (true) {
             // 提示用户：您的账号已在其他设备登陆
             CommonUI.showCupertinoAlertDialog(
               okBtn: 'btn.confirm'.tr,
               title: 'title.login.fail'.tr,
               content: 'login.fail.otherLogin'.tr,
+              subContent: "",
             );
             return;
           }
@@ -324,6 +326,7 @@ class MainController extends GetxController
   void createUserAfterLoginSuccess(String email) {
     _api.getUserByEmail(email: email).then((user) {
       String? deviceId = user.deviceId;
+      String os = user.deviceOS ?? "";
       bool canLogin =
           deviceId == null || deviceId == "" || deviceId == APP.deviceId;
       if (!canLogin) {
@@ -332,6 +335,7 @@ class MainController extends GetxController
           okBtn: 'btn.confirm'.tr,
           title: 'title.login.fail'.tr,
           content: 'login.fail.otherLogin'.tr,
+          subContent: "OS: [$os]",
         );
         return;
       }

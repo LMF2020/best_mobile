@@ -8,13 +8,29 @@ class CommonUI {
     required title,
     required content,
     required okBtn,
+    String subContent = "", // 附加文本
   }) {
+    bool displaySubContent = subContent.isNotEmpty;
     showCupertinoDialog(
       context: Get.context!,
       builder: (BuildContext context) {
         return CupertinoAlertDialog(
           title: Text(title),
-          content: Text(content),
+          content: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: <Widget>[
+              Text(
+                content,
+                style: const TextStyle(fontSize: 16), // 上面文本的字体大小
+              ),
+              if (displaySubContent) const SizedBox(height: 8), // 添加一些间距
+              if (displaySubContent)
+                Text(
+                  subContent,
+                  style: const TextStyle(fontSize: 14), // 下面文本的字体大小
+                ),
+            ],
+          ),
           actions: <Widget>[
             CupertinoDialogAction(
               child: Text(okBtn),

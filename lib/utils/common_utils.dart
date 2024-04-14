@@ -80,6 +80,12 @@ class Utils {
     if (Platform.isIOS) {
       return "ios";
     }
+    if (Platform.isLinux) {
+      return "linux";
+    }
+    if (Platform.isMacOS) {
+      return "macos";
+    }
     return "unknow";
   }
 }
