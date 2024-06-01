@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.meetspark" "\0"
-            VALUE "FileDescription", "spark_android" "\0"
+            VALUE "FileDescription", "spark_bjrun" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "spark_android" "\0"
+            VALUE "InternalName", "spark_bjrun" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.meetspark. All rights reserved." "\0"
-            VALUE "OriginalFilename", "spark_android.exe" "\0"
-            VALUE "ProductName", "spark_android" "\0"
+            VALUE "OriginalFilename", "spark_bjrun.exe" "\0"
+            VALUE "ProductName", "spark_bjrun" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

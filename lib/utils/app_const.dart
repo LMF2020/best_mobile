@@ -6,7 +6,6 @@ class APP {
   static const appSecret = "ZUVzFeB8f3Dhxx7QJ318n6UFzW6EYBgDikp4";
   static const apiKey = "mUf7hfuHQ1KyZExu6SI2Kg";
   static const apiSecret = "mAoycBUMyeUbCMM4um4cqaDCKLNYWmZQhWpy";
-
   static const jwtToken =
       "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBLZXkiOiJBaDRuVmVKRmZmenpDTzJjTjJXcVdmUEN3eGlpUXdGcW9MZEwiLCJpYXQiOjE3MDgxODEwNTMsImV4cCI6MjMzODkwMTA1MywidG9rZW5FeHAiOjIzMzg5MDEwNTN9.sKZAFH9T_L7m6Bsy-ZzB6KEnYK0OBqyjxk4KwVO6Dv4";
 
