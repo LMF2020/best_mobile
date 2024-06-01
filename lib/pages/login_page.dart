@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:sparkmob/controller/main_controller.dart';
 import 'package:sparkmob/utils/app_const.dart';
@@ -32,7 +33,7 @@ class LoginPage extends GetView<MainController> {
         Platform.isAndroid ? APP.clientVerAndroid : APP.clientVerIOS;
 
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: const Color(0xffe0ebfe),
       body: SingleChildScrollView(
         child: Padding(
             padding: const EdgeInsets.only(left: 32, right: 32),
@@ -47,53 +48,130 @@ class LoginPage extends GetView<MainController> {
                         children: [
                           ConnectionWidget(),
                           Image.asset(
-                            "assets/logo.png",
-                            width: 200,
-                            height: 200,
+                            "assets/login.png",
+                            width: double.infinity, // 设置宽度占用100%
+                            // fit: BoxFit.cover, // 使图片尽可能填充父容器
+                            height: 140,
                           ),
-                          Obx(() => TextFormField(
-                                enabled: !state.loginProcess.value,
-                                controller: _emailTextController,
-                                decoration: InputDecoration(
-                                    icon: const Icon(Icons.person),
-                                    labelText: 'login.email'.tr),
-                                validator: (String? value) =>
-                                    EmailValidator.validate(value!)
-                                        ? null
-                                        : 'check.enter.valid.email'.tr,
-                                onFieldSubmitted: (String? value) {
-                                  // 记录登陆邮箱的历史
-                                  controller.setData(
-                                      APP.keyUserName, value ?? "");
-                                },
-                              )),
+
+                          // 欢迎登陆和下划线部分
+                          const Text(
+                            '欢迎登录',
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          const SizedBox(height: 10), // 调整文本和下划线之间的间距
+                          Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              Divider(
+                                color: Colors.grey.shade400,
+                                thickness: 1,
+                              ),
+                              Positioned(
+                                child: Container(
+                                  width: 80,
+                                  height: 2,
+                                  color: Colors.blue,
+                                ),
+                              ),
+                            ],
+                          ),
+
                           const SizedBox(height: 8),
-                          Obx(() => TextFormField(
-                                enabled: !state.loginProcess.value,
-                                controller: _passwordTextController,
-                                decoration: InputDecoration(
-                                    icon: const Icon(Icons.lock),
-                                    labelText: 'login.pwd'.tr,
-                                    suffixIcon: IconButton(
-                                      icon: Icon(
-                                        state.passwordVisible.value
-                                            ? Icons.visibility_off
-                                            : Icons.visibility,
-                                        color:
-                                            Theme.of(context).primaryColorDark,
+
+                          Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'login.email'.tr, // 邮箱
+                                style: const TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              const SizedBox(height: 8),
+                              Obx(() => TextFormField(
+                                    enabled: !state.loginProcess.value,
+                                    controller: _emailTextController,
+                                    decoration: InputDecoration(
+                                      filled: true,
+                                      fillColor: Colors.white,
+                                      hintText: 'login.email.hint'.tr, // 请输入邮箱
+                                      border: OutlineInputBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(8.0),
+                                        borderSide: BorderSide.none,
                                       ),
-                                      onPressed: () {
-                                        state.passwordVisible.value =
-                                            !state.passwordVisible.value;
-                                      },
-                                    )),
-                                obscureText: !state.passwordVisible.value,
-                                validator: (String? value) =>
-                                    value!.trim().isEmpty
-                                        ? 'check.enter.pwd.required'.tr
-                                        : null,
-                              )),
-                          const SizedBox(height: 8),
+                                      contentPadding:
+                                          const EdgeInsets.symmetric(
+                                              horizontal: 16.0, vertical: 16.0),
+                                    ),
+                                    validator: (String? value) =>
+                                        EmailValidator.validate(value!)
+                                            ? null
+                                            : 'check.enter.valid.email'.tr,
+                                    onFieldSubmitted: (String? value) {
+                                      // 记录登陆邮箱的历史
+                                      controller.setData(
+                                          APP.keyUserName, value ?? "");
+                                    },
+                                  )),
+                            ],
+                          ),
+
+                          const SizedBox(height: 16),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'login.pwd'.tr, // 密码
+                                style: const TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              const SizedBox(height: 8),
+                              Obx(() => TextFormField(
+                                    enabled: !state.loginProcess.value,
+                                    controller: _passwordTextController,
+                                    decoration: InputDecoration(
+                                      filled: true,
+                                      fillColor: Colors.white,
+                                      hintText: 'login.pwd.hint'.tr, // 请输入密码
+                                      border: OutlineInputBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(8.0),
+                                        borderSide: BorderSide.none,
+                                      ),
+                                      contentPadding:
+                                          const EdgeInsets.symmetric(
+                                              horizontal: 16.0, vertical: 16.0),
+                                      suffixIcon: IconButton(
+                                        icon: Icon(
+                                          state.passwordVisible.value
+                                              ? Icons.visibility_off
+                                              : Icons.visibility,
+                                          color: Theme.of(context)
+                                              .primaryColorDark,
+                                        ),
+                                        onPressed: () {
+                                          state.passwordVisible.value =
+                                              !state.passwordVisible.value;
+                                        },
+                                      ),
+                                    ),
+                                    obscureText: !state.passwordVisible.value,
+                                    validator: (String? value) =>
+                                        value!.trim().isEmpty
+                                            ? 'check.enter.pwd.required'.tr
+                                            : null,
+                                  )),
+                            ],
+                          ),
 
                           /// 免责声明
                           if (APP.showPolicyTerms)
@@ -152,10 +230,10 @@ class LoginPage extends GetView<MainController> {
                           const SizedBox(height: 30),
                           Material(
                             elevation: 5.0,
-                            borderRadius: BorderRadius.circular(30),
+                            // borderRadius: BorderRadius.circular(30),
                             color: state.loginProcess.value
                                 ? Theme.of(context).disabledColor
-                                : Theme.of(context).primaryColor,
+                                : Theme.of(context).primaryColorDark,
                             child: MaterialButton(
                               minWidth: Get.width,
                               padding:
@@ -186,6 +264,7 @@ class LoginPage extends GetView<MainController> {
                                     'login.btn'.tr,
                                     textAlign: TextAlign.center,
                                     style: const TextStyle(
+                                        fontSize: 17,
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold),
                                   ),
@@ -197,7 +276,7 @@ class LoginPage extends GetView<MainController> {
                           // 直接加会---按钮
                           Material(
                             elevation: 5.0,
-                            borderRadius: BorderRadius.circular(30),
+                            // borderRadius: BorderRadius.circular(30),
                             color: Theme.of(context).primaryColorDark,
                             child: MaterialButton(
                               minWidth: Get.width,
@@ -217,6 +296,7 @@ class LoginPage extends GetView<MainController> {
                                     'btn.join_meeting_without_login'.tr,
                                     textAlign: TextAlign.center,
                                     style: const TextStyle(
+                                        fontSize: 16,
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold),
                                   ),

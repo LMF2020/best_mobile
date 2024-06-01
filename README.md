@@ -1,8 +1,8 @@
-# spark_android
+# 锐安会议
 
 A new Flutter project.
 
-Where are my logs stored? 
+Where are my logs stored?
 Your logs can be found in the path of your app's directory in storage:
 
 Android:
@@ -11,5 +11,5 @@ Android:
 iOS:
 --> [YOUR_APP_CONTAINER]/AppData/Library/Application Support/Logs/
 
-/// 
-flutter build apk  --split-per-abi --obfuscate --split-debug-info=debug-info --release
+///
+flutter build apk --split-per-abi --obfuscate --split-debug-info=debug-info --release
