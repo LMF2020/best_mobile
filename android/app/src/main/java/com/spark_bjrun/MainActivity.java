@@ -1,6 +1,6 @@
-package com.spark_android;
+package com.spark_bjrun;
 
-import static com.spark_android.startjoinmeeting.ApiUserStartMeetingHelper.DISPLAY_NAME;
+import static com.spark_bjrun.startjoinmeeting.ApiUserStartMeetingHelper.DISPLAY_NAME;
 
 import android.content.Intent;
 import android.util.Log;
@@ -9,7 +9,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 
 import com.google.common.base.Strings;
-import com.spark_android.startjoinmeeting.ApiUserStartMeetingHelper;
+import com.spark_bjrun.startjoinmeeting.ApiUserStartMeetingHelper;
 
 import java.util.Arrays;
 import java.util.List;

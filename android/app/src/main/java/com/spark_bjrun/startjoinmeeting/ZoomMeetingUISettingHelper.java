@@ -1,4 +1,4 @@
-package com.spark_android.startjoinmeeting;
+package com.spark_bjrun.startjoinmeeting;
 
 
 import us.zoom.sdk.InstantMeetingOptions;

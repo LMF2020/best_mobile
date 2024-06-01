@@ -1,8 +1,8 @@
-package com.spark_android.startjoinmeeting;
+package com.spark_bjrun.startjoinmeeting;
 
 import android.content.Context;
 
-import com.spark_android.FlutterContextPlugin;
+import com.spark_bjrun.FlutterContextPlugin;
 
 import java.util.Arrays;
 import java.util.Map;

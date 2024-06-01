@@ -1,4 +1,4 @@
-package com.spark_android.startjoinmeeting;
+package com.spark_bjrun.startjoinmeeting;
 
 import java.util.ArrayList;
 
