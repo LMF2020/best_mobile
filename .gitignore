@@ -10,6 +10,7 @@
 .svn/
 migrate_working_dir/
 
+
 # IntelliJ related
 *.iml
 *.ipr
@@ -42,6 +43,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/android/app/libs
 
 /ios/Runner.xcworkspace
 /ios/Runner.xcodeproj/project.pbxproj

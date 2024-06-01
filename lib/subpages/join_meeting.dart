@@ -187,15 +187,15 @@ class JoinMeetingPage extends StatelessWidget {
                       ElevatedButton(
                         style: ButtonStyle(
                           minimumSize:
-                              MaterialStateProperty.all(const Size(120, 40)),
+                              WidgetStateProperty.all(const Size(120, 40)),
                           backgroundColor:
-                              MaterialStateProperty.all(Colors.blue),
+                              WidgetStateProperty.all(Colors.blue),
                           foregroundColor:
-                              MaterialStateProperty.all(Colors.white),
-                          textStyle: MaterialStateProperty.all(
+                              WidgetStateProperty.all(Colors.white),
+                          textStyle: WidgetStateProperty.all(
                               const TextStyle(fontSize: 12)),
                           // 设置文字样式
-                          shape: MaterialStateProperty.all(
+                          shape: WidgetStateProperty.all(
                               RoundedRectangleBorder(
                                   borderRadius:
                                       BorderRadius.circular(12))), // 设置形状
@@ -279,15 +279,15 @@ class JoinMeetingPage extends StatelessWidget {
                         ElevatedButton(
                           style: ButtonStyle(
                             minimumSize:
-                                MaterialStateProperty.all(const Size(120, 40)),
+                                WidgetStateProperty.all(const Size(120, 40)),
                             backgroundColor:
-                                MaterialStateProperty.all(Colors.white70),
+                                WidgetStateProperty.all(Colors.white70),
                             foregroundColor:
-                                MaterialStateProperty.all(Colors.purple),
-                            textStyle: MaterialStateProperty.all(
+                                WidgetStateProperty.all(Colors.purple),
+                            textStyle: WidgetStateProperty.all(
                                 const TextStyle(fontSize: 12)),
                             // 设置文字样式
-                            shape: MaterialStateProperty.all(
+                            shape: WidgetStateProperty.all(
                                 RoundedRectangleBorder(
                                     borderRadius:
                                         BorderRadius.circular(12))), // 设置形状

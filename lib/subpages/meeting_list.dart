@@ -55,14 +55,14 @@ class MeetingPage extends StatelessWidget {
                       },
                       style: ButtonStyle(
                         shape:
-                            MaterialStateProperty.all<RoundedRectangleBorder>(
+                            WidgetStateProperty.all<RoundedRectangleBorder>(
                           RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
                         ),
                         backgroundColor:
-                            MaterialStateProperty.all(Colors.amber),
-                        minimumSize: MaterialStateProperty.all<Size>(
+                            WidgetStateProperty.all(Colors.amber),
+                        minimumSize: WidgetStateProperty.all<Size>(
                             const Size.fromRadius(40.0)), // 设置按钮的最小尺寸（半径为40.0）
                       ),
                       child: const SizedBox(
@@ -97,13 +97,13 @@ class MeetingPage extends StatelessWidget {
                       },
                       style: ButtonStyle(
                         shape:
-                            MaterialStateProperty.all<RoundedRectangleBorder>(
+                            WidgetStateProperty.all<RoundedRectangleBorder>(
                           RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
                         ),
-                        backgroundColor: MaterialStateProperty.all(Colors.blue),
-                        minimumSize: MaterialStateProperty.all<Size>(
+                        backgroundColor: WidgetStateProperty.all(Colors.blue),
+                        minimumSize: WidgetStateProperty.all<Size>(
                             const Size.fromRadius(40.0)),
                       ),
                       child: const SizedBox(
@@ -141,13 +141,13 @@ class MeetingPage extends StatelessWidget {
                       },
                       style: ButtonStyle(
                         shape:
-                            MaterialStateProperty.all<RoundedRectangleBorder>(
+                            WidgetStateProperty.all<RoundedRectangleBorder>(
                           RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
                           ),
                         ),
-                        backgroundColor: MaterialStateProperty.all(Colors.blue),
-                        minimumSize: MaterialStateProperty.all<Size>(
+                        backgroundColor: WidgetStateProperty.all(Colors.blue),
+                        minimumSize: WidgetStateProperty.all<Size>(
                             const Size.fromRadius(40.0)),
                       ),
                       child: const SizedBox(
