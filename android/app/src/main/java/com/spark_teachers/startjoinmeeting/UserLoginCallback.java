@@ -1,4 +1,4 @@
-package com.spark_bjrun.startjoinmeeting;
+package com.spark_teachers.startjoinmeeting;
 
 import java.util.ArrayList;
 

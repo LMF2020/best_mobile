@@ -1,21 +1,20 @@
 import 'dart:async';
 
 class APP {
-  static const domain = "best-meeting.com";
-  static const appKey = "Ah4nVeJFffzzCO2cN2WqWfPCwxiiQwFqoLdL";
-  static const appSecret = "ZUVzFeB8f3Dhxx7QJ318n6UFzW6EYBgDikp4";
-  static const apiKey = "mUf7hfuHQ1KyZExu6SI2Kg";
-  static const apiSecret = "mAoycBUMyeUbCMM4um4cqaDCKLNYWmZQhWpy";
+  static const domain = "teachers-here.tw";
+  static const appKey = "cBNn44FBO1661YSRYA3YBVpiPqMS3rOZLBeO";
+  static const appSecret = "9oO3Tv2ZlDWV6OGn7PxxYqM8aKR0ZUpTwxvj";
+  static const apiKey = "yzNFKCF4TF2DdK9aK9V12g";
+  static const apiSecret = "Qzu4BFdzk38jIMf0K6gQRyU8gezoYlPHHZkN";
   static const jwtToken =
-      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBLZXkiOiJBaDRuVmVKRmZmenpDTzJjTjJXcVdmUEN3eGlpUXdGcW9MZEwiLCJpYXQiOjE3MDgxODEwNTMsImV4cCI6MjMzODkwMTA1MywidG9rZW5FeHAiOjIzMzg5MDEwNTN9.sKZAFH9T_L7m6Bsy-ZzB6KEnYK0OBqyjxk4KwVO6Dv4";
-
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBLZXkiOiJjQk5uNDRGQk8xNjYxWVNSWUEzWUJWcGlQcU1TM3JPWkxCZU8iLCJpYXQiOjE3MTYwMzUzMjQsImV4cCI6MjM0Njc1NTMyNCwidG9rZW5FeHAiOjIzNDY3NTUzMjR9.DObERzCcT97ZB8UFJ1JZKz9hNcXcJcdJHAHPkZEPTRQ";
   static const String disclaimerLoginPageAgreeTerm = "我已同意";
-  static const String disclaimerJoinPageAgreeTerm = "点击 \"加入\", 即表示您同意我们的";
-  static const String disclaimerPolicyContent = "《用户协议》";
+  static const String disclaimerJoinPageAgreeTerm = "點擊 \"加入\", 即表示您同意我們的";
+  static const String disclaimerPolicyContent = "《使用者協議》";
   static const String disclaimerPolicyContentUrl =
       'https://$domain/terms/policy';
 
-  static const String disclaimerPrivacyContent = "《隐私政策》";
+  static const String disclaimerPrivacyContent = "《隱私政策》";
   static const String disclaimerPrivacyContentUrl =
       'https://$domain/terms/privacy';
 

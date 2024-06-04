@@ -3,7 +3,6 @@ import 'dart:io';
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:sparkmob/controller/main_controller.dart';
 import 'package:sparkmob/utils/app_const.dart';
@@ -55,9 +54,9 @@ class LoginPage extends GetView<MainController> {
                           ),
 
                           // 欢迎登陆和下划线部分
-                          const Text(
-                            '欢迎登录',
-                            style: TextStyle(
+                          Text(
+                            'login.welcome'.tr,
+                            style: const TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
                             ),

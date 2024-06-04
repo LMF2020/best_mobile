@@ -1,4 +1,4 @@
-package com.spark_bjrun;
+package com.spark_teachers;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,19 +1,13 @@
-package com.spark_bjrun.startjoinmeeting;
+package com.spark_teachers.startjoinmeeting;
 
-import android.content.Context;
+import com.spark_teachers.FlutterContextPlugin;
 
-import com.spark_bjrun.FlutterContextPlugin;
-
-import java.util.Arrays;
 import java.util.Map;
 
 import io.flutter.plugin.common.MethodCall;
-import us.zoom.sdk.InstantMeetingOptions;
-import us.zoom.sdk.MeetingOptions;
 import us.zoom.sdk.MeetingService;
 import us.zoom.sdk.MeetingViewsOptions;
 import us.zoom.sdk.StartMeetingOptions;
-import us.zoom.sdk.StartMeetingParams;
 import us.zoom.sdk.StartMeetingParams4NormalUser;
 import us.zoom.sdk.ZoomSDK;
 

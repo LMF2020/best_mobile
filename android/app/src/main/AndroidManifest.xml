@@ -3,7 +3,7 @@
     android:versionCode="2"           
     android:versionName="1.0.0"
     android:allowBackup="true"
-    package="com.spark_bjrun"
+    package="com.spark_teachers"
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
@@ -23,7 +23,7 @@
         tools:targetApi="o">
 
         <activity
-            android:name="com.spark_bjrun.MainActivity"
+            android:name="com.spark_teachers.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
@@ -60,7 +60,7 @@
             <category android:name="android.intent.category.DEFAULT" />
             <category android:name="android.intent.category.BROWSABLE" />
             <data
-                android:host="best-meeting.com"
+                android:host="teachers-here.tw"
                 android:scheme="bestmtg"
                 />
         </intent-filter>

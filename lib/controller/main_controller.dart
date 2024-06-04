@@ -49,9 +49,10 @@ class MainController extends GetxController
   ConnectionUtil netUtil = ConnectionUtil();
 
   // 多语言选项配置
-  var currentLocale = const Locale('zh', 'CN').obs;
+  var currentLocale = const Locale('zh', 'TW').obs;
   List<Locale> supportedLocales = [
-    const Locale('zh', 'CN'),
+    const Locale('zh', 'TW'),
+    // const Locale('zh', 'CN'),
     const Locale('en', 'US'),
     // const Locale.fromSubtags(
     //     languageCode: 'zh', scriptCode: 'Hans', countryCode: 'CN'),
