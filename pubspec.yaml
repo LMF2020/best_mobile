@@ -55,7 +55,7 @@ dependencies:
     git: https://github.com/Hyla96/flutter_logs
   connectivity_plus: ^6.0.1
   device_info_plus: ^10.1.0
-  android_id: ^0.3.6
+  android_id: ^0.4.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -65,7 +65,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^3.0.1
+  flutter_lints: ^4.0.0
   test: ^1.24.3
   flutter_launcher_icons: "^0.13.1"
   intl_translation: ^0.20.0

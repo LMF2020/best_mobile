@@ -1,13 +1,13 @@
 import 'dart:async';
 
 class APP {
-  static const domain = "best-meeting.com";
-  static const appKey = "Ah4nVeJFffzzCO2cN2WqWfPCwxiiQwFqoLdL";
-  static const appSecret = "ZUVzFeB8f3Dhxx7QJ318n6UFzW6EYBgDikp4";
-  static const apiKey = "mUf7hfuHQ1KyZExu6SI2Kg";
-  static const apiSecret = "mAoycBUMyeUbCMM4um4cqaDCKLNYWmZQhWpy";
+  static const domain = "meeting.bjrun.com";
+  static const appKey = "7EaTl228EKTubf5xdiIaW5WrcVVTFCPNwpRE";
+  static const appSecret = "BP7DQYlWI1YCCpWFip8oAH2YPPODf0as6V3C";
+  static const apiKey = "jpFpObtBQ4SmzABVWspbjg";
+  static const apiSecret = "qFITAu00ROx1b0jKEC70TqPOcZvZ9UXFSwaw";
   static const jwtToken =
-      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBLZXkiOiJBaDRuVmVKRmZmenpDTzJjTjJXcVdmUEN3eGlpUXdGcW9MZEwiLCJpYXQiOjE3MDgxODEwNTMsImV4cCI6MjMzODkwMTA1MywidG9rZW5FeHAiOjIzMzg5MDEwNTN9.sKZAFH9T_L7m6Bsy-ZzB6KEnYK0OBqyjxk4KwVO6Dv4";
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBLZXkiOiI3RWFUbDIyOEVLVHViZjV4ZGlJYVc1V3JjVlZURkNQTndwUkUiLCJpYXQiOjE3MTcyNDgyNjAsImV4cCI6MjM0Nzk2ODI2MCwidG9rZW5FeHAiOjIzNDc5NjgyNjB9.KA7Q0z6Fnjhsm1VP2VqULGO0aeihuVo_9knFTK2B_Fs";
 
   static const String disclaimerLoginPageAgreeTerm = "我已同意";
   static const String disclaimerJoinPageAgreeTerm = "点击 \"加入\", 即表示您同意我们的";
