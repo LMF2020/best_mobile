@@ -7302,9 +7302,9 @@
     <string name="zm_sip_msg_record_videomail_inmeeting_290287">現在無法錄製視訊留言，因為您正在會議中。</string>
     <string name="zm_sip_msg_request_imei_permission_for_india_cdr_569254">銳安會議想要存取您的手機狀態和裝置身分，包含但不限於IMEI，具體視提供銳安會議 Phone之國家/地區的監管要求而定。</string>
     <string name="zm_sip_msg_request_location_permission_332597">您的管理員要求您在裝置設定中啟用與銳安會議的位置分享。分享您的位置，可讓銳安會議在進行緊急通話期間協助通報您的位置，以及啟用進階功能（例如基於位置的存取與呼叫路由）。您的位置資訊僅會用於此項用途。</string>
-    <string name="zm_sip_msg_request_location_permission_338281">ZOOM想要存取您的位置，以便在您的管理員啟用時提供額外功能（例如緊急服務、基於位置的存取，以及呼叫路由）。正在使用的位置資訊將包括IP位址、無線存取點ID，或是GPS座標（可用時）。</string>
+    <string name="zm_sip_msg_request_location_permission_338281">锐安会议想要存取您的位置，以便在您的管理員啟用時提供額外功能（例如緊急服務、基於位置的存取，以及呼叫路由）。正在使用的位置資訊將包括IP位址、無線存取點ID，或是GPS座標（可用時）。</string>
     <string name="zm_sip_msg_request_location_permission_for_india_cdr_516678">銳安會議想要存取您的位置，以便在您的管理員啟用時提供額外功能（例如緊急服務、基於位置的存取，以及呼叫路由）。根據提供銳安會議 Phone之國家/地區的監管要求，必須要有針對位置服務的存取權限。正在使用的位置資訊將包括IP位址、無線存取點ID，或是GPS座標（可用時）。</string>
-    <string name="zm_sip_msg_request_location_permission_initial_332597">ZOOM想要存取您的位置，以便在您的管理員啟用時提供額外功能（例如緊急服務、基於位置的存取，以及呼叫路由）。正在使用的位置資訊將包括IP位址、無線存取點ID，或是GPS座標（可用時）。</string>
+    <string name="zm_sip_msg_request_location_permission_initial_332597">锐安会议想要存取您的位置，以便在您的管理員啟用時提供額外功能（例如緊急服務、基於位置的存取，以及呼叫路由）。正在使用的位置資訊將包括IP位址、無線存取點ID，或是GPS座標（可用時）。</string>
     <string name="zm_sip_msg_request_location_permission_retrigger_274626">您的管理員要求您啟用銳安會議位置分享。位置可根據IP位址、無線存取點ID、GPS座標（可用時）而定。這能讓銳安會議協助判斷您的位置，並僅供回應您的緊急通話之用。</string>
     <string name="zm_sip_msg_unable_access_location_148057">請在裝置設定中允許銳安會議存取您的位置。</string>
     <string name="zm_sip_msg_unable_record_greeing_inmeeting_400025">現在無法錄製問候，因為您正在會議中。</string>
@@ -7658,7 +7658,7 @@
     <string name="zm_subscription_canceled_subscriber_dialog_title_551882">銳安會議已漸入佳境</string>
     <string name="zm_subscription_change_tab_message_501873">升級至銳安會議 One專業版，讓您的通訊更臻完美。即刻暢享無時間限制的會議、進階協作，以及更多功能。</string>
     <string name="zm_subscription_change_tab_title_501873">能夠安心地隨處辦公</string>
-    <string name="zm_subscription_description_1_501873">ZOOM ONE專業版</string>
+    <string name="zm_subscription_description_1_501873">專業版</string>
     <string name="zm_subscription_description_287238">當免費試用結束時，便會開始計費。在免費試用結束前取消，就不會向您收費。所有銳安會議訂閱的免費試用僅限一次。訂閱會在計費期間結束時自動續約。可隨時在Google Play上取消。選取方案並完成結帳，即表示同意銳安會議的《服務條款》及《隱私權聲明》。</string>
     <string name="zm_subscription_description_2_501873">每次會議最長為30小時</string>
     <string name="zm_subscription_description_3_501873">會議次數無限制</string>

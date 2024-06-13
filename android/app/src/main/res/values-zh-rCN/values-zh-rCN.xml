@@ -712,7 +712,7 @@
     <string name="zm_alert_pmi_disabled_153610">你的个人会议号已被禁用</string>
     <string name="zm_alert_pmi_disabled_when_edit_153610">你的个人会议号已被禁用。保存此会议即可自动生成新的会议号。</string>
     <string name="zm_alert_rate_on_googleplay_content_58802">请在Google Play商店中为我们评分，感谢你的支持！</string>
-    <string name="zm_alert_rate_on_googleplay_title_58802">给ZOOM评分</string>
+    <string name="zm_alert_rate_on_googleplay_title_58802">评分</string>
     <string name="zm_alert_reached_max_tip_329734">要求某人停止共享并重试。</string>
     <string name="zm_alert_reached_max_title_329734">你已达到允许的屏幕共享会话的数量上限</string>
     <string name="zm_alert_receive_reached_max_tip_329734">共享未成功，因为已达到使用中会话的数量上限。要求某人停止共享并重试。</string>
