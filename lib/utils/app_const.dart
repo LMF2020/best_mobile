@@ -1,13 +1,13 @@
 import 'dart:async';
 
 class APP {
-  static const domain = "meeting.bjrun.com";
-  static const appKey = "7EaTl228EKTubf5xdiIaW5WrcVVTFCPNwpRE";
-  static const appSecret = "BP7DQYlWI1YCCpWFip8oAH2YPPODf0as6V3C";
-  static const apiKey = "jpFpObtBQ4SmzABVWspbjg";
-  static const apiSecret = "qFITAu00ROx1b0jKEC70TqPOcZvZ9UXFSwaw";
+  static const domain = "meeting.sanyuanshi.com";
+  static const appKey = "QwPvmE3H3leyNzGCwLO5sAVBDpHQ0v0Sod00";
+  static const appSecret = "lS8Wol1rerbPf1KpgVW4gddo0pLJDXDfEuL8";
+  static const apiKey = "Ihp-yFuWRQav1rjH_kK9mg";
+  static const apiSecret = "yCq1rLXqyzLIDsObGerkGD1O6mKBsgr9Sdev";
   static const jwtToken =
-      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBLZXkiOiI3RWFUbDIyOEVLVHViZjV4ZGlJYVc1V3JjVlZURkNQTndwUkUiLCJpYXQiOjE3MTcyNDgyNjAsImV4cCI6MjM0Nzk2ODI2MCwidG9rZW5FeHAiOjIzNDc5NjgyNjB9.KA7Q0z6Fnjhsm1VP2VqULGO0aeihuVo_9knFTK2B_Fs";
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBLZXkiOiJRd1B2bUUzSDNsZXlOekdDd0xPNXNBVkJEcEhRMHYwU29kMDAiLCJpYXQiOjE3MTg1MTA3ODIsImV4cCI6MjM0OTIzMDc4MiwidG9rZW5FeHAiOjIzNDkyMzA3ODJ9.VB48MCB3vAnA1Kap_px7u3n4I0Uu1-ILlR9HQit-Kac";
 
   static const String disclaimerLoginPageAgreeTerm = "我已同意";
   static const String disclaimerJoinPageAgreeTerm = "点击 \"加入\", 即表示您同意我们的";

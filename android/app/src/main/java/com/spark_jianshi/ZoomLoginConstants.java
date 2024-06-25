@@ -1,4 +1,4 @@
-package com.spark_bjrun;
+package com.spark_jianshi;
 
 public class ZoomLoginConstants {
     public static int AUTO_LOGIN_SUCCESS = 200;

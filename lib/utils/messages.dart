@@ -7,7 +7,7 @@ class Messages extends Translations {
         'zh_CN': {
           'toast.connection_error': '警告：网络不可用！',
           'client.version': '版本 ',
-          'login.name': '锐安会议',
+          'login.name': '简石会议',
           'login.email': '邮箱',
           'login.email.hint': '请输入邮箱',
           'login.pwd.hint': '请输入密码',
@@ -108,7 +108,7 @@ class Messages extends Translations {
         },
         'en_US': {
           'client.version': 'Version ',
-          'login.name': '锐安会议',
+          'login.name': '简石会议',
           'login.email': 'Email',
           'login.email.hint': 'Please input email',
           'login.pwd': 'Password',

@@ -1,10 +1,9 @@
-package com.spark_bjrun.startjoinmeeting;
+package com.spark_jianshi.startjoinmeeting;
 
 import android.content.Context;
 import android.util.Log;
 
-import com.google.common.base.Strings;
-import com.spark_bjrun.FlutterContextPlugin;
+import com.spark_jianshi.FlutterContextPlugin;
 
 import java.util.Map;
 

@@ -1,6 +1,6 @@
-package com.spark_bjrun;
+package com.spark_jianshi;
 
-import static com.spark_bjrun.startjoinmeeting.ApiUserStartMeetingHelper.DISPLAY_NAME;
+import static com.spark_jianshi.startjoinmeeting.ApiUserStartMeetingHelper.DISPLAY_NAME;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -10,7 +10,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 
 import com.google.common.base.Strings;
-import com.spark_bjrun.startjoinmeeting.ApiUserStartMeetingHelper;
+import com.spark_jianshi.startjoinmeeting.ApiUserStartMeetingHelper;
 
 import java.util.Arrays;
 import java.util.List;
@@ -32,7 +32,6 @@ import us.zoom.sdk.MeetingStatus;
 import us.zoom.sdk.MeetingViewsOptions;
 import us.zoom.sdk.SDKNotificationServiceError;
 import us.zoom.sdk.StartMeetingOptions;
-import us.zoom.sdk.StartMeetingParams4NormalUser;
 import us.zoom.sdk.StartMeetingParamsWithoutLogin;
 import us.zoom.sdk.ZoomApiError;
 import us.zoom.sdk.ZoomAuthenticationError;
