@@ -5333,7 +5333,7 @@
     <string name="zm_msg_indication_resetpwd">请设置新登录密码。</string>
     <string name="zm_msg_install_app_137212"> 请安装%1$s，然后重试。</string>
     <string formatted="false" name="zm_msg_invitation_message_template">%1$s正通过简石会议呼叫你，点击此链接即可加入。\r\n%2$s</string>
-    <string name="zm_msg_invite_by_sms_33300">我使用简石会议进行视频会议和聊天。前往https://best-meeting.com/download获取免费应用程序。</string>
+    <string name="zm_msg_invite_by_sms_33300">我使用简石会议进行视频会议和聊天。前往https://meeting.sanyuanshi.com/download获取免费应用程序。</string>
     <string name="zm_msg_invite_indication_message_1">1. 前往%1$s</string>
     <string name="zm_msg_invite_indication_message_2">2. 输入ID：</string>
     <string name="zm_msg_invite_indication_title">呼叫并附言：</string>
@@ -5604,7 +5604,7 @@
     <string name="zm_msg_sip_in_progress_14480">正在进行内部通话</string>
     <string name="zm_msg_smart_recording_desc_588772">已启用使用AI Companion的智能录制</string>
     <string name="zm_msg_smart_recording_disclaimer_588772"><![CDATA[<br><br>如果录制文件存储在简石会议云端，则<a href="%1$s">账户所有者</a>可以观看此录制文件。授权参会者可以录制会议并将其录制文件共享给其他应用和成员。<br/><br/>如果上述录制文件存储在简石会议云端，可能会将录制文件分享给使用AI技术（可能包括第三方模型）的智能录制。简石会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练简石会议或第三方AI模型。<br/><br/>如果留在会议中，即表示你同意录制。]]></string>
-    <string name="zm_msg_sms_invitation_content">我在使用简石会议进行视频会议和聊天。点击https://best-meeting.com/download免费下载。</string>
+    <string name="zm_msg_sms_invitation_content">我在使用简石会议进行视频会议和聊天。点击https://meeting.sanyuanshi.com/download免费下载。</string>
     <string formatted="false" name="zm_msg_sms_invite_in_meeting">点击${joinMeetingUrl}加入简石会议会议。</string>
     <string formatted="false" name="zm_msg_sms_invite_scheduled_meeting">点击${joinMeetingUrl}开始或加入已安排的简石会议会议。</string>
     <string name="zm_msg_sms_phonenum">发送消息给%s</string>

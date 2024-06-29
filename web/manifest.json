@@ -1,6 +1,6 @@
 {
-    "name": "best_meeting_android",
-    "short_name": "best_meeting_android",
+    "name": "Tstone_meeting_android",
+    "short_name": "Tstone_meeting_android",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

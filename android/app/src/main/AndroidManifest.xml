@@ -59,8 +59,8 @@
             <category android:name="android.intent.category.DEFAULT" />
             <category android:name="android.intent.category.BROWSABLE" />
             <data
-                android:host="best-meeting.com"
-                android:scheme="bestmtg"
+                android:host="tstone.com"
+                android:scheme="tstonemtg"
                 />
         </intent-filter>
         </activity>

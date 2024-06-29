@@ -45,9 +45,13 @@ app.*.map.json
 /android/app/release
 /android/app/libs
 
-/ios/Runner.xcworkspace
-/ios/Runner.xcodeproj/project.pbxproj
-/ios/
+/ios/lib
+/ios/Pods
+/ios/Podfile
+/ios/Podfile.lock
+/ios/Pods
+/ios/RunnerTests
+
 /pubspec.lock
 /analysis_options.yaml
 .metadata

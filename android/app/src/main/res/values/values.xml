@@ -2560,7 +2560,7 @@
     <string name="zm_app_pref_provider" translatable="false">us.zoom.videomeetings.ZMPreferencesProvider</string>
     <string name="zm_app_provider" translatable="false">us.zoom.videomeetings.fileprovider</string>
     <string name="zm_app_task_affinity">us.zoom.videomeetings.conference</string>
-    <string name="zm_archive_account_owner_link_262229">https://support.best-meeting.com/hc/en-us/articles/360059564372-In-Product-Privacy-Notifications</string>
+    <string name="zm_archive_account_owner_link_262229">https://support.meeting.sanyuanshi.com/hc/en-us/articles/360059564372-In-Product-Privacy-Notifications</string>
     <string name="zm_archive_account_owner_msg_262229">Their <![CDATA[<a href="%s">account owner</a>]]> will receive content from this meeting and can share it with apps and others.</string>
     <string name="zm_archive_archive_disclaimer_msg">One or more participants in this meeting are subject to archiving based on their account\'s policy.</string>
     <string name="zm_archive_audio_236360">audio</string>
@@ -2569,7 +2569,7 @@
     <string name="zm_archive_failed_chat_disabled_msg_262229">Messages sent in chat could not be archived for compliance purposes.</string>
     <string name="zm_archive_failed_chat_disabled_title_262229">Chat has been disabled</string>
     <string name="zm_archive_failed_content_571237">This meeting\'s content is required to be archived for compliance purposes. <![CDATA[<a href="%1$s">Learn more</a>]]></string>
-    <string name="zm_archive_failed_learn_more_url">https://support.best-meeting.com/hc/en-us/articles/360061037572-Archiving-settings-for-meetings-and-webinars#h_01FQM0DQH6SF8QMHK7D3BCNNJE</string>
+    <string name="zm_archive_failed_learn_more_url">https://support.meeting.sanyuanshi.com/hc/en-us/articles/360061037572-Archiving-settings-for-meetings-and-webinars#h_01FQM0DQH6SF8QMHK7D3BCNNJE</string>
     <string name="zm_archive_failed_msg_262229">This meeting\'s %s must be archived for compliance purposes.</string>
     <string name="zm_archive_failed_title_262229">Archiving failed</string>
     <string name="zm_archive_one_option_tip_294175">This meeting\'s %1$s is being archived by one or more participant\'s organization based on their account\'s policy. </string>
@@ -3419,7 +3419,7 @@
     <string formatted="false" name="zm_date_time">${date}, ${time}</string>
     <string name="zm_date_time_cancel">Cancel</string>
     <string name="zm_date_time_set">Set</string>
-    <string name="zm_de_regions_conflict_url">https://support.best-meeting.com/hc/articles/360054877391</string>
+    <string name="zm_de_regions_conflict_url">https://support.meeting.sanyuanshi.com/hc/articles/360054877391</string>
     <string name="zm_deeplink_chat_added_message_520565"><![CDATA[Your request to join this chat has been approved.]]></string>
     <string name="zm_deeplink_chat_added_message_empty_name_520265">Your request to join this chat has been approved.</string>
     <string name="zm_deeplink_chat_approve_message_520565"><![CDATA[You approved this user\'s request to join this chat.]]></string>
@@ -3998,7 +3998,7 @@
     <string name="zm_file_storage_type_sharepoint_212554">SharePoint</string>
     <string name="zm_file_transfer_complete_70706">Completed</string>
     <string name="zm_fingerpring_change_msg_291958">Fingerprint has changed.</string>
-    <string name="zm_firewall_support_url">https://support.best-meeting.com/hc/en-us/articles/201362683</string>
+    <string name="zm_firewall_support_url">https://support.meeting.sanyuanshi.com/hc/en-us/articles/201362683</string>
     <string name="zm_force_break_upgrade_btn_upper_435504">UPGRADE</string>
     <string name="zm_free_trial_560850">FREE TRIAL</string>
     <string name="zm_ft_alert_cannot_download_for_no_storage">Local storage is not ready. Cannot download this file.</string>
@@ -6014,7 +6014,7 @@
     <string name="zm_mm_giphy_preview_net_error_22379">This service is not available due to a network issue</string>
     <string name="zm_mm_giphy_preview_no_match_22379">No matching images were found</string>
     <string name="zm_mm_giphy_preview_search_hint_187332">Search</string>
-    <string name="zm_mm_giphy_unsupport">%s sent you a GIF image. In order to view it, please upgrade to the latest version that supports GIFs: https://www.best-meeting.com/download</string>
+    <string name="zm_mm_giphy_unsupport">%s sent you a GIF image. In order to view it, please upgrade to the latest version that supports GIFs: https://www.meeting.sanyuanshi.com/download</string>
     <string name="zm_mm_group_action_add_buddies_160938">%1$s added %2$s to this channel</string>
     <string name="zm_mm_group_action_add_buddies_190946">%1$s, and %2$d others</string>
     <string name="zm_mm_group_action_add_buddies_and_channel_owner_is_me_190946">, along with members from another channel</string>
@@ -7077,11 +7077,11 @@
     <string name="zm_msg_immersive_scene_weak_processing_power_258863">The host started an immersive view. Your view is modified because your device doesn\'t have enough processing power to support the full experience.</string>
     <string name="zm_msg_incorrect_number_292311">Please provide a correct phone number.</string>
     <string name="zm_msg_indication_email_verified">Email verified</string>
-    <string name="zm_msg_indication_forgetpwd_192681">To reset your password, please enter your email address. You may need to check your spam folder or unblock no-reply@best-meeting.com.</string>
+    <string name="zm_msg_indication_forgetpwd_192681">To reset your password, please enter your email address. You may need to check your spam folder or unblock no-reply@meeting.sanyuanshi.com.</string>
     <string name="zm_msg_indication_resetpwd">Please set your new password to login.</string>
     <string name="zm_msg_install_app_137212"> Please install %1$s and try again later.</string>
     <string formatted="false" name="zm_msg_invitation_message_template">%1$s is calling you from 简石会议, click link to join.\r\n%2$s</string>
-    <string name="zm_msg_invite_by_sms_33300">I use 简石会议 for video meetings and chat. Get a free app at https://best-meeting.com/download.</string>
+    <string name="zm_msg_invite_by_sms_33300">I use 简石会议 for video meetings and chat. Get a free app at https://meeting.sanyuanshi.com/download.</string>
     <string name="zm_msg_invite_indication_message_1">1. Go to %1$s </string>
     <string name="zm_msg_invite_indication_message_2">2. Enter ID: </string>
     <string name="zm_msg_invite_indication_title">Call the person and say:</string>
@@ -7342,7 +7342,7 @@
     <string name="zm_msg_share_audio_original_promt_118397">The original sound is temporarily disabled when sharing audio</string>
     <string name="zm_msg_share_file_download_link_79752">\nFile download link:%s</string>
     <string name="zm_msg_share_file_fail_68764">Share file \"%s\" failed!</string>
-    <string name="zm_msg_share_file_unsupported_68764">%1$s sent you a file from %2$s. To view this file, please upgrade to the latest version from %3$s:https://www.best-meeting.com/download</string>
+    <string name="zm_msg_share_file_unsupported_68764">%1$s sent you a file from %2$s. To view this file, please upgrade to the latest version from %3$s:https://www.meeting.sanyuanshi.com/download</string>
     <string name="zm_msg_share_old_whiteboard_623182">Our new whiteboard saves your work and has all the latest features. You can always change your default in settings.</string>
     <string name="zm_msg_share_video_stopped_promt">Your video is paused during mobile screen sharing</string>
     <string name="zm_msg_share_web_url">Input the URL and press share to let everyone see it</string>
@@ -7355,7 +7355,7 @@
     <string name="zm_msg_sip_in_progress_14480">Internal phone call in progress</string>
     <string name="zm_msg_smart_recording_desc_588772">Smart recording with AI Companion enabled</string>
     <string name="zm_msg_smart_recording_disclaimer_588772"><![CDATA[<br><br>The <a href="%1$s">account owner</a> can watch this recording if it\'s stored in 简石会议\'s cloud. Participants granted permission can record and share their recording with apps and others.<br/><br/>If it\'s stored in 简石会议\'s cloud, the recording may be shared with smart recording which uses AI technology, which may include third-party models. 简石会议 does not use any audio, video, chat, screen sharing, attachments or other communications-like content (such as poll results, whiteboard and reactions) to train 简石会议\'s or third-party AI models.<br/><br/>By staying in this meeting, you consent to being recorded.]]></string>
-    <string name="zm_msg_sms_invitation_content">I\'m using 简石会议 for video meeting and chat. Get the free app at https://best-meeting.com/download.</string>
+    <string name="zm_msg_sms_invitation_content">I\'m using 简石会议 for video meeting and chat. Get the free app at https://meeting.sanyuanshi.com/download.</string>
     <string formatted="false" name="zm_msg_sms_invite_in_meeting">Click ${joinMeetingUrl} to join a 简石会议.</string>
     <string formatted="false" name="zm_msg_sms_invite_scheduled_meeting">Click ${joinMeetingUrl} to start or join a scheduled 简石会议.</string>
     <string name="zm_msg_sms_phonenum">Send Message to %s</string>
@@ -8603,7 +8603,7 @@
     <string name="zm_restrictions_mandatory_guest_join_meeting_disable_share_screen_explain">Same as disable_share_screen, but will applied when enforce_signin_intercloud is set</string>
     <string name="zm_restrictions_mandatory_guest_join_meeting_disable_white_board_explain">Same as disable_white_board, but will applied when enforce_signin_intercloud is set</string>
     <string name="zm_restrictions_mandatory_override_enforce_signin_intercloud_explain">This is policy is used with enforce_sign_in_to_join is set to true. Normally the enforce_sign_in_to_join policy will ask the user to login before joining meetings, this is true no matter the user join the meeting of his own cloud or other clouds. If this policy is set to true, when the user joins a meeting that belong to another cloud, sign-in is not enforced any more.</string>
-    <string name="zm_restrictions_mandatory_pre_config_signin_domain_explain">Default URL is empty, client will default use best-meeting.com as sign in domain. This policy allows you to set the default sign in domain, such as zoomgov.com.</string>
+    <string name="zm_restrictions_mandatory_pre_config_signin_domain_explain">Default URL is empty, client will default use meeting.sanyuanshi.com as sign in domain. This policy allows you to set the default sign in domain, such as zoomgov.com.</string>
     <string name="zm_restrictions_mandatory_set_enroll_token_for_cloud_mdm_explain">Default token is empty. Allows you to set the cloud MDM enroll token.</string>
     <string name="zm_restrictions_mandatory_set_mesh_listen_port_range">Default policy is empty. If this policy is a valid port range address, the client will use this range to set up listen sockets for connection requests between Mesh parents and children nodes. The nodes will also use this range to send signals and media data. If this policy is invalid or empty, the client will use "18801-19800" as the default port range. The format of this string should be "port-port", for example: "18801-19800". If this policy is not set, client will use the default setting.</string>
     <string name="zm_restrictions_mandatory_set_mesh_multicast_ip">Default policy is empty. If this policy is a valid IP address, this policy will allow admins to specify a valid IP address to be a UDP multicast IP for 简石会议 apps to declare themselves and detect each other in their local sub-network (255.255.255.0). Admins can choose other IP addresses within the range of [224.0.0.1, 239.255.255.255]. If this policy is empty or invalid, this policy will set as 224.0.0.1 by default. If this policy is not set, client will use the default setting.</string>
@@ -8769,7 +8769,7 @@
     <string name="zm_send_log_server_optional_478872">OPTIONAL</string>
     <string name="zm_send_log_server_required_478872">REQUIRED</string>
     <string name="zm_send_log_server_send_email_subject">Problem report summary - (%s)</string>
-    <string name="zm_send_log_server_send_email_to">ZDC.PR@best-meeting.com</string>
+    <string name="zm_send_log_server_send_email_to">ZDC.PR@meeting.sanyuanshi.com</string>
     <string name="zm_send_log_server_send_email_to_name">简石会议 Support</string>
     <string name="zm_service_notification_channel_name_43235">简石会议 Service Notification</string>
     <string name="zm_session_contact_request_accept_byother">%1$s accepted your contact request</string>
@@ -9603,7 +9603,7 @@
     <string name="zm_sip_whispering_148065">Whispering</string>
     <string name="zm_sip_you_262203">You</string>
     <string name="zm_sip_zoom_user_identity_74435">简石会议 user identity</string>
-    <string name="zm_smart_summary_local_url">https://support.best-meeting.com/hc/en-us/articles/16269138857229</string>
+    <string name="zm_smart_summary_local_url">https://support.meeting.sanyuanshi.com/hc/en-us/articles/16269138857229</string>
     <string name="zm_speaking_language_incorrect_tips_367869">Is your speaking language %s?</string>
     <string name="zm_sso_signin_email_domain_label_216537">SELECT DOMAIN</string>
     <string name="zm_sso_signin_email_hint_216537">I know the company domain</string>
@@ -10395,11 +10395,11 @@
     <string name="zm_ze_meeting_info_title_503540">Event</string>
     <string name="zm_ze_title">简石会议 Events</string>
     <string name="zm_ze_verification_title_523701">Verify email</string>
-    <string name="zm_zoom_E911_learn_more">https://www.best-meeting.com/docs/en-us/e911.html</string>
+    <string name="zm_zoom_E911_learn_more">https://www.meeting.sanyuanshi.com/docs/en-us/e911.html</string>
     <string name="zm_zoom_apps_341906">Apps</string>
     <string name="zm_zoom_calendar_410051">Calendar</string>
-    <string name="zm_zoom_change_settings">https://best-meeting.com/account/im/setting</string>
-    <string name="zm_zoom_domain_344210">https://best-meeting.com</string>
+    <string name="zm_zoom_change_settings">https://meeting.sanyuanshi.com/account/im/setting</string>
+    <string name="zm_zoom_domain_344210">https://meeting.sanyuanshi.com</string>
     <string name="zm_zoom_learn_more">https://zoomus.zendesk.com/knowledge/articles/115005516426</string>
     <string name="zm_zoom_mail_410051">Mail</string>
     <string name="zm_zoom_mail_notification_body_469865">You received a new email</string>

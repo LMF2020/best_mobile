@@ -34,7 +34,7 @@ class HttpsAPI {
       if (kDebugMode) {
         print(e);
       }
-      FlutterLogs.logError("best", "weblogin", "$e");
+      FlutterLogs.logError("Sanyuanshi", "weblogin", "$e");
       return false;
     }
   }
