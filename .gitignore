@@ -42,9 +42,10 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/android/app/libs
 
-/ios/Runner.xcworkspace
-/ios/Runner.xcodeproj/project.pbxproj
+# /ios/Runner.xcworkspace
+# /ios/Runner.xcodeproj/project.pbxproj
 /ios/
 /pubspec.lock
 /analysis_options.yaml
