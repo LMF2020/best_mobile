@@ -104,6 +104,10 @@ public class MainActivity extends FlutterActivity {
     }
 
     private void init(MethodCall call, MethodChannel.Result result) {
+        //best meeting 强制设置成中文简体
+//        if(Locale.getDefault() == Locale.TRADITIONAL_CHINESE) {
+            setLocale(Locale.SIMPLIFIED_CHINESE);
+//        }
         Map<String, String> options = call.arguments();
         ZoomSDK zoomSDK = ZoomSDK.getInstance();
         if (zoomSDK.isInitialized()) {
