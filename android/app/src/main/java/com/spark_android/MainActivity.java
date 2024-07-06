@@ -3,6 +3,7 @@ package com.spark_android;
 import static com.spark_android.startjoinmeeting.ApiUserStartMeetingHelper.DISPLAY_NAME;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -13,6 +14,7 @@ import com.spark_android.startjoinmeeting.ApiUserStartMeetingHelper;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 import io.flutter.embedding.android.FlutterActivity;
@@ -104,6 +106,10 @@ public class MainActivity extends FlutterActivity {
     }
 
     private void init(MethodCall call, MethodChannel.Result result) {
+        //best meeting 强制设置成中文简体
+//        if(Locale.getDefault() == Locale.TRADITIONAL_CHINESE) {
+            setLocale(Locale.SIMPLIFIED_CHINESE);
+//        }
         Map<String, String> options = call.arguments();
         ZoomSDK zoomSDK = ZoomSDK.getInstance();
         if (zoomSDK.isInitialized()) {
@@ -180,6 +186,13 @@ public class MainActivity extends FlutterActivity {
         };
 
         zoomSDK.initialize(FlutterContextPlugin.getContext(), listener, initParams);
+    }
+
+    public void setLocale(Locale locale) {
+        Locale.setDefault(locale);
+        Configuration config = getResources().getConfiguration();
+        config.locale = locale;
+        getResources().updateConfiguration(config, getResources().getDisplayMetrics());
     }
 
     private void login(MethodCall call, MethodChannel.Result result) {
