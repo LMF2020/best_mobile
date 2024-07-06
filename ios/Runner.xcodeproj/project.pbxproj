@@ -25,6 +25,7 @@
 		85CF45DC2BAC706A0062B05B /* MobileRTC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85CF45D62BAC70600062B05B /* MobileRTC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		85CF45DF2BAC706E0062B05B /* zoomcml.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CF45D32BAC70600062B05B /* zoomcml.xcframework */; };
 		85CF45E02BAC706E0062B05B /* zoomcml.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85CF45D32BAC70600062B05B /* zoomcml.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85E233E22C36F1CD00E76BC4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85E233E02C36F1CD00E76BC4 /* Localizable.strings */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
@@ -96,6 +97,9 @@
 		85CF45D32BAC70600062B05B /* zoomcml.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = zoomcml.xcframework; path = lib/zoomcml.xcframework; sourceTree = "<group>"; };
 		85CF45D42BAC70600062B05B /* MobileRTCResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MobileRTCResources.bundle; path = lib/MobileRTCResources.bundle; sourceTree = "<group>"; };
 		85CF45D62BAC70600062B05B /* MobileRTC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MobileRTC.xcframework; path = lib/MobileRTC.xcframework; sourceTree = "<group>"; };
+		85E233E12C36F1CD00E76BC4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Runner/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		85E233E32C36F1FA00E76BC4 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "Runner/zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		85E233E42C36F1FC00E76BC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Runner/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		89E560D45AD6FE3F9804AD32 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
 		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
@@ -233,6 +237,7 @@
 				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
 				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
 				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
+				85E233E02C36F1CD00E76BC4 /* Localizable.strings */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -311,6 +316,7 @@
 				en,
 				Base,
 				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 97C146E51CF9000F007C117D;
 			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
@@ -336,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85CF45D82BAC70600062B05B /* MobileRTCResources.bundle in Resources */,
+				85E233E22C36F1CD00E76BC4 /* Localizable.strings in Resources */,
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
@@ -464,6 +471,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		85E233E02C36F1CD00E76BC4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E233E12C36F1CD00E76BC4 /* zh-Hans */,
+				85E233E32C36F1FA00E76BC4 /* zh-Hant */,
+				85E233E42C36F1FC00E76BC4 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		97C146FA1CF9000F007C117D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -555,7 +572,7 @@
 				DEVELOPMENT_TEAM = BMK6D233Q4;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BMK6D233Q4;
 				ENABLE_BITCODE = NO;
-				FLUTTER_BUILD_NAME = 1.0.5;
+				FLUTTER_BUILD_NAME = 1.0.7;
 				FLUTTER_BUILD_NUMBER = 1;
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "百佳会";
@@ -564,7 +581,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bestMobile.meeting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BestMobile dev provision";
@@ -860,7 +877,7 @@
 				DEVELOPMENT_TEAM = BMK6D233Q4;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BMK6D233Q4;
 				ENABLE_BITCODE = NO;
-				FLUTTER_BUILD_NAME = 1.0.5;
+				FLUTTER_BUILD_NAME = 1.0.7;
 				FLUTTER_BUILD_NUMBER = 1;
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "百佳会";
@@ -869,7 +886,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bestMobile.meeting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BestMobile dev provision";
@@ -901,7 +918,7 @@
 				DEVELOPMENT_TEAM = BMK6D233Q4;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BMK6D233Q4;
 				ENABLE_BITCODE = NO;
-				FLUTTER_BUILD_NAME = 1.0.5;
+				FLUTTER_BUILD_NAME = 1.0.7;
 				FLUTTER_BUILD_NUMBER = 1;
 				INFOPLIST_FILE = Runner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "百佳会";
@@ -910,7 +927,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bestMobile.meeting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BestMobile release provision";

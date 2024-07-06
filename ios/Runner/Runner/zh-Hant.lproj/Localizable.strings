@@ -1,0 +1,34 @@
+"Zoom Meeting" = "百佳会";
+
+//For Strings included with Zoom
+"Zoom" = "百佳会";
+
+"Please join Zoom meeting in progress" = "請加入進行中的會議";
+
+"Photos Privacy Settings" = "請在設備的“設置”-“隱私”-“照片”中允許百佳会訪問您的照片";
+
+"Photos Location Services" = "請在設備的“設置”-“隱私”-“定位服務”中允許百佳会訪問您的定位服務";
+
+"Zoom cannot verify this server identity. Would you like to continue anyway?" = "百佳会無法驗證此伺服器身份，請問您是否還是要繼續？";
+
+"Zoom cannot verify this server identity. Please try again later." = "百佳会無法驗證此伺服器身份，請稍後重試";
+
+"Mic Privacy Settings" = "請在設備的“設置”-“隱私”-“麥克風”中允許百佳会訪問您的麥克風";
+
+"Camera Privacy Settings" = "請在設備的“設置”-“隱私”-“相機”中允許百佳会訪問您的相機";
+
+"Contacts Privacy Settings" = "請在設備的“設置”-“隱私”-“通訊錄”中允許百佳会訪問您的通訊錄";
+
+"Failed to connect to Zoom video conferencing server" = "無法連接會議服務器";
+
+"Attendee Free Meeting Reminder" = "您的免費會議將於10分鐘後結束, 感謝您選擇使用百佳会！";
+
+"Sign in with the specified account to join webinar" = "您需要登入指定的帳號才能加入此網路研討會，請聯絡會議主持人獲得更多詳細資訊";
+
+"Search for Zoom Rooms" = "搜索會議室";
+
+"No Zoom Rooms" = "無會議室";
+
+"Select Zoom Rooms" = "選擇會議室";
+
+"Invite Zoom Rooms" = "邀請會議室";

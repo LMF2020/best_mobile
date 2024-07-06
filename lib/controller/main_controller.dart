@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:io';
+import 'dart:ui' as ui;
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -48,8 +49,10 @@ class MainController extends GetxController
 
   ConnectionUtil netUtil = ConnectionUtil();
 
+  var currentLocale = ui.window.locale.obs;
+
   // 多语言选项配置
-  var currentLocale = const Locale('zh', 'CN').obs;
+  // var currentLocale = const Locale('zh', 'CN').obs;
   List<Locale> supportedLocales = [
     const Locale('zh', 'CN'),
     const Locale('en', 'US'),
@@ -61,8 +64,23 @@ class MainController extends GetxController
     selectedIndex.value = index; // 更新索引值
   }
 
+  // 重置语言选, 只允许选择中文和英文
+  void resetLanguageLocale() {
+    String langCode = currentLocale.value.languageCode;
+    if (langCode == 'zh') {
+      currentLocale = const Locale('zh', 'CN').obs;
+    } else if (langCode == 'en') {
+      currentLocale = const Locale('en', 'US').obs;
+    } else {
+      // 默认语言
+      currentLocale = const Locale('en', 'US').obs;
+    }
+  }
+
   @override
   void onInit() {
+    // 设置语言
+    resetLanguageLocale();
     // 初始化应用
     sdkInit();
     // 初始化会议历史记录
@@ -228,6 +246,7 @@ class MainController extends GetxController
       appKey: APP.appKey,
       appSecret: APP.appSecret,
       jwtToken: APP.jwtToken,
+      locale: currentLocale.value.languageCode,
     );
 
     var zoom = ZoomView();

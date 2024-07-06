@@ -93,6 +93,8 @@ class ZoomOptions {
   /// --Disable Report for web
   List<String>? meetingInfo;
 
+  String? locale;
+
   /// --Meeting Info for web
 
   ZoomOptions(
@@ -126,6 +128,7 @@ class ZoomOptions {
       this.inviteUrlFormat = '',
       this.disableVOIP = false,
       this.disableReport = false,
+      this.locale = "en",
       this.meetingInfo = const [
         'topic',
         'host',

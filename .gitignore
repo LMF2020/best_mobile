@@ -46,7 +46,7 @@ app.*.map.json
 
 # /ios/Runner.xcworkspace
 # /ios/Runner.xcodeproj/project.pbxproj
-/ios/
+/ios/lib
 /pubspec.lock
 /analysis_options.yaml
 .metadata

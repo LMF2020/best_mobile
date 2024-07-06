@@ -1,0 +1,38 @@
+"Zoom Meeting" = "百佳会";
+
+//For Strings included with Zoom
+"Zoom" = "百佳会";
+
+"Please join Zoom meeting in progress" = "请加入进行中的会议";
+
+"Photos Privacy Settings" = "请在设备的“设置”-“隐私”-“照片”中允许百佳会访问您的照片";
+
+"Photos Location Services" = "请在设备的“设置”-“隐私”-“定位服务”中允许百佳会访问您的定位服务";
+
+"Zoom cannot verify this server identity. Would you like to continue anyway?" = "百佳会无法验证服务器身份，您是否想继续？";
+
+"Zoom cannot verify this server identity. Please try again later." = "百佳会无法验证服务器身份，请稍后重试";
+
+"Mic Privacy Settings" = "请在设备的“设置”-“隐私”-“麦克风”中允许百佳会访问您的麦克风";
+
+"Camera Privacy Settings" = "请在设备的“设置”-“隐私”-“相机”中允许百佳会访问您的相机";
+
+"Contacts Privacy Settings" = "请在设备的“设置”-“隐私”-“通讯录”中允许百佳会访问您的通讯录";
+
+"Failed to connect to Zoom video conferencing server" = "无法连接会议服务器";
+
+"Attendee Free Meeting Reminder" = "您的免费会议将在10分钟后结束，感谢您选择百佳会！";
+
+"User unsupport annotation join tip" = "因为注释功能被禁止，所以您的与会者需要更新到最新的版本才能共享他们的屏幕";
+
+"Zoom will display closed captioning on main video when available" = "当字幕可用时他会被显示在主视频上";
+
+"Sign in with the specified account to join webinar" = "您需要登录指定的账号才能加入此次网络研讨会，请联系会议主持人以获取更多详细信息";
+
+"Search for Zoom Rooms" = "搜索会议室";
+
+"No Zoom Rooms" = "无会议室";
+
+"Select Zoom Rooms" = "选择会议室";
+
+"Invite Zoom Rooms" = "邀请会议室";

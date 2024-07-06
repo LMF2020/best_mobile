@@ -1,0 +1,39 @@
+"Zoom Meeting" = "百佳会";
+
+//For Strings included with Zoom
+"Zoom" = "百佳会";
+
+"Please join Zoom meeting in progress" = "Please join a meeting in progress";
+
+"Photos Privacy Settings" = "Allow 百佳会 to access your photos from device menu: \"Settings\" - \"Privacy\" - \"Photos\".";
+
+"Photos Location Services" = "Allow 百佳会 to access your photos location from device menu: \"Settings\" - \"Privacy\" - \"Location Services\".";
+
+"Zoom cannot verify this server identity. Would you like to continue anyway?" = "百佳会 cannot verify this server identity. Would you like to continue anyway?";
+
+"Zoom cannot verify this server identity. Please try again later." = "百佳会 cannot verify this server identity. Please try again later.";
+
+"Mic Privacy Settings" = "Allow 百佳会 to access your microphone from device menu: \"Settings\" - \"Privacy\" - \"Microphone\".";
+
+"Camera Privacy Settings" = "Allow 百佳会 to access your camera from device menu: \"Settings\" - \"Privacy\" - \"Camera\".";
+
+"Contacts Privacy Settings" = "Allow 百佳会 to access your contacts from device menu: \"Settings\" - \"Privacy\" - \"Contacts\"";
+
+"Failed to connect to Zoom video conferencing server" = "Failed to connect to server.";
+
+"Attendee Free Meeting Reminder" = "This free meeting will end in 10 minutes. Thank you for choosing 百佳会!";
+
+"User unsupport annotation join tip" = "Because annotation is disabled, your participants need to upgrade to the latest version to share their screen";
+
+"Zoom will display closed captioning on main video when available" = "When closed captioning is available, 百佳会 will display it on the main video";
+
+"Sign in with the specified account to join webinar" = "You need to be signed in with the specified account to join this webinar. Please contact the host for more information.";
+
+"Search for Zoom Rooms" = "Search 百佳会 Rooms";
+
+"No Zoom Rooms" = "No 百佳会 Rooms";
+
+"Select Zoom Rooms" = "Select 百佳会 Rooms";
+
+"Invite Zoom Rooms" = "Invite 百佳会 Rooms";
+

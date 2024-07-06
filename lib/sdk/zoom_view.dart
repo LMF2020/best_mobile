@@ -23,6 +23,9 @@ class ZoomView extends ZoomPlatform {
     if (options.jwtToken != null) {
       optionMap.putIfAbsent("jwtToken", () => options.jwtToken!);
     }
+    if (options.language != null) {
+      optionMap.putIfAbsent("locale", () => options.locale);
+    }
     optionMap.putIfAbsent("domain", () => options.domain);
     return await channel
         .invokeMethod<List>('init', optionMap)

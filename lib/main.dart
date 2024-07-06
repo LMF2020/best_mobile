@@ -51,7 +51,15 @@ Future<String?> setUpDeviceDetails() async {
     } else if (Platform.isIOS) {
       var data = await deviceInfoPlugin.iosInfo;
       APP.deviceId = data.identifierForVendor;
-      print("OS: device UUID for IOS ====== ${APP.deviceId}");
+      print(
+          "OS: device UUID for IOS ====== ${APP.deviceId}  ,localModle: ${data.localizedModel}");
+
+      // 获取系统的语言和区域设置
+      // String language = data.localizedModel; // 例如 "en-US"
+      // List<String> parts = language.split('_');
+      // if (parts.length == 2) {
+      //   currentLocale.value = Locale(parts[0], parts[1]);
+      // }
     } else if (Platform.isLinux) {
       var data = await deviceInfoPlugin.linuxInfo;
       APP.deviceId = data.machineId;
