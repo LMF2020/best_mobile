@@ -1,9 +1,9 @@
-package com.spark_jianshi.startjoinmeeting;
+package com.spark_rxeagle.startjoinmeeting;
 
 import android.content.Context;
 import android.util.Log;
 
-import com.spark_jianshi.FlutterContextPlugin;
+import com.spark_rxeagle.FlutterContextPlugin;
 
 import java.util.Map;
 

@@ -1,6 +1,6 @@
-package com.spark_jianshi;
+package com.spark_rxeagle;
 
-import static com.spark_jianshi.startjoinmeeting.ApiUserStartMeetingHelper.DISPLAY_NAME;
+import static com.spark_rxeagle.startjoinmeeting.ApiUserStartMeetingHelper.DISPLAY_NAME;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -10,12 +10,13 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 
 import com.google.common.base.Strings;
-import com.spark_jianshi.startjoinmeeting.ApiUserStartMeetingHelper;
+import com.spark_rxeagle.startjoinmeeting.ApiUserStartMeetingHelper;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.Objects;
 
 import io.flutter.embedding.android.FlutterActivity;
 import io.flutter.embedding.engine.FlutterEngine;
@@ -63,6 +64,12 @@ public class MainActivity extends FlutterActivity {
                 case "login":
                     login(call, result);
                     break;
+                case "changeLanguage":
+                    changeLanguage(call, result);
+                    break;
+                case "leaveMeeting":
+                    leaveMeeting(call, result);
+                    break;
                 case "startInstantMeeting":
                     startInstantMeeting(call, result);
                     break;
@@ -104,12 +111,25 @@ public class MainActivity extends FlutterActivity {
         this.pendingResult = null;
     }
 
-    private void init(MethodCall call, MethodChannel.Result result) {
+    private void changeLanguage(MethodCall call, MethodChannel.Result result) {
+        Map<String, String> options = call.arguments();
+        ZoomSDK zoomSDK = ZoomSDK.getInstance();
+        setLocale(zoomSDK, options);
+        result.success(true);
+    }
 
-        // 锐安会议，如果是繁体，强制设置成中文简体
-//        if(Locale.getDefault() == Locale.TRADITIONAL_CHINESE) {
-            setLocale(Locale.SIMPLIFIED_CHINESE);
-//        }
+    private void leaveMeeting(MethodCall call, MethodChannel.Result result) {
+        Map<String, String> options = call.arguments();
+        ZoomSDK zoomSDK = ZoomSDK.getInstance();
+        if (!zoomSDK.isInitialized()) {
+            result.success(false);
+            return;
+        }
+        zoomSDK.getMeetingService().leaveCurrentMeeting(true);
+        result.success(true);
+    }
+
+    private void init(MethodCall call, MethodChannel.Result result) {
         Map<String, String> options = call.arguments();
         ZoomSDK zoomSDK = ZoomSDK.getInstance();
         if (zoomSDK.isInitialized()) {
@@ -117,6 +137,8 @@ public class MainActivity extends FlutterActivity {
             result.success(response);
             return;
         }
+
+        setLocale(zoomSDK, options);
 
         ZoomSDKInitParams initParams = new ZoomSDKInitParams();
         assert options != null;
@@ -440,9 +462,10 @@ public class MainActivity extends FlutterActivity {
         return options.get(property) != null && Boolean.parseBoolean(options.get(property));
     }
 
-    public void setLocale(Locale locale) {
-        Locale.setDefault(locale);
-        Configuration config = getResources().getConfiguration();
-        config.locale = locale;
-        getResources().updateConfiguration(config, getResources().getDisplayMetrics());
+    public void setLocale(ZoomSDK zoomSDK, Map<String, String> options) {
+        if(options != null && options.get("locale") != null && options.get("locale").startsWith("zh")) {
+            zoomSDK.setSdkLocale(getContext(), Locale.SIMPLIFIED_CHINESE);
+        } else {
+            zoomSDK.setSdkLocale(getContext(), Locale.ENGLISH);
+        }
     }}

@@ -24,6 +24,16 @@ abstract class ZoomPlatform {
     throw UnimplementedError('loginZoom() has not been implemented.');
   }
 
+// Flutter change language
+  Future<bool> changeLanguage(ZoomMeetingOptions options) async {
+    throw UnimplementedError('changeLanguage() has not been implemented.');
+  }
+
+  // Flutter leave meeting
+  Future<bool> leaveMeeting() async {
+    throw UnimplementedError('leaveMeeting() has not been implemented.');
+  }
+
   /// Flutter Zoom SDK Initialization function
   Future<bool> logoutZoom() async {
     throw UnimplementedError('logoutZoom() has not been implemented.');

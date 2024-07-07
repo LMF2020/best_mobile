@@ -23,6 +23,9 @@ class ZoomView extends ZoomPlatform {
     if (options.jwtToken != null) {
       optionMap.putIfAbsent("jwtToken", () => options.jwtToken!);
     }
+    if (options.locale != null) {
+      optionMap.putIfAbsent("locale", () => options.locale);
+    }
     optionMap.putIfAbsent("domain", () => options.domain);
     return await channel
         .invokeMethod<List>('init', optionMap)
@@ -37,6 +40,22 @@ class ZoomView extends ZoomPlatform {
     return await channel
         .invokeMethod<List>('login', optionMap)
         .then<List>((List? value) => value ?? List.empty());
+  }
+
+  @override
+  Future<bool> changeLanguage(ZoomMeetingOptions options) async {
+    var optionMap = <String, String?>{};
+    optionMap.putIfAbsent("locale", () => options.locale);
+    return await channel
+        .invokeMethod<bool>('changeLanguage', optionMap)
+        .then<bool>((bool? value) => value ?? false);
+  }
+
+  @override
+  Future<bool> leaveMeeting() async {
+    return await channel
+        .invokeMethod<bool>('changeLanguage')
+        .then<bool>((bool? value) => value ?? false);
   }
 
   @override

@@ -22,7 +22,7 @@
         tools:targetApi="o">
 
         <activity
-            android:name="com.spark_jianshi.MainActivity"
+            android:name="com.spark_rxeagle.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"

@@ -302,7 +302,7 @@
     <string name="js_sdk_action_set_vb_blur_341906">選取「允許」將會移除您的虛擬背景，並會將周遭環境模糊處理，以免與會者會認出。</string>
     <string name="live_stream_title_618551">正在直播此會議。</string>
     <string name="meeting_recorded_and_live_stream_title_618551">正在錄製和直播此會議。</string>
-    <string name="meeting_recorded_detail_618551">現在或之後（僅當錄製後）與之分享此會議的任何人皆可檢視此會議。帳戶擁有者可檢視儲存在簡石會議雲端中的會議錄製檔案。</string>
+    <string name="meeting_recorded_detail_618551">現在或之後（僅當錄製後）與之分享此會議的任何人皆可檢視此會議。帳戶擁有者可檢視儲存在融訊暢聯會議雲端中的會議錄製檔案。</string>
     <string name="meeting_recorded_title_618551">正在錄製此會議。</string>
     <string name="pbx_blocked_by_ib_332627">您的管理員已限制部分群組及使用者之間的通訊。</string>
     <string name="pbx_call_failed_out_of_location_471646">無法撥打或接聽電話，因為您的管理員已將電話限制在需要啟用位置權限的特定位置</string>
@@ -407,7 +407,7 @@
     <string name="zm_accessibility_delete_group_59554">已刪除頻道。</string>
     <string name="zm_accessibility_delete_reaction_88133">刪除表情符號</string>
     <string name="zm_accessibility_disabled_507595">%s，已停用</string>
-    <string name="zm_accessibility_domains_title_200642">簡石會議網域功能表</string>
+    <string name="zm_accessibility_domains_title_200642">融訊暢聯會議網域功能表</string>
     <string name="zm_accessibility_downvote_548782">反對</string>
     <string name="zm_accessibility_everyone_select_120783">所有人，已選取</string>
     <string name="zm_accessibility_feedback_edit_178871">請在此輸入您的意見反應</string>
@@ -436,7 +436,7 @@
     <string name="zm_accessibility_language_interpretation_88102">語言翻譯：%1$s</string>
     <string name="zm_accessibility_learn_more_link_164409">深入瞭解連結</string>
     <string name="zm_accessibility_leave_group_59554">您已離開此頻道。</string>
-    <string name="zm_accessibility_left_top_bar_gov_235253">您已連接至簡石會議政府版</string>
+    <string name="zm_accessibility_left_top_bar_gov_235253">您已連接至融訊暢聯會議政府版</string>
     <string name="zm_accessibility_link_99842">%s，連結</string>
     <string name="zm_accessibility_list_item_selected_361813">%1$s（%2$s/%3$s）已選取</string>
     <string name="zm_accessibility_list_item_unselected_361813">%1$s（%2$s/%3$s）未選取</string>
@@ -544,7 +544,7 @@
     <string name="zm_added_features_318150">新增的功能</string>
     <string name="zm_addr_book_item_content_desc_109011">%s，按鈕</string>
     <string name="zm_advanced_permissions_allow_everyone_reply_644242">允許所有人回覆</string>
-    <string name="zm_ai_alert_join_webinar_578995">主持人可能會錄製、直播或封存網路研討會，而且主持人可將此內容分享到應用程式及給其他人。可能會將錄製檔案分享給使用人工智慧技術（可能包括第三方模型）的智慧錄製。簡石會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練簡石會議或第三方人工智慧模型。\n\n擁有相關權限的與會者也可以儲存及分享網路研討會轉錄文字。\n\n若以嘉賓身分加入此網路研討會，即表示您同意自身的參與過程包括在其中。</string>
+    <string name="zm_ai_alert_join_webinar_578995">主持人可能會錄製、直播或封存網路研討會，而且主持人可將此內容分享到應用程式及給其他人。可能會將錄製檔案分享給使用人工智慧技術（可能包括第三方模型）的智慧錄製。融訊暢聯會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練融訊暢聯會議或第三方人工智慧模型。\n\n擁有相關權限的與會者也可以儲存及分享網路研討會轉錄文字。\n\n若以嘉賓身分加入此網路研討會，即表示您同意自身的參與過程包括在其中。</string>
     <string name="zm_ai_companion_576027">AI Companion</string>
     <string name="zm_ai_companion_close_toast_576027">已關閉AI Companion</string>
     <string name="zm_ai_companion_disclaimer_title_576027">已開啟AI Companion</string>
@@ -553,28 +553,28 @@
     <string name="zm_ai_companion_stop_576027">停用AI Companion</string>
     <string name="zm_ai_companion_stop_msg_599160">停用後，與會者將無法再於AI Companion面板中檢視或詢問問題</string>
     <string name="zm_ai_disable_who_can_see_txt_599160">誰能向AIC提問？</string>
-    <string name="zm_ai_host_ask_to_speaker_asl_meeting_578995">若您選擇解除靜音，則會議內的其他人將能聽見您的聲音。若主持人或與會者決定在您解除靜音後錄製、直播或封存該會議，則您的聲音將會包括在其中。可能會將錄製檔案分享給使用人工智慧技術（可能包括第三方模型）的智慧錄製。簡石會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練簡石會議或第三方人工智慧模型。</string>
-    <string name="zm_ai_host_ask_to_speaker_asl_webinar_578995">若您選擇解除靜音，則網路研討會內的其他人將能聽見您的聲音。若主持人或嘉賓決定在您解除靜音後錄製、直播或封存該網路研討會，則您的聲音將會包括在其中。可能會將錄製檔案分享給使用人工智慧技術（可能包括第三方模型）的智慧錄製。簡石會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練簡石會議或第三方人工智慧模型。</string>
-    <string name="zm_ai_host_ask_to_speaker_msg_578995">若您選擇解除靜音，則網路研討會內的其他人將能聽見您的聲音。若主持人或嘉賓決定在您解除靜音後錄製、直播或封存該網路研討會，則您的聲音將會包括在其中。可能會將錄製檔案分享給使用人工智慧技術（可能包括第三方模型）的智慧錄製。簡石會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練簡石會議或第三方人工智慧模型。\n\n擁有相關權限的與會者也可以儲存及分享網路研討會轉錄文字。</string>
-    <string name="zm_ai_host_promote_msg_578995">身為嘉賓，您可以解除靜音並開啟視訊，這也代表著網路研討會內的其他人將會看到您。\n\n若主持人或嘉賓決定在您解除靜音後錄製、直播或封存該網路研討會，則您自身的參與過程將會包括在其中。可能會將錄製檔案分享給使用人工智慧技術（可能包括第三方模型）的智慧錄製。簡石會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練簡石會議或第三方人工智慧模型。\n\n擁有相關權限的與會者也可以儲存及分享網路研討會轉錄文字。</string>
+    <string name="zm_ai_host_ask_to_speaker_asl_meeting_578995">若您選擇解除靜音，則會議內的其他人將能聽見您的聲音。若主持人或與會者決定在您解除靜音後錄製、直播或封存該會議，則您的聲音將會包括在其中。可能會將錄製檔案分享給使用人工智慧技術（可能包括第三方模型）的智慧錄製。融訊暢聯會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練融訊暢聯會議或第三方人工智慧模型。</string>
+    <string name="zm_ai_host_ask_to_speaker_asl_webinar_578995">若您選擇解除靜音，則網路研討會內的其他人將能聽見您的聲音。若主持人或嘉賓決定在您解除靜音後錄製、直播或封存該網路研討會，則您的聲音將會包括在其中。可能會將錄製檔案分享給使用人工智慧技術（可能包括第三方模型）的智慧錄製。融訊暢聯會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練融訊暢聯會議或第三方人工智慧模型。</string>
+    <string name="zm_ai_host_ask_to_speaker_msg_578995">若您選擇解除靜音，則網路研討會內的其他人將能聽見您的聲音。若主持人或嘉賓決定在您解除靜音後錄製、直播或封存該網路研討會，則您的聲音將會包括在其中。可能會將錄製檔案分享給使用人工智慧技術（可能包括第三方模型）的智慧錄製。融訊暢聯會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練融訊暢聯會議或第三方人工智慧模型。\n\n擁有相關權限的與會者也可以儲存及分享網路研討會轉錄文字。</string>
+    <string name="zm_ai_host_promote_msg_578995">身為嘉賓，您可以解除靜音並開啟視訊，這也代表著網路研討會內的其他人將會看到您。\n\n若主持人或嘉賓決定在您解除靜音後錄製、直播或封存該網路研討會，則您自身的參與過程將會包括在其中。可能會將錄製檔案分享給使用人工智慧技術（可能包括第三方模型）的智慧錄製。融訊暢聯會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練融訊暢聯會議或第三方人工智慧模型。\n\n擁有相關權限的與會者也可以儲存及分享網路研討會轉錄文字。</string>
     <string name="zm_ai_icon_ax_text_576027">AI Companion</string>
-    <string name="zm_ai_icon_desc_545028">目前正為會議摘要和會議查詢等簡石會議 IQ功能轉錄此會議。<![CDATA[<a href="%1$s">深入瞭解</a>]]></string>
+    <string name="zm_ai_icon_desc_545028">目前正為會議摘要和會議查詢等融訊暢聯會議 IQ功能轉錄此會議。<![CDATA[<a href="%1$s">深入瞭解</a>]]></string>
     <string name="zm_ai_icon_tip_desc_576027">AI功能（例如會議摘要和AI Companion側邊面板內所包含的功能）已啟用。<![CDATA[<a href="%1$s">深入瞭解</a>]]></string>
     <string name="zm_ai_setting_unenable_txt_599160">僅有初始主持人和在會議開始前獲指派主持人權限的使用者才能變更此設定。這是為了防止未經授權的使用者對AI Companion進行變更。</string>
     <string name="zm_ai_start_who_can_see_txt_599160">誰能向AI Companion提問？</string>
-    <string name="zm_ai_summary_msg1_576027">會議摘要使用人工智慧技術（可能包括第三方模型）。簡石會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練簡石會議或第三方人工智慧模型。</string>
-    <string name="zm_ai_summary_msg1_578995">會議摘要使用人工智慧技術（可能包括第三方模型）。簡石會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練簡石會議或第三方人工智慧模型。<![CDATA[<a href="%1$s">深入瞭解</a>]]></string>
+    <string name="zm_ai_summary_msg1_576027">會議摘要使用人工智慧技術（可能包括第三方模型）。融訊暢聯會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練融訊暢聯會議或第三方人工智慧模型。</string>
+    <string name="zm_ai_summary_msg1_578995">會議摘要使用人工智慧技術（可能包括第三方模型）。融訊暢聯會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練融訊暢聯會議或第三方人工智慧模型。<![CDATA[<a href="%1$s">深入瞭解</a>]]></string>
     <string name="zm_ai_summary_msg2_576027">我們將在會議結束後（基於為本次會議所配置的設定），將會議摘要傳送給受邀者。收到會議摘要的任何人，均可將其儲存並分享到應用程式及給其他人。帳戶擁有者可以存取會議摘要。</string>
     <string name="zm_ai_summary_msg2_578995">我們將在會議結束後（基於為本次會議所配置的設定），將會議摘要傳送給受邀者。收到會議摘要的任何人，均可將其儲存並分享到應用程式及給其他人。帳戶擁有者可以存取會議摘要。</string>
     <string name="zm_ai_summary_msg3_576027">人工智慧產生的內容可能不準確或具有誤導性。一律檢查準確性。</string>
     <string name="zm_ai_summary_msg3_578995">人工智慧產生的內容可能不準確或具有誤導性。一律檢查準確性。</string>
     <string name="zm_ai_viewer_allow_to_talk_not_support_voip_des_578995">按一下「解除靜音」，將會連接電腦音訊並為自己解除靜音。</string>
     <string name="zm_ai_viewer_allow_to_talk_telephoney_user_578995">已透過電話加入？請在您的電話上輸入#%d#，然後按一下自行解除靜音。</string>
-    <string name="zm_alert_3d_avatar_consent_dialog_msg_510021">一經按下「確定」，即表示您同意簡石會議對裝置上您的臉部定位及移動進行分析。簡石會議不會外洩和保留這些資料，僅會將其用於產生選定的效果。</string>
+    <string name="zm_alert_3d_avatar_consent_dialog_msg_510021">一經按下「確定」，即表示您同意融訊暢聯會議對裝置上您的臉部定位及移動進行分析。融訊暢聯會議不會外洩和保留這些資料，僅會將其用於產生選定的效果。</string>
     <string name="zm_alert_3d_avatar_consent_dialog_title_510021">使用虛擬人偶</string>
     <string name="zm_alert_account_inactive_or_locked_126436">您的帳戶已停用或已鎖定</string>
     <string name="zm_alert_account_locked">由於失敗的登入嘗試過多，您的帳戶已遭鎖定</string>
-    <string name="zm_alert_auth_device_not_approved_180209">貴組織已限制針對已核准裝置的簡石會議行動存取。請從貴組織的行動應用程式商店下載簡石會議。</string>
+    <string name="zm_alert_auth_device_not_approved_180209">貴組織已限制針對已核准裝置的融訊暢聯會議行動存取。請從貴組織的行動應用程式商店下載融訊暢聯會議。</string>
     <string name="zm_alert_auth_error_code_msg">錯誤代碼：%d</string>
     <string name="zm_alert_auth_token_failed_msg">驗證失敗，請再試一次</string>
     <string name="zm_alert_auth_zoom_failed_msg">電子郵件或密碼無效</string>
@@ -598,18 +598,18 @@
     <string name="zm_alert_change_cohost_confirm">您是否要將聯席主持人變更為%s？</string>
     <string name="zm_alert_change_host_confirm">您是否要將主持人變更為%s？</string>
     <string name="zm_alert_change_panelist_appearance_result_message_331754">會議外觀設定失敗。請檢查並再試一次。</string>
-    <string name="zm_alert_china_meeting_privacy_content_132493">此會議是由位於中國的簡石會議客戶帳戶所主持。為遵循中國法律，有關此會議的資訊將會儲存於中國境內。如需進一步的詳細資訊，請<![CDATA[<a href="%s">按一下這裡</a>。<div/>]]>一經加入此會議，即表示您同意將與此會議相關的個人資料儲存於中國境內。</string>
+    <string name="zm_alert_china_meeting_privacy_content_132493">此會議是由位於中國的融訊暢聯會議客戶帳戶所主持。為遵循中國法律，有關此會議的資訊將會儲存於中國境內。如需進一步的詳細資訊，請<![CDATA[<a href="%s">按一下這裡</a>。<div/>]]>一經加入此會議，即表示您同意將與此會議相關的個人資料儲存於中國境內。</string>
     <string name="zm_alert_china_meeting_privacy_title_132493">加入在中國主持的會議</string>
     <string name="zm_alert_confirm_end_conf">您確定要結束此會議嗎？</string>
     <string name="zm_alert_confirm_end_webinar_150183">您確定要結束此網路研討會嗎？</string>
     <string name="zm_alert_connect_facebook_failed_msg">無法連線到Facebook。</string>
     <string name="zm_alert_connect_google_failed_msg">無法連線到Google</string>
     <string name="zm_alert_connect_ssosite_failed_msg">無法連線到%s。</string>
-    <string name="zm_alert_connect_zoomus_failed_msg">無法連接到簡石會議。</string>
+    <string name="zm_alert_connect_zoomus_failed_msg">無法連接到融訊暢聯會議。</string>
     <string name="zm_alert_crash_report_btn_not_send_150320">不要傳送</string>
-    <string name="zm_alert_crash_report_btn_send_150320">傳送至簡石會議</string>
-    <string name="zm_alert_crash_report_desc_150320">產生當機報告可協助簡石會議解決此問題。一經選擇「傳送至簡石會議」，即代表您授權簡石會議在遵循我們的<![CDATA[<a href="%s">《隱私權政策》</a>]]>規範下，存取此當機報告中的資料。</string>
-    <string name="zm_alert_crash_report_title_150320">簡石會議意外結束</string>
+    <string name="zm_alert_crash_report_btn_send_150320">傳送至融訊暢聯會議</string>
+    <string name="zm_alert_crash_report_desc_150320">產生當機報告可協助融訊暢聯會議解決此問題。一經選擇「傳送至融訊暢聯會議」，即代表您授權融訊暢聯會議在遵循我們的<![CDATA[<a href="%s">《隱私權政策》</a>]]>規範下，存取此當機報告中的資料。</string>
+    <string name="zm_alert_crash_report_title_150320">融訊暢聯會議意外結束</string>
     <string name="zm_alert_create_avatar_cancel_creation_btn_exit_371962">結束且不儲存</string>
     <string name="zm_alert_create_avatar_cancel_creation_btn_keep_editing_371962">否，繼續編輯</string>
     <string name="zm_alert_create_avatar_cancel_creation_message_371962">您確定要結束虛擬人偶建立作業嗎？</string>
@@ -618,7 +618,7 @@
     <string name="zm_alert_delete_history_confirm">您是否要刪除此會議的歷史記錄？</string>
     <string name="zm_alert_delete_meeting_confirm">您是否要刪除此會議？</string>
     <string name="zm_alert_delete_meeting_failed">無法刪除會議。</string>
-    <string name="zm_alert_dial_into_meeting">您是否要自動撥號加入會議？\n\n撥號加入會議後，請切換回簡石會議。</string>
+    <string name="zm_alert_dial_into_meeting">您是否要自動撥號加入會議？\n\n撥號加入會議後，請切換回融訊暢聯會議。</string>
     <string name="zm_alert_dialog_log_off_title_273365">更新工作階段</string>
     <string name="zm_alert_disable_sign_up_alipay_block_154471">無法透過支付寶登入，請嘗試其他列出方式。</string>
     <string name="zm_alert_disable_sign_up_sms_block_154471">無法透過簡訊驗證碼登入，請嘗試其他列出方式。</string>
@@ -647,10 +647,10 @@
     <string name="zm_alert_focus_mode_confirm_start_title_271449">啟動專注模式？</string>
     <string name="zm_alert_focus_mode_my_share_can_be_seen_by_hosts_msg_271149">只有主持人及聯席主持人才能看見您分享的畫面</string>
     <string name="zm_alert_focus_mode_started_msg_271149">會議處於專注模式：只有主持人及聯席主持人才能看見您的視訊。</string>
-    <string name="zm_alert_force_intune_client_login_message_132149">由於貴公司所設的限制，您僅能使用「簡石會議 for Intune」來存取簡石會議。您要開啟此應用程式嗎？</string>
-    <string name="zm_alert_force_intune_client_login_title_132149">開啟簡石會議 for Intune</string>
-    <string name="zm_alert_force_normal_client_login_message_132149">由於貴公司所設的限制，您僅能使用「簡石會議 Cloud Meetings」來存取簡石會議。您要開啟此應用程式嗎？</string>
-    <string name="zm_alert_force_normal_client_login_title_132149">開啟簡石會議 Cloud Meetings</string>
+    <string name="zm_alert_force_intune_client_login_message_132149">由於貴公司所設的限制，您僅能使用「融訊暢聯會議 for Intune」來存取融訊暢聯會議。您要開啟此應用程式嗎？</string>
+    <string name="zm_alert_force_intune_client_login_title_132149">開啟融訊暢聯會議 for Intune</string>
+    <string name="zm_alert_force_normal_client_login_message_132149">由於貴公司所設的限制，您僅能使用「融訊暢聯會議 Cloud Meetings」來存取融訊暢聯會議。您要開啟此應用程式嗎？</string>
+    <string name="zm_alert_force_normal_client_login_title_132149">開啟融訊暢聯會議 Cloud Meetings</string>
     <string name="zm_alert_force_vb_but_setting_disabled_msg_257657">您的管理員要求您使用虛擬背景，但您已停用「虛擬背景」。<![CDATA[<a href="%1$s">深入瞭解</a><br></br>]]>若要啟用此設定，請移至會議設定。</string>
     <string name="zm_alert_force_vb_but_setting_disabled_title_257657">啟用虛擬背景以開啟視訊</string>
     <string name="zm_alert_force_vb_device_not_support_msg_257657">您的管理員要求您使用虛擬背景，但您的裝置不支援此功能。&lt;a href="%1$s">深入瞭解&lt;/a></string>
@@ -671,48 +671,48 @@
     <string name="zm_alert_join_tip_87408">若您與主持人同屬相同組織，請登入以加入會議。否則，請以來賓身分加入。</string>
     <string name="zm_alert_leave_conf">您是否要離開此會議？</string>
     <string name="zm_alert_leave_webinar_150183">您要離開此網路研討會嗎？</string>
-    <string name="zm_alert_link_error_btn_106299">從簡石會議下載</string>
-    <string name="zm_alert_link_error_content_106299">您的裝置並無相容CPU可供執行已下載的簡石會議應用程式。若要繼續使用簡石會議，請從簡石會議網站下載。</string>
+    <string name="zm_alert_link_error_btn_106299">從融訊暢聯會議下載</string>
+    <string name="zm_alert_link_error_content_106299">您的裝置並無相容CPU可供執行已下載的融訊暢聯會議應用程式。若要繼續使用融訊暢聯會議，請從融訊暢聯會議網站下載。</string>
     <string name="zm_alert_link_error_title_106299">不支援的裝置</string>
     <string name="zm_alert_live_streaming_failed">無法在%s上直播此網路研討會</string>
     <string name="zm_alert_live_streaming_meeting_failed_336019">無法在%s上直播此會議。請重新開始直播。</string>
     <string name="zm_alert_lock_share_confirm">一旦鎖定，只有主持人才能分享畫面。</string>
-    <string name="zm_alert_login_disable_19086">您無法使用此方法登入簡石會議帳戶。請與IT管理員聯繫以獲取幫助。</string>
+    <string name="zm_alert_login_disable_19086">您無法使用此方法登入融訊暢聯會議帳戶。請與IT管理員聯繫以獲取幫助。</string>
     <string name="zm_alert_login_failed">登入失敗</string>
     <string name="zm_alert_login_to_schedule_confirm">請登入後排程會議。 </string>
     <string name="zm_alert_login_to_show_mymeetings_confirm">請登入後取得會議資訊。 </string>
     <string name="zm_alert_login_to_start_free_video_call_confirm">請登入後啟用視訊通話。 </string>
     <string name="zm_alert_login_to_start_free_voice_call_confirm">請登入後啟用免費語音通話。 </string>
     <string name="zm_alert_login_to_start_meeting_confirm">請登入後召開會議。</string>
-    <string name="zm_alert_login_with_google_13762">您必須使用Google帳戶認證登入簡石會議</string>
-    <string name="zm_alert_login_with_sso_13762">您必須使用單一登入（SSO）認證登入簡石會議</string>
+    <string name="zm_alert_login_with_google_13762">您必須使用Google帳戶認證登入融訊暢聯會議</string>
+    <string name="zm_alert_login_with_sso_13762">您必須使用單一登入（SSO）認證登入融訊暢聯會議</string>
     <string name="zm_alert_logout">您是否要登出？</string>
     <string name="zm_alert_logout_169686">您是否要登出？</string>
     <string name="zm_alert_logout_retry_title_164066">由於網路問題，無法登出</string>
     <string name="zm_alert_logout_while_clips_running_cancel_btn_549633">繼續錄製</string>
     <string name="zm_alert_logout_while_clips_running_confirm_btn_549633">登出</string>
-    <string name="zm_alert_logout_while_clips_running_message_549633">若登出您的簡石會議帳戶將會停止錄製，而且不會儲存您已錄製的片段。</string>
+    <string name="zm_alert_logout_while_clips_running_message_549633">若登出您的融訊暢聯會議帳戶將會停止錄製，而且不會儲存您已錄製的片段。</string>
     <string name="zm_alert_logout_while_clips_running_title_549633">登出並停止錄製</string>
     <string name="zm_alert_meeting_alert">會議提醒</string>
     <string name="zm_alert_msg_alterhost_170568">您想要新增為備選主持人的一位或多位人員，並非授權使用者或此帳戶的成員。移除下列使用者以繼續：%s</string>
     <string name="zm_alert_msg_context_failed">無法讀取訊息內容。</string>
     <string name="zm_alert_msg_internal_checked_526944">部分像是雲端錄製及電話/SIP/H.323撥入的服務，將不會在內部會議中提供。</string>
     <string name="zm_alert_msg_success">成功</string>
-    <string name="zm_alert_need_install_intune_portal_153711">若要使用簡石會議 for Intune，您必須安裝Microsoft Intune公司入口網站應用程式。點擊「前往Store」以繼續。</string>
-    <string name="zm_alert_net_failed_133459">我們無法連接至簡石會議。請檢查網路連線後再試一次。</string>
+    <string name="zm_alert_need_install_intune_portal_153711">若要使用融訊暢聯會議 for Intune，您必須安裝Microsoft Intune公司入口網站應用程式。點擊「前往Store」以繼續。</string>
+    <string name="zm_alert_net_failed_133459">我們無法連接至融訊暢聯會議。請檢查網路連線後再試一次。</string>
     <string name="zm_alert_network_disconnected">連線失敗。請檢查網路連線後再試一次。</string>
     <string name="zm_alert_no_browser_btn_go_to_download_100635">前往Store</string>
     <string name="zm_alert_no_browser_message_100635">若要繼續登入，您需要下載瀏覽器。</string>
     <string name="zm_alert_no_browser_title_100635">需要瀏覽器</string>
     <string name="zm_alert_no_sdcard">沒有SD記憶卡</string>
-    <string name="zm_alert_non_annotation_joined">註記功能已停用，與會者需要升級到最新版的簡石會議才能使用畫面分享功能</string>
+    <string name="zm_alert_non_annotation_joined">註記功能已停用，與會者需要升級到最新版的融訊暢聯會議才能使用畫面分享功能</string>
     <string name="zm_alert_other_from_main_session_is_sharing_222609">當有人從主會場進行分享時，無法分享您的畫面</string>
     <string name="zm_alert_other_is_sharing">其他與會者正在分享畫面，此時您無法進行畫面分享。</string>
     <string name="zm_alert_phone_bypass_40122">驗證碼在您嘗試登入失敗5次後已過期，請重新獲得驗證碼。</string>
     <string name="zm_alert_pmi_disabled_153610">您的個人會議ID已停用</string>
     <string name="zm_alert_pmi_disabled_when_edit_153610">您的個人會議ID已停用。一經儲存此會議，便會自動產生新的會議ID。</string>
     <string name="zm_alert_rate_on_googleplay_content_58802">請您在Google Play商店中為我們評分，感謝您的支持！</string>
-    <string name="zm_alert_rate_on_googleplay_title_58802">為簡石會議評分</string>
+    <string name="zm_alert_rate_on_googleplay_title_58802">為融訊暢聯會議評分</string>
     <string name="zm_alert_reached_max_tip_329734">要求某人停止分享並再試一次。</string>
     <string name="zm_alert_reached_max_title_329734">您已達到允許的畫面分享工作階段的數量上限</string>
     <string name="zm_alert_receive_reached_max_tip_329734">分享不成功，因為已達到使用中工作階段的數量上限。要求某人停止分享並再試一次。</string>
@@ -721,8 +721,8 @@
     <string name="zm_alert_remind_archived_content_meeting_267230">此會議有一或多名與會者將依據其帳戶政策進行封存。其帳戶擁有者將會收到有關此會議的內容，並能將其分享到應用程式及給其他人。<![CDATA[<a href="%1$s">深入瞭解</a>]]>\n\n如留在此會議內，即表示您同意進行封存。</string>
     <string name="zm_alert_remind_archived_title_meeting_267230">正在封存此會議</string>
     <string name="zm_alert_remind_archived_title_webinar_267230">正在封存此網路研討會											</string>
-    <string name="zm_alert_remind_ask_speak_content_1_408786">若您選擇解除靜音，則網路研討會內的其他人將能聽見您的聲音。若主持人或嘉賓決定在您解除靜音後錄製、直播或封存該網路研討會，則您的聲音將會包括在其中。如果錄製檔案儲存在雲端，則可能會分享給智慧錄製以供分析，以及作為簡石會議產品改善之用。\n\n擁有相關權限的與會者也可以儲存及分享網路研討會轉錄文字。\n\n按一下「解除靜音」，將會連接電腦音訊並為自己解除靜音。</string>
-    <string name="zm_alert_remind_ask_speak_content_2_408786">若您選擇解除靜音，則網路研討會內的其他人將能聽見您的聲音。若主持人或嘉賓決定在您解除靜音後錄製、直播或封存該網路研討會，則您的聲音將會包括在其中。如果錄製檔案儲存在雲端，則可能會分享給智慧錄製以供分析，以及作為簡石會議產品改善之用。\n\n擁有相關權限的與會者也可以儲存及分享網路研討會轉錄文字。\n\n按一下「解除靜音」，將會連接電腦音訊並為自己解除靜音。\n\n已透過電話加入？ 請在您的電話上輸入#%d#，然後按一下自行解除靜音。</string>
+    <string name="zm_alert_remind_ask_speak_content_1_408786">若您選擇解除靜音，則網路研討會內的其他人將能聽見您的聲音。若主持人或嘉賓決定在您解除靜音後錄製、直播或封存該網路研討會，則您的聲音將會包括在其中。如果錄製檔案儲存在雲端，則可能會分享給智慧錄製以供分析，以及作為融訊暢聯會議產品改善之用。\n\n擁有相關權限的與會者也可以儲存及分享網路研討會轉錄文字。\n\n按一下「解除靜音」，將會連接電腦音訊並為自己解除靜音。</string>
+    <string name="zm_alert_remind_ask_speak_content_2_408786">若您選擇解除靜音，則網路研討會內的其他人將能聽見您的聲音。若主持人或嘉賓決定在您解除靜音後錄製、直播或封存該網路研討會，則您的聲音將會包括在其中。如果錄製檔案儲存在雲端，則可能會分享給智慧錄製以供分析，以及作為融訊暢聯會議產品改善之用。\n\n擁有相關權限的與會者也可以儲存及分享網路研討會轉錄文字。\n\n按一下「解除靜音」，將會連接電腦音訊並為自己解除靜音。\n\n已透過電話加入？ 請在您的電話上輸入#%d#，然後按一下自行解除靜音。</string>
     <string name="zm_alert_remind_ask_speak_title_267230">主持人想讓您發言											</string>
     <string name="zm_alert_remind_join_webinear_content_267230">主持人可能會錄製、直播或封存網路研討會，而且主持人可直播網路研討會或將錄製檔案分享到應用程式或給其他人。\n\n若以嘉賓身分加入此網路研討會，即表示您同意自身的參與過程包括在其中。											</string>
     <string name="zm_alert_remind_join_webinear_title_267230">您即將以嘉賓身分加入%s											</string>
@@ -741,7 +741,7 @@
     <string name="zm_alert_remind_recording_title_meeting_524862">正在錄製本會議</string>
     <string name="zm_alert_remind_recording_title_webinar_68355">正在錄製此網路研討會</string>
     <string name="zm_alert_remind_revelant_webinar_notice_539679">擁有相關權限的與會者也可以儲存及分享網路研討會轉錄文字。</string>
-    <string name="zm_alert_rooted_warning_msg_42807">您的裝置似乎已經破解。這可能會造成私人資料遺失、毀損或其他錯誤。我們不建議在已破解的裝置中使用簡石會議。</string>
+    <string name="zm_alert_rooted_warning_msg_42807">您的裝置似乎已經破解。這可能會造成私人資料遺失、毀損或其他錯誤。我們不建議在已破解的裝置中使用融訊暢聯會議。</string>
     <string name="zm_alert_rooted_warning_title_42807">安全性警告</string>
     <string name="zm_alert_select_count_reach_max_59554">本頻道成員人數已達上限</string>
     <string name="zm_alert_share_file_failed">無法分享檔案。</string>
@@ -758,7 +758,7 @@
     <string name="zm_alert_switch_account_retry_title_594857">由於網路問題，無法切換帳戶</string>
     <string name="zm_alert_switch_account_while_clips_running_cancel_btn_549633">繼續錄製</string>
     <string name="zm_alert_switch_account_while_clips_running_confirm_btn_549633">切換帳戶</string>
-    <string name="zm_alert_switch_account_while_clips_running_message_549633">切換您的簡石會議帳戶將會停止錄製，而且不會儲存您已錄製的片段。</string>
+    <string name="zm_alert_switch_account_while_clips_running_message_549633">切換您的融訊暢聯會議帳戶將會停止錄製，而且不會儲存您已錄製的片段。</string>
     <string name="zm_alert_switch_account_while_clips_running_title_549633">切換帳戶並停止錄製</string>
     <string name="zm_alert_switch_call_direct_share_97592">您正在另一場會議中，是否離開目前會議並加入此會議？</string>
     <string name="zm_alert_switch_call_join_new_meeting_message_160917">您需要離開此會議才能加入新的會議。</string>
@@ -769,17 +769,17 @@
     <string name="zm_alert_sync_msg_failed_msg_33341">無法載入內容。請再試一次</string>
     <string name="zm_alert_title_edit_recurring_meeting_526853">您正在編輯週期性會議</string>
     <string name="zm_alert_title_internal_checked_526944">啟用內部會議</string>
-    <string name="zm_alert_unable_save_meeting_260492">無法儲存此會議。若要排程或編輯%s的會議，請移至簡石會議 Web入口網站。</string>
+    <string name="zm_alert_unable_save_meeting_260492">無法儲存此會議。若要排程或編輯%s的會議，請移至融訊暢聯會議 Web入口網站。</string>
     <string name="zm_alert_unable_schedule_for_289102">無法排程%1$s（%2$s）的會議</string>
     <string name="zm_alert_unknown_error">未知的錯誤</string>
     <string name="zm_alert_unshare_file_failed">無法刪除檔案。</string>
     <string name="zm_alert_unshare_group_msg_59554">此檔案將僅從-&lt;%s>頻道中刪除但不會從您的個人檔案中刪除。</string>
     <string name="zm_alert_unshare_msg_59554">取消分享並不會刪除您的檔案，但目前的頻道成員將無法再存取該檔案。</string>
     <string name="zm_alert_unsupported_format">此文件格式尚不受支援，請選取影像或PDF文件！</string>
-    <string name="zm_alert_update_latest_version_156645">請更新至簡石會議最新版本並再試一次。</string>
+    <string name="zm_alert_update_latest_version_156645">請更新至融訊暢聯會議最新版本並再試一次。</string>
     <string name="zm_alert_upload_file_failed">無法上傳檔案</string>
     <string name="zm_alert_upload_files_failed">上傳檔案失敗。</string>
-    <string name="zm_alert_use_web_setting_169895">已從您的簡石會議 Web入口網站同步您的排程設定</string>
+    <string name="zm_alert_use_web_setting_169895">已從您的融訊暢聯會議 Web入口網站同步您的排程設定</string>
     <string name="zm_alert_vb_disable_by_admin_msg_174032">如需開啟此設定，請聯絡您的帳戶管理員以取得協助</string>
     <string name="zm_alert_vb_disable_by_admin_title_174032">您的管理員已關閉虛擬背景</string>
     <string name="zm_alert_vb_disable_by_oneself_msg_174032">如需開啟此設定，請移至Web設定</string>
@@ -789,12 +789,12 @@
     <string name="zm_all_return_to_main_session_339098">所有與會者將於%d秒後返回主會場</string>
     <string name="zm_allow_device_deny_msg_382015">您的登入要求已在其他裝置上遭到拒絕。</string>
     <string name="zm_allow_device_deny_title_382015">登入遭拒</string>
-    <string name="zm_allow_device_desc_468352">為協助確保您的帳戶安全，簡石會議已向您的其他裝置傳送通知以驗證此次登入。\n <![CDATA[點選通知上的<b>允許</b>以繼續。]]></string>
+    <string name="zm_allow_device_desc_468352">為協助確保您的帳戶安全，融訊暢聯會議已向您的其他裝置傳送通知以驗證此次登入。\n <![CDATA[點選通知上的<b>允許</b>以繼續。]]></string>
     <string name="zm_allow_device_dlg_label_browser_382015">瀏覽器：%s</string>
     <string name="zm_allow_device_dlg_label_location_382015">位置：%s</string>
     <string name="zm_allow_device_dlg_label_os_382015">作業系統：%s</string>
     <string name="zm_allow_device_dlg_label_time_382015">時間：%s</string>
-    <string name="zm_allow_device_dlg_title_382015">您的簡石會議帳戶目前已在另一個裝置上登入。</string>
+    <string name="zm_allow_device_dlg_title_382015">您的融訊暢聯會議帳戶目前已在另一個裝置上登入。</string>
     <string name="zm_allow_device_no_notification_468352">並未收到通知？</string>
     <string name="zm_allow_device_notification_msg_382015">登入其他裝置？檢查並允許</string>
     <string name="zm_allow_device_or_468352">或是， </string>
@@ -857,8 +857,8 @@
     <string name="zm_anno_vanishing_pen_484713">消失筆</string>
     <string name="zm_anno_view_all_whiteboards_46296">檢視所有白板</string>
     <string name="zm_announcements_108966">公告</string>
-    <string name="zm_app_full_name">簡石會議 Cloud Meetings</string>
-    <string name="zm_app_name">簡石會議</string>
+    <string name="zm_app_full_name">融訊暢聯會議 Cloud Meetings</string>
+    <string name="zm_app_name">融訊暢聯會議</string>
     <string name="zm_archive_account_owner_msg_262229">其<![CDATA[<a href="%s">帳戶擁有者</a>]]>將會收到有關本會議的內容，並能將其分享到應用程式及給其他人。</string>
     <string name="zm_archive_archive_disclaimer_msg">本會議有一或多名與會者將依據其帳戶政策進行封存。</string>
     <string name="zm_archive_audio_236360">音訊</string>
@@ -885,10 +885,10 @@
     <string name="zm_at_buddy_list_overmany_hint_when_key_not_empty_384998">新增更多文字以縮小搜尋範圍</string>
     <string name="zm_attendee_join_meeting_fail_msg_331303">若要加入，請登入收到此會議邀請的帳戶。</string>
     <string name="zm_attendee_join_meeting_fail_title_331303">使用獲邀參加會議的電子郵件登入</string>
-    <string name="zm_attendee_join_webinar_fail_msg_331303">作為觀眾，您必須使用簡石會議帳戶加入會議，該帳戶使用您註冊時所用的電子郵件。</string>
+    <string name="zm_attendee_join_webinar_fail_msg_331303">作為觀眾，您必須使用融訊暢聯會議帳戶加入會議，該帳戶使用您註冊時所用的電子郵件。</string>
     <string name="zm_attendee_join_webinar_fail_title_331303">您需要登入至已註冊至網路研討會的帳戶</string>
     <string name="zm_authenticate_to_212554">通過%s驗證</string>
-    <string name="zm_auto_please_sign_in_549281">您必須登入才能使用簡石會議。在可安全進行的情況下，請停妥車輛並登入簡石會議。</string>
+    <string name="zm_auto_please_sign_in_549281">您必須登入才能使用融訊暢聯會議。在可安全進行的情況下，請停妥車輛並登入融訊暢聯會議。</string>
     <string name="zm_auto_reply_title_502727">自訂自動回應</string>
     <string name="zm_autologin_expired_join_title_156663">僅內部會議</string>
     <string name="zm_autologin_expired_title_156663">工作階段已過期</string>
@@ -954,7 +954,7 @@
     <string name="zm_basic_plus_extend_meeting_end_result_sub_description_4_528114">在%1$s之前，還剩0次延長</string>
     <string name="zm_basic_plus_extend_meeting_end_result_sub_title_528114">延長</string>
     <string name="zm_basic_plus_extend_meeting_end_result_title_528114">會議結果</string>
-    <string name="zm_basic_plus_extend_meeting_end_result_unlock_528114">當您升級至簡石會議 One專業版時，便能解鎖不限次數的30小時會議及付費功能。</string>
+    <string name="zm_basic_plus_extend_meeting_end_result_unlock_528114">當您升級至融訊暢聯會議 One專業版時，便能解鎖不限次數的30小時會議及付費功能。</string>
     <string name="zm_basic_plus_extend_meeting_end_result_upgrade_btn_528114">升級</string>
     <string name="zm_basic_plus_extend_meeting_end_result_upgrade_duration_528114">持續時間：80分鐘</string>
     <string name="zm_basic_plus_extend_meeting_end_success_extended_result_title_528114">已延長您的會議！</string>
@@ -1158,7 +1158,7 @@
     <string name="zm_btn_invite_buddy_favorite">新增</string>
     <string name="zm_btn_invite_buddy_im">新增好友</string>
     <string name="zm_btn_invite_to_conf">邀請參會</string>
-    <string name="zm_btn_invite_to_get_zoom">邀請其他人使用簡石會議</string>
+    <string name="zm_btn_invite_to_get_zoom">邀請其他人使用融訊暢聯會議</string>
     <string name="zm_btn_join">加入</string>
     <string name="zm_btn_join_a_meeting">加入會議</string>
     <string name="zm_btn_join_a_meeting_on_welcome">加入會議</string>
@@ -1185,7 +1185,7 @@
     <string name="zm_btn_leave_specified_personal_bo_339098">關閉%1$s的個人分組討論室</string>
     <string name="zm_btn_leave_start_160917">離開並召開</string>
     <string name="zm_btn_leave_webinar_150183">離開網路研討會</string>
-    <string name="zm_btn_link_account_zoom_us">登入到簡石會議國際版</string>
+    <string name="zm_btn_link_account_zoom_us">登入到融訊暢聯會議國際版</string>
     <string name="zm_btn_linked_account">我的帳戶</string>
     <string name="zm_btn_login">登入</string>
     <string name="zm_btn_login_as_host">以主持人身分登入</string>
@@ -1236,14 +1236,14 @@
     <string name="zm_btn_qa">問與答</string>
     <string name="zm_btn_quit_42807">結束</string>
     <string name="zm_btn_raise_hand">舉手</string>
-    <string name="zm_btn_rate_58802">懇請您於Google Play商店上為簡石會議評分</string>
+    <string name="zm_btn_rate_58802">懇請您於Google Play商店上為融訊暢聯會議評分</string>
     <string name="zm_btn_rate_on_googleplay_no_58802">不了，謝謝</string>
     <string name="zm_btn_rate_on_googleplay_yes_58802">立即評分</string>
     <string name="zm_btn_reactions_324770">回應</string>
     <string name="zm_btn_recall">刪除</string>
     <string name="zm_btn_reclaim_host">獲取主持人權限</string>
     <string name="zm_btn_reclaim_host_294520">收回主持人權限</string>
-    <string name="zm_btn_recommend">向他人推薦簡石會議</string>
+    <string name="zm_btn_recommend">向他人推薦融訊暢聯會議</string>
     <string name="zm_btn_reconnect">重新連線</string>
     <string name="zm_btn_rectangle">矩形</string>
     <string name="zm_btn_redownload">重新下載</string>
@@ -1263,7 +1263,7 @@
     <string name="zm_btn_reset_610730">重設</string>
     <string name="zm_btn_reset_default_19898">重設為預設設定</string>
     <string name="zm_btn_resize">調整大小</string>
-    <string name="zm_btn_restart_zoom_88133">重新啟動簡石會議</string>
+    <string name="zm_btn_restart_zoom_88133">重新啟動融訊暢聯會議</string>
     <string name="zm_btn_resume_camera_179638">繼續分享攝影機</string>
     <string name="zm_btn_retry">重試</string>
     <string name="zm_btn_return_to_conf">返回會議</string>
@@ -1275,7 +1275,7 @@
     <string name="zm_btn_room_btn_start_from_my_phone_179549">從我的手機開始</string>
     <string name="zm_btn_room_btn_start_from_room_179549">從會議室開始</string>
     <string name="zm_btn_room_btn_unpair_179549">解除配對</string>
-    <string name="zm_btn_room_controller_download_zrc_179549">簡石會議想要開啟您的瀏覽器以進行下載</string>
+    <string name="zm_btn_room_controller_download_zrc_179549">融訊暢聯會議想要開啟您的瀏覽器以進行下載</string>
     <string name="zm_btn_room_detecting_room_179549">正在偵測會議室</string>
     <string name="zm_btn_room_would_you_like_to_179549">您是否要</string>
     <string name="zm_btn_save">儲存</string>
@@ -1388,7 +1388,7 @@
     <string name="zm_btn_unshare_group_59554">在此頻道中刪除</string>
     <string name="zm_btn_unshare_my_pronouns_273492">取消公開我的代稱</string>
     <string name="zm_btn_upcoming">我的會議</string>
-    <string name="zm_btn_upcoming_meetings_21854">即將開始的簡石會議會議</string>
+    <string name="zm_btn_upcoming_meetings_21854">即將開始的融訊暢聯會議會議</string>
     <string name="zm_btn_update">立即更新</string>
     <string name="zm_btn_update_62061">更新</string>
     <string name="zm_btn_upgrade_560245">升級</string>
@@ -1417,14 +1417,14 @@
     <string name="zm_call_by_phone_have_no_number_edit_hint_129757">無法輸入</string>
     <string name="zm_call_by_phone_have_no_number_tip_129757">我們找不到您的電話號碼。請聯絡您的管理員。</string>
     <string name="zm_call_by_phone_tip_129757">您僅能使用「撥打我的電話號碼」撥至您個人電話號碼來加入語音會議</string>
-    <string name="zm_call_feedback_dialog_message_264870">我們已偵測到最近一次通話存在某些問題。按一下「傳送至簡石會議」以提交通話記錄給簡石會議。此資訊將協助我們最佳化今後的使用體驗。</string>
+    <string name="zm_call_feedback_dialog_message_264870">我們已偵測到最近一次通話存在某些問題。按一下「傳送至融訊暢聯會議」以提交通話記錄給融訊暢聯會議。此資訊將協助我們最佳化今後的使用體驗。</string>
     <string name="zm_call_feedback_dialog_negative_button_264870">不要傳送</string>
     <string name="zm_call_feedback_dialog_positive_button_264870">傳送</string>
-    <string name="zm_call_feedback_dialog_title_264870">簡石會議 Phone問題報告</string>
+    <string name="zm_call_feedback_dialog_title_264870">融訊暢聯會議 Phone問題報告</string>
     <string name="zm_call_in_use_own_phone_number_129757">請使用您的電話%1$s撥入會議。</string>
     <string name="zm_call_in_use_own_phone_number_243737">請使用%s撥入會議。</string>
     <string name="zm_call_in_use_phone_number_below_243737">請使用以下其中一組號碼來撥入會議</string>
-    <string name="zm_call_phone_des_243737">透過電話連接至音訊後，請務必返回簡石會議會議應用程式</string>
+    <string name="zm_call_phone_des_243737">透過電話連接至音訊後，請務必返回融訊暢聯會議會議應用程式</string>
     <string name="zm_call_phone_tip_243737">提示：請在電話撥入後返回應用程式</string>
     <string name="zm_call_phone_title_243737">選取號碼</string>
     <string name="zm_call_waiting_volume_353890">通話等候音量</string>
@@ -1543,7 +1543,7 @@
     <string name="zm_chk_watermark_156353">新增浮水印</string>
     <string name="zm_clips_453189">片段</string>
     <string name="zm_clips_auto_logout_in_clips_message_560245">您已登出您的帳戶</string>
-    <string name="zm_clips_auto_logout_in_clips_title_560245">簡石會議 Clips已被中斷</string>
+    <string name="zm_clips_auto_logout_in_clips_title_560245">融訊暢聯會議 Clips已被中斷</string>
     <string name="zm_clips_block_start_clips_due_to_meeting_message_453189">請先結束您的會議，然後再錄製片段。</string>
     <string name="zm_clips_block_start_clips_due_to_meeting_title_453189">啟動片段</string>
     <string name="zm_clips_block_start_clips_due_to_sip_message_453189">請先結束您的通話，然後再錄製片段。</string>
@@ -1553,7 +1553,7 @@
     <string name="zm_clips_cannot_create_clip_dialog_message_586745">聯絡您的管理員以取得建立片段的權限。</string>
     <string name="zm_clips_cannot_create_clip_dialog_title_586745">無法建立片段</string>
     <string name="zm_clips_enable_setting_and_create_clip_dialog_confirm_button_586745">啟用並建立片段</string>
-    <string name="zm_clips_enable_setting_and_create_clip_dialog_message_586745">啟用您的設定以使用簡石會議 Clips。一經啟用，您便能錄製自己及螢幕畫面來建立片段。</string>
+    <string name="zm_clips_enable_setting_and_create_clip_dialog_message_586745">啟用您的設定以使用融訊暢聯會議 Clips。一經啟用，您便能錄製自己及螢幕畫面來建立片段。</string>
     <string name="zm_clips_enable_setting_and_create_clip_dialog_title_586745">啟用設定並建立片段</string>
     <string name="zm_clips_error_screen_wording_body_560245">網路載入失敗</string>
     <string name="zm_clips_error_screen_wording_title_560245">無法建立片段</string>
@@ -1564,7 +1564,7 @@
     <string name="zm_clips_limitation_screen_wording_bottom_for_non_admin_560245">刪除片段以繼續錄製，或是聯絡您的管理員以升級到付費方案。</string>
     <string name="zm_clips_limitation_screen_wording_title_560245">您已達到%s個片段的使用限制。</string>
     <string name="zm_clips_main_screen_placeholder_wording_453189">點擊錄製按鈕以開始。\n然後分享您的畫面。</string>
-    <string name="zm_clips_notification_text_453189">簡石會議 Clips進行中</string>
+    <string name="zm_clips_notification_text_453189">融訊暢聯會議 Clips進行中</string>
     <string name="zm_clips_receiving_meeting_call_in_clips_continue_recording_button_453189">繼續錄製</string>
     <string name="zm_clips_receiving_meeting_call_in_clips_message_453189">您必須停止錄製片段才能繼續</string>
     <string name="zm_clips_receiving_meeting_call_in_clips_stop_recording_button_453189">停止錄製</string>
@@ -1575,9 +1575,9 @@
     <string name="zm_clips_recording_finish_dialog_message_453189">一旦您完成錄製，便會將您的片段儲存至庫中。</string>
     <string name="zm_clips_recording_finish_dialog_title_453189">停止錄製</string>
     <string name="zm_clips_recording_general_error_dialog_message_453189">發生錯誤：%s</string>
-    <string name="zm_clips_recording_general_error_dialog_title_453189">簡石會議 Clips已被中斷</string>
+    <string name="zm_clips_recording_general_error_dialog_title_453189">融訊暢聯會議 Clips已被中斷</string>
     <string name="zm_clips_recording_general_error_dialog_title_592264">無法建立片段</string>
-    <string name="zm_clips_recording_permission_revoked_message_592264">錯誤%s。您需要權限才能建立片段。請聯絡簡石會議支援或您的管理員。</string>
+    <string name="zm_clips_recording_permission_revoked_message_592264">錯誤%s。您需要權限才能建立片段。請聯絡融訊暢聯會議支援或您的管理員。</string>
     <string name="zm_clips_recording_skip_finishing_dialog_cancel_btn_453189">繼續上傳</string>
     <string name="zm_clips_recording_skip_finishing_dialog_confirm_btn_453189">停止上傳</string>
     <string name="zm_clips_recording_skip_finishing_dialog_message_453189">如果您停止上傳，將不會儲存您的片段。</string>
@@ -1629,7 +1629,7 @@
     <string name="zm_content_desc_dial_toll_call_18332">付費電話</string>
     <string name="zm_content_file_downloaded_result_is_unavailable_text_89710">已由此頻道移除此檔案，不再提供下載。</string>
     <string name="zm_content_file_list_title_text_89710">聊天</string>
-    <string name="zm_content_share_desc_52777">輸入共用金鑰或會議ID以分享至簡石會議 Room。</string>
+    <string name="zm_content_share_desc_52777">輸入共用金鑰或會議ID以分享至融訊暢聯會議 Room。</string>
     <string name="zm_context_menu_match_phone_130965">配對一組電話號碼</string>
     <string name="zm_context_menu_privacy_policy_289221">《隱私權政策》</string>
     <string name="zm_context_menu_privacy_service_130965">《隱私權服務》</string>
@@ -1750,14 +1750,14 @@
     <string name="zm_delete_message_and_file_212554">刪除訊息和檔案</string>
     <string name="zm_delete_message_only_212554">僅刪除訊息</string>
     <string name="zm_des_participant_307501">與會者</string>
-    <string name="zm_des_pbx_location_setting_186458">允許簡石會議為了緊急撥號用途而存取您的位置。</string>
-    <string name="zm_des_pbx_location_setting_332597">允許簡石會議為了緊急通話及啟用進階功能（例如基於位置的存取與呼叫路由）而擁有針對您位置的增強型存取權限。</string>
+    <string name="zm_des_pbx_location_setting_186458">允許融訊暢聯會議為了緊急撥號用途而存取您的位置。</string>
+    <string name="zm_des_pbx_location_setting_332597">允許融訊暢聯會議為了緊急通話及啟用進階功能（例如基於位置的存取與呼叫路由）而擁有針對您位置的增強型存取權限。</string>
     <string name="zm_des_plist_cc_307499">字幕輸入者</string>
     <string name="zm_desc_alterhost_21201">%1$s和其他%2$d</string>
     <string name="zm_desc_fingerprint_login_22438">使用指紋，更快捷/更輕鬆地存取帳戶</string>
     <string name="zm_desc_more_than_three_countries_19247">%1$s和其他%2$d個國家</string>
     <string name="zm_desc_two_countries_19247">%1$s和%2$s</string>
-    <string name="zm_description_add_buddy">輸入電子郵件尋找簡石會議聯絡人</string>
+    <string name="zm_description_add_buddy">輸入電子郵件尋找融訊暢聯會議聯絡人</string>
     <string name="zm_description_btn_audio_source_bluetooth">透過藍牙播放聲音。</string>
     <string name="zm_description_btn_audio_source_ear_phone">透過耳機播放聲音。</string>
     <string name="zm_description_btn_audio_source_speaker_phone">透過喇叭播放聲音。</string>
@@ -1815,7 +1815,7 @@
     <string name="zm_description_mm_presence_away_40739">離開。</string>
     <string name="zm_description_mm_presence_busy_256131">忙碌。</string>
     <string name="zm_description_mm_presence_dnd_19903">正在開會</string>
-    <string name="zm_description_mm_presence_dnd_33945">在簡石會議會議中</string>
+    <string name="zm_description_mm_presence_dnd_33945">在融訊暢聯會議會議中</string>
     <string name="zm_description_mm_presence_idle">閒置。</string>
     <string name="zm_description_mm_presence_offline">離線。</string>
     <string name="zm_description_mm_presence_xa_19903">請勿打擾</string>
@@ -1824,7 +1824,7 @@
     <string name="zm_description_msg_myself_lower_hand_17843">手放下</string>
     <string name="zm_description_msg_myself_raise_hand_17843">舉手</string>
     <string name="zm_description_msg_xxx_lower_hand">%s的手已放下。</string>
-    <string name="zm_description_not_zoom_meeting_63007">並非簡石會議會議</string>
+    <string name="zm_description_not_zoom_meeting_63007">並非融訊暢聯會議會議</string>
     <string name="zm_description_offair_267913">目前檢視，直播未開始。</string>
     <string name="zm_description_passcode_security_166840">您必須開啟「安全性」底下的一到兩種選項</string>
     <string name="zm_description_passcode_security_202232">您必須啟用一或多個安全性功能</string>
@@ -1855,7 +1855,7 @@
     <string name="zm_description_scene_sign_language">目前檢視，手語模式。</string>
     <string name="zm_description_scene_toolbar_hided_598922">點兩下以顯示工具列</string>
     <string name="zm_description_scene_toolbar_showed_598922">點兩下以隱藏工具列</string>
-    <string name="zm_description_schedule_internal_526944">在內部會議模式下，媒體將保持在組織的網路範圍內。部分簡石會議服務可能無法提供。</string>
+    <string name="zm_description_schedule_internal_526944">在內部會議模式下，媒體將保持在組織的網路範圍內。部分融訊暢聯會議服務可能無法提供。</string>
     <string name="zm_description_schedule_pmi_21201">如果啟用此選項，您在此變更的會議選項將套用於使用您個人會議ID的所有會議。</string>
     <string name="zm_description_share">分享</string>
     <string name="zm_description_snackbar_message_prefix_196619">已釘選的訊息： </string>
@@ -1949,7 +1949,7 @@
     <string name="zm_domains_label_gov_200642">政府機關使用者</string>
     <string name="zm_domains_remove_url_200642">移除虛名URL%s</string>
     <string name="zm_domains_remove_url_txt_200642">任何與虛名URL相關聯之已儲存的登入資訊，都會從此裝置中移除。</string>
-    <string name="zm_domains_title_200642">簡石會議網域</string>
+    <string name="zm_domains_title_200642">融訊暢聯會議網域</string>
     <string name="zm_download_failed_82691">驗證失敗</string>
     <string name="zm_download_success">下載完成</string>
     <string name="zm_downloading">下載中</string>
@@ -2334,7 +2334,7 @@
     <string name="zm_gr_backstage_webinar_start_date_time_267913">此網路研討會將開始於%1$s，%2$s</string>
     <string name="zm_gr_backstage_webinar_start_end_time_267913">%1$s-%2$s · %3$s</string>
     <string name="zm_gr_backstage_webinar_start_time_267913">此網路研討會將開始於%1$s</string>
-    <string name="zm_gr_change_user_need_upgrade_267913">若要變更角色，%s必須使用簡石會議最新版本</string>
+    <string name="zm_gr_change_user_need_upgrade_267913">若要變更角色，%s必須使用融訊暢聯會議最新版本</string>
     <string name="zm_gr_end_webinar_for_all">結束網路研討會</string>
     <string name="zm_gr_end_webinar_for_attendees">對觀眾結束網路研討會</string>
     <string name="zm_gr_end_webinar_for_attendees_tips">這將對所有觀眾結束此網路研討會，並會將後台中的所有嘉賓移動至主要舞台。</string>
@@ -2397,10 +2397,10 @@
     <string name="zm_hint_already_my_contact_152253">已是您的聯絡人</string>
     <string name="zm_hint_at_all_disabled_467643">\@all已由頻道擁有者停用</string>
     <string name="zm_hint_buddy_invite_email">請在此輸入電子郵件地址，多個電子郵件間用逗號分隔。</string>
-    <string name="zm_hint_call_zoom_audio_14480">簡石會議語音會議</string>
-    <string name="zm_hint_call_zoom_video_14480">簡石會議視訊會議</string>
+    <string name="zm_hint_call_zoom_audio_14480">融訊暢聯會議語音會議</string>
+    <string name="zm_hint_call_zoom_video_14480">融訊暢聯會議視訊會議</string>
     <string name="zm_hint_cannot_add_someone_to_your_camera_control_group_465893">您無法將%s新增至您的攝影機控制群組，因為他們並不在您的聯絡人清單內</string>
-    <string name="zm_hint_cannot_chat_zoomroom">您無法使用簡石會議 Room聊天。</string>
+    <string name="zm_hint_cannot_chat_zoomroom">您無法使用融訊暢聯會議 Room聊天。</string>
     <string name="zm_hint_cannot_send_e2e_msg">您無法傳送訊息</string>
     <string name="zm_hint_company_domain">公司網域</string>
     <string name="zm_hint_company_email">您的公司郵箱地址</string>
@@ -2431,7 +2431,7 @@
     <string name="zm_hint_msg_send_failed">訊息傳送失敗</string>
     <string name="zm_hint_name_contact_group_68451">為您的聯絡人群組命名</string>
     <string name="zm_hint_name_group_59554">命名您的頻道</string>
-    <string name="zm_hint_not_personal_note_109011">例如：運用簡石會議開創未來</string>
+    <string name="zm_hint_not_personal_note_109011">例如：運用融訊暢聯會議開創未來</string>
     <string name="zm_hint_not_personal_note_13602">今天過的怎麼樣？</string>
     <string name="zm_hint_passcode_schedule_171920">輸入密碼</string>
     <string name="zm_hint_password_set_new">設定新密碼</string>
@@ -2505,10 +2505,10 @@
     <string name="zm_idp_sso_dialog_sign_join_new_error_msg_401051">您必須登出目前帳戶並離開目前會議，稍後再試。</string>
     <string name="zm_idp_sso_dialog_sign_join_new_error_title_401051">無法使用新帳戶加入會議</string>
     <string name="zm_idp_sso_dialog_sign_join_title_401051">登入並加入會議</string>
-    <string name="zm_idp_sso_dialog_sign_msg_401051">您即將使用%1$s（%2$s）登入簡石會議。</string>
+    <string name="zm_idp_sso_dialog_sign_msg_401051">您即將使用%1$s（%2$s）登入融訊暢聯會議。</string>
     <string name="zm_idp_sso_dialog_sign_new_error_msg_401051">您必須登出目前帳戶，稍後再試。</string>
     <string name="zm_idp_sso_dialog_sign_new_error_title_401051">無法登入新帳戶</string>
-    <string name="zm_idp_sso_dialog_sign_title_401051">登入簡石會議</string>
+    <string name="zm_idp_sso_dialog_sign_title_401051">登入融訊暢聯會議</string>
     <string name="zm_idp_verify_ax_291884">已驗證設定檔</string>
     <string name="zm_idp_verify_btn_display_291884">展示來自%s的已驗證設定檔</string>
     <string name="zm_idp_verify_info_auth_291884">%s需要進行驗證以顯示您的已驗證設定檔徽章。</string>
@@ -2518,12 +2518,12 @@
     <string name="zm_idp_verify_info_display_291884">%1$s已為<![CDATA[<b>%2$s</b>]]>驗證此設定檔</string>
     <string name="zm_idp_verify_info_loading_291884">正在載入已驗證設定檔...</string>
     <string name="zm_im_add_a_channel_tab_596696">%1$s已新增標籤「%2$s」</string>
-    <string name="zm_im_add_to_zoom_contact_209114">邀請成為簡石會議聯絡人</string>
+    <string name="zm_im_add_to_zoom_contact_209114">邀請成為融訊暢聯會議聯絡人</string>
     <string name="zm_im_add_to_zoom_contact_request_sent_209114">已傳送請求</string>
     <string name="zm_im_add_to_zoom_contact_select_email_209114">選擇電子郵件地址</string>
     <string name="zm_im_add_to_zoom_contact_send_209114">傳送聯絡人請求</string>
     <string name="zm_im_add_to_zoom_contact_send_desc_224840">若此使用者接受了您的請求，您的設定檔資訊（%1$s）便會讓此聯絡人看見。</string>
-    <string name="zm_im_add_to_zoom_contact_tips_209114">成為簡石會議聯絡人以使用開會及聊天功能</string>
+    <string name="zm_im_add_to_zoom_contact_tips_209114">成為融訊暢聯會議聯絡人以使用開會及聊天功能</string>
     <string name="zm_im_channel_title_chat_tab_459929">聊天</string>
     <string name="zm_im_channel_title_tabs_chat_459929">頻道標籤（%1$d）</string>
     <string name="zm_im_chatlist_filter_clear_description_516881">清除篩選器%s</string>
@@ -2547,9 +2547,9 @@
     <string name="zm_im_external_invite_consent_system_message_629735">已傳送邀請給%1$s。若此邀請獲對方接受，便會將其新增至此頻道。</string>
     <string name="zm_im_external_user_tips_317398">有外部使用者</string>
     <string name="zm_im_external_user_tips_desc_317398">此聊天包含貴組織以外的成員。此聊天中的所有人與其組織內擁有權限的對象，均可查看此處分享的訊息與附件，並可分享到應用程式及給其他人（根據帳戶設定而定）。</string>
-    <string name="zm_im_invite_as_zoom_contact_221346">邀請成為簡石會議聯絡人</string>
-    <string name="zm_im_invite_to_zoom_221346">邀請使用簡石會議</string>
-    <string name="zm_im_invite_zoom_contact_221346">邀請簡石會議聯絡人</string>
+    <string name="zm_im_invite_as_zoom_contact_221346">邀請成為融訊暢聯會議聯絡人</string>
+    <string name="zm_im_invite_to_zoom_221346">邀請使用融訊暢聯會議</string>
+    <string name="zm_im_invite_zoom_contact_221346">邀請融訊暢聯會議聯絡人</string>
     <string name="zm_im_mention_divider_label">今日提及</string>
     <string name="zm_im_mention_empty_tip_552428">尚無提及！</string>
     <string name="zm_im_mention_empty_tip_desc_552428">每次在訊息中提及您時，\n便前來這裡跳轉至目標位置。</string>
@@ -2566,21 +2566,21 @@
     <string name="zm_in_meeting_setting_caption_and_translation_translation_478812">翻譯語言：%s</string>
     <string name="zm_in_pbo_339098">您現在已在個人分組討論室中</string>
     <string name="zm_in_progress_lobby_btn_text_432121">加入大廳</string>
-    <string name="zm_inapp_subscription_plan_cancelled_desc_378649">您已取消簡石會議 One專業版的下一期自動續訂。您在%1$s前仍可繼續享受簡石會議 One專業版的各項權益。</string>
+    <string name="zm_inapp_subscription_plan_cancelled_desc_378649">您已取消融訊暢聯會議 One專業版的下一期自動續訂。您在%1$s前仍可繼續享受融訊暢聯會議 One專業版的各項權益。</string>
     <string name="zm_inapp_subscription_plan_cancelled_title_287870">已取消自動續約</string>
-    <string name="zm_inapp_subscription_plan_expired_desc_378649">您仍然可以使用設有會議時間限制的簡石會議 One基本版。</string>
-    <string name="zm_inapp_subscription_plan_expired_title_378649">您的簡石會議 One專業版方案已過期</string>
+    <string name="zm_inapp_subscription_plan_expired_desc_378649">您仍然可以使用設有會議時間限制的融訊暢聯會議 One基本版。</string>
+    <string name="zm_inapp_subscription_plan_expired_title_378649">您的融訊暢聯會議 One專業版方案已過期</string>
     <string name="zm_inapp_subscription_renew_plan_287870">立即續約</string>
-    <string name="zm_inapp_subscription_upgrade_free_meeting_desc_378649">使用簡石會議 One專業版，暢享無時間限制的會議以及更多功能。</string>
+    <string name="zm_inapp_subscription_upgrade_free_meeting_desc_378649">使用融訊暢聯會議 One專業版，暢享無時間限制的會議以及更多功能。</string>
     <string name="zm_inapp_subscription_upgrade_free_meeting_title_287870">您的免費會議已結束</string>
     <string name="zm_inapp_subscription_upgrade_success_desc_287870">您已成功購買</string>
     <string name="zm_inapp_subscription_upgrade_success_title_287870">全部設定完成</string>
     <string name="zm_inapp_subscription_upgrade_third_time_30_minutes_desc_287870">解除40分鐘的時間限制並享有順暢且專業的會議體驗。</string>
     <string name="zm_inapp_subscription_upgrade_third_time_30_minutes_title_287870">您的會議將於10分鐘後結束</string>
-    <string name="zm_input_age_illegal_msg_148333">目前您不符合註冊簡石會議的資格</string>
+    <string name="zm_input_age_illegal_msg_148333">目前您不符合註冊融訊暢聯會議的資格</string>
     <string name="zm_input_age_illegal_sign_in_title_148333">登入失敗</string>
     <string name="zm_input_age_illegal_title_148333">註冊失敗</string>
-    <string name="zm_input_illegal_sign_in_msg_148333">目前您不符合登入簡石會議的資格</string>
+    <string name="zm_input_illegal_sign_in_msg_148333">目前您不符合登入融訊暢聯會議的資格</string>
     <string name="zm_intergeated_phone_not_set_31439">未設定</string>
     <string name="zm_intergeated_phone_receive_shared_calls_507595">接收已分享通話</string>
     <string name="zm_intergeated_phone_receive_shared_calls_active_nums_507595">%d上線</string>
@@ -2593,26 +2593,26 @@
     <string name="zm_intergeated_phone_receive_shared_calls_slg_507595">共用線路群組</string>
     <string name="zm_intergeated_phone_tips_115402">若要檢閱或變更設定，請線上存取<![CDATA[<a href="%s">我的帳戶</a>]]>。</string>
     <string name="zm_internal_meeting_allow_join_in_join_fail_title_572904">此為私人模式會議</string>
-    <string name="zm_internal_meeting_allow_join_not_same_account_join_fail_msg_572904">您能夠以內部使用者身分切換至其他簡石會議帳戶以加入此會議，或是以來賓身分加入。\n一經按下「以來賓身分加入」，即表示您同意加入在主持人之帳戶擁有者所控制的資料中心主持的會議。</string>
-    <string name="zm_internal_meeting_allow_join_not_sign_in_join_fail_msg_572904">您能夠以內部使用者身分登入簡石會議以加入此會議，或是以來賓身分加入。\n一經按下「以來賓身分加入」，即表示您同意加入在主持人之帳戶擁有者所控制的資料中心主持的會議。</string>
+    <string name="zm_internal_meeting_allow_join_not_same_account_join_fail_msg_572904">您能夠以內部使用者身分切換至其他融訊暢聯會議帳戶以加入此會議，或是以來賓身分加入。\n一經按下「以來賓身分加入」，即表示您同意加入在主持人之帳戶擁有者所控制的資料中心主持的會議。</string>
+    <string name="zm_internal_meeting_allow_join_not_sign_in_join_fail_msg_572904">您能夠以內部使用者身分登入融訊暢聯會議以加入此會議，或是以來賓身分加入。\n一經按下「以來賓身分加入」，即表示您同意加入在主持人之帳戶擁有者所控制的資料中心主持的會議。</string>
     <string name="zm_internal_meeting_join_fail_join_as_a_guest_to_join_btn_572904">以來賓身分加入</string>
     <string name="zm_internal_meeting_join_fail_sign_in_to_join_btn_572904">登入以加會</string>
     <string name="zm_internal_meeting_join_fail_switch_account_to_join_btn_572904">切換帳戶加入</string>
     <string name="zm_internal_meeting_no_allow_join_in_join_fail_title_572904">僅已授權的與會者可參加本次會議</string>
-    <string name="zm_internal_meeting_no_allow_join_not_same_account_join_fail_msg_572904">按一下「切換帳戶加入」，使用授權加入此會議的身分登入簡石會議。</string>
-    <string name="zm_internal_meeting_no_allow_join_not_sign_in_join_fail_msg_572904">按一下「登入以加會」，使用授權加入此會議的身分登入簡石會議。</string>
+    <string name="zm_internal_meeting_no_allow_join_not_same_account_join_fail_msg_572904">按一下「切換帳戶加入」，使用授權加入此會議的身分登入融訊暢聯會議。</string>
+    <string name="zm_internal_meeting_no_allow_join_not_sign_in_join_fail_msg_572904">按一下「登入以加會」，使用授權加入此會議的身分登入融訊暢聯會議。</string>
     <string name="zm_internal_webinar_allow_join_in_join_fail_title_572904">此為私人模式網路研討會</string>
-    <string name="zm_internal_webinar_allow_join_not_same_account_join_fail_msg_572904">您能夠以內部使用者身分切換至其他簡石會議帳戶以加入此網路研討會，或是以來賓身分加入。\n一經按下「以來賓身分加入」，即表示您同意加入在主持人之帳戶擁有者所控制的資料中心主持的網路研討會。</string>
-    <string name="zm_internal_webinar_allow_join_not_sign_in_join_fail_msg_572904">您能夠以內部使用者身分登入簡石會議以加入此網路研討會，或是以來賓身分加入。\n一經按下「以來賓身分加入」，即表示您同意加入在主持人之帳戶擁有者所控制的資料中心主持的網路研討會。</string>
+    <string name="zm_internal_webinar_allow_join_not_same_account_join_fail_msg_572904">您能夠以內部使用者身分切換至其他融訊暢聯會議帳戶以加入此網路研討會，或是以來賓身分加入。\n一經按下「以來賓身分加入」，即表示您同意加入在主持人之帳戶擁有者所控制的資料中心主持的網路研討會。</string>
+    <string name="zm_internal_webinar_allow_join_not_sign_in_join_fail_msg_572904">您能夠以內部使用者身分登入融訊暢聯會議以加入此網路研討會，或是以來賓身分加入。\n一經按下「以來賓身分加入」，即表示您同意加入在主持人之帳戶擁有者所控制的資料中心主持的網路研討會。</string>
     <string name="zm_internal_webinar_no_allow_join_in_join_fail_title_572904">僅已授權的與會者可參加本次網路研討會</string>
-    <string name="zm_internal_webinar_no_allow_join_not_same_account_join_fail_msg_572904">按一下「切換帳戶加入」，使用授權加入此網路研討會的身分登入簡石會議。</string>
-    <string name="zm_internal_webinar_no_allow_join_not_sign_in_join_fail_msg_572904">按一下「登入以加會」，使用授權加入此網路研討會的身分登入簡石會議。</string>
+    <string name="zm_internal_webinar_no_allow_join_not_same_account_join_fail_msg_572904">按一下「切換帳戶加入」，使用授權加入此網路研討會的身分登入融訊暢聯會議。</string>
+    <string name="zm_internal_webinar_no_allow_join_not_sign_in_join_fail_msg_572904">按一下「登入以加會」，使用授權加入此網路研討會的身分登入融訊暢聯會議。</string>
     <string name="zm_invite2_meeting_by_phone_new_audio_auto_564801">自動重新連線至會議音訊</string>
     <string name="zm_invite2_meeting_by_phone_new_audio_manual_564801">手動重新連線至會議音訊</string>
     <string name="zm_invite_by_zoom_phone_caller_id_240490">顯示號碼</string>
-    <string name="zm_invite_by_zoom_phone_default_number_240490">簡石會議預設號碼</string>
+    <string name="zm_invite_by_zoom_phone_default_number_240490">融訊暢聯會議預設號碼</string>
     <string name="zm_invite_by_zoom_phone_greet_option_240490">需要在加入前先問候</string>
-    <string name="zm_invite_by_zoom_phone_label_240490">透過簡石會議 Phone邀請</string>
+    <string name="zm_invite_by_zoom_phone_label_240490">透過融訊暢聯會議 Phone邀請</string>
     <string name="zm_invite_by_zoom_phone_options_240490">邀請選項</string>
     <string name="zm_invite_by_zoom_phone_press_option_240490">需要在加入前先按1</string>
     <string name="zm_invite_call_input_msg_393647">撰寫訊息...</string>
@@ -2629,7 +2629,7 @@
     <string name="zm_iq_summary_stop_490934">停止摘要</string>
     <string name="zm_iq_summary_stopped_576027">會議摘要已關閉</string>
     <string name="zm_join_auth_fail_authorized_account_557352">使用經授權加入此會議的電子郵件地址登入。</string>
-    <string name="zm_join_auth_fail_login_commercial_zoom_557352">主持人要求進行簡石會議商業版平台驗證才能加入此會議。請使用簡石會議商業版帳戶登入後再加入。</string>
+    <string name="zm_join_auth_fail_login_commercial_zoom_557352">主持人要求進行融訊暢聯會議商業版平台驗證才能加入此會議。請使用融訊暢聯會議商業版帳戶登入後再加入。</string>
     <string name="zm_join_auth_fail_msg_164979">此會議需要驗證</string>
     <string name="zm_join_auth_fail_sign_in_title_610286">登入以加入此會議</string>
     <string name="zm_join_auth_fail_sign_title_164979">登入以加會</string>
@@ -2637,19 +2637,19 @@
     <string name="zm_join_bo_room_183819">分組\n討論室</string>
     <string name="zm_join_error_message_net_error_179549">請從會議室中的會議離開，才能召開新會議</string>
     <string name="zm_join_from_waiting_room_357092">加入您的會議時發生問題。請再試一次。</string>
-    <string name="zm_join_gov_warning_msg_344210">您無法加入此會議，因為主持人要求進行簡石會議政府版驗證。請使用簡石會議政府版帳戶登入後再加入此會議。</string>
+    <string name="zm_join_gov_warning_msg_344210">您無法加入此會議，因為主持人要求進行融訊暢聯會議政府版驗證。請使用融訊暢聯會議政府版帳戶登入後再加入此會議。</string>
     <string name="zm_join_meeting_fail_dialog_intercloud_msg_364406">您未獲准加入此會議。請聯絡您的管理員以取得協助。</string>
     <string name="zm_join_meeting_fail_dialog_msg_164409">%1$s（錯誤代碼：%2$d）</string>
     <string name="zm_join_meeting_fail_dialog_title_164409">發生未知的錯誤</string>
     <string name="zm_join_next_meeting_conflict_title_439951">您想要加入哪一個會議？</string>
     <string name="zm_join_next_meeting_shortcut_short_label_304115">加入下一場會議</string>
-    <string name="zm_join_normal_warning_msg_344210">主持人要求進行簡石會議商業版平台驗證才能加入此會議。請使用簡石會議商業版帳戶登入後再加入。</string>
+    <string name="zm_join_normal_warning_msg_344210">主持人要求進行融訊暢聯會議商業版平台驗證才能加入此會議。請使用融訊暢聯會議商業版帳戶登入後再加入。</string>
     <string name="zm_join_webinarbo_fail_title_513452">加入分組討論室失敗</string>
     <string name="zm_kubi_bluetooth_turn_on_request">您希望打開藍牙以連接Kubi嗎？</string>
     <string name="zm_kubi_connect_kubi_list_title">連接Kubi</string>
     <string name="zm_kubi_disconnect_kubi_xxx">中斷%s連接</string>
     <string name="zm_kubi_no_kubi_found">未發現Kubi裝置</string>
-    <string name="zm_kubi_request_location_permission">要連接Kubi，您需要授予簡石會議獲取此裝置位置的權限。</string>
+    <string name="zm_kubi_request_location_permission">要連接Kubi，您需要授予融訊暢聯會議獲取此裝置位置的權限。</string>
     <string name="zm_kubi_request_to_turn_on_gps">要連接Kubi，您需要打開此裝置的定位服務（GPS）。</string>
     <string name="zm_kubi_status_connected">Kubi已連接</string>
     <string name="zm_kubi_status_connecting">正在連接Kubi</string>
@@ -2730,7 +2730,7 @@
     <string name="zm_lbl_add_contacts_79032">新增聯絡人</string>
     <string name="zm_lbl_add_invitees">選擇邀請方式</string>
     <string name="zm_lbl_add_members_same_org_with_admin_358252">您只能新增頻道擁有者所屬組織的使用者。</string>
-    <string name="zm_lbl_add_number_description_161035">您的號碼將會在您的設定檔中，可供簡石會議聯絡人看見。</string>
+    <string name="zm_lbl_add_number_description_161035">您的號碼將會在您的設定檔中，可供融訊暢聯會議聯絡人看見。</string>
     <string name="zm_lbl_add_phone_contact_33300">邀請手機聯絡人</string>
     <string name="zm_lbl_add_reply_88133">回覆</string>
     <string name="zm_lbl_add_value_185075">新增值</string>
@@ -2834,7 +2834,7 @@
     <string name="zm_lbl_audio_option_telephony">電話</string>
     <string name="zm_lbl_audio_option_voip">裝置音訊</string>
     <string name="zm_lbl_audio_option_voip_and_telephony_detail_127873">電話和裝置音訊</string>
-    <string name="zm_lbl_audio_option_zoom_phone_424277">簡石會議 Phone音訊</string>
+    <string name="zm_lbl_audio_option_zoom_phone_424277">融訊暢聯會議 Phone音訊</string>
     <string name="zm_lbl_audio_option_zoom_phone_title_424277">如需聽到其他人的聲音，請加入音訊</string>
     <string name="zm_lbl_auto_connect_audio_92027">自動連接音訊</string>
     <string name="zm_lbl_auto_connect_audio_alert_message_92027">請設定您的電話號碼以完成「自動連接音訊」設定</string>
@@ -2858,7 +2858,7 @@
     <string name="zm_lbl_below_new_comment_88133">新回覆</string>
     <string name="zm_lbl_below_new_msg_68444">新訊息</string>
     <string name="zm_lbl_blocked">已封鎖</string>
-    <string name="zm_lbl_blur_snapshot_description_127987">啟用此選項可在切換工作時隱藏簡石會議視窗快照中可能包含的敏感資訊。</string>
+    <string name="zm_lbl_blur_snapshot_description_127987">啟用此選項可在切換工作時隱藏融訊暢聯會議視窗快照中可能包含的敏感資訊。</string>
     <string name="zm_lbl_buddy_added">已新增</string>
     <string name="zm_lbl_buddy_invite_email">如需邀請他人使用Google IM，請於下方輸入對方的電子郵件地址：</string>
     <string name="zm_lbl_buddy_invite_invitation_msg">想與您聊天</string>
@@ -2873,7 +2873,7 @@
     <string name="zm_lbl_ch_mthd_120783">選擇方式</string>
     <string name="zm_lbl_ch_user_type_120783">選擇使用者類型</string>
     <string name="zm_lbl_change_feedback_12050">點擊以變更您的意見反應</string>
-    <string name="zm_lbl_change_pw_confirm_message_107846">若變更登入密碼，您於所有其他裝置上登入的簡石會議將均登出。是否要繼續？</string>
+    <string name="zm_lbl_change_pw_confirm_message_107846">若變更登入密碼，您於所有其他裝置上登入的融訊暢聯會議將均登出。是否要繼續？</string>
     <string name="zm_lbl_change_pw_confirm_title_107846">將我從所有裝置登出</string>
     <string name="zm_lbl_channel_type_title_160938">頻道類型</string>
     <string name="zm_lbl_chat_send_hint_giphy_and_preview_card_condition_416255">必須先有訊息，然後才能傳送這些附件</string>
@@ -2902,8 +2902,8 @@
     <string name="zm_lbl_contact_from_outlook_58879">已從Outlook聯絡人新增</string>
     <string name="zm_lbl_contact_from_phone_58879">已從Android聯絡人新增</string>
     <string name="zm_lbl_contact_group_description">%1$s建立</string>
-    <string name="zm_lbl_contact_invite_zoom_58879">邀請使用簡石會議</string>
-    <string name="zm_lbl_contact_invite_zoom_des_58879">只要邀請使用者註冊使用簡石會議，不論是開會、聊天，還是其他活動均可輕鬆進行。</string>
+    <string name="zm_lbl_contact_invite_zoom_58879">邀請使用融訊暢聯會議</string>
+    <string name="zm_lbl_contact_invite_zoom_des_58879">只要邀請使用者註冊使用融訊暢聯會議，不論是開會、聊天，還是其他活動均可輕鬆進行。</string>
     <string name="zm_lbl_contact_private_groups_59554">私人頻道（%d）</string>
     <string name="zm_lbl_contact_public_groups_59554">公開頻道（%d）</string>
     <string name="zm_lbl_contact_request_sent">聯絡人請求已傳送至\n%s</string>
@@ -2911,7 +2911,7 @@
     <string name="zm_lbl_content_load_error">載入錯誤，&lt;font color="#2da5ff">請重試&lt;/font></string>
     <string name="zm_lbl_content_me">我</string>
     <string name="zm_lbl_content_no_share">私人</string>
-    <string name="zm_lbl_content_not_support_preview_50227">無法在簡石會議內預覽該檔案。是否要使用另一個應用程式開啟？</string>
+    <string name="zm_lbl_content_not_support_preview_50227">無法在融訊暢聯會議內預覽該檔案。是否要使用另一個應用程式開啟？</string>
     <string name="zm_lbl_content_personal_result_empty_212356">您所傳送的檔案將在此顯示</string>
     <string name="zm_lbl_content_result_empty_after_apply_filters_212356">找不到符合條件的檔案</string>
     <string name="zm_lbl_content_search_result_empty">沒有內容</string>
@@ -2931,14 +2931,14 @@
     <string name="zm_lbl_content_time_other_day_format">%1$s %2$s</string>
     <string name="zm_lbl_content_time_today_format">今天%s</string>
     <string name="zm_lbl_content_upload_file_59554">將相片或檔案上傳至您的個人資料夾，以便日後可與其他使用者或頻道分享</string>
-    <string name="zm_lbl_content_whiteboard_result_empty_212356">從簡石會議 Rooms分享的白板將在此顯示</string>
+    <string name="zm_lbl_content_whiteboard_result_empty_212356">從融訊暢聯會議 Rooms分享的白板將在此顯示</string>
     <string name="zm_lbl_content_you">您</string>
     <string name="zm_lbl_context_menu_call_back">回撥</string>
     <string name="zm_lbl_context_menu_delete">刪除</string>
     <string name="zm_lbl_copy_invite_link_155922">複製邀請連結</string>
     <string name="zm_lbl_copy_to_clipboard">複製到剪貼簿</string>
     <string name="zm_lbl_copy_url_160566">複製連結</string>
-    <string name="zm_lbl_copyright">Copyright ©%1$s 簡石會議 Video Communications, Inc. All rights reserved.</string>
+    <string name="zm_lbl_copyright">Copyright ©%1$s 融訊暢聯會議 Video Communications, Inc. All rights reserved.</string>
     <string name="zm_lbl_create_group_all_members_181697">由所有頻道成員</string>
     <string name="zm_lbl_create_group_classification_285659">分類</string>
     <string name="zm_lbl_create_group_edit_external_160938">可新增外部使用者</string>
@@ -2999,7 +2999,7 @@
     <string name="zm_lbl_disable_original_sound_145354">停用原聲</string>
     <string name="zm_lbl_display_name_253961">顯示名稱</string>
     <string name="zm_lbl_display_name_contact_admin_hint_253961">若要編輯您的顯示名稱，請聯絡您的帳戶管理員。</string>
-    <string name="zm_lbl_display_name_hint_253961">輸入您希望您的簡石會議聯絡人所見到的名稱（例如：您的名字、全名或暱稱）</string>
+    <string name="zm_lbl_display_name_hint_253961">輸入您希望您的融訊暢聯會議聯絡人所見到的名稱（例如：您的名字、全名或暱稱）</string>
     <string name="zm_lbl_do_not_disturb_19898">請勿打擾</string>
     <string name="zm_lbl_do_not_remind_me_23626">不要再提醒我</string>
     <string name="zm_lbl_domain_list_120783">網域清單</string>
@@ -3007,7 +3007,7 @@
     <string name="zm_lbl_download_emoji_process_23626">下載表情符號（%d%%）…</string>
     <string name="zm_lbl_draft_88133">[草稿]</string>
     <string name="zm_lbl_drive_mode_description_262860">開車時，向右撥動可停用視訊及音訊</string>
-    <string name="zm_lbl_drop_message_hint_88133">為能套用此變更，您需要重新啟動簡石會議。</string>
+    <string name="zm_lbl_drop_message_hint_88133">為能套用此變更，您需要重新啟動融訊暢聯會議。</string>
     <string name="zm_lbl_drop_mode_hint_88133">將包含新回覆的訊息移至聊天的最底端</string>
     <string name="zm_lbl_duration">會議時長</string>
     <string name="zm_lbl_edit_dial_in_country_127873">編輯撥入國家或地區</string>
@@ -3025,16 +3025,16 @@
     <string name="zm_lbl_emoji_one_category_people_23626">表情&amp;人物</string>
     <string name="zm_lbl_emoji_one_category_symbols_23626">符號</string>
     <string name="zm_lbl_emoji_one_category_travel_23626">旅行&amp;地點</string>
-    <string name="zm_lbl_emoji_pkg_title_23626">簡石會議表情符號套件</string>
+    <string name="zm_lbl_emoji_pkg_title_23626">融訊暢聯會議表情符號套件</string>
     <string name="zm_lbl_emoji_receive_emoji_23626">%s已傳送一個新表情符號</string>
     <string name="zm_lbl_enable_address_book">手機聯絡人比對</string>
     <string name="zm_lbl_enable_driving_mode">駕駛模式</string>
     <string name="zm_lbl_enable_driving_mode_instructions">駕駛模式下，喇叭開啟，視訊停止，麥克風靜音</string>
     <string name="zm_lbl_enable_kubi_robot_device_262860">啟用Kubi裝置</string>
-    <string name="zm_lbl_enable_kubi_robot_device_instructions">開啟支援Kubi Robot裝置即可在加入會議時自動連接Kubi Robot裝置。(如果啟用遠端攝影機控制，您的Kubi Robot裝置將可以在簡石會議會議中被遠端控制。)</string>
+    <string name="zm_lbl_enable_kubi_robot_device_instructions">開啟支援Kubi Robot裝置即可在加入會議時自動連接Kubi Robot裝置。(如果啟用遠端攝影機控制，您的Kubi Robot裝置將可以在融訊暢聯會議會議中被遠端控制。)</string>
     <string name="zm_lbl_enable_original_sound_145354">啟用原聲</string>
-    <string name="zm_lbl_enable_phone_match_33300">啟用手機聯絡人比對功能可幫助您找到更多使用簡石會議的聯絡人</string>
-    <string name="zm_lbl_enable_phone_match_alert_79032">啟用手機聯絡人比對功能可幫助您找到更多使用簡石會議的聯絡人</string>
+    <string name="zm_lbl_enable_phone_match_33300">啟用手機聯絡人比對功能可幫助您找到更多使用融訊暢聯會議的聯絡人</string>
+    <string name="zm_lbl_enable_phone_match_alert_79032">啟用手機聯絡人比對功能可幫助您找到更多使用融訊暢聯會議的聯絡人</string>
     <string name="zm_lbl_enable_waiting_room_127873">啟用等候室</string>
     <string name="zm_lbl_encryption_ecb_155209">您的連線已加密</string>
     <string name="zm_lbl_encryption_gcm_155209">您正在使用增強型加密</string>
@@ -3118,7 +3118,7 @@
     <string name="zm_lbl_hide_pin_des_196619">您將仍然可在釘選歷史記錄中檢視。</string>
     <string name="zm_lbl_hide_pin_title_196619">隱藏釘選訊息</string>
     <string name="zm_lbl_hide_profile_picture_success_toast_200528">主持人已隱藏所有設定檔圖片</string>
-    <string name="zm_lbl_hint_enable_phone_match">啟用手機聯絡人比對功能可幫助您找到更多使用簡石會議的聯絡人</string>
+    <string name="zm_lbl_hint_enable_phone_match">啟用手機聯絡人比對功能可幫助您找到更多使用融訊暢聯會議的聯絡人</string>
     <string name="zm_lbl_hint_in_top_33341">↑%s</string>
     <string name="zm_lbl_history_pin_215559"><![CDATA[<strong>%s</strong>已將<font color="#2da5ff" >一則訊息</font>釘選至此頻道]]></string>
     <string name="zm_lbl_history_pin_byself_215559"><![CDATA[您已將<font color="#2da5ff" >一則訊息</font>釘選至此頻道]]></string>
@@ -3145,11 +3145,11 @@
     <string name="zm_lbl_image_239318">影像</string>
     <string name="zm_lbl_import_phone_contacts_tips_647192">匯入</string>
     <string name="zm_lbl_in_meeting_info_data_center_customer_network_151960">您已連接至企業部署資料中心。</string>
-    <string name="zm_lbl_in_meeting_info_data_center_hybrid_network_151960">您已透過企業部署資料中心連接至簡石會議全球網路。</string>
+    <string name="zm_lbl_in_meeting_info_data_center_hybrid_network_151960">您已透過企業部署資料中心連接至融訊暢聯會議全球網路。</string>
     <string name="zm_lbl_in_meeting_info_data_center_hybrid_network_437612">您已連接至由主持人的帳戶擁有者所控制的資料中心。（<![CDATA[<a href="%s">深入瞭解</a>]]>）</string>
-    <string name="zm_lbl_in_meeting_info_data_center_zoom_network_151960">您已透過位於%s的資料中心連接至簡石會議全球網路。</string>
+    <string name="zm_lbl_in_meeting_info_data_center_zoom_network_151960">您已透過位於%s的資料中心連接至融訊暢聯會議全球網路。</string>
     <string name="zm_lbl_in_meeting_info_data_center_zoom_network_one_160920">您已透過位於%2$s的資料中心連接至%1$s。</string>
-    <string name="zm_lbl_in_meeting_info_data_center_zoom_network_one_437612">您已透過由您的簡石會議帳戶擁有者所控制之資料中心連接至位於%2$s的%1$s。（<![CDATA[<a href="%3$s">深入瞭解</a>]]>）</string>
+    <string name="zm_lbl_in_meeting_info_data_center_zoom_network_one_437612">您已透過由您的融訊暢聯會議帳戶擁有者所控制之資料中心連接至位於%2$s的%1$s。（<![CDATA[<a href="%3$s">深入瞭解</a>]]>）</string>
     <string name="zm_lbl_in_meeting_info_data_center_zoom_network_other_160920">您已透過位於%2$s及%3$s的資料中心連接至%1$s。</string>
     <string name="zm_lbl_in_meeting_info_original_host_151960">初始主持人</string>
     <string name="zm_lbl_in_meeting_settings_add_watermark_147675">將浮水印新增至分享內容</string>
@@ -3176,15 +3176,15 @@
     <string name="zm_lbl_invalid_email_112365">無效的電子郵件</string>
     <string name="zm_lbl_invite_buddy_fb">邀請Facebook聯絡人</string>
     <string name="zm_lbl_invite_buddy_google">邀請Google IM聯絡人</string>
-    <string name="zm_lbl_invite_buddy_zoom">邀請簡石會議聯絡人</string>
+    <string name="zm_lbl_invite_buddy_zoom">邀請融訊暢聯會議聯絡人</string>
     <string name="zm_lbl_invite_connect_phone_contacts_105180">比對手機聯絡人</string>
-    <string name="zm_lbl_invite_connect_phone_contacts_tips_647192">您是否想檢視簡石會議上的手機聯絡人</string>
+    <string name="zm_lbl_invite_connect_phone_contacts_tips_647192">您是否想檢視融訊暢聯會議上的手機聯絡人</string>
     <string name="zm_lbl_invite_link_151880">邀請連結</string>
     <string name="zm_lbl_invite_room_system">邀請H.323/SIP會議室系統</string>
     <string name="zm_lbl_invite_somebody_to_meeting_194181">邀請%s參加會議</string>
-    <string name="zm_lbl_invite_zoom_105180">邀請他人使用簡石會議</string>
-    <string name="zm_lbl_invite_zoom_33300">邀請他人使用簡石會議</string>
-    <string name="zm_lbl_invite_zoom_rooms">邀請簡石會議 Rooms</string>
+    <string name="zm_lbl_invite_zoom_105180">邀請他人使用融訊暢聯會議</string>
+    <string name="zm_lbl_invite_zoom_33300">邀請他人使用融訊暢聯會議</string>
+    <string name="zm_lbl_invite_zoom_rooms">邀請融訊暢聯會議 Rooms</string>
     <string name="zm_lbl_invite_zpa_352631">邀請電話機</string>
     <string name="zm_lbl_ip_address_82945">IP位址</string>
     <string name="zm_lbl_jbh_desp_206906">選擇與會者可以在會議開始前多長時間内加入</string>
@@ -3258,7 +3258,7 @@
     <string name="zm_lbl_meeting2chat_post_meeting_218634">%s已主持一場會議											</string>
     <string name="zm_lbl_meeting2chat_posted_283901">您的會議中資料卡已分享至您與<![CDATA[<b>%s</b>]]>的交談中</string>
     <string name="zm_lbl_meeting2chat_sns_mynote_content_283901">將您的會議中資料卡分享回%1$s</string>
-    <string name="zm_lbl_meeting2chat_sns_mynote_title_283901">%1$s（您）的簡石會議會議</string>
+    <string name="zm_lbl_meeting2chat_sns_mynote_title_283901">%1$s（您）的融訊暢聯會議會議</string>
     <string name="zm_lbl_meeting2chat_sns_session_283901">%1$s的會議中資料卡</string>
     <string name="zm_lbl_meeting2chat_title_11_218634">%s的個人會議室</string>
     <string name="zm_lbl_meeting2chat_title_group_218634">%s的會議室											</string>
@@ -3273,7 +3273,7 @@
     <string name="zm_lbl_meeting_chat_card_shared_with_you_377277">%1$s已將來自%2$s的會議聊天分享給您。</string>
     <string name="zm_lbl_meeting_chat_card_view_meeting_card_377277">檢視會議聊天</string>
     <string name="zm_lbl_meeting_chat_total_participants_in_meeting_377277">%d位與會者參加會議</string>
-    <string name="zm_lbl_meeting_default_topic_121401">簡石會議會議</string>
+    <string name="zm_lbl_meeting_default_topic_121401">融訊暢聯會議會議</string>
     <string name="zm_lbl_meeting_hide_join_leave_tip_117565">當與會者加入時隱藏名稱</string>
     <string name="zm_lbl_meeting_hide_my_video_33098">在圖庫檢視中隱藏我的視訊</string>
     <string name="zm_lbl_meeting_hide_no_video_101131">隱藏非視訊與會者</string>
@@ -3313,7 +3313,7 @@
     <string name="zm_lbl_min_115416">%d分鐘</string>
     <string name="zm_lbl_min_ago_271177">%d分鐘前</string>
     <string name="zm_lbl_mirror_effect_on_join_meeting_137415">鏡射我的視訊</string>
-    <string name="zm_lbl_mm_add_buddy_by_email">透過電子郵件地址新增簡石會議聯絡人</string>
+    <string name="zm_lbl_mm_add_buddy_by_email">透過電子郵件地址新增融訊暢聯會議聯絡人</string>
     <string name="zm_lbl_mm_add_buddy_by_phone_contacts">手機聯絡人</string>
     <string name="zm_lbl_mobile_offline_33945">離線</string>
     <string name="zm_lbl_mobile_online_33945">線上</string>
@@ -3328,8 +3328,8 @@
     <string name="zm_lbl_my_contacts_des_33300">新增或邀請聯絡人</string>
     <string name="zm_lbl_name_instructions">請輸入您的名稱</string>
     <string name="zm_lbl_name_passcode_instructions_171920">請輸入您的名稱與會議密碼</string>
-    <string name="zm_lbl_ncp_epidemic_cn_profile_137975">在COVID-19全球大流行期間，簡石會議為您暫時提供不設時限的會議服務</string>
-    <string name="zm_lbl_ncp_epidemic_cn_schedule_137975">在COVID-19全球大流行期間，簡石會議為基本版（免費）使用者暫時提供不設時限的會議服務。</string>
+    <string name="zm_lbl_ncp_epidemic_cn_profile_137975">在COVID-19全球大流行期間，融訊暢聯會議為您暫時提供不設時限的會議服務</string>
+    <string name="zm_lbl_ncp_epidemic_cn_schedule_137975">在COVID-19全球大流行期間，融訊暢聯會議為基本版（免費）使用者暫時提供不設時限的會議服務。</string>
     <string name="zm_lbl_new_meeting_to_share_118692">召開新會議以進行分享...</string>
     <string name="zm_lbl_new_meeting_to_share_no_zoom_message_118692">您是否要召開會議以分享此檔案呢？</string>
     <string name="zm_lbl_new_suspend_activity_description_536039">所有人的視訊及音訊均會關閉，畫面分享亦會停止，分組討論室將被關閉，而且會議將遭到鎖定。<![CDATA[<a href="%1$s">深入瞭解</a>]]></string>
@@ -3349,7 +3349,7 @@
     <string name="zm_lbl_notification_all_msg_456591">所有訊息</string>
     <string name="zm_lbl_notification_all_msg_sub_title_398217">接收所有訊息活動的通知</string>
     <string name="zm_lbl_notification_dnd_19898">%1$s - %2$s</string>
-    <string name="zm_lbl_notification_dnd_des_19898">啟用請勿打擾後，簡石會議不會向您傳送通知。</string>
+    <string name="zm_lbl_notification_dnd_des_19898">啟用請勿打擾後，融訊暢聯會議不會向您傳送通知。</string>
     <string name="zm_lbl_notification_dnd_des_361276">當啟用「請勿打擾」時，您將不會收到通知。</string>
     <string name="zm_lbl_notification_exception_group_59554">例外頻道</string>
     <string name="zm_lbl_notification_exception_group_des_59554">設定特定頻道或交談的通知規則</string>
@@ -3374,7 +3374,7 @@
     <string name="zm_lbl_notification_snoozed_min_abbrev_361276">%d分鐘</string>
     <string name="zm_lbl_notification_snoozed_resume_in_19898">通知將在%1$s %2$s後恢復</string>
     <string name="zm_lbl_notification_snoozed_turn_off_19898">關閉</string>
-    <string name="zm_lbl_notification_turn_on_system_328037">開啟通知即可看到新訊息和提醒，即使您不在簡石會議應用程式中</string>
+    <string name="zm_lbl_notification_turn_on_system_328037">開啟通知即可看到新訊息和提醒，即使您不在融訊暢聯會議應用程式中</string>
     <string name="zm_lbl_notify_call_me_26374">當我收到會議邀請時通知我：</string>
     <string name="zm_lbl_notify_everyone_59554">通知頻道內所有人</string>
     <string name="zm_lbl_notify_me_19898">通知方式：</string>
@@ -3384,7 +3384,7 @@
     <string name="zm_lbl_only_auth_join_120783">僅通過驗證的使用者可以加入</string>
     <string name="zm_lbl_onprem_learn_more_122473">您是企業部署使用者。<![CDATA[<a href="%s">深入瞭解</a>]]></string>
     <string name="zm_lbl_open_chat_152253">開啟聊天</string>
-    <string name="zm_lbl_open_contacts_permission_33300">同步通訊錄前，您需要開啟手機設定，輕觸設定>應用程式>簡石會議>權限。然後啟用權限。</string>
+    <string name="zm_lbl_open_contacts_permission_33300">同步通訊錄前，您需要開啟手機設定，輕觸設定>應用程式>融訊暢聯會議>權限。然後啟用權限。</string>
     <string name="zm_lbl_or_sign_in_with">或使用其他帳號登入</string>
     <string name="zm_lbl_original_audio_in_meeting_145354">使用原聲</string>
     <string name="zm_lbl_original_audio_in_meeting_262860">使用原聲</string>
@@ -3420,9 +3420,9 @@
     <string name="zm_lbl_password_uper_lower_character_fail">密碼需同時包括大小寫字元。</string>
     <string name="zm_lbl_pdf_page_number">第%d頁</string>
     <string name="zm_lbl_people_in_waiting">等待中（%d）</string>
-    <string name="zm_lbl_people_not_using_zoom">邀請其他人使用簡石會議</string>
+    <string name="zm_lbl_people_not_using_zoom">邀請其他人使用融訊暢聯會議</string>
     <string name="zm_lbl_people_on_hold">等待狀態（%d）</string>
-    <string name="zm_lbl_people_using_zoom">簡石會議聯絡人</string>
+    <string name="zm_lbl_people_using_zoom">融訊暢聯會議聯絡人</string>
     <string name="zm_lbl_personal_info_unable_save_137135">無法儲存</string>
     <string name="zm_lbl_personal_meeting_change_fail_137135">由於您的管理員所設的限制，您無法變更您的%s </string>
     <string name="zm_lbl_personal_meeting_id">個人會議ID</string>
@@ -3531,7 +3531,7 @@
     <string name="zm_lbl_presence_calendar_69119">有日曆活動</string>
     <string name="zm_lbl_presence_change_40739">變更狀態</string>
     <string name="zm_lbl_presence_dnd_19903">正在開會</string>
-    <string name="zm_lbl_presence_dnd_33945">在簡石會議會議中</string>
+    <string name="zm_lbl_presence_dnd_33945">在融訊暢聯會議會議中</string>
     <string name="zm_lbl_presence_dnd_64479">通話中</string>
     <string name="zm_lbl_presence_status_312112">狀態</string>
     <string name="zm_lbl_presence_status_available_40739">線上</string>
@@ -3636,7 +3636,7 @@
     <string name="zm_lbl_report_participant_issue_offensive_200528">攻擊性、違法或辱罵行為</string>
     <string name="zm_lbl_report_participant_issue_other_150328">其他</string>
     <string name="zm_lbl_report_participant_issue_other_301491">我稍後再向您說明</string>
-    <string name="zm_lbl_report_participant_issue_privacy_declaration_150328">一經傳送本報告，即代表您授權簡石會議在遵循其<![CDATA[<a href="%s">《隱私權政策》</a>]]>規範下，存取此報告中的所有資料。此類資料包括任何附加相片、您的使用者資訊、您所舉報的使用者的資訊，以及所有相關的會議資訊。</string>
+    <string name="zm_lbl_report_participant_issue_privacy_declaration_150328">一經傳送本報告，即代表您授權融訊暢聯會議在遵循其<![CDATA[<a href="%s">《隱私權政策》</a>]]>規範下，存取此報告中的所有資料。此類資料包括任何附加相片、您的使用者資訊、您所舉報的使用者的資訊，以及所有相關的會議資訊。</string>
     <string name="zm_lbl_report_participant_issue_private_info_200528">隱私權資訊</string>
     <string name="zm_lbl_report_participant_issue_result_dialog_description_200528">我們的信任與安全團隊將會在本次會議結束後透過電子郵件致函給您，以瞭解該事件的詳細情況。</string>
     <string name="zm_lbl_report_participant_issue_result_dialog_msg_with_link_158189">我們會進一步調查，並會依據調查結果採取行動。<![CDATA[<a href="%1$s">瞭解更多</a>]]>可保護會議的相關方式。</string>
@@ -3784,7 +3784,7 @@
     <string name="zm_lbl_time_zone">時區</string>
     <string name="zm_lbl_title_event_283295">ZOOM EVENTS</string>
     <string name="zm_lbl_title_meeting_184616">會議</string>
-    <string name="zm_lbl_title_pbx_184616">簡石會議 Phone</string>
+    <string name="zm_lbl_title_pbx_184616">融訊暢聯會議 Phone</string>
     <string name="zm_lbl_title_uc_184616">UC搭售方案</string>
     <string name="zm_lbl_title_webinar_184616">網路研討會</string>
     <string name="zm_lbl_to">結束</string>
@@ -3849,7 +3849,7 @@
     <string name="zm_lbl_wait_moment_23626">請稍等…</string>
     <string name="zm_lbl_waiting_room_chat_title_host">主持人</string>
     <string name="zm_lbl_warn_autologoff">依帳戶安全性要求，系統偵測到您在%d分鐘內未操作裝置，已自動登出</string>
-    <string name="zm_lbl_warn_autologoff_sso">您已登出您的簡石會議帳戶。請重新登入以繼續使用簡石會議。</string>
+    <string name="zm_lbl_warn_autologoff_sso">您已登出您的融訊暢聯會議帳戶。請重新登入以繼續使用融訊暢聯會議。</string>
     <string name="zm_lbl_web_phone_number_124795">電話</string>
     <string name="zm_lbl_webinar_attendee">顯示觀眾</string>
     <string name="zm_lbl_webinar_id2_150183">網路研討會ID</string>
@@ -3860,8 +3860,8 @@
     <string name="zm_lbl_wlc_title3_295657">透過畫面分享進行即時協作</string>
     <string name="zm_lbl_wlc_title4_295657">開始使用</string>
     <string name="zm_lbl_xxx_minutes">%d分鐘</string>
-    <string name="zm_lbl_xxx_s_meeting_no_s">%s的簡石會議會議</string>
-    <string name="zm_lbl_xxx_s_meeting_s">%s的簡石會議會議</string>
+    <string name="zm_lbl_xxx_s_meeting_no_s">%s的融訊暢聯會議會議</string>
+    <string name="zm_lbl_xxx_s_meeting_s">%s的融訊暢聯會議會議</string>
     <string name="zm_lbl_yesterday">昨天</string>
     <string name="zm_lbl_yesterday_196942">昨天</string>
     <string name="zm_lbl_you_unpin_message_215559"><![CDATA[您已取消釘選<font color="#2da5ff" >一則訊息</font>]]></string>
@@ -4001,10 +4001,10 @@
     <string name="zm_login_to_start_conf">登入</string>
     <string name="zm_login_uuid_block_email_hint_366822">輸入電子郵件</string>
     <string name="zm_login_uuid_block_error_msg_366822">無法登入。（錯誤代碼：1132）</string>
-    <string name="zm_login_uuid_block_input_email_366822">與您簡石會議帳戶相關聯的電子郵件</string>
+    <string name="zm_login_uuid_block_input_email_366822">與您融訊暢聯會議帳戶相關聯的電子郵件</string>
     <string name="zm_login_uuid_block_input_name_366822">您的全名</string>
     <string name="zm_login_uuid_block_name_hint_366822">輸入您的全名</string>
-    <string name="zm_login_uuid_block_privacy_366822">一經傳送本表單，即代表您授權簡石會議在遵循其<![CDATA[<a href="%1$s">《隱私權聲明》</a>]]>規範下，存取此報告中的所有資料。</string>
+    <string name="zm_login_uuid_block_privacy_366822">一經傳送本表單，即代表您授權融訊暢聯會議在遵循其<![CDATA[<a href="%1$s">《隱私權聲明》</a>]]>規範下，存取此報告中的所有資料。</string>
     <string name="zm_login_uuid_block_title_366822">報告問題：1132</string>
     <string name="zm_login_uuid_block_toast_msg_366822">報告已送出</string>
     <string name="zm_login_with_apple_account_504738">Apple帳戶</string>
@@ -4029,16 +4029,16 @@
     <string name="zm_meeting_info_event_page_toast_167537">活動頁面連結已複製到剪貼簿</string>
     <string name="zm_meeting_info_event_view_167537">檢視活動</string>
     <string name="zm_meeting_info_meeting_details_167537">會議詳細資訊</string>
-    <string name="zm_meeting_invitation_ics_name">簡石會議-會議</string>
-    <string name="zm_meeting_limit_app_subscription_schedule_more_than_40mins_end_378649">您的簡石會議 One基本版設有40分鐘的會議時長限制。體驗簡石會議 One專業版，暢享無時間限制的會議。</string>
+    <string name="zm_meeting_invitation_ics_name">融訊暢聯會議-會議</string>
+    <string name="zm_meeting_limit_app_subscription_schedule_more_than_40mins_end_378649">您的融訊暢聯會議 One基本版設有40分鐘的會議時長限制。體驗融訊暢聯會議 One專業版，暢享無時間限制的會議。</string>
     <string name="zm_meeting_limit_end_titlle_369375">您的免費會議已結束</string>
-    <string name="zm_meeting_limit_host_30mins_msg_378649">需要更多時間？簡石會議 One專業版可提供無時間限制的會議以及更多功能。</string>
+    <string name="zm_meeting_limit_host_30mins_msg_378649">需要更多時間？融訊暢聯會議 One專業版可提供無時間限制的會議以及更多功能。</string>
     <string name="zm_meeting_limit_titlle_30mins_369375">您的免費會議將於10分鐘後結束</string>
     <string name="zm_meeting_limit_user_30mins_msg_369375">需要更多時間？請聯絡您的管理員升級至無時間限制的會議方案。</string>
     <string name="zm_meeting_list_view_event_167580">檢視活動</string>
     <string name="zm_meeting_regrister_checkbox_492297">在以後的會議中使用目前名稱和電子郵件</string>
-    <string name="zm_meeting_regrister_tip_msg_492297">請輸入與您簡石會議帳戶相關聯的電子郵件地址</string>
-    <string name="zm_meeting_regrister_title_492297">輸入您的簡石會議帳戶名稱和電子郵件</string>
+    <string name="zm_meeting_regrister_tip_msg_492297">請輸入與您融訊暢聯會議帳戶相關聯的電子郵件地址</string>
+    <string name="zm_meeting_regrister_title_492297">輸入您的融訊暢聯會議帳戶名稱和電子郵件</string>
     <string name="zm_meeting_regrister_warning_msg_492297">您提供的名稱及電子郵件地址將會與主持人及帳戶擁有者分享。他們可使用此項資訊，並可分享到應用程式及給其他人</string>
     <string name="zm_meeting_setting_aspect_ratio_description_170495">「配合調整大小」可能會對視訊的完整顯示畫面進行裁切。而「原始比例」可確保您與其他與會者所看見的顯示畫面一致。</string>
     <string name="zm_meeting_setting_aspect_ratio_option_fit_160553">配合調整大小</string>
@@ -4066,7 +4066,7 @@
     <string name="zm_meeting_txt_pmc_sendto_everyone_456610">會議群組聊天</string>
     <string name="zm_meeting_txt_pmc_sync_retry_356334">請再試一次</string>
     <string name="zm_meeting_txt_pmc_tip_title_356334">只需單個平台即可進行所有會議聊天</string>
-    <string name="zm_meeting_txt_pmc_update_version_msg_356334">您無法檢視此內容。若要進行檢視，請更新至簡石會議最新版本。</string>
+    <string name="zm_meeting_txt_pmc_update_version_msg_356334">您無法檢視此內容。若要進行檢視，請更新至融訊暢聯會議最新版本。</string>
     <string name="zm_meeting_txt_privilege_everyone_and_anyone_356334">成員與來賓及所有人以公開或一對一方式</string>
     <string name="zm_meeting_txt_privilege_everyone_and_anyone_456610">會議群組聊天，以及所有人以公開或一對一方式聊天</string>
     <string name="zm_meeting_txt_remove_reaction_393200">已從「%2$s」移除%1$s回應</string>
@@ -4094,7 +4094,7 @@
     <string name="zm_mi_add_to_existing_contact">新增至既有的手機聯絡人</string>
     <string name="zm_mi_add_to_fecc_group_465896">新增至攝影機控制群組</string>
     <string name="zm_mi_add_vip_contact_362284">新增至VIP聯絡人</string>
-    <string name="zm_mi_add_zoom_contact">新增到簡石會議聯絡人</string>
+    <string name="zm_mi_add_zoom_contact">新增到融訊暢聯會議聯絡人</string>
     <string name="zm_mi_allow_attendee_raisehand">允許觀眾舉手</string>
     <string name="zm_mi_allow_attendees_chat_75334">允許觀眾與下列對象聊天</string>
     <string name="zm_mi_allow_attendees_chat_with_147675">與下列對象聊天：</string>
@@ -4160,7 +4160,7 @@
     <string name="zm_mi_remove_from_fecc_group_465896">從攝影機控制群組中移除</string>
     <string name="zm_mi_remove_spotlight_371962">移除焦點視訊</string>
     <string name="zm_mi_remove_vip_contact_362284">從VIP聯絡人移除</string>
-    <string name="zm_mi_remove_zoom_contact">刪除簡石會議聯絡人</string>
+    <string name="zm_mi_remove_zoom_contact">刪除融訊暢聯會議聯絡人</string>
     <string name="zm_mi_report_participant_150328">舉報與會者</string>
     <string name="zm_mi_return_to_conf">返回會議</string>
     <string name="zm_mi_separate_audio_116180">分離音訊與視訊</string>
@@ -4608,13 +4608,13 @@
     <string name="zm_mm_lbl_remove_success_actioner_416576">已移除訊息。</string>
     <string name="zm_mm_lbl_rename_contact_group_68451">重新命名群組</string>
     <string name="zm_mm_lbl_resend_message">重送訊息</string>
-    <string name="zm_mm_lbl_room_contacts_68451">簡石會議 Rooms</string>
+    <string name="zm_mm_lbl_room_contacts_68451">融訊暢聯會議 Rooms</string>
     <string name="zm_mm_lbl_room_systems_82945">會議室系統</string>
     <string name="zm_mm_lbl_saved_session">將群組儲存至聯絡人清單</string>
     <string name="zm_mm_lbl_saved_session_list_empty_hint">您可以透過群組聊天中的「將群組儲存至聯絡人清單」功能將群組聯絡人儲存在這裡。</string>
     <string name="zm_mm_lbl_search_in_channel_188011">在頻道中搜尋</string>
     <string name="zm_mm_lbl_search_in_chat_188011">在聊天中搜尋</string>
-    <string name="zm_mm_lbl_send_from_ZR_194181">（從簡石會議 Room傳送）</string>
+    <string name="zm_mm_lbl_send_from_ZR_194181">（從融訊暢聯會議 Room傳送）</string>
     <string name="zm_mm_lbl_set_group_topic_instructions">在此輸入一個新主題</string>
     <string name="zm_mm_lbl_shared_message_406646">分享的訊息</string>
     <string name="zm_mm_lbl_show_session_notification">通知</string>
@@ -4632,7 +4632,7 @@
     <string name="zm_mm_lbl_transfer_admin_to_59554">此頻道的管理員已從%s變更為您</string>
     <string name="zm_mm_lbl_transfer_admin_to_muc_61520">此群組聊天的管理員已從%s變更為您</string>
     <string name="zm_mm_lbl_try_again_70196">重試</string>
-    <string name="zm_mm_lbl_unable_share_video_file_329881">無法分享視訊檔案至簡石會議。</string>
+    <string name="zm_mm_lbl_unable_share_video_file_329881">無法分享視訊檔案至融訊暢聯會議。</string>
     <string name="zm_mm_lbl_unassign_sub_admin_358252">取消指派作為管理員</string>
     <string name="zm_mm_lbl_unassign_sub_admin_dialog_btn_358252">取消指派</string>
     <string name="zm_mm_lbl_unassign_sub_admin_dialog_message_358252">%s將會變成一般成員。他們將無法指派其他頻道的管理員、編輯頻道，或是管理張貼權限。</string>
@@ -4656,7 +4656,7 @@
     <string name="zm_mm_msg_add_buddies_to_group_failed_302262">無法新增聯絡人，請稍後再試一次。</string>
     <string name="zm_mm_msg_add_buddies_to_group_failed_59554">無法於此頻道中新增聯絡人。（錯誤代碼：%d）</string>
     <string name="zm_mm_msg_add_buddies_to_group_failed_too_many_buddies_59554">本頻道成員人數已達上限</string>
-    <string name="zm_mm_msg_add_contact_failed">無法新增簡石會議聯絡人</string>
+    <string name="zm_mm_msg_add_contact_failed">無法新增融訊暢聯會議聯絡人</string>
     <string name="zm_mm_msg_add_contact_request_sent_150672">已將聯絡人請求傳送給%s</string>
     <string name="zm_mm_msg_add_max_allowed_buddies_302262">最多只能同時新增%d位成員。</string>
     <string name="zm_mm_msg_already_buddy_54665">已經是您的聯絡人，無須傳送請求</string>
@@ -4671,12 +4671,12 @@
     <string name="zm_mm_msg_at_me_plus_counter_421942">%d \@我+</string>
     <string name="zm_mm_msg_audio_too_short">錄製的語音訊息太短。</string>
     <string name="zm_mm_msg_call_82273">呼叫</string>
-    <string name="zm_mm_msg_cannot_add_buddy_no_connection">Messenger已中斷連線，無法新增簡石會議聯絡人。</string>
-    <string name="zm_mm_msg_cannot_add_contact_of_older_version">無法新增此聯絡人。對方仍在使用較早版本的簡石會議。 </string>
-    <string name="zm_mm_msg_cannot_block_buddy_no_connection">Messenger已中斷連線，無法封鎖簡石會議聯絡人。</string>
-    <string name="zm_mm_msg_cannot_chat_with_old_version">此聯絡人仍在使用較早版本的簡石會議，因此無法支援群組傳訊功能。</string>
-    <string name="zm_mm_msg_cannot_remove_buddy_no_connection">Messenger已中斷連線，無法移除簡石會議聯絡人。</string>
-    <string name="zm_mm_msg_cannot_unblock_buddy_no_connection">Messenger已中斷連線，無法取消封鎖簡石會議聯絡人。</string>
+    <string name="zm_mm_msg_cannot_add_buddy_no_connection">Messenger已中斷連線，無法新增融訊暢聯會議聯絡人。</string>
+    <string name="zm_mm_msg_cannot_add_contact_of_older_version">無法新增此聯絡人。對方仍在使用較早版本的融訊暢聯會議。 </string>
+    <string name="zm_mm_msg_cannot_block_buddy_no_connection">Messenger已中斷連線，無法封鎖融訊暢聯會議聯絡人。</string>
+    <string name="zm_mm_msg_cannot_chat_with_old_version">此聯絡人仍在使用較早版本的融訊暢聯會議，因此無法支援群組傳訊功能。</string>
+    <string name="zm_mm_msg_cannot_remove_buddy_no_connection">Messenger已中斷連線，無法移除融訊暢聯會議聯絡人。</string>
+    <string name="zm_mm_msg_cannot_unblock_buddy_no_connection">Messenger已中斷連線，無法取消封鎖融訊暢聯會議聯絡人。</string>
     <string name="zm_mm_msg_change_group_topic_failed">無法變更主題</string>
     <string name="zm_mm_msg_change_group_topic_failed_383011">目前您無法將MUC轉換為頻道。請聯絡您的帳戶管理員</string>
     <string name="zm_mm_msg_change_user_name_failed">無法變更您的顯示名稱。</string>
@@ -4717,7 +4717,7 @@
     <string name="zm_mm_msg_network_unavailable">網路無法使用</string>
     <string name="zm_mm_msg_network_unavailable_394910">網路無法使用，請點擊以重新連接</string>
     <string name="zm_mm_msg_no_emoji">[表情符號]</string>
-    <string name="zm_mm_msg_out_of_storage_29760">您裝置的儲存空間不足。請清出空間以避免在使用簡石會議時發生中斷情況。</string>
+    <string name="zm_mm_msg_out_of_storage_29760">您裝置的儲存空間不足。請清出空間以避免在使用融訊暢聯會議時發生中斷情況。</string>
     <string name="zm_mm_msg_play_audio_failed">無法播放音訊訊息。</string>
     <string name="zm_mm_msg_quit_group_failed_59554">無法離開此頻道。（錯誤代碼：%d）</string>
     <string name="zm_mm_msg_rcd_can_be_not_record_in_meeting_336321">在會議期間無法錄製語音訊息</string>
@@ -4741,13 +4741,13 @@
     <string name="zm_mm_msg_save_emoji_failed">無法另存為表情符號。</string>
     <string name="zm_mm_msg_saved_to_album">已儲存至相簿</string>
     <string name="zm_mm_msg_saved_to_album_failed_102727">儲存至相簿失敗</string>
-    <string name="zm_mm_msg_search_contact_invite_to_zoom">邀請使用簡石會議</string>
+    <string name="zm_mm_msg_search_contact_invite_to_zoom">邀請使用融訊暢聯會議</string>
     <string name="zm_mm_msg_search_contact_result_empty">無法找到使用%1$s的使用者</string>
     <string name="zm_mm_msg_search_contact_result_is_buddy">%1$s已經在您的聯絡人清單中。</string>
     <string name="zm_mm_msg_send_email_255208">傳送電子郵件</string>
     <string name="zm_mm_msg_send_file_prompt">選擇要傳送的檔案。</string>
     <string name="zm_mm_msg_send_message_82273">傳送訊息</string>
-    <string name="zm_mm_msg_service_in_proxy_connect_590862">由於網路限制，部分簡石會議功能目前可能無法使用。</string>
+    <string name="zm_mm_msg_service_in_proxy_connect_590862">由於網路限制，部分融訊暢聯會議功能目前可能無法使用。</string>
     <string name="zm_mm_msg_service_normal_connect_590862">點擊以再試一次</string>
     <string name="zm_mm_msg_service_proxy_connect_590862">連接至受限制網路以獲得有限功能</string>
     <string name="zm_mm_msg_service_unavailable_77078">網路不穩定，點擊以重新連線</string>
@@ -4813,9 +4813,9 @@
     <string name="zm_mm_pin_history_empty_196619">當您釘選訊息時，被釘選的訊息便會在此顯示</string>
     <string name="zm_mm_pin_history_pinned_by_196619">已由%1$s釘選</string>
     <string name="zm_mm_pin_history_pinned_by_self_196619">已由您釘選</string>
-    <string name="zm_mm_proxy_connect_alert_view_body_635971">您可以重試，或是連接至受限制的簡石會議體驗。</string>
+    <string name="zm_mm_proxy_connect_alert_view_body_635971">您可以重試，或是連接至受限制的融訊暢聯會議體驗。</string>
     <string name="zm_mm_proxy_connect_alert_view_link_635971">連接至受限制的體驗</string>
-    <string name="zm_mm_proxy_connect_alert_view_title_626569">與簡石會議的連線無法使用</string>
+    <string name="zm_mm_proxy_connect_alert_view_title_626569">與融訊暢聯會議的連線無法使用</string>
     <string name="zm_mm_read_receipt_588707">已讀的人員（%1$d/%2$d）</string>
     <string name="zm_mm_read_receipt_bracket_588707">已讀的人員（%1$d/%2$d）</string>
     <string name="zm_mm_read_receipt_one_one_588707">已讀</string>
@@ -4888,7 +4888,7 @@
     <string name="zm_mm_search_global_recent_searches_clear_all_msg_176644">您要清除所有最近的搜尋嗎？</string>
     <string name="zm_mm_search_global_recent_searches_clear_all_title_176644">清除最近的搜尋</string>
     <string name="zm_mm_search_global_title_18680">搜尋指定的內容</string>
-    <string name="zm_mm_send_to_zoom_buddies">傳送給簡石會議聯絡人</string>
+    <string name="zm_mm_send_to_zoom_buddies">傳送給融訊暢聯會議聯絡人</string>
     <string name="zm_mm_sent_messages_empty_tips_623063">您沒有已傳送的訊息</string>
     <string name="zm_mm_sent_messages_empty_tips_description_623063">傳送訊息後可在此處檢視您的訊息歷史記錄</string>
     <string name="zm_mm_set_muc_info_no_privilege_dialog_msg_417355">您無法編輯頻道名稱。目前僅擁有者及管理員獲准變更頻道名稱。</string>
@@ -4903,7 +4903,7 @@
     <string name="zm_mm_share_invite_link_adding_a_new_email_contact_hint_459929">即將完成！請輸入完整的電子郵件。</string>
     <string name="zm_mm_share_invite_link_adding_a_new_email_sms_app_not_found_459929">在聯絡人分享邀請連結前，請先安裝簡訊應用程式</string>
     <string name="zm_mm_share_invite_link_almost_there_enter_complete_email_459929">即將完成！請輸入完整的電子郵件。</string>
-    <string name="zm_mm_share_invite_link_email_subject_invite_459929">來自%s的簡石會議邀請</string>
+    <string name="zm_mm_share_invite_link_email_subject_invite_459929">來自%s的融訊暢聯會議邀請</string>
     <string name="zm_mm_share_invite_link_expire_all_links_dialog_cancel_459929">取消</string>
     <string name="zm_mm_share_invite_link_expire_all_links_dialog_msg_459929">一經變更邀請連結的設定，您將會停用先前曾分享的所有連結</string>
     <string name="zm_mm_share_invite_link_expire_all_links_dialog_ok_459929">確定</string>
@@ -4934,22 +4934,22 @@
     <string name="zm_mm_share_invite_link_invite_share_reset_link_content_description_459929">重設連結，按鈕</string>
     <string name="zm_mm_share_invite_link_invite_share_your_channel_inivte_link_459929">您的頻道邀請連結</string>
     <string name="zm_mm_share_invite_link_invite_to_chat_via_link_570838">透過連結邀請加入聊天</string>
-    <string name="zm_mm_share_invite_link_line1_459929">%s想要連線並將您新增至簡石會議聊天。</string>
+    <string name="zm_mm_share_invite_link_line1_459929">%s想要連線並將您新增至融訊暢聯會議聊天。</string>
     <string name="zm_mm_share_invite_link_line2_459929">請於%d天內按一下下方連結以接受邀請：</string>
     <string name="zm_mm_share_invite_link_line3_459929">若您不想接受邀請，可直接忽略本訊息。</string>
     <string name="zm_mm_share_invite_link_line4_459929">謝謝您。</string>
     <string name="zm_mm_share_invite_link_new_contact_459929">新聯絡人</string>
-    <string name="zm_mm_share_invite_link_no_matches_are_found_in_your_zoom_contacts_459929">在您的簡石會議聯絡人中找不到符合對象</string>
+    <string name="zm_mm_share_invite_link_no_matches_are_found_in_your_zoom_contacts_459929">在您的融訊暢聯會議聯絡人中找不到符合對象</string>
     <string name="zm_mm_share_invite_link_no_matches_found_459929">找不到符合對象。試試電子郵件？</string>
     <string name="zm_mm_share_invite_link_reset_link_459929">重設連結</string>
     <string name="zm_mm_share_invite_link_welcome_to_zoom_no_thanks_459929">不用，謝謝</string>
     <string name="zm_mm_share_invite_link_welcome_to_zoom_request_to_join_459929">要求加入</string>
-    <string name="zm_mm_share_invite_link_welcome_to_zoom_sub_title_459929">您已獲邀加入簡石會議團體聊天頻道。點擊「要求加入」以要求存取此頻道。</string>
-    <string name="zm_mm_share_invite_link_welcome_to_zoom_title_459929">歡迎使用簡石會議！</string>
+    <string name="zm_mm_share_invite_link_welcome_to_zoom_sub_title_459929">您已獲邀加入融訊暢聯會議團體聊天頻道。點擊「要求加入」以要求存取此頻道。</string>
+    <string name="zm_mm_share_invite_link_welcome_to_zoom_title_459929">歡迎使用融訊暢聯會議！</string>
     <string name="zm_mm_share_invite_link_zoom_chat_accept_459929">接受</string>
     <string name="zm_mm_share_invite_link_zoom_chat_decline_459929">拒絕</string>
     <string name="zm_mm_share_invite_link_zoom_chat_sub_title_459929">一旦要求加入此頻道，即代表您確知該頻道中的所有人及其組織內擁有權限的對象，均可查看您於此處分享的訊息與附件，並可分享到應用程式及給其他人。</string>
-    <string name="zm_mm_share_invite_link_zoom_chat_title_459929">簡石會議 Team Chat</string>
+    <string name="zm_mm_share_invite_link_zoom_chat_title_459929">融訊暢聯會議 Team Chat</string>
     <string name="zm_mm_share_note_edit_hint_406646">（選用）留言... </string>
     <string name="zm_mm_share_note_from_406646">分享自%1$s</string>
     <string name="zm_mm_share_note_from_group_name_406646">(%1$s)</string>
@@ -4974,7 +4974,7 @@
     <string name="zm_mm_starred_radio_contact_owp40">聯絡人</string>
     <string name="zm_mm_starred_radio_message_owp40">訊息</string>
     <string name="zm_mm_starred_title_name_owp40">已加星號</string>
-    <string name="zm_mm_starred_zoom_room_65147">對簡石會議 Room加上星號</string>
+    <string name="zm_mm_starred_zoom_room_65147">對融訊暢聯會議 Room加上星號</string>
     <string name="zm_mm_tap_to_shoot_144953">輕觸以拍攝</string>
     <string name="zm_mm_tap_to_shoot_retake_144953">重新拍攝</string>
     <string name="zm_mm_tap_to_shoot_send_144953">傳送</string>
@@ -5014,26 +5014,26 @@
     <string name="zm_mm_unable_access_session_639251">無法存取此會議</string>
     <string name="zm_mm_unknow_call_35364">來電</string>
     <string name="zm_mm_unstar_message_65147">對訊息取消星號</string>
-    <string name="zm_mm_unstarred_zoom_room_65147">對簡石會議 Room取消星號</string>
+    <string name="zm_mm_unstarred_zoom_room_65147">對融訊暢聯會議 Room取消星號</string>
     <string name="zm_mm_update_message_time_104206">已更新</string>
     <string name="zm_mm_update_message_time_362664">（已更新）</string>
     <string name="zm_mme_menu_bookmark_274700">加上書籤</string>
     <string name="zm_mme_menu_bookmark_remove_274700">移除書籤</string>
     <string name="zm_mme_starred_message_title_name_274700">已加上書籤的訊息</string>
-    <string name="zm_move_meeting_error_message_error_179549">無法連線簡石會議 Room，請再試一次。</string>
-    <string name="zm_move_meeting_error_message_version_179549">無法連線簡石會議 Room。請升級簡石會議 Room版本並再試一次</string>
+    <string name="zm_move_meeting_error_message_error_179549">無法連線融訊暢聯會議 Room，請再試一次。</string>
+    <string name="zm_move_meeting_error_message_version_179549">無法連線融訊暢聯會議 Room。請升級融訊暢聯會議 Room版本並再試一次</string>
     <string name="zm_msg_aaudio_type_warning_188709">音訊選項已更新為「僅裝置音訊」，因為沒有可用的撥入國家/地區</string>
     <string formatted="false" name="zm_msg_accept_call">%1$s在%2$s接受了您的呼叫</string>
     <string name="zm_msg_access_history_alert_42597">以前的訊息對新組成員不可見。您要繼續嗎？</string>
     <string name="zm_msg_account_conflict_274395">由於您的帳戶已在另一個裝置上登入，您的帳戶現已登出</string>
-    <string name="zm_msg_account_sign_up_ret_52083">我們已傳送一封確認電子郵件給%s，請按一下郵件內的確認連結完成啟用並開始使用簡石會議。</string>
+    <string name="zm_msg_account_sign_up_ret_52083">我們已傳送一封確認電子郵件給%s，請按一下郵件內的確認連結完成啟用並開始使用融訊暢聯會議。</string>
     <string name="zm_msg_activate_account_failed">無法啟用您的帳戶。請檢查網路連線後再試一次。</string>
-    <string name="zm_msg_active_email_did_not_receive_192681">請查看確認連結以啟動並使用您的簡石會議服務。</string>
+    <string name="zm_msg_active_email_did_not_receive_192681">請查看確認連結以啟動並使用您的融訊暢聯會議服務。</string>
     <string name="zm_msg_active_email_sent">我們已傳送一封電子郵件以驗證您的帳戶。</string>
     <string name="zm_msg_active_email_sent_224978">啟用電子郵件已傳送</string>
     <string name="zm_msg_add_contact_group_68451">新增至群組</string>
     <string name="zm_msg_add_to_fecc_group_465896">如果您按一下「新增」，他們將能針對今後所有會議控制您裝置的攝影機</string>
-    <string name="zm_msg_addrbook_enabled">我們可以顯示您手機通訊錄中使用簡石會議的聯絡人。 </string>
+    <string name="zm_msg_addrbook_enabled">我們可以顯示您手機通訊錄中使用融訊暢聯會議的聯絡人。 </string>
     <string name="zm_msg_addrbook_enabled_159819">您已成功比對您的手機聯絡人！</string>
     <string name="zm_msg_admin_leave_channel_358252">您是此頻道的擁有者。可以刪除該頻道，或是在離開之前指派新的擁有者，為現有成員保留該頻道。</string>
     <string name="zm_msg_admin_leave_chat_358252">您是此聊天的擁有者。可以刪除該聊天，或是在離開之前指派新的擁有者，為現有成員保留該聊天。</string>
@@ -5057,7 +5057,7 @@
     <string name="zm_msg_audio_calling">撥號中…</string>
     <string name="zm_msg_audio_changed_to_phone">您正在使用電話</string>
     <string name="zm_msg_audio_changed_to_voip">您正在使用裝置音訊。</string>
-    <string name="zm_msg_audio_changed_to_zoom_phone_424277">您正在使用簡石會議 Phone音訊</string>
+    <string name="zm_msg_audio_changed_to_zoom_phone_424277">您正在使用融訊暢聯會議 Phone音訊</string>
     <string name="zm_msg_audio_connected_45416">您電話的音訊現已與此平板電腦連結</string>
     <string name="zm_msg_audio_merged_by_cohost_116180">%s（聯席主持人）已為您合併音訊</string>
     <string name="zm_msg_audio_merged_by_host_116180">主持人已為您合併音訊</string>
@@ -5066,8 +5066,8 @@
     <string name="zm_msg_audio_not_muted">已解除靜音</string>
     <string name="zm_msg_audio_separate_by_cohost_116180">您的音訊已由%s（聯席主持人）分離</string>
     <string name="zm_msg_audio_separate_by_host_116180">您的音訊已由主持人分離</string>
-    <string name="zm_msg_audio_stopped_by_call_offhook">簡石會議會議已被靜音</string>
-    <string name="zm_msg_basic_user_upgrade_end_free_meeting_378649">請聯絡您的IT團隊以升級為簡石會議 One付費方案，即可享受無時間限制的會議。</string>
+    <string name="zm_msg_audio_stopped_by_call_offhook">融訊暢聯會議會議已被靜音</string>
+    <string name="zm_msg_basic_user_upgrade_end_free_meeting_378649">請聯絡您的IT團隊以升級為融訊暢聯會議 One付費方案，即可享受無時間限制的會議。</string>
     <string name="zm_msg_bind_phone_hint_137212">為確保您的帳戶安全，請連結您的電話號碼</string>
     <string name="zm_msg_block_regions_warning_188709">會議邀請上的撥入選項已更新，因為來自封鎖地區的使用者已變更。在儲存之前，您必須為音訊選項選取至少一個撥入國家/地區</string>
     <string name="zm_msg_blur_snapshot_title_127987">切換工作時隱藏敏感資訊</string>
@@ -5143,7 +5143,7 @@
     <string name="zm_msg_conffail_callnotthere_confirm_167974">會議ID無效。請檢查並再試一次。</string>
     <string name="zm_msg_conffail_callover_confirm">主持人已結束此會議</string>
     <string name="zm_msg_conffail_cannot_rejoin_by_removed_44379">您無法重新加入此會議，因為您之前已被主持人移除。</string>
-    <string name="zm_msg_conffail_certificate_changed">無法連接到簡石會議視訊會議伺服器。如果您的網路使用防火牆，請聯絡IT管理員以允許存取「*.%1$s」。如需更多資訊，請造訪：%2$s</string>
+    <string name="zm_msg_conffail_certificate_changed">無法連接到融訊暢聯會議視訊會議伺服器。如果您的網路使用防火牆，請聯絡IT管理員以允許存取「*.%1$s」。如需更多資訊，請造訪：%2$s</string>
     <string name="zm_msg_conffail_ended_83221">此會議已結束</string>
     <string name="zm_msg_conffail_ended_by_admin_83221">您的管理員已結束此會議</string>
     <string name="zm_msg_conffail_internal_only_17745">僅已授權的與會者可參加本次會議</string>
@@ -5152,22 +5152,22 @@
     <string name="zm_msg_conffail_locked_confirm">主持人已鎖定此會議。</string>
     <string name="zm_msg_conffail_locked_confirm_webinar_557352">主持人已鎖定此網路研討會。</string>
     <string name="zm_msg_conffail_meeting_name_unvalid">個人會議室名稱不正確，請檢查後再試一次。</string>
-    <string name="zm_msg_conffail_needupdate_confirm">簡石會議有新版本了！請立即更新。 </string>
+    <string name="zm_msg_conffail_needupdate_confirm">融訊暢聯會議有新版本了！請立即更新。 </string>
     <string name="zm_msg_conffail_neterror_confirm">無法連線到伺服器，請檢查網路連線後再試一次。錯誤代碼：%d</string>
     <string name="zm_msg_conffail_no_mmr_confirm">系統繁忙，請稍後再試一次。</string>
     <string name="zm_msg_conffail_retry_confirm">系統繁忙，請稍後再試一次。</string>
-    <string name="zm_msg_conffail_signin_join_17745">按一下「登入」用授權參加本次會議的電子郵件地址來登入簡石會議。</string>
+    <string name="zm_msg_conffail_signin_join_17745">按一下「登入」用授權參加本次會議的電子郵件地址來登入融訊暢聯會議。</string>
     <string name="zm_msg_conffail_single_meeting_restricted_confirm">您目前有一場會議正在召開，請結束本場會議後再開始新會議。</string>
     <string name="zm_msg_conffail_single_meeting_restricted_jbh_confirm">主持人正在召開另一場會議，該會議結束後，您即可加入本場會議。</string>
     <string name="zm_msg_conffail_unknownerror_confirm">此會議發生異常。\n錯誤代碼：%d</string>
     <string name="zm_msg_conffail_userfull_confirm">本場會議已達%d人上限，請稍後再試一次。</string>
     <string name="zm_msg_conffail_webinar_register_denied_241555">主持人已將您從網路研討會中移除，您無法重新加入。</string>
-    <string name="zm_msg_conffail_webinar_register_enforce_login">您需要使用指定的簡石會議帳戶登入以加入此會議，請聯絡主持人以瞭解更多資訊。</string>
+    <string name="zm_msg_conffail_webinar_register_enforce_login">您需要使用指定的融訊暢聯會議帳戶登入以加入此會議，請聯絡主持人以瞭解更多資訊。</string>
     <string name="zm_msg_conffail_webinar_register_full">很抱歉，該網路研討會人數已滿。</string>
     <string name="zm_msg_conffail_webinar_register_with_host_email">如果您是主持人，請登入並開始網路研討會。</string>
     <string name="zm_msg_conffail_webinar_register_with_panelist_email">如果您是受邀嘉賓，請按一下邀請郵件中的連結加入此網路研討會。</string>
-    <string name="zm_msg_configure_account_indication">您的同事必須是您的簡石會議帳戶中的聯絡人，才能將他們新增到公司聯絡人。請按一下「設定帳戶」新增同事。 </string>
-    <string name="zm_msg_confirm_create_account_31350">確認您的個人資訊以建立一個簡石會議帳戶</string>
+    <string name="zm_msg_configure_account_indication">您的同事必須是您的融訊暢聯會議帳戶中的聯絡人，才能將他們新增到公司聯絡人。請按一下「設定帳戶」新增同事。 </string>
+    <string name="zm_msg_confirm_create_account_31350">確認您的個人資訊以建立一個融訊暢聯會議帳戶</string>
     <string name="zm_msg_confirm_delete_channel_268796">您即將永久移除此頻道內的所有訊息、檔案，以及其他相關資訊。此動作無法復原。</string>
     <string name="zm_msg_confirm_delete_chat_268796">您即將永久移除此聊天內的所有訊息、檔案，以及其他相關資訊。此動作無法復原。</string>
     <string name="zm_msg_confirm_group_call">您將要召開會議並邀請所有群組成員，是否確定？</string>
@@ -5212,11 +5212,11 @@
     <string name="zm_msg_delete_file_confirm_89710">刪除檔案？</string>
     <string name="zm_msg_delete_file_in_chats_warning_89710">您確定要從&lt;%s>刪除此檔案？此舉僅會在此聊天內移除該共用檔案。</string>
     <string name="zm_msg_delete_file_warning_59554">也會從所有已分享該檔案的頻道或聊天中將其移除</string>
-    <string name="zm_msg_delete_file_warning_89710">您確定要從簡石會議永久刪除此檔案？此動作無法復原。</string>
-    <string name="zm_msg_delete_other_meeting_120521">這是為<![CDATA[<b>%s</b>]]>排程的會議。您可以在7天內，於簡石會議 Web上的近期刪除頁面中還原此會議。</string>
+    <string name="zm_msg_delete_file_warning_89710">您確定要從融訊暢聯會議永久刪除此檔案？此動作無法復原。</string>
+    <string name="zm_msg_delete_other_meeting_120521">這是為<![CDATA[<b>%s</b>]]>排程的會議。您可以在7天內，於融訊暢聯會議 Web上的近期刪除頁面中還原此會議。</string>
     <string name="zm_msg_delete_other_meeting_192308">這是為<![CDATA[<b>%s</b>]]>排程的會議。</string>
-    <string name="zm_msg_delete_self_meeting_120521">您可以在7天內，於簡石會議 Web上的近期刪除頁面中還原此會議。</string>
-    <string name="zm_msg_delete_self_meeting_192308">您可以在7天內，於簡石會議 Web入口網站上的近期刪除頁面中還原此會議。</string>
+    <string name="zm_msg_delete_self_meeting_120521">您可以在7天內，於融訊暢聯會議 Web上的近期刪除頁面中還原此會議。</string>
+    <string name="zm_msg_delete_self_meeting_192308">您可以在7天內，於融訊暢聯會議 Web入口網站上的近期刪除頁面中還原此會議。</string>
     <string name="zm_msg_delete_timeout_19888">無法刪除此訊息。您只能刪除過去兩年內傳送的訊息。</string>
     <string name="zm_msg_delivery_error_70196">訊息傳遞錯誤</string>
     <string name="zm_msg_devices_not_supported">很抱歉，我們目前尚不支援此裝置！</string>
@@ -5225,7 +5225,7 @@
     <string name="zm_msg_disconnected_try_again">連線失敗，請稍後再試一次。</string>
     <string name="zm_msg_disconnected_try_again_302262">網路失敗。檢查您的網際網路連線並再試一次。</string>
     <string name="zm_msg_dismiss_question_34305">被關閉的問題無法再回答。</string>
-    <string name="zm_msg_domains_edit_120783">透過下列指定的網域登入簡石會議</string>
+    <string name="zm_msg_domains_edit_120783">透過下列指定的網域登入融訊暢聯會議</string>
     <string name="zm_msg_doubletap_enter_pinvideo">點兩下螢幕以取消釘選視訊</string>
     <string name="zm_msg_doubletap_leave_pinvideo">取消釘選視訊</string>
     <string name="zm_msg_download_file_failed_239318">無法下載\n點擊以重試</string>
@@ -5242,7 +5242,7 @@
     <string name="zm_msg_e2e_cannot_send_message_need_sso_sign_in_176236">您目前無法傳送訊息，請透過SSO登入。</string>
     <string name="zm_msg_e2e_chatslist_decrypt_failed">[加密訊息]</string>
     <string name="zm_msg_e2e_decrypt_failed_12310">[無法解密訊息]</string>
-    <string name="zm_msg_e2e_decrypt_later_12310">簡石會議將在獲得可用金鑰後繼續嘗試解密訊息。</string>
+    <string name="zm_msg_e2e_decrypt_later_12310">融訊暢聯會議將在獲得可用金鑰後繼續嘗試解密訊息。</string>
     <string name="zm_msg_e2e_encryed_message">訊息已加密。</string>
     <string name="zm_msg_e2e_get_invite"> %s邀請您聊天</string>
     <string name="zm_msg_e2e_invite_accepted">%s已接受您的聊天邀請</string>
@@ -5256,18 +5256,18 @@
     <string name="zm_msg_enable_addrbook">我們不會儲存任何聯絡人資訊。 </string>
     <string name="zm_msg_enable_original_sound_prompt_msg_118397">您無法在分享音訊時啟用原聲。</string>
     <string name="zm_msg_enable_original_sound_prompt_title_118397">無法啟用原聲</string>
-    <string name="zm_msg_encrypt_db_content_152173">您的帳戶管理員要求對聊天記錄與聯絡人進行一次性加密。在您重新啟動簡石會議後，加密將立即開始。</string>
+    <string name="zm_msg_encrypt_db_content_152173">您的帳戶管理員要求對聊天記錄與聯絡人進行一次性加密。在您重新啟動融訊暢聯會議後，加密將立即開始。</string>
     <string name="zm_msg_encrypt_db_title_152173">重新啟動以加密您的資料</string>
     <string name="zm_msg_encrypt_now_152173">立即重新啟動</string>
     <string name="zm_msg_encrypt_remind_later_152173">現在不要</string>
-    <string name="zm_msg_end_to_end_172332">您的加密金鑰已儲存在本機。無人可取得該加密金鑰，即便是簡石會議亦同。</string>
+    <string name="zm_msg_end_to_end_172332">您的加密金鑰已儲存在本機。無人可取得該加密金鑰，即便是融訊暢聯會議亦同。</string>
     <string name="zm_msg_end_to_end_des_172332">端對端加密會議目前不支援像是雲端錄製、電話/SIP/H.323撥入，以及其他多種雲端型功能。</string>
     <string name="zm_msg_end_to_end_enhance_172332">您的加密金鑰已儲存在雲端。</string>
     <string name="zm_msg_enter_new_sharing_key_meeting_id_52777">針對不同網路上的使用者，此為必要步驟，藉此做為額外的安全性措施。請輸入新的共用金鑰</string>
     <string name="zm_msg_enter_valid_sharing_key_meeting_id_52777">請輸入有效的共用金鑰或會議ID</string>
     <string name="zm_msg_enter_verification_code">請輸入簡訊中的驗證碼</string>
     <string name="zm_msg_error_message_app_disabled_by_admin_212554">帳戶管理員已停用此應用程式。請聯絡您的帳戶管理員。</string>
-    <string name="zm_msg_error_message_app_disabled_by_zoom_212554">簡石會議已暫時停用此應用程式。</string>
+    <string name="zm_msg_error_message_app_disabled_by_zoom_212554">融訊暢聯會議已暫時停用此應用程式。</string>
     <string name="zm_msg_error_message_app_not_found_212554">找不到應用程式。</string>
     <string name="zm_msg_error_message_no_permission_212554">沒有權限。</string>
     <string name="zm_msg_error_message_perform_action_error_file_is_open_212554">由於此檔案已開啟，因此無法對其執行動作。</string>
@@ -5282,7 +5282,7 @@
     <string name="zm_msg_expeled_by_host_44379">主持人已將您從此會議中移除。</string>
     <string name="zm_msg_expeled_by_host_webinar_375812">主持人已將您從此網路研討會中移除。</string>
     <string name="zm_msg_expired_verification_code_109213">您的驗證碼已過期，請重新傳送。</string>
-    <string name="zm_msg_feedback_welcome">如需技術支援，請造訪&lt;a href="%s">簡石會議支援&lt;/a>。\n\n我們也歡迎任何關於簡石會議的想法、需求和建議。請在這裡輸入您的意見反應:</string>
+    <string name="zm_msg_feedback_welcome">如需技術支援，請造訪&lt;a href="%s">融訊暢聯會議支援&lt;/a>。\n\n我們也歡迎任何關於融訊暢聯會議的想法、需求和建議。請在這裡輸入您的意見反應:</string>
     <string name="zm_msg_file_download_paused_progress_239318">%d%%已下載</string>
     <string name="zm_msg_file_downloading_progress_239318">%d%%下載中...</string>
     <string name="zm_msg_file_format_not_exist_msg_137127">無法傳送%1$s，因為其並不存在</string>
@@ -5306,22 +5306,22 @@
     <string name="zm_msg_file_too_large_168763">無法傳送大於%dMB的檔案</string>
     <string name="zm_msg_file_transfer_disabled_86061">[%s已傳送檔案給您，無法預覽此檔案，因為您的檔案傳輸功能已停用。]</string>
     <string name="zm_msg_forgot_passwd_137212">若您已使用電話號碼註冊但已忘記密碼，請嘗試使用「透過簡訊驗證碼登入」。</string>
-    <string name="zm_msg_free_meeting_timeout">本場免費會議已經結束。感謝您選擇簡石會議！</string>
-    <string name="zm_msg_gdpr_sing_in_41396">簡石會議正在更新《服務條款》和《隱私權政策》，旨在讓您更清楚地瞭解簡石會議收集了哪些資料、如何使用這些資料以及您對個人資料有哪些控制權。如果您選擇繼續使用簡石會議，即表示您接受已更新的《服務條款》和《隱私權政策》。</string>
-    <string name="zm_msg_gdrp_new_user_join_meeting_41396">使用簡石會議前，您需要同意《服務條款》和《隱私權政策》。</string>
+    <string name="zm_msg_free_meeting_timeout">本場免費會議已經結束。感謝您選擇融訊暢聯會議！</string>
+    <string name="zm_msg_gdpr_sing_in_41396">融訊暢聯會議正在更新《服務條款》和《隱私權政策》，旨在讓您更清楚地瞭解融訊暢聯會議收集了哪些資料、如何使用這些資料以及您對個人資料有哪些控制權。如果您選擇繼續使用融訊暢聯會議，即表示您接受已更新的《服務條款》和《隱私權政策》。</string>
+    <string name="zm_msg_gdrp_new_user_join_meeting_41396">使用融訊暢聯會議前，您需要同意《服務條款》和《隱私權政策》。</string>
     <string name="zm_msg_group_deleted_68451">已刪除群組。</string>
     <string name="zm_msg_hint_delete_contact_group_68451">不會刪除此群組內的聯絡人。</string>
     <string name="zm_msg_hint_remove_buddy_from_group_68451">您無法復原此動作</string>
     <string name="zm_msg_host_disable_web_wb_623182">由於主持人的設定，無法開啟白板。</string>
     <string name="zm_msg_host_lot_connection_159719">請稍候，主持人連線中斷</string>
-    <string name="zm_msg_host_paid_title">感謝您選擇使用簡石會議！</string>
+    <string name="zm_msg_host_paid_title">感謝您選擇使用融訊暢聯會議！</string>
     <string name="zm_msg_host_privilege_revoked_promt_365851">已撤銷主持人權限</string>
     <string name="zm_msg_illegal_image">影像無效。</string>
     <string name="zm_msg_img_too_large">影像大小超過限制（8MB），請以檔案方式傳送。</string>
     <string name="zm_msg_immersive_dowloading_206958">正在載入沉浸式檢視</string>
     <string name="zm_msg_immersive_download_failed_206958">無法下載沉浸式檢視套件</string>
-    <string name="zm_msg_immersive_parse_xml_failed_206958">無法下載沉浸式檢視套件。請確保您已更新至最新版簡石會議。</string>
-    <string name="zm_msg_immersive_parser_version_not_compatible_258863">主持人已啟動沉浸式檢視。請更新至簡石會議最新版本以享有完整體驗。</string>
+    <string name="zm_msg_immersive_parse_xml_failed_206958">無法下載沉浸式檢視套件。請確保您已更新至最新版融訊暢聯會議。</string>
+    <string name="zm_msg_immersive_parser_version_not_compatible_258863">主持人已啟動沉浸式檢視。請更新至融訊暢聯會議最新版本以享有完整體驗。</string>
     <string name="zm_msg_immersive_scene_started_by_host_258863">主持人已啟動沉浸式檢視</string>
     <string name="zm_msg_immersive_scene_stopped_by_host_258863">主持人已停止沉浸式檢視</string>
     <string name="zm_msg_immersive_scene_weak_processing_power_258863">主持人已啟動沉浸式檢視。由於您的裝置並無足夠的處理能力支援完整體驗，因此已修改您的檢視。</string>
@@ -5330,8 +5330,8 @@
     <string name="zm_msg_indication_forgetpwd_192681">若要重設您的密碼，請輸入您的電子郵件地址。您可能需要查看電子郵件是否存在於垃圾郵件資料夾中</string>
     <string name="zm_msg_indication_resetpwd">請設定您的新登入密碼。</string>
     <string name="zm_msg_install_app_137212">請安裝%1$s並稍後再試一次。</string>
-    <string formatted="false" name="zm_msg_invitation_message_template">%1$s正透過簡石會議呼叫您，按一下這個連結即可加入。\r\n%2$s</string>
-    <string name="zm_msg_invite_by_sms_33300">我使用簡石會議進行視訊會議與聊天。您可在https://teachers-here.tw/download免費下載App。</string>
+    <string formatted="false" name="zm_msg_invitation_message_template">%1$s正透過融訊暢聯會議呼叫您，按一下這個連結即可加入。\r\n%2$s</string>
+    <string name="zm_msg_invite_by_sms_33300">我使用融訊暢聯會議進行視訊會議與聊天。您可在https://teachers-here.tw/download免費下載App。</string>
     <string name="zm_msg_invite_indication_message_1">1. 移至%1$s</string>
     <string name="zm_msg_invite_indication_message_2">2. 輸入ID：</string>
     <string name="zm_msg_invite_indication_title">呼叫並發言：</string>
@@ -5354,7 +5354,7 @@
     <string name="zm_msg_link_account">請連結您的帳戶以於您的網路中發現更多的聯絡人。一旦連結了帳戶，您將擁有例如個人會議ID的功能。</string>
     <string name="zm_msg_link_copied_314715">已複製連結</string>
     <string name="zm_msg_link_copied_to_clipboard_91380">連結已複製到剪貼簿</string>
-    <string name="zm_msg_link_not_valid_206668">簡石會議無法開啟此連結，因為其為無效連結。</string>
+    <string name="zm_msg_link_not_valid_206668">融訊暢聯會議無法開啟此連結，因為其為無效連結。</string>
     <string name="zm_msg_link_to_chat_channel_432965">團體聊天頻道連結</string>
     <string name="zm_msg_link_to_chat_message_432965">團體聊天訊息連結</string>
     <string name="zm_msg_load_dir_fail">載入目錄「%s」失敗！</string>
@@ -5363,8 +5363,8 @@
     <string name="zm_msg_load_file_fail_without_name">載入檔案失敗！</string>
     <string name="zm_msg_loading">載入中…</string>
     <string name="zm_msg_loading_image_to_share">正在載入影像…</string>
-    <string name="zm_msg_log_off_tips_1_day_273365">%1$s要求您每%2$s登入一次簡石會議。您的會議將於%3$s過期。</string>
-    <string name="zm_msg_log_off_tips_5_min_273365">%1$s要求您每%2$s登入一次簡石會議。您的會議將於5分鐘後過期。</string>
+    <string name="zm_msg_log_off_tips_1_day_273365">%1$s要求您每%2$s登入一次融訊暢聯會議。您的會議將於%3$s過期。</string>
+    <string name="zm_msg_log_off_tips_5_min_273365">%1$s要求您每%2$s登入一次融訊暢聯會議。您的會議將於5分鐘後過期。</string>
     <string name="zm_msg_login_as_host">主持人%1$s沒有進入會議，如果您是主持人%2$s，請登入。</string>
     <string name="zm_msg_login_expired">您的登入已逾期，點擊以重新登入。 </string>
     <string name="zm_msg_login_expired_title">登入失敗</string>
@@ -5378,9 +5378,9 @@
     <string name="zm_msg_meeting_being_archiving_dlg_262229">若留在本會議內，即表示您同意封存本會議的%s。</string>
     <string name="zm_msg_meeting_end">主持人已結束此會議</string>
     <string name="zm_msg_meeting_end_by_host_start_another_meeting">由於目前帳戶在別處開啟了一場新的會議，本場會議已結束</string>
-    <string name="zm_msg_meeting_info_data_center_299543">您已透過位於美國的資料中心連接至簡石會議全球網路。</string>
+    <string name="zm_msg_meeting_info_data_center_299543">您已透過位於美國的資料中心連接至融訊暢聯會議全球網路。</string>
     <string name="zm_msg_meeting_need_register">完成註冊以參加會議。</string>
-    <string name="zm_msg_meeting_permission">為實現最佳會議體驗，請授權簡石會議使用您的麥克風、攝影機和儲存空間。</string>
+    <string name="zm_msg_meeting_permission">為實現最佳會議體驗，請授權融訊暢聯會議使用您的麥克風、攝影機和儲存空間。</string>
     <string name="zm_msg_meeting_player_reminder_for_attendee_title">會議提醒</string>
     <string name="zm_msg_meeting_player_reminder_for_host_title">升級帳戶</string>
     <string name="zm_msg_meeting_remote_admin_join_113385">此會議正由管理員控制。</string>
@@ -5404,7 +5404,7 @@
     <string name="zm_msg_meeting_xxx_are_cohost">%s已成為聯席主持人。</string>
     <string name="zm_msg_meeting_you_are_cohost">您已成為聯席主持人</string>
     <string name="zm_msg_meeting_youarehost">您已成為主持人</string>
-    <string name="zm_msg_meetingno_hook_title">%s可能是簡石會議會議號碼或電話號碼，您可以：</string>
+    <string name="zm_msg_meetingno_hook_title">%s可能是融訊暢聯會議會議號碼或電話號碼，您可以：</string>
     <string name="zm_msg_memory_size_insufficient">儲存空間不足</string>
     <string name="zm_msg_message_file_86061">[檔案]</string>
     <string name="zm_msg_move_contact_68451">移至群組</string>
@@ -5437,7 +5437,7 @@
     <string name="zm_msg_no_dial_in_country_select_235870">未選取撥入國家/地區</string>
     <string name="zm_msg_no_favorite_contacts">沒有公司聯絡人</string>
     <string name="zm_msg_no_favorite_contacts_sub_note">按一下上方新增按鈕以新增公司聯絡人</string>
-    <string name="zm_msg_no_new_version">您的簡石會議已是最新版本。 </string>
+    <string name="zm_msg_no_new_version">您的融訊暢聯會議已是最新版本。 </string>
     <string name="zm_msg_no_online_contacts_zoom">沒有聯絡人在線</string>
     <string name="zm_msg_no_polls_quizzes_tips_271813">沒有可啟動的投票或測驗。請從您的<![CDATA[<a href="%s">Web入口網站</a>]]>建立新投票或測驗。</string>
     <string name="zm_msg_no_polls_quizzes_tips_331151">沒有可發起的投票或測驗。</string>
@@ -5445,13 +5445,13 @@
     <string name="zm_msg_no_system_contacts">您的通訊錄中沒有任何聯絡人。 </string>
     <string name="zm_msg_no_upcoming_meetings">沒有即將開始的會議</string>
     <string name="zm_msg_no_upcoming_meetings_sub_note">已排程的會議將會於此顯示。</string>
-    <string name="zm_msg_no_zoom_contacts">尚無任何簡石會議聯絡人</string>
+    <string name="zm_msg_no_zoom_contacts">尚無任何融訊暢聯會議聯絡人</string>
     <string name="zm_msg_no_zoom_groups_59554">尚未建立任何頻道。</string>
     <string name="zm_msg_not_checked_292937">未核取</string>
     <string name="zm_msg_not_selected_292937">未選取</string>
-    <string name="zm_msg_notice_choose_domain_114850">我們正在使用%1$s設定商業帳戶。由於您的簡石會議帳戶使用的是帶有\"%2$s\"的電子郵件地址，您必須選擇加入帳戶或變更為新的電子郵件地址。</string>
+    <string name="zm_msg_notice_choose_domain_114850">我們正在使用%1$s設定商業帳戶。由於您的融訊暢聯會議帳戶使用的是帶有\"%2$s\"的電子郵件地址，您必須選擇加入帳戶或變更為新的電子郵件地址。</string>
     <string name="zm_msg_notification_group_in_31105">在</string>
-    <string name="zm_msg_notification_login_102727">請登入簡石會議... </string>
+    <string name="zm_msg_notification_login_102727">請登入融訊暢聯會議... </string>
     <string name="zm_msg_notify_scheduler_login">如果您是主持人，請登入以召開此會議</string>
     <string name="zm_msg_number_not_support_41171">您撥打的號碼不受支援</string>
     <string name="zm_msg_only_paid_user_can_modify_pmi">請升級到專業版帳戶以變更您的個人會議ID</string>
@@ -5551,7 +5551,7 @@
     <string name="zm_msg_remove_favorite_confirm">從公司聯絡人清單中移除%s。</string>
     <string name="zm_msg_remove_from_group_68451">從群組移除</string>
     <string name="zm_msg_remove_title_416576">移除訊息</string>
-    <string name="zm_msg_report_confirm_147675">您的意見反應對協助我們維持簡石會議社群的安全極為重要。<![CDATA[<a href="%1$s">深入瞭解</a>]]>可保護會議的相關方式。</string>
+    <string name="zm_msg_report_confirm_147675">您的意見反應對協助我們維持融訊暢聯會議社群的安全極為重要。<![CDATA[<a href="%1$s">深入瞭解</a>]]>可保護會議的相關方式。</string>
     <string name="zm_msg_report_confirm_with_link_158189">我們會進一步調查，並會依據調查結果採取行動。<![CDATA[<a href="%1$s">瞭解更多</a>]]>可保護會議的相關方式。</string>
     <string name="zm_msg_report_confirm_without_link_158189">我們會進一步調查，並會依據調查結果採取行動。瞭解更多可保護會議的相關方式。</string>
     <string name="zm_msg_request_host_record_decline_608902">主持人已拒絕您的錄製到雲端的要求</string>
@@ -5559,7 +5559,7 @@
     <string name="zm_msg_request_host_record_error_host_bo_608902">當主持人與您處於不同情境（例如，不同的分組討論室）時，無法傳送要求。</string>
     <string name="zm_msg_request_host_record_error_host_cloud_recording_608902">無法傳送要求，因為主持人已進行雲端錄製。</string>
     <string name="zm_msg_request_host_record_error_host_local_recording_608902">無法傳送要求，因為主持人已進行本機錄製。</string>
-    <string name="zm_msg_request_host_record_failed_643568">因為主持人使用已過時的簡石會議用戶端版本、不在會議中，或是由於其他原因而導致無法傳送要求。</string>
+    <string name="zm_msg_request_host_record_failed_643568">因為主持人使用已過時的融訊暢聯會議用戶端版本、不在會議中，或是由於其他原因而導致無法傳送要求。</string>
     <string name="zm_msg_request_host_record_sent_608902">已傳送要求</string>
     <string name="zm_msg_request_host_record_timeout_608902">雲端錄製要求逾時</string>
     <string name="zm_msg_request_host_record_title_608902">要求會議主持人錄製至雲端</string>
@@ -5601,10 +5601,10 @@
     <string name="zm_msg_signup_verified_on_other_device">您是否已在其他裝置上驗證您的電子郵件？</string>
     <string name="zm_msg_sip_in_progress_14480">正在進行內部電話</string>
     <string name="zm_msg_smart_recording_desc_588772">已啟用使用AI Companion的智慧錄製</string>
-    <string name="zm_msg_smart_recording_disclaimer_588772"><![CDATA[<br><br>若此錄製檔案存放於簡石會議的雲端，則<a href="%1$s">帳戶擁有者</a>可以觀看該錄製檔案。獲授予權限的與會者可錄製會議並分享其錄製檔案到應用程式及給其他人。<br/><br/>若上述錄製檔案存放於簡石會議的雲端，則可能會將錄製檔案分享給使用人工智慧技術（可能包括第三方模型）的智慧錄製。簡石會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練簡石會議或第三方人工智慧模型。<br/><br/>若留在本會議內，即表示您同意錄製。]]></string>
-    <string name="zm_msg_sms_invitation_content">我使用簡石會議進行視訊會議與聊天，您可在https://teachers-here.tw/免費下載App。</string>
-    <string formatted="false" name="zm_msg_sms_invite_in_meeting">按一下${joinMeetingUrl}以加入簡石會議會議。 </string>
-    <string formatted="false" name="zm_msg_sms_invite_scheduled_meeting">按一下${joinMeetingUrl}以召開或加入已排程的簡石會議會議。 </string>
+    <string name="zm_msg_smart_recording_disclaimer_588772"><![CDATA[<br><br>若此錄製檔案存放於融訊暢聯會議的雲端，則<a href="%1$s">帳戶擁有者</a>可以觀看該錄製檔案。獲授予權限的與會者可錄製會議並分享其錄製檔案到應用程式及給其他人。<br/><br/>若上述錄製檔案存放於融訊暢聯會議的雲端，則可能會將錄製檔案分享給使用人工智慧技術（可能包括第三方模型）的智慧錄製。融訊暢聯會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練融訊暢聯會議或第三方人工智慧模型。<br/><br/>若留在本會議內，即表示您同意錄製。]]></string>
+    <string name="zm_msg_sms_invitation_content">我使用融訊暢聯會議進行視訊會議與聊天，您可在https://teachers-here.tw/免費下載App。</string>
+    <string formatted="false" name="zm_msg_sms_invite_in_meeting">按一下${joinMeetingUrl}以加入融訊暢聯會議會議。 </string>
+    <string formatted="false" name="zm_msg_sms_invite_scheduled_meeting">按一下${joinMeetingUrl}以召開或加入已排程的融訊暢聯會議會議。 </string>
     <string name="zm_msg_sms_phonenum">傳訊給%s</string>
     <string name="zm_msg_star_bot_419005">對應用程式加上星號</string>
     <string name="zm_msg_star_channel_78010">對頻道加上星號</string>
@@ -5623,15 +5623,15 @@
     <string name="zm_msg_terms_service_137212">《服務條款》</string>
     <string name="zm_msg_thanks_for_feedback">感謝您的意見反應！\n\n您的意見反應對我們非常重要，我們將努力改善我們的服務。</string>
     <string name="zm_msg_turn_off_notifications_unless_mentioned_459625">僅在提及時通知</string>
-    <string name="zm_msg_unable_access_camera">請在裝置設定中允許簡石會議存取攝影機。</string>
-    <string name="zm_msg_unable_access_contact_477324">請在裝置設定中允許簡石會議存取聯絡人。</string>
-    <string name="zm_msg_unable_access_mic">請在裝置設定中允許簡石會議存取麥克風。</string>
-    <string name="zm_msg_unable_access_notifications_437508">請在裝置設定中允許簡石會議顯示通知。</string>
-    <string name="zm_msg_unable_access_notifications_516165">請在裝置設定中允許簡石會議存取您的藍牙。</string>
-    <string name="zm_msg_unable_access_phone_311356">請在裝置設定中允許簡石會議存取電話。</string>
-    <string name="zm_msg_unable_access_photos_464150">請允許簡石會議透過裝置設定存取您的照片。</string>
-    <string name="zm_msg_unable_access_storage">請在裝置設定中允許簡石會議存取儲存空間。</string>
-    <string name="zm_msg_unable_to_connect_50129">確保您已連線至網際網路，而且您的簡石會議連線未遭防火牆或Proxy封鎖。\n（錯誤%d）</string>
+    <string name="zm_msg_unable_access_camera">請在裝置設定中允許融訊暢聯會議存取攝影機。</string>
+    <string name="zm_msg_unable_access_contact_477324">請在裝置設定中允許融訊暢聯會議存取聯絡人。</string>
+    <string name="zm_msg_unable_access_mic">請在裝置設定中允許融訊暢聯會議存取麥克風。</string>
+    <string name="zm_msg_unable_access_notifications_437508">請在裝置設定中允許融訊暢聯會議顯示通知。</string>
+    <string name="zm_msg_unable_access_notifications_516165">請在裝置設定中允許融訊暢聯會議存取您的藍牙。</string>
+    <string name="zm_msg_unable_access_phone_311356">請在裝置設定中允許融訊暢聯會議存取電話。</string>
+    <string name="zm_msg_unable_access_photos_464150">請允許融訊暢聯會議透過裝置設定存取您的照片。</string>
+    <string name="zm_msg_unable_access_storage">請在裝置設定中允許融訊暢聯會議存取儲存空間。</string>
+    <string name="zm_msg_unable_to_connect_50129">確保您已連線至網際網路，而且您的融訊暢聯會議連線未遭防火牆或Proxy封鎖。\n（錯誤%d）</string>
     <string name="zm_msg_unable_to_create_poll_331151">此會議可建立的投票數量已達上限。</string>
     <string name="zm_msg_unable_to_create_poll_or_quiz_331151">此會議可建立的投票/測驗數量已達上限。</string>
     <string name="zm_msg_unable_to_record_114474">無法取得加密金鑰。請稍後再試一次</string>
@@ -5652,12 +5652,12 @@
     <string name="zm_msg_unstar_contact_68451">對聯絡人取消星號</string>
     <string name="zm_msg_unsupport_message_13802">[需要最新版才能查看此訊息。]</string>
     <string name="zm_msg_update_required_join_62061">您必須使用%s或更高版本的應用程式才能加入本次會議，請更新以繼續。</string>
-    <string name="zm_msg_update_required_join_no_version_154751">請更新至簡石會議最新版本以加入此會議。</string>
+    <string name="zm_msg_update_required_join_no_version_154751">請更新至融訊暢聯會議最新版本以加入此會議。</string>
     <string name="zm_msg_update_required_sign_62061">您必須使用%s或更高版本的應用程式才能登入。請更新以繼續。</string>
-    <string name="zm_msg_update_required_sign_no_version_154751">請更新至簡石會議最新版本以登入。</string>
+    <string name="zm_msg_update_required_sign_no_version_154751">請更新至融訊暢聯會議最新版本以登入。</string>
     <string name="zm_msg_upgrade_first_end_free_meeting_45927">若您現在排程，我們將會取消您下一次群組會議的40分鐘時間限制。</string>
     <string name="zm_msg_upgrade_free_meeting_45927">我們已取消下次群組會議的40分鐘時間限制。</string>
-    <string name="zm_msg_upgrade_free_meeting_failed_15609">簡石會議無法延長您的免費會議時長。會議將在滿40分鐘後結束。\n（錯誤代碼：%d）</string>
+    <string name="zm_msg_upgrade_free_meeting_failed_15609">融訊暢聯會議無法延長您的免費會議時長。會議將在滿40分鐘後結束。\n（錯誤代碼：%d）</string>
     <string name="zm_msg_upgrade_free_meeting_failed_title_15609">延長會議時長失敗</string>
     <string name="zm_msg_upgrade_free_meeting_success_15609">本次會議不再有時長限制</string>
     <string name="zm_msg_user_joined_41162">%1$s加入會議</string>
@@ -5702,8 +5702,8 @@
     <string name="zm_msg_waiting_share_s">%s已開始畫面分享</string>
     <string name="zm_msg_waiting_webinear_start">請稍候，網路研討會即將開始。</string>
     <string name="zm_msg_warn_muc_traffic_limit">訊息傳送太頻繁，請稍候再試一次。</string>
-    <string name="zm_msg_warning_disable_address_book_matching_content">將無法顯示您的手機通訊錄中使用簡石會議的聯絡人。 </string>
-    <string name="zm_msg_warning_disable_address_book_matching_title">您確定關閉顯示使用簡石會議的聯絡人？</string>
+    <string name="zm_msg_warning_disable_address_book_matching_content">將無法顯示您的手機通訊錄中使用融訊暢聯會議的聯絡人。 </string>
+    <string name="zm_msg_warning_disable_address_book_matching_title">您確定關閉顯示使用融訊暢聯會議的聯絡人？</string>
     <string name="zm_msg_webhoot_new_notification">%s：[新通知]</string>
     <string name="zm_msg_webinar_need_register">請先註冊後再加入此網路研討會。</string>
     <string name="zm_msg_whiteboard_low_memory_warning_373543">由於記憶體不足，無法使用白板。</string>
@@ -5719,7 +5719,7 @@
     <string name="zm_msg_zoom_phone_connect_failed_424277">無法連接</string>
     <string name="zm_msg_zoom_phone_connected_424277">電話已連接</string>
     <string name="zm_msg_zoom_phone_connecting_424277">電話正在連線…</string>
-    <string name="zm_msg_zr_version_is_too_old_52777">無法連線至簡石會議 Room。請在iPad控制器上輸入會議ID或選擇展示。</string>
+    <string name="zm_msg_zr_version_is_too_old_52777">無法連線至融訊暢聯會議 Room。請在iPad控制器上輸入會議ID或選擇展示。</string>
     <string name="zm_multi_captions_hint_478812">開啟字幕會將所有與會者的口說語言設為您所設定的語言。</string>
     <string name="zm_multi_captions_language_setting_283773">口說語言：%s</string>
     <string name="zm_multi_captions_language_title_283773">口說語言</string>
@@ -5763,8 +5763,8 @@
     <string name="zm_new_bo_room_full_alert_msg_526866">我們無法將您新增至%s。已達到分組討論室與會者人數上限。</string>
     <string name="zm_new_bo_room_limit_526866">已達到分組討論室與會者人數上限。</string>
     <string name="zm_no_audio_type_support_129757">該會議不支援透過撥入或打給我方式加會。您無法連線語音。</string>
-    <string name="zm_no_longer_receive_update_desc_438135">這是將支援Android 5的最新簡石會議更新。為能接收未來的簡石會議更新，您將需要使用Android 6.0或更新版本。您目前使用的是Android %s</string>
-    <string name="zm_no_longer_receive_update_title_438135">您很快就不會再收到簡石會議更新</string>
+    <string name="zm_no_longer_receive_update_desc_438135">這是將支援Android 5的最新融訊暢聯會議更新。為能接收未來的融訊暢聯會議更新，您將需要使用Android 6.0或更新版本。您目前使用的是Android %s</string>
+    <string name="zm_no_longer_receive_update_title_438135">您很快就不會再收到融訊暢聯會議更新</string>
     <string name="zm_no_pbo_open_tip_339098">無個人分組討論室開放</string>
     <string name="zm_no_permission_239946">無法運作</string>
     <string name="zm_not_allow_host_unmute_btn_169817">不允許</string>
@@ -5774,13 +5774,13 @@
     <string name="zm_notes_collaboration_start_message_522958">%s想要與您在筆記上進行協作。</string>
     <string name="zm_notes_collaboration_start_title_522958">記錄筆記的邀請</string>
     <string name="zm_notes_title_522966">筆記</string>
-    <string name="zm_notification_channel_name_43235">簡石會議通知</string>
-    <string name="zm_notification_sip_missed_channel_name_194688">簡石會議 Phone未接來電</string>
+    <string name="zm_notification_channel_name_43235">融訊暢聯會議通知</string>
+    <string name="zm_notification_sip_missed_channel_name_194688">融訊暢聯會議 Phone未接來電</string>
     <string name="zm_notification_text_forward_211695">轉接自%1$s</string>
     <string name="zm_notification_text_transfer_211695">轉接自%1$s</string>
-    <string name="zm_notification_zoom_meeting_income_166672">簡石會議會議邀請</string>
-    <string name="zm_notification_zoom_phone_incall_111498">簡石會議 Phone通話中</string>
-    <string name="zm_notification_zoom_phone_income_111498">簡石會議 Phone來電</string>
+    <string name="zm_notification_zoom_meeting_income_166672">融訊暢聯會議會議邀請</string>
+    <string name="zm_notification_zoom_phone_incall_111498">融訊暢聯會議 Phone通話中</string>
+    <string name="zm_notification_zoom_phone_income_111498">融訊暢聯會議 Phone來電</string>
     <string name="zm_number_phone_calls_31368">%1$d通通話</string>
     <string name="zm_on_request_local_livestream_privilege_received_alert_deny_btn_426839">拒絕</string>
     <string name="zm_on_request_local_livestream_privilege_received_alert_grant_btn_426839">授予</string>
@@ -5794,9 +5794,9 @@
     <string name="zm_open_diff_lobby_confirm_dialog_title_432121">您已加入另一個直播大廳</string>
     <string name="zm_open_whiteboard_374512">開啟白板</string>
     <string name="zm_open_whiteboard_err_374512">不明錯誤（%d）。請聯絡您的IT管理員。</string>
-    <string name="zm_open_whiteboard_err_version_not_support_374512">您的目前簡石會議 Room版本不支援白板功能。請聯絡您的IT管理員。</string>
-    <string name="zm_open_whiteboard_err_zr_wb_turned_off_374512">已關閉簡石會議 Room的白板功能。請聯絡您的IT管理員。</string>
-    <string name="zm_open_whiteboard_to_zr_open_374512">開啟Office 簡石會議上的「%s」</string>
+    <string name="zm_open_whiteboard_err_version_not_support_374512">您的目前融訊暢聯會議 Room版本不支援白板功能。請聯絡您的IT管理員。</string>
+    <string name="zm_open_whiteboard_err_zr_wb_turned_off_374512">已關閉融訊暢聯會議 Room的白板功能。請聯絡您的IT管理員。</string>
+    <string name="zm_open_whiteboard_to_zr_open_374512">開啟Office 融訊暢聯會議上的「%s」</string>
     <string name="zm_option_add_to_camera_control_group_465893">新增至攝影機控制群組</string>
     <string name="zm_option_remove_from_camera_control_group_465893">從攝影機控制群組中移除</string>
     <string name="zm_option_start_camera_control_465893">啟動攝影機控制</string>
@@ -5809,7 +5809,7 @@
     <string name="zm_organize_navigation_bar_header_614589">包含在導覽列中（最多5個）</string>
     <string name="zm_organize_navigation_bar_hint_614589">調整底部導航列中的順序及項目</string>
     <string name="zm_organize_navigation_bar_title_614589">整理導航列</string>
-    <string name="zm_organize_navigation_fragment_header_614589">整理標籤列以支援簡石會議體驗中最常使用的功能。調整順序，新增及移除顯示的項目。</string>
+    <string name="zm_organize_navigation_fragment_header_614589">整理標籤列以支援融訊暢聯會議體驗中最常使用的功能。調整順序，新增及移除顯示的項目。</string>
     <string name="zm_organize_navigation_fragment_title_614589">整理導航列</string>
     <string name="zm_organize_remove_feature_ax_614589">移除%s</string>
     <string name="zm_otp_account_block_msg_344945">您的登入失敗嘗試次數已達到上限%2$d次，因此您的帳戶已被鎖定%1$d分鐘</string>
@@ -5823,14 +5823,14 @@
     <string name="zm_otp_token_expired_344945">輸入驗證碼的時間過長。請返回並重新登入一次。</string>
     <string name="zm_outlook_private_meeting_317030">私人預約</string>
     <string name="zm_pac_warning_msg_369420">您目前在個人語音會議中。</string>
-    <string name="zm_pair_error_message_admin_disable_179549">您的管理員已停用此簡石會議 Room的配對功能</string>
+    <string name="zm_pair_error_message_admin_disable_179549">您的管理員已停用此融訊暢聯會議 Room的配對功能</string>
     <string name="zm_pair_error_message_invaild_sharing_key_179549">無效的共用金鑰。請再試一次。</string>
     <string name="zm_pair_error_message_net_error_179549">網路錯誤，請稍後再試。</string>
-    <string name="zm_pair_error_message_not_same_account_604475">配對未成功：您的帳戶與簡石會議 Room並未登入至相同簡石會議帳戶</string>
-    <string name="zm_pair_error_message_not_support_home_device_179549">此簡石會議 for Home裝置不允許他人進行配對</string>
-    <string name="zm_pair_error_message_not_support_version_179549">您的目前簡石會議 Room版本不支援配對功能。若要使用配對功能，請升級至5.5.0或以上版本。</string>
+    <string name="zm_pair_error_message_not_same_account_604475">配對未成功：您的帳戶與融訊暢聯會議 Room並未登入至相同融訊暢聯會議帳戶</string>
+    <string name="zm_pair_error_message_not_support_home_device_179549">此融訊暢聯會議 for Home裝置不允許他人進行配對</string>
+    <string name="zm_pair_error_message_not_support_version_179549">您的目前融訊暢聯會議 Room版本不支援配對功能。若要使用配對功能，請升級至5.5.0或以上版本。</string>
     <string name="zm_pair_with_room_179549">與會議室配對</string>
-    <string name="zm_paired_successtip_179549">您的電話已與簡石會議 Room配對</string>
+    <string name="zm_paired_successtip_179549">您的電話已與融訊暢聯會議 Room配對</string>
     <string name="zm_paired_user_ax_387478">隨附模式</string>
     <string name="zm_panelist_join_fail_msg_331303">作為受邀嘉賓，您必須登入與獲邀參加此網路研討會之電子郵件相關聯的帳戶。</string>
     <string name="zm_panelist_join_fail_title_331303">登入與獲邀擔任嘉賓之電子郵件相關聯的帳戶</string>
@@ -5939,8 +5939,8 @@
     <string name="zm_pbx_call_out_phone_confirm_phone_error_internal_error_tips_553196">您的電話號碼似乎是內部號碼。請變更電話號碼。</string>
     <string name="zm_pbx_call_out_phone_confirm_phone_error_invalid_tips_553196">您的電話號碼無效。請變更電話號碼。</string>
     <string name="zm_pbx_call_out_phone_confirm_phone_error_sms_tips_553196">您的電話號碼似乎已遭禁止接收簡訊代碼。請變更電話號碼。</string>
-    <string name="zm_pbx_call_out_phone_confirm_phone_polocy_553196"><![CDATA[簡石會議受到reCAPTCHA保護，並且適用Google<a href="%1$s">《隱私權政策》</a>及<a href="%2$s">《服務條款》</a>。]]></string>
-    <string name="zm_pbx_call_out_phone_confirm_phone_tips_553196">為了您的安全著想，簡石會議想慎重確認這確實是您本人。簡石會議將會傳送驗證碼至下列電話號碼。</string>
+    <string name="zm_pbx_call_out_phone_confirm_phone_polocy_553196"><![CDATA[融訊暢聯會議受到reCAPTCHA保護，並且適用Google<a href="%1$s">《隱私權政策》</a>及<a href="%2$s">《服務條款》</a>。]]></string>
+    <string name="zm_pbx_call_out_phone_confirm_phone_tips_553196">為了您的安全著想，融訊暢聯會議想慎重確認這確實是您本人。融訊暢聯會議將會傳送驗證碼至下列電話號碼。</string>
     <string name="zm_pbx_call_out_phone_hint_553196">您的電話號碼</string>
     <string name="zm_pbx_call_out_phone_text_title_553196">電話號碼</string>
     <string name="zm_pbx_call_out_phone_verify_code_error_tips1_553196">簡訊代碼嘗試次數過多。</string>
@@ -5951,7 +5951,7 @@
     <string name="zm_pbx_call_out_tab_call_again_error_tips_553196">目前通話忙線中，\n請稍後再試一次。</string>
     <string name="zm_pbx_call_out_tab_ring_out_tip_553196">您正在使用撥出。%s</string>
     <string name="zm_pbx_call_out_title_553196">撥出</string>
-    <string name="zm_pbx_call_out_title_description_553196">允許您使用有線電話或手機透過您的簡石會議 Phone號碼及顯示號碼來撥打電話，從而隱藏您的有線電話或手機號碼。</string>
+    <string name="zm_pbx_call_out_title_description_553196">允許您使用有線電話或手機透過您的融訊暢聯會議 Phone號碼及顯示號碼來撥打電話，從而隱藏您的有線電話或手機號碼。</string>
     <string name="zm_pbx_call_out_turn_off_553196">關閉</string>
     <string name="zm_pbx_call_send_msg_action1_393647">我現在不方便講話。</string>
     <string name="zm_pbx_call_summary_failed_611081">總結失敗。</string>
@@ -6001,10 +6001,10 @@
     <string name="zm_pbx_emergency_calling_address_personal_475046">個人地址</string>
     <string name="zm_pbx_emergency_calling_enter_curr_addr_475046">輸入目前地址</string>
     <string name="zm_pbx_emergency_calling_setting_curr_location_475046">目前位置</string>
-    <string name="zm_pbx_emergency_calling_setting_desc_475046">來自簡石會議的緊急通話將會重新導向到您的原生手機應用程式。</string>
+    <string name="zm_pbx_emergency_calling_setting_desc_475046">來自融訊暢聯會議的緊急通話將會重新導向到您的原生手機應用程式。</string>
     <string name="zm_pbx_emergency_calling_setting_desc_no_wifi_475046">只有在您連接至WiFi時才能撥打緊急通話。</string>
     <string name="zm_pbx_emergency_calling_setting_dialog_desc_loc_serv_475046">如果您正在使用定位服務，GPS將會判斷您的約略位置，或是您可輸入地址以提升準確度（選用）。您輸入的地址將會儲存在目前的WiFi網路中。</string>
-    <string name="zm_pbx_emergency_calling_setting_dialog_desc_req_loc_permission_475046">您的管理員要求您啟用針對您位置的增強型存取權限。位置可根據IP位址、無線存取點ID、GPS座標（可用時）而定。從而讓簡石會議更好地協助判斷您的位置，並僅供回應您的緊急通話之用。</string>
+    <string name="zm_pbx_emergency_calling_setting_dialog_desc_req_loc_permission_475046">您的管理員要求您啟用針對您位置的增強型存取權限。位置可根據IP位址、無線存取點ID、GPS座標（可用時）而定。從而讓融訊暢聯會議更好地協助判斷您的位置，並僅供回應您的緊急通話之用。</string>
     <string name="zm_pbx_emergency_calling_setting_dialog_keep_loc_serv_475046">繼續使用定位服務</string>
     <string name="zm_pbx_emergency_calling_setting_edit_company_addr_475046">無法編輯公司地址。</string>
     <string name="zm_pbx_emergency_calling_setting_network_bssid_475046">BSSID</string>
@@ -6052,7 +6052,7 @@
     <string name="zm_pbx_history_summary_share_with_611081">分享對象</string>
     <string name="zm_pbx_history_summary_share_with_select_611081">選取</string>
     <string name="zm_pbx_history_summary_share_with_selected_611081">已選中%d人</string>
-    <string name="zm_pbx_history_summary_vote_successful_611081">感謝您向簡石會議提供意見反應。</string>
+    <string name="zm_pbx_history_summary_vote_successful_611081">感謝您向融訊暢聯會議提供意見反應。</string>
     <string name="zm_pbx_info_call_duration_179220">通話持續時間：%1$s</string>
     <string name="zm_pbx_invite_to_meeting_choose_meeting_131469">選擇會議</string>
     <string name="zm_pbx_invite_to_meeting_desc_131469">將此使用者移至任意會議</string>
@@ -6069,12 +6069,12 @@
     <string name="zm_pbx_lbl_call_recording_disable_101955">管理員已停用通話錄製</string>
     <string name="zm_pbx_lbl_call_recording_enable_101955">管理員已啟用通話錄製</string>
     <string name="zm_pbx_lbl_detecting_room_148025">正在偵測會議室...</string>
-    <string name="zm_pbx_lbl_hand_off_148025">將此通話轉接至簡石會議 Room</string>
-    <string name="zm_pbx_lbl_hand_off_failed_148025">此會議室不支援簡石會議 Phone，請嘗試其他會議室。</string>
-    <string name="zm_pbx_lbl_hand_off_not_same_account_148025">接力失敗，您的簡石會議 Phone和簡石會議 Room必須使用相同帳戶。</string>
+    <string name="zm_pbx_lbl_hand_off_148025">將此通話轉接至融訊暢聯會議 Room</string>
+    <string name="zm_pbx_lbl_hand_off_failed_148025">此會議室不支援融訊暢聯會議 Phone，請嘗試其他會議室。</string>
+    <string name="zm_pbx_lbl_hand_off_not_same_account_148025">接力失敗，您的融訊暢聯會議 Phone和融訊暢聯會議 Room必須使用相同帳戶。</string>
     <string name="zm_pbx_lbl_hand_off_other_failed_148025">接力失敗，請稍後再試一次。</string>
     <string name="zm_pbx_lbl_room_detected_148025">偵測到...</string>
-    <string name="zm_pbx_lbl_sharing_key_148025">輸入共用金鑰，將通話接力到簡石會議 Room</string>
+    <string name="zm_pbx_lbl_sharing_key_148025">輸入共用金鑰，將通話接力到融訊暢聯會議 Room</string>
     <string name="zm_pbx_live_transcript_288876">即時轉錄文字</string>
     <string name="zm_pbx_live_transcript_accessibility_next_button_288876">尋找下一個</string>
     <string name="zm_pbx_live_transcript_accessibility_previous_button_288876">尋找上一個</string>
@@ -6101,10 +6101,10 @@
     <string name="zm_pbx_message_transfered_system_message_510500">已由%1$s轉接給%2$s</string>
     <string name="zm_pbx_message_transferring_hint_510500">正在等候%1$s回覆...\n已由%2$s轉接</string>
     <string name="zm_pbx_mms_gif_too_large_187397">GIF檔案大小超過2MB，無法傳送</string>
-    <string name="zm_pbx_msg_contact_extension_call_389341">使用簡石會議 Phone %1$s通話</string>
-    <string name="zm_pbx_msg_contact_extension_call_summary_389341">使用簡石會議 Phone通話</string>
-    <string name="zm_pbx_msg_contact_extension_text_389341">使用簡石會議 Phone %1$s傳送文字</string>
-    <string name="zm_pbx_msg_contact_extension_text_summary_389341">使用簡石會議 Phone傳送文字</string>
+    <string name="zm_pbx_msg_contact_extension_call_389341">使用融訊暢聯會議 Phone %1$s通話</string>
+    <string name="zm_pbx_msg_contact_extension_call_summary_389341">使用融訊暢聯會議 Phone通話</string>
+    <string name="zm_pbx_msg_contact_extension_text_389341">使用融訊暢聯會議 Phone %1$s傳送文字</string>
+    <string name="zm_pbx_msg_contact_extension_text_summary_389341">使用融訊暢聯會議 Phone傳送文字</string>
     <string name="zm_pbx_msg_global_search_all_423022">搜尋全部</string>
     <string name="zm_pbx_msg_mygreeting_block_400025">電話或會議進行中，請稍後再試</string>
     <string name="zm_pbx_msg_search_331511">在交談中搜尋</string>
@@ -6159,7 +6159,7 @@
     <string name="zm_pbx_search_common_area_104213">（公共區域）</string>
     <string name="zm_pbx_search_group_104213">（群組）</string>
     <string name="zm_pbx_search_receptionist_104213">（總機）</string>
-    <string name="zm_pbx_setting_desc_video_greeting_290287">內部簡石會議 Phone來電者將會看見此視訊問候，而外部來電者將會聽見您的語音問候。</string>
+    <string name="zm_pbx_setting_desc_video_greeting_290287">內部融訊暢聯會議 Phone來電者將會看見此視訊問候，而外部來電者將會聽見您的語音問候。</string>
     <string name="zm_pbx_setting_hide_incoming_call_in_meeting_511242">會議期間隱藏來電</string>
     <string name="zm_pbx_setting_title_video_greeting_290287">視訊問候</string>
     <string name="zm_pbx_setting_transcript_automatically_288876">自動啟動即時轉錄文字</string>
@@ -6241,7 +6241,7 @@
     <string name="zm_pbx_trash_title_remove_all_voicemail_232709">清除所有語音留言</string>
     <string name="zm_pbx_trash_title_remove_items_232709">刪除%d個項目</string>
     <string name="zm_pbx_turn_on_call_summary_tip_learn_more_btn_611081">深入瞭解</string>
-    <string name="zm_pbx_turn_on_call_summary_tip_message_1_611081">通話摘要使用人工智慧技術（可能包括第三方模型）。簡石會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練簡石會議或第三方人工智慧模型。</string>
+    <string name="zm_pbx_turn_on_call_summary_tip_message_1_611081">通話摘要使用人工智慧技術（可能包括第三方模型）。融訊暢聯會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練融訊暢聯會議或第三方人工智慧模型。</string>
     <string name="zm_pbx_turn_on_call_summary_tip_message_2_611081">人工智慧產生的內容可能不準確或具有誤導性。一律檢查準確性。</string>
     <string name="zm_pbx_turn_on_call_summary_tip_title_611081">開啟使用AI Companion的通話摘要</string>
     <string name="zm_pbx_turn_on_call_summary_tip_turn_on_btn_611081">同意並開啟</string>
@@ -6333,7 +6333,7 @@
     <string name="zm_pbx_voicemail_task_dialog_extract_error_548782">無法擷取工作。請再試一次，或是聯絡您的IT支援。</string>
     <string name="zm_pbx_voicemail_task_dialog_extract_try_again_548782">請再試一次</string>
     <string name="zm_pbx_voicemail_task_dialog_extracting_548782">AI Companion正在擷取工作...</string>
-    <string name="zm_pbx_voicemail_task_dialog_reminder_content_548782">語音留言工作使用人工智慧技術（可能包括第三方模型）。簡石會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練簡石會議或第三方人工智慧模型。<![CDATA[<a href="%s">深入瞭解</a>]]></string>
+    <string name="zm_pbx_voicemail_task_dialog_reminder_content_548782">語音留言工作使用人工智慧技術（可能包括第三方模型）。融訊暢聯會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練融訊暢聯會議或第三方人工智慧模型。<![CDATA[<a href="%s">深入瞭解</a>]]></string>
     <string name="zm_pbx_voicemail_task_dialog_reminder_sub_content_548782">人工智慧產生的內容可能不準確或具有誤導性。一律檢查準確性。</string>
     <string name="zm_pbx_voicemail_task_dialog_save_error_548782">無法儲存工作。請再試一次，或是聯絡您的IT支援。</string>
     <string name="zm_pbx_voicemail_task_dialog_task_unavailable_548782">工作無法使用。</string>
@@ -6363,15 +6363,15 @@
     <string name="zm_pbx_voicemail_view_devices_386885">檢視裝置</string>
     <string name="zm_pbx_you_100064">%1$s（您）</string>
     <string name="zm_pbx_your_inbox_100064">您的</string>
-    <string name="zm_permission_change_config_desc">變更簡石會議應用程式設定</string>
-    <string name="zm_permission_change_config_label">變更簡石會議應用程式設定</string>
+    <string name="zm_permission_change_config_desc">變更融訊暢聯會議應用程式設定</string>
+    <string name="zm_permission_change_config_label">變更融訊暢聯會議應用程式設定</string>
     <string name="zm_permission_chat_limit_550043">您無權傳送聊天訊息！</string>
     <string name="zm_permission_goto_change_setting_464150">變更設定</string>
     <string name="zm_permission_granted_239946">運作中</string>
-    <string name="zm_permission_group">簡石會議應用程式工具</string>
+    <string name="zm_permission_group">融訊暢聯會議應用程式工具</string>
     <string name="zm_permission_guide_calendar_connect_570994">已連線</string>
-    <string name="zm_permission_guide_calendar_desc_478150">允許簡石會議存取您的日曆，這樣您就能輕鬆排程會議，並直接從應用程式加入即將開始的會議。</string>
-    <string name="zm_permission_guide_calendar_desc_570994">透過連線至外部日曆及聯絡人，或是裝置日曆的方式，輕鬆存取簡石會議會議。</string>
+    <string name="zm_permission_guide_calendar_desc_478150">允許融訊暢聯會議存取您的日曆，這樣您就能輕鬆排程會議，並直接從應用程式加入即將開始的會議。</string>
+    <string name="zm_permission_guide_calendar_desc_570994">透過連線至外部日曆及聯絡人，或是裝置日曆的方式，輕鬆存取融訊暢聯會議會議。</string>
     <string name="zm_permission_guide_calendar_enable_478150">存取日曆</string>
     <string name="zm_permission_guide_calendar_enable_570994">連線</string>
     <string name="zm_permission_guide_calendar_title_478150">絕不錯過您的會議</string>
@@ -6380,22 +6380,22 @@
     <string name="zm_permission_guide_fingerprint_desc_478150">啟用指紋提高安全性，並更快速地存取帳戶。</string>
     <string name="zm_permission_guide_fingerprint_enable_478150">啟用指紋</string>
     <string name="zm_permission_guide_fingerprint_title_478150">指紋</string>
-    <string name="zm_permission_guide_finish_desc_478150">歡迎使用簡石會議，這是一款適用於團體聊天、電話、會議等場合的應用程式。</string>
+    <string name="zm_permission_guide_finish_desc_478150">歡迎使用融訊暢聯會議，這是一款適用於團體聊天、電話、會議等場合的應用程式。</string>
     <string name="zm_permission_guide_finish_title_478150">您已準備就緒！</string>
     <string name="zm_permission_guide_notification_desc_478150">允許通知，這樣就能在會議即將開始，或是有人嘗試聯絡您時通知您。</string>
-    <string name="zm_permission_guide_notification_desc_556858">啟用通知以接收有關訊息、會議、產品提示及優惠的提醒。您可在簡石會議應用程式設定中管理這些項目。</string>
+    <string name="zm_permission_guide_notification_desc_556858">啟用通知以接收有關訊息、會議、產品提示及優惠的提醒。您可在融訊暢聯會議應用程式設定中管理這些項目。</string>
     <string name="zm_permission_guide_notification_enable_478150">啟用通知</string>
     <string name="zm_permission_guide_notification_title_478150">接收通知</string>
-    <string name="zm_permission_guide_profile_desc_478150">您的設定檔圖片及顯示名稱，將會在會議期間、團體聊天，以及設定檔上向其他簡石會議使用者顯示。</string>
+    <string name="zm_permission_guide_profile_desc_478150">您的設定檔圖片及顯示名稱，將會在會議期間、團體聊天，以及設定檔上向其他融訊暢聯會議使用者顯示。</string>
     <string name="zm_permission_guide_profile_display_desc_478150">輸入名稱（例如：您的名字、姓氏或暱稱）</string>
     <string name="zm_permission_guide_profile_title_478150">個人化您的設定檔</string>
     <string name="zm_permission_guide_profile_upload_478150">上傳影像（選用）</string>
     <string name="zm_permission_guide_profile_upload_image_478150">上傳影像</string>
-    <string name="zm_permission_guide_subscription_desc_551882">使用簡石會議 One專業版即可暢享無時間限制的會議、雲端錄製、生產力應用程式，以及更多功能。立即免費試用！</string>
+    <string name="zm_permission_guide_subscription_desc_551882">使用融訊暢聯會議 One專業版即可暢享無時間限制的會議、雲端錄製、生產力應用程式，以及更多功能。立即免費試用！</string>
     <string name="zm_permission_guide_subscription_ok_551882">立即瞭解</string>
-    <string name="zm_permission_guide_subscription_title_551882">免費試用簡石會議 One專業版</string>
-    <string name="zm_permission_read_config_desc">讀取簡石會議應用程式設定。 </string>
-    <string name="zm_permission_read_config_label">讀取簡石會議應用程式設定</string>
+    <string name="zm_permission_guide_subscription_title_551882">免費試用融訊暢聯會議 One專業版</string>
+    <string name="zm_permission_read_config_desc">讀取融訊暢聯會議應用程式設定。 </string>
+    <string name="zm_permission_read_config_label">讀取融訊暢聯會議應用程式設定</string>
     <string name="zm_personal_bo_plist_label_339098">在個人分組討論室中</string>
     <string name="zm_personal_bo_plist_leave_label_339098">正離開個人分組討論室</string>
     <string name="zm_personal_breakout_room_leave_title_339098">個人分組討論室將在%d秒後關閉</string>
@@ -6415,7 +6415,7 @@
     <string name="zm_picker_media_manage_item_change_setting_613747">變更設定</string>
     <string name="zm_picker_media_manage_item_select_more_613747">選取更多媒體</string>
     <string name="zm_picker_media_permission_manage_613747">管理</string>
-    <string name="zm_picker_media_permission_tip_613747">您已授予簡石會議存取特定數量照片與視訊的權限</string>
+    <string name="zm_picker_media_permission_tip_613747">您已授予融訊暢聯會議存取特定數量照片與視訊的權限</string>
     <string name="zm_picker_over_max_count_tips">您只能選取%1$d個影像</string>
     <string name="zm_picker_photos_title">選取影像</string>
     <string name="zm_picker_preview_with_count">預覽（%1$d）</string>
@@ -6570,13 +6570,13 @@
     <string name="zm_qr_connect_error_580145">發生錯誤。請再試一次</string>
     <string name="zm_qr_connect_hint_already_connected_580145">%s已是您的聯絡人</string>
     <string name="zm_qr_connect_invite_with_qr_code_580145">透過QR代碼邀請</string>
-    <string name="zm_qr_connect_on_zoom_580145">傳送聯絡人要求，以便能在簡石會議上進行聯繫</string>
-    <string name="zm_qr_connect_request_sent_580145">若此請求獲對方接受，此人員將新增至您的簡石會議聯絡人</string>
+    <string name="zm_qr_connect_on_zoom_580145">傳送聯絡人要求，以便能在融訊暢聯會議上進行聯繫</string>
+    <string name="zm_qr_connect_request_sent_580145">若此請求獲對方接受，此人員將新增至您的融訊暢聯會議聯絡人</string>
     <string name="zm_qr_connect_reset_qr_code_610730">重設QR代碼</string>
     <string name="zm_qr_connect_reset_qr_code_description_610730">您將收到新代碼。現有代碼將會失效。</string>
-    <string name="zm_qr_connect_sent_contact_request_580145">如果%s接受您的要求，便會將您新增為簡石會議的聯絡人。</string>
-    <string name="zm_qr_connect_share_code_580145">與他人分享此代碼，這樣他們就能在簡石會議上與您聯繫</string>
-    <string name="zm_qr_connect_with_on_zoom_580145">在簡石會議聯繫%s</string>
+    <string name="zm_qr_connect_sent_contact_request_580145">如果%s接受您的要求，便會將您新增為融訊暢聯會議的聯絡人。</string>
+    <string name="zm_qr_connect_share_code_580145">與他人分享此代碼，這樣他們就能在融訊暢聯會議上與您聯繫</string>
+    <string name="zm_qr_connect_with_on_zoom_580145">在融訊暢聯會議聯繫%s</string>
     <string name="zm_qr_error_1010_289199">您並不屬於此組織</string>
     <string name="zm_qr_error_30051002_541811">QR代碼掃描失敗，請再試一次。</string>
     <string name="zm_qr_error_30051005_489923">無法刪除。請聯絡管理員。</string>
@@ -6596,10 +6596,10 @@
     <string name="zm_qr_not_identified_289199">未識別QR代碼</string>
     <string name="zm_qr_scan_code_289199">掃描QR代碼</string>
     <string name="zm_queries_tip_warn_msg_576027">已啟用AI Companion側邊面板。正在為此功能產生臨時轉錄文字。</string>
-    <string name="zm_query_disclaimer_desc1_545028">AI Companion使用人工智慧技術（可能包括第三方模型）。主持人和與會者可在會議期間提問，並可從會議轉錄文字中產生答案。簡石會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練簡石會議或第三方人工智慧模型。<![CDATA[<a href="%1$s">深入瞭解</a>]]></string>
+    <string name="zm_query_disclaimer_desc1_545028">AI Companion使用人工智慧技術（可能包括第三方模型）。主持人和與會者可在會議期間提問，並可從會議轉錄文字中產生答案。融訊暢聯會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練融訊暢聯會議或第三方人工智慧模型。<![CDATA[<a href="%1$s">深入瞭解</a>]]></string>
     <string name="zm_query_disclaimer_desc1_576027">AI Companion使用人工智慧技術（可能包括第三方模型）。主持人和與會者可在會議期間提問，並可從臨時會議轉錄文字中產生答案。</string>
     <string name="zm_query_disclaimer_desc2_545028">人工智慧產生的內容可能不準確或具有誤導性。一律檢查準確性。</string>
-    <string name="zm_query_disclaimer_desc2_576027">簡石會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練簡石會議或第三方人工智慧模型。</string>
+    <string name="zm_query_disclaimer_desc2_576027">融訊暢聯會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練融訊暢聯會議或第三方人工智慧模型。</string>
     <string name="zm_rc_mouse_icon">滑鼠圖示</string>
     <string name="zm_rc_mouse_icon_description">拖曳滑鼠圖示可移動遠端滑鼠指標</string>
     <string name="zm_rc_one_finger_double_taps">單指點兩下</string>
@@ -6779,8 +6779,8 @@
     <string name="zm_search_sort_by_most_recently_added_acc_button_212554">近期最常新增，按鈕</string>
     <string name="zm_search_sort_by_most_recently_added_acc_selected_212554">已選取「近期最常新增」</string>
     <string name="zm_search_sort_by_title_212554">排序方式</string>
-    <string name="zm_security_certificate_question_42900">您無法連接到簡石會議，因為所提供的安全性憑證無法驗證。請聯繫您的IT部門尋求幫助。</string>
-    <string name="zm_security_certificate_question_detail_42900">您的連線並非私人連線。攻擊者可能試圖從簡石會議竊取您的個人或財務資訊。\n\n此伺服器無法證明它是簡石會議。其安全性憑證來自%s。</string>
+    <string name="zm_security_certificate_question_42900">您無法連接到融訊暢聯會議，因為所提供的安全性憑證無法驗證。請聯繫您的IT部門尋求幫助。</string>
+    <string name="zm_security_certificate_question_detail_42900">您的連線並非私人連線。攻擊者可能試圖從融訊暢聯會議竊取您的個人或財務資訊。\n\n此伺服器無法證明它是融訊暢聯會議。其安全性憑證來自%s。</string>
     <string name="zm_security_certificate_title_42900">安全性警告：不受信任的伺服器憑證</string>
     <string name="zm_security_whiteboards_370523">分享白板</string>
     <string name="zm_security_zoom_notes_522958">分享筆記</string>
@@ -6790,11 +6790,11 @@
     <string name="zm_send_log_mail_478872">郵件</string>
     <string name="zm_send_log_mail_choose_title_479569">透過電子郵件傳送記錄</string>
     <string name="zm_send_log_mail_tip_no_mail_app_479569">請先安裝郵件應用程式</string>
-    <string name="zm_send_log_server_478872">簡石會議 Server</string>
+    <string name="zm_send_log_server_478872">融訊暢聯會議 Server</string>
     <string name="zm_send_log_server_hint_email_478872">請輸入您的電子郵件</string>
     <string name="zm_send_log_server_optional_478872">選用</string>
     <string name="zm_send_log_server_required_478872">必要</string>
-    <string name="zm_service_notification_channel_name_43235">簡石會議服務通知</string>
+    <string name="zm_service_notification_channel_name_43235">融訊暢聯會議服務通知</string>
     <string name="zm_session_contact_request_accept_byother">%1$s接受了您的聯絡人請求</string>
     <string name="zm_session_contact_request_decline_byother">%1$s拒絕了您的聯絡人請求</string>
     <string name="zm_session_recive_contact_request_107052">%1$s想加您為聯絡人</string>
@@ -6810,20 +6810,20 @@
     <string name="zm_setting_other_label_556858">其他</string>
     <string name="zm_setting_other_text_556858">密切留意最新產品資訊、推薦，以及其他訊息</string>
     <string name="zm_setting_promotions_label_556858">促銷</string>
-    <string name="zm_setting_promotions_text_556858">獲得有關簡石會議產品與服務的折扣、優惠及促銷的提醒</string>
+    <string name="zm_setting_promotions_text_556858">獲得有關融訊暢聯會議產品與服務的折扣、優惠及促銷的提醒</string>
     <string name="zm_setting_select_one_160553">選取一項</string>
     <string name="zm_setting_use_original_sound_desc_238514">這可讓您在會議中啟用或停用原聲。原聲將會停用降噪功能。</string>
     <string name="zm_settings_other_318150">其他</string>
     <string name="zm_settings_show_avatar_inmeeting_chat_297789">在會議中聊天訊息旁邊顯示使用者設定檔圖示</string>
     <string name="zm_share_212554">分享</string>
-    <string name="zm_share_chat_group_host_belong_413279">傳送給所有人的新訊息將會儲存至%s內的簡石會議 Team Chat。</string>
-    <string name="zm_share_chat_group_nhost_belong_413279">傳送給所有人的新訊息將會儲存至%s內的簡石會議 Team Chat。您可以詢問主持人以取得更多資訊。</string>
-    <string name="zm_share_chat_naccount_413279">傳送給所有人的新訊息將會儲存至簡石會議 Team Chat。您可以建立簡石會議帳戶並詢問主持人以取得更多資訊。</string>
-    <string name="zm_share_chat_nhost_nbelong_413279">傳送給所有人的新訊息將會儲存至簡石會議 Team Chat。您可以詢問主持人以取得更多資訊。</string>
-    <string name="zm_share_chat_stop_413279">訊息將不會儲存至簡石會議 Team Chat。</string>
-    <string name="zm_share_chat_you_host_belong_413279">傳送給所有人的新訊息將會儲存至與您之間的簡石會議 Team Chat。</string>
-    <string name="zm_share_chat_you_host_nbelong_413279">傳送給所有人的新訊息將會儲存至與%s之間的簡石會議 Team Chat。</string>
-    <string name="zm_share_chat_you_nhost_belong_413279">傳送給所有人的新訊息將會儲存至與您之間的簡石會議 Team Chat。您可以詢問主持人以取得更多資訊。</string>
+    <string name="zm_share_chat_group_host_belong_413279">傳送給所有人的新訊息將會儲存至%s內的融訊暢聯會議 Team Chat。</string>
+    <string name="zm_share_chat_group_nhost_belong_413279">傳送給所有人的新訊息將會儲存至%s內的融訊暢聯會議 Team Chat。您可以詢問主持人以取得更多資訊。</string>
+    <string name="zm_share_chat_naccount_413279">傳送給所有人的新訊息將會儲存至融訊暢聯會議 Team Chat。您可以建立融訊暢聯會議帳戶並詢問主持人以取得更多資訊。</string>
+    <string name="zm_share_chat_nhost_nbelong_413279">傳送給所有人的新訊息將會儲存至融訊暢聯會議 Team Chat。您可以詢問主持人以取得更多資訊。</string>
+    <string name="zm_share_chat_stop_413279">訊息將不會儲存至融訊暢聯會議 Team Chat。</string>
+    <string name="zm_share_chat_you_host_belong_413279">傳送給所有人的新訊息將會儲存至與您之間的融訊暢聯會議 Team Chat。</string>
+    <string name="zm_share_chat_you_host_nbelong_413279">傳送給所有人的新訊息將會儲存至與%s之間的融訊暢聯會議 Team Chat。</string>
+    <string name="zm_share_chat_you_nhost_belong_413279">傳送給所有人的新訊息將會儲存至與您之間的融訊暢聯會議 Team Chat。您可以詢問主持人以取得更多資訊。</string>
     <string name="zm_shared_spaces_disabled_525481">已停用分享空間功能</string>
     <string name="zm_shared_spaces_no_channels_yet_525481">您目前沒有任何頻道。</string>
     <string name="zm_shared_spaces_no_shared_spaces_yet_525481">您目前沒有任何分享空間。</string>
@@ -6845,16 +6845,16 @@
     <string name="zm_sign_to_join_129757">登入以加會</string>
     <string name="zm_sign_up_fingerprint_error_592624">嘗試次數過多。請稍後再試。</string>
     <string name="zm_signed_out_clock_out_reason_506789">您僅能在工作時段內使用您的帳戶。</string>
-    <string name="zm_signed_out_clock_out_reason_517706">您只能在打卡後存取簡石會議。</string>
+    <string name="zm_signed_out_clock_out_reason_517706">您只能在打卡後存取融訊暢聯會議。</string>
     <string name="zm_signed_out_clock_out_title_506789">您已登出</string>
     <string name="zm_signin_account_accounts_desc_546560">帳戶</string>
     <string name="zm_signin_account_active_account_desc_546560">目前使用中帳戶</string>
     <string name="zm_signin_account_active_status_546560">使用中</string>
     <string name="zm_signin_add_account_391710">新增帳戶</string>
-    <string name="zm_signin_channel_terms_442801"><![CDATA[簡石會議受到reCAPTCHA保護，並且適用Google<a href="%1$s">《隱私權政策》</a>及<a href="%2$s">《服務條款》</a>。]]></string>
+    <string name="zm_signin_channel_terms_442801"><![CDATA[融訊暢聯會議受到reCAPTCHA保護，並且適用Google<a href="%1$s">《隱私權政策》</a>及<a href="%2$s">《服務條款》</a>。]]></string>
     <string name="zm_signin_history_391710">登入歷史記錄</string>
     <string name="zm_signin_microsoft_btn_570994">Microsoft</string>
-    <string name="zm_signin_no_login_method_480330">您的要求遇到問題。請與您的簡石會議帳戶管理員聯繫以取得協助。</string>
+    <string name="zm_signin_no_login_method_480330">您的要求遇到問題。請與您的融訊暢聯會議帳戶管理員聯繫以取得協助。</string>
     <string name="zm_signin_other_method_442801">其他登入方式</string>
     <string name="zm_signin_remove_account_391710">移除帳戶</string>
     <string name="zm_signin_remove_account_failure_391710">移除帳戶失敗</string>
@@ -6878,20 +6878,20 @@
     <string name="zm_signout_account_desc_546560">如果您從選取的帳戶登出，您將無法直接切換為此帳戶。</string>
     <string name="zm_signout_accounts_546560">登出所選帳戶？</string>
     <string name="zm_signout_accounts_desc_546560">如果您從選取的帳戶登出，您將無法直接切換為這些帳戶。</string>
-    <string name="zm_signup_accept_terms_442801"><![CDATA[一旦繼續，本人即同意<a href="%1$s">簡石會議的《隱私權聲明》</a>及<a href="%2$s">《服務條款》</a>。]]></string>
-    <string name="zm_signup_agreement_506850">簡石會議協議</string>
-    <string name="zm_signup_agreement_approve_desc_506850">我願意接收簡石會議的產品、服務和產業趨勢相關行銷通訊。我瞭解我可以隨時取消訂閱上述內容。</string>
-    <string name="zm_signup_agreement_data_collection_506850"><![CDATA[本人同意<a href="%1$s">簡石會議的《資料收集與使用同意書》。</a><font color="#DE2828">*</font>]]></string>
-    <string name="zm_signup_agreement_desc_506850">請同意必要項目以繼續。若您不同意，您將無法於簡石會議註冊。<![CDATA[<font color="#DE2828">*</font>標記為必要項目。]]></string>
-    <string name="zm_signup_agreement_terms_506850"><![CDATA[本人同意<a href="%1$s">簡石會議的《隱私權聲明》</a>及<a href="%2$s">《服務條款》。</a><font color="#DE2828">*</font>]]></string>
+    <string name="zm_signup_accept_terms_442801"><![CDATA[一旦繼續，本人即同意<a href="%1$s">融訊暢聯會議的《隱私權聲明》</a>及<a href="%2$s">《服務條款》</a>。]]></string>
+    <string name="zm_signup_agreement_506850">融訊暢聯會議協議</string>
+    <string name="zm_signup_agreement_approve_desc_506850">我願意接收融訊暢聯會議的產品、服務和產業趨勢相關行銷通訊。我瞭解我可以隨時取消訂閱上述內容。</string>
+    <string name="zm_signup_agreement_data_collection_506850"><![CDATA[本人同意<a href="%1$s">融訊暢聯會議的《資料收集與使用同意書》。</a><font color="#DE2828">*</font>]]></string>
+    <string name="zm_signup_agreement_desc_506850">請同意必要項目以繼續。若您不同意，您將無法於融訊暢聯會議註冊。<![CDATA[<font color="#DE2828">*</font>標記為必要項目。]]></string>
+    <string name="zm_signup_agreement_terms_506850"><![CDATA[本人同意<a href="%1$s">融訊暢聯會議的《隱私權聲明》</a>及<a href="%2$s">《服務條款》。</a><font color="#DE2828">*</font>]]></string>
     <string name="zm_signup_birth_error_442801">請輸入有效的出生年份</string>
     <string name="zm_signup_birth_txt__442801">選取您的出生日期</string>
     <string name="zm_signup_continue_442801">繼續</string>
     <string name="zm_signup_email_hint_442801">user@example.com</string>
     <string name="zm_signup_email_subscription_442801">電子郵件訂閱</string>
-    <string name="zm_signup_email_subscription_desc_442801">我願意收到來自簡石會議的產品、優惠及業界趨勢相關通訊內容。我瞭解我可以隨時取消訂閱上述內容。</string>
+    <string name="zm_signup_email_subscription_desc_442801">我願意收到來自融訊暢聯會議的產品、優惠及業界趨勢相關通訊內容。我瞭解我可以隨時取消訂閱上述內容。</string>
     <string name="zm_signup_enter_name_tip_442801">輸入您的名稱並設定密碼</string>
-    <string name="zm_signup_illegal_age_msg_442801">很抱歉，您目前無法註冊簡石會議</string>
+    <string name="zm_signup_illegal_age_msg_442801">很抱歉，您目前無法註冊融訊暢聯會議</string>
     <string name="zm_signup_input_birth_years_442801">出生年份</string>
     <string name="zm_signup_input_firstname_442801">請輸入您的名字</string>
     <string name="zm_signup_input_lastname_442801">請輸入您的姓氏</string>
@@ -6914,7 +6914,7 @@
     <string name="zm_signup_password_rule_title_480330">您的新密碼必須：\n</string>
     <string name="zm_signup_password_rule_title_597275">密碼必須至少包含：</string>
     <string name="zm_signup_password_rule_uppercase_597275">1個大寫字母</string>
-    <string name="zm_signup_review_agreement_506850"><![CDATA[請仔細檢閱<font color="#007AFF" >簡石會議協議</font>]]></string>
+    <string name="zm_signup_review_agreement_506850"><![CDATA[請仔細檢閱<font color="#007AFF" >融訊暢聯會議協議</font>]]></string>
     <string name="zm_signup_select_other_method_442801">或選取您的註冊方式</string>
     <string name="zm_signup_thirdparty_apple_label_442801">透過Apple繼續</string>
     <string name="zm_signup_thirdparty_facebook_label_442801">透過Facebook繼續</string>
@@ -6960,7 +6960,7 @@
     <string name="zm_sip_already_listen_148065">您已在監聽</string>
     <string name="zm_sip_already_whisper_148065">您已在耳語監聽</string>
     <string name="zm_sip_ar_from_text_141814">從</string>
-    <string name="zm_sip_ask_pop_permission_67420">為提供最佳通話體驗，簡石會議可能會要求您允許在應用程式上方顯示快顯視窗</string>
+    <string name="zm_sip_ask_pop_permission_67420">為提供最佳通話體驗，融訊暢聯會議可能會要求您允許在應用程式上方顯示快顯視窗</string>
     <string name="zm_sip_audio_downloading_warn_61381">音訊檔案仍在下載中</string>
     <string name="zm_sip_audio_play_failed_315867">播放失敗</string>
     <string name="zm_sip_authorization_name_74435">授權名稱</string>
@@ -6969,8 +6969,8 @@
     <string name="zm_sip_battery_optimization_category_title">電池最佳化</string>
     <string name="zm_sip_battery_optimization_dialog_btn_never">不再提醒</string>
     <string name="zm_sip_battery_optimization_dialog_content_msg">
-全新的Android電池最佳化設定將阻止您的簡石會議 Phone在裝置進入睡眠或應用程式待命模式時接收來電。\n\n
-為確保您能持續接聽來電，請於下一個畫面選取「是」，讓簡石會議在後台保持連線。
+全新的Android電池最佳化設定將阻止您的融訊暢聯會議 Phone在裝置進入睡眠或應用程式待命模式時接收來電。\n\n
+為確保您能持續接聽來電，請於下一個畫面選取「是」，讓融訊暢聯會議在後台保持連線。
     </string>
     <string name="zm_sip_battery_optimization_dialog_title">重要提醒</string>
     <string name="zm_sip_blind_transfer_des_521205">不與新使用者通話而直接轉接</string>
@@ -7016,9 +7016,9 @@
     <string name="zm_sip_call_answered_by_99631">%1$s已接聽%2$s的來電</string>
     <string name="zm_sip_call_assistant_61383">%1$s·已撥給%2$s</string>
     <string name="zm_sip_call_calling_503">正在呼叫</string>
-    <string name="zm_sip_call_control_details_message_277291">簡石會議目前支援下列通話控制項：撥打電話、接受或拒絕通話、開始或停止錄音、結束通話。在未來的版本中可能會新增更多通話控制項。請參閱%s的文件來確認支援哪些通話控制項。</string>
-    <string name="zm_sip_call_control_details_message_278713">簡石會議目前支援下列通話控制項：撥打電話、接受或拒絕通話、保留或恢復通話、直接轉接或詢問轉接、駐留或取消駐留通話、監聽、耳語監聽、插話監聽或接管通話、開始或停止錄音、升級為會議，以及結束通話。在未來的版本中可能會新增更多通話控制項。請參閱%s的說明文件，確認支援的通話控制項有哪些。</string>
-    <string name="zm_sip_call_control_details_message_288897">簡石會議目前支援下列通話控制項：撥打電話、接受或拒絕通話、保留或恢復通話、直接轉接或詢問轉接、開始或停止錄音、升級為會議，以及結束通話。在未來的版本中可能會新增更多通話控制項。請參閱%s的說明文件，確認支援的通話控制項有哪些。</string>
+    <string name="zm_sip_call_control_details_message_277291">融訊暢聯會議目前支援下列通話控制項：撥打電話、接受或拒絕通話、開始或停止錄音、結束通話。在未來的版本中可能會新增更多通話控制項。請參閱%s的文件來確認支援哪些通話控制項。</string>
+    <string name="zm_sip_call_control_details_message_278713">融訊暢聯會議目前支援下列通話控制項：撥打電話、接受或拒絕通話、保留或恢復通話、直接轉接或詢問轉接、駐留或取消駐留通話、監聽、耳語監聽、插話監聽或接管通話、開始或停止錄音、升級為會議，以及結束通話。在未來的版本中可能會新增更多通話控制項。請參閱%s的說明文件，確認支援的通話控制項有哪些。</string>
+    <string name="zm_sip_call_control_details_message_288897">融訊暢聯會議目前支援下列通話控制項：撥打電話、接受或拒絕通話、保留或恢復通話、直接轉接或詢問轉接、開始或停止錄音、升級為會議，以及結束通話。在未來的版本中可能會新增更多通話控制項。請參閱%s的說明文件，確認支援的通話控制項有哪些。</string>
     <string name="zm_sip_call_control_details_title_277291">通話控制項詳細資料：</string>
     <string name="zm_sip_call_control_dialog_content_263745">選擇您希望%s能夠管理這些控制項的時間長度。稍後您可以隨時在您的設定中變更此項目。</string>
     <string name="zm_sip_call_control_dialog_options_now_263745">現在</string>
@@ -7031,7 +7031,7 @@
     <string name="zm_sip_call_control_setting_footer_288897">受管理的通話控制項：撥打電話、接受或拒絕通話、保留或恢復通話、直接轉接或詢問轉接、開始或停止錄音、升級為會議，以及結束通話。</string>
     <string name="zm_sip_call_control_setting_header_263745">第三方通話控制項</string>
     <string name="zm_sip_call_control_setting_title_263745">通話控制項</string>
-    <string name="zm_sip_call_control_tooltip_319270">簡石會議支援第三方應用程式中的多種功能。關於完整清單及版本相容性，請參閱<![CDATA[<a href="%s">支援頁面</a>]]>。</string>
+    <string name="zm_sip_call_control_tooltip_319270">融訊暢聯會議支援第三方應用程式中的多種功能。關於完整清單及版本相容性，請參閱<![CDATA[<a href="%s">支援頁面</a>]]>。</string>
     <string name="zm_sip_call_duration1_104213">%1$s   </string>
     <string name="zm_sip_call_duration_61381">%1$s錄音</string>
     <string name="zm_sip_call_failed_486_27110">對方忙線中</string>
@@ -7069,7 +7069,7 @@
     <string name="zm_sip_call_queue_opt_out_all_desc_314902">您必須為所有佇列選取退出原因，否則所有佇列都無法退出。</string>
     <string name="zm_sip_call_queue_opt_out_all_title_314902">選取退出原因</string>
     <string name="zm_sip_call_removed_from_private_call_park_group_599001">已將您從私人通話駐留群組%1$s中移除</string>
-    <string name="zm_sip_call_title_111498">簡石會議 Phone</string>
+    <string name="zm_sip_call_title_111498">融訊暢聯會議 Phone</string>
     <string name="zm_sip_call_to_262203">%1$s · 撥給%2$s</string>
     <string name="zm_sip_call_transfer_262203">%1$s · 轉接自%2$s</string>
     <string name="zm_sip_call_transfer_61383">%1$s·已由%2$s轉接</string>
@@ -7143,14 +7143,14 @@
     <string name="zm_sip_end_and_continue_income_meeting_148065">結束通話並應答</string>
     <string name="zm_sip_end_listen_166977">結束並監聽</string>
     <string name="zm_sip_end_meeting_accept_108086">結束會議並接受</string>
-    <string name="zm_sip_error_block_function_272402">行動裝置上的簡石會議 Phone通話及簡訊/多媒體訊息功能已停用。請聯絡您的管理員以取得更多資訊。</string>
+    <string name="zm_sip_error_block_function_272402">行動裝置上的融訊暢聯會議 Phone通話及簡訊/多媒體訊息功能已停用。請聯絡您的管理員以取得更多資訊。</string>
     <string name="zm_sip_error_call_404_124905">您所撥的號碼無法接通</string>
     <string name="zm_sip_error_call_408_99728">呼叫要求逾時，請檢查網路設定。</string>
     <string name="zm_sip_error_call_480_99728">您所撥的號碼暫時無法接通，請稍後再試一次。</string>
     <string name="zm_sip_error_call_486_129845">您所撥的號碼目前忙線中，請稍後再試一次。</string>
     <string name="zm_sip_error_call_603_99728">對方已拒接電話</string>
     <string name="zm_sip_error_call_99728">呼叫失敗（代碼：%s）</string>
-    <string name="zm_sip_error_certificate">無法撥打電話。憑證檔案存在問題，請聯絡簡石會議支援。</string>
+    <string name="zm_sip_error_certificate">無法撥打電話。憑證檔案存在問題，請聯絡融訊暢聯會議支援。</string>
     <string name="zm_sip_error_data_99728">網路連線不佳，音訊品質可能受到影響。</string>
     <string name="zm_sip_error_device_113584">無法連線至您的音訊裝置</string>
     <string name="zm_sip_error_invite_to_meeting_error_250011">無法邀請%1$s參加會議</string>
@@ -7181,7 +7181,7 @@
     <string name="zm_sip_hidden_my_caller_id_559215">顯示號碼（隱藏）：%1$s</string>
     <string name="zm_sip_hide_caller_id_not_available_dialog_msg_463260">由於您的指派政策的緣故，顯示號碼封鎖無法使用。請聯絡您的管理員以取得進一步的協助。</string>
     <string name="zm_sip_hide_my_caller_id_64644">隱藏顯示號碼</string>
-    <string name="zm_sip_hide_my_caller_id_for_india_dialog_content_543663">由於印度電信法規限制，簡石會議 Phone印度使用者無法隱藏顯示號碼。</string>
+    <string name="zm_sip_hide_my_caller_id_for_india_dialog_content_543663">由於印度電信法規限制，融訊暢聯會議 Phone印度使用者無法隱藏顯示號碼。</string>
     <string name="zm_sip_hide_my_caller_id_may_not_work_155207">在某些國家或地區可能無法運作</string>
     <string name="zm_sip_hide_my_caller_id_may_not_work_dialog_msg_155207">攔截顯示號碼不保證在所有國家或地區皆有效。</string>
     <string name="zm_sip_hide_my_caller_id_may_not_work_dialog_show_btn_155207">不要再顯示</string>
@@ -7225,7 +7225,7 @@
     <string name="zm_sip_income_meeting_insip_108086">保留並接受</string>
     <string name="zm_sip_income_meeting_insip_audio_pop_108086">您的通話將會保留且會將音訊切換至會議</string>
     <string name="zm_sip_income_meeting_insip_monitor_148065">結束通話並應答</string>
-    <string name="zm_sip_income_pop_title_26673">簡石會議 Phone...</string>
+    <string name="zm_sip_income_pop_title_26673">融訊暢聯會議 Phone...</string>
     <string name="zm_sip_income_status_text_26673">正在呼叫…</string>
     <string name="zm_sip_incoming_call_assistant_61383">撥給%1$s</string>
     <string name="zm_sip_incoming_call_maybe_spam_183009">可能是垃圾電話： </string>
@@ -7234,7 +7234,7 @@
     <string name="zm_sip_incoming_call_text_111498">正在呼叫您...</string>
     <string name="zm_sip_incoming_call_ticker_111498">%1$s正在呼叫您</string>
     <string name="zm_sip_incoming_call_transfer_61383">轉接自%1$s</string>
-    <string name="zm_sip_inhold_in_call_offhook_66040">簡石會議 Phone已保留</string>
+    <string name="zm_sip_inhold_in_call_offhook_66040">融訊暢聯會議 Phone已保留</string>
     <string name="zm_sip_inmeeting_108086">會議中</string>
     <string name="zm_sip_invalid_recipient_117773">收件者無效</string>
     <string name="zm_sip_invalid_recipient_msg_136896">您的訊息並無有效收件者，請檢查號碼。</string>
@@ -7272,7 +7272,7 @@
     <string name="zm_sip_merge_call_title_111496">合併通話</string>
     <string name="zm_sip_merge_into_meeting_fail_108093">合併失敗</string>
     <string name="zm_sip_merge_into_meeting_fail_get_meeting_info_108093">無法取得會議資訊</string>
-    <string name="zm_sip_merge_into_meeting_fail_no_meeting_108093">目前沒有進行中的簡石會議會議</string>
+    <string name="zm_sip_merge_into_meeting_fail_no_meeting_108093">目前沒有進行中的融訊暢聯會議會議</string>
     <string name="zm_sip_merged_dialog_title_61394">合併的通話</string>
     <string name="zm_sip_merged_tap_to_end_call_61394">點擊可結束通話</string>
     <string name="zm_sip_merged_tap_to_end_call_93257">%1$s - 點擊可結束通話</string>
@@ -7282,7 +7282,7 @@
     <string name="zm_sip_minimized_call_window_description_92481">最小化通話視窗，%s</string>
     <string name="zm_sip_minimized_call_window_description_time_format_92481">最小化通話視窗，%1$d分鐘%2$d秒</string>
     <string name="zm_sip_missed_call_61381">未接來電%1$s</string>
-    <string name="zm_sip_missed_sip_call_ticker_111899">未接聽的%1$s的簡石會議 Phone來電</string>
+    <string name="zm_sip_missed_sip_call_ticker_111899">未接聽的%1$s的融訊暢聯會議 Phone來電</string>
     <string name="zm_sip_missed_sip_call_title_111899">未接來電</string>
     <string name="zm_sip_monitor_call_error_busy_148065">目前通話忙線中，請稍後再試一次。</string>
     <string name="zm_sip_monitor_call_inmeeting_msg_148065">若您繼續監聽通話，您的音訊將從會議切換至您的電話。</string>
@@ -7298,15 +7298,15 @@
     <string name="zm_sip_msg_delete_voicemail_169819">您即將永久刪除此則語音留言。此動作無法復原。</string>
     <string name="zm_sip_msg_end_call_in_monitor_148065">這樣會結束您目前監聽中的通話</string>
     <string name="zm_sip_msg_intercom_call_288412">%1$s正在通話，與%2$s對講將會中斷該通話。您確定要進行對講？</string>
-    <string name="zm_sip_msg_minimize_display_pop_381756">請透過應用程式設定允許簡石會議於背景執行時顯示快顯視窗。</string>
+    <string name="zm_sip_msg_minimize_display_pop_381756">請透過應用程式設定允許融訊暢聯會議於背景執行時顯示快顯視窗。</string>
     <string name="zm_sip_msg_record_videomail_inmeeting_290287">現在無法錄製視訊留言，因為您正在會議中。</string>
-    <string name="zm_sip_msg_request_imei_permission_for_india_cdr_569254">簡石會議想要存取您的手機狀態和裝置身分，包含但不限於IMEI，具體視提供簡石會議 Phone之國家/地區的監管要求而定。</string>
-    <string name="zm_sip_msg_request_location_permission_332597">您的管理員要求您在裝置設定中啟用與簡石會議的位置分享。分享您的位置，可讓簡石會議在進行緊急通話期間協助通報您的位置，以及啟用進階功能（例如基於位置的存取與呼叫路由）。您的位置資訊僅會用於此項用途。</string>
-    <string name="zm_sip_msg_request_location_permission_338281">锐安会议想要存取您的位置，以便在您的管理員啟用時提供額外功能（例如緊急服務、基於位置的存取，以及呼叫路由）。正在使用的位置資訊將包括IP位址、無線存取點ID，或是GPS座標（可用時）。</string>
-    <string name="zm_sip_msg_request_location_permission_for_india_cdr_516678">簡石會議想要存取您的位置，以便在您的管理員啟用時提供額外功能（例如緊急服務、基於位置的存取，以及呼叫路由）。根據提供簡石會議 Phone之國家/地區的監管要求，必須要有針對位置服務的存取權限。正在使用的位置資訊將包括IP位址、無線存取點ID，或是GPS座標（可用時）。</string>
-    <string name="zm_sip_msg_request_location_permission_initial_332597">锐安会议想要存取您的位置，以便在您的管理員啟用時提供額外功能（例如緊急服務、基於位置的存取，以及呼叫路由）。正在使用的位置資訊將包括IP位址、無線存取點ID，或是GPS座標（可用時）。</string>
-    <string name="zm_sip_msg_request_location_permission_retrigger_274626">您的管理員要求您啟用簡石會議位置分享。位置可根據IP位址、無線存取點ID、GPS座標（可用時）而定。這能讓簡石會議協助判斷您的位置，並僅供回應您的緊急通話之用。</string>
-    <string name="zm_sip_msg_unable_access_location_148057">請在裝置設定中允許簡石會議存取您的位置。</string>
+    <string name="zm_sip_msg_request_imei_permission_for_india_cdr_569254">融訊暢聯會議想要存取您的手機狀態和裝置身分，包含但不限於IMEI，具體視提供融訊暢聯會議 Phone之國家/地區的監管要求而定。</string>
+    <string name="zm_sip_msg_request_location_permission_332597">您的管理員要求您在裝置設定中啟用與融訊暢聯會議的位置分享。分享您的位置，可讓融訊暢聯會議在進行緊急通話期間協助通報您的位置，以及啟用進階功能（例如基於位置的存取與呼叫路由）。您的位置資訊僅會用於此項用途。</string>
+    <string name="zm_sip_msg_request_location_permission_338281">融讯畅联会议想要存取您的位置，以便在您的管理員啟用時提供額外功能（例如緊急服務、基於位置的存取，以及呼叫路由）。正在使用的位置資訊將包括IP位址、無線存取點ID，或是GPS座標（可用時）。</string>
+    <string name="zm_sip_msg_request_location_permission_for_india_cdr_516678">融訊暢聯會議想要存取您的位置，以便在您的管理員啟用時提供額外功能（例如緊急服務、基於位置的存取，以及呼叫路由）。根據提供融訊暢聯會議 Phone之國家/地區的監管要求，必須要有針對位置服務的存取權限。正在使用的位置資訊將包括IP位址、無線存取點ID，或是GPS座標（可用時）。</string>
+    <string name="zm_sip_msg_request_location_permission_initial_332597">融讯畅联会议想要存取您的位置，以便在您的管理員啟用時提供額外功能（例如緊急服務、基於位置的存取，以及呼叫路由）。正在使用的位置資訊將包括IP位址、無線存取點ID，或是GPS座標（可用時）。</string>
+    <string name="zm_sip_msg_request_location_permission_retrigger_274626">您的管理員要求您啟用融訊暢聯會議位置分享。位置可根據IP位址、無線存取點ID、GPS座標（可用時）而定。這能讓融訊暢聯會議協助判斷您的位置，並僅供回應您的緊急通話之用。</string>
+    <string name="zm_sip_msg_unable_access_location_148057">請在裝置設定中允許融訊暢聯會議存取您的位置。</string>
     <string name="zm_sip_msg_unable_record_greeing_inmeeting_400025">現在無法錄製問候，因為您正在會議中。</string>
     <string name="zm_sip_my_called_number_559215">撥打號碼：%1$s</string>
     <string name="zm_sip_my_caller_id_61381">顯示號碼：%1$s</string>
@@ -7370,7 +7370,7 @@
     <string name="zm_sip_recording_same_request_in_progress_37980">錄製正在處理中</string>
     <string name="zm_sip_recording_share_msg_call_from_37980">來電者：%s</string>
     <string name="zm_sip_recording_share_msg_call_to_37980">撥給%s </string>
-    <string name="zm_sip_recording_share_title_37980">簡石會議</string>
+    <string name="zm_sip_recording_share_title_37980">融訊暢聯會議</string>
     <string name="zm_sip_reg_error_403_88945">註冊失敗：您的帳戶已停用，請聯絡管理員。（錯誤代碼：%1$d）</string>
     <string name="zm_sip_reg_error_408_88945">註冊失敗。請檢查您的網路並再試一次。（錯誤代碼：%1$d）</string>
     <string name="zm_sip_reg_error_503_88945">註冊失敗：服務無法使用，請稍後再試一次。（錯誤代碼：%1$d）</string>
@@ -7387,8 +7387,8 @@
     <string name="zm_sip_send_log_brief_hint_required_101987">簡單說明情況...（必要）</string>
     <string name="zm_sip_send_log_brief_limit_101987">已達%d個字元上限</string>
     <string name="zm_sip_send_log_button_101987">傳送</string>
-    <string name="zm_sip_send_log_desc_101987">若在使用簡石會議 Phone時遇到問題，請聯絡簡石會議技術支援。您可以在支援代表提出要求時，向簡石會議報告問題以供進行疑難排解。</string>
-    <string name="zm_sip_send_log_desc_send_log_148869">一經傳送本報告，即表示您同意簡石會議在遵循其<![CDATA[<a href="%s">《隱私權政策》</a>]]>下，有權存取處理本問題所需的相關資料。</string>
+    <string name="zm_sip_send_log_desc_101987">若在使用融訊暢聯會議 Phone時遇到問題，請聯絡融訊暢聯會議技術支援。您可以在支援代表提出要求時，向融訊暢聯會議報告問題以供進行疑難排解。</string>
+    <string name="zm_sip_send_log_desc_send_log_148869">一經傳送本報告，即表示您同意融訊暢聯會議在遵循其<![CDATA[<a href="%s">《隱私權政策》</a>]]>下，有權存取處理本問題所需的相關資料。</string>
     <string name="zm_sip_send_log_desc_send_log_150295">此記錄將包括您的裝置及本應用程式的相關資訊，以便解決技術問題及改善我們的服務</string>
     <string name="zm_sip_send_log_feature_chat_114606">聊天</string>
     <string name="zm_sip_send_log_feature_meeting_114606">會議</string>
@@ -7471,7 +7471,7 @@
     <string name="zm_sip_sms_other_member_released_224489">%1$s（%2$s）已釋出此交談</string>
     <string name="zm_sip_sms_other_member_replied_224489">%1$s（%2$s）已選擇回覆</string>
     <string name="zm_sip_sms_receive_notification_224489">接收通知</string>
-    <string name="zm_sip_sms_receive_notification_off_desc_287637">開啟通知，以便在您未使用簡石會議 App時看見訊息</string>
+    <string name="zm_sip_sms_receive_notification_off_desc_287637">開啟通知，以便在您未使用融訊暢聯會議 App時看見訊息</string>
     <string name="zm_sip_sms_release_224489">釋出</string>
     <string name="zm_sip_sms_release_ar_261011">自動總機線路</string>
     <string name="zm_sip_sms_release_cq_261011">佇列</string>
@@ -7531,9 +7531,9 @@
     <string name="zm_sip_title_new_sms_117773">新簡訊</string>
     <string name="zm_sip_title_number_117773">號碼</string>
     <string name="zm_sip_title_pickup_call_in_monitor_148065">接聽來電並結束目前通話</string>
-    <string name="zm_sip_title_request_imei_permission_for_india_cdr_569254">允許簡石會議存取裝置身分</string>
-    <string name="zm_sip_title_request_location_permission_208864">允許「簡石會議」存取您的位置？</string>
-    <string name="zm_sip_title_request_location_permission_274626">允許簡石會議存取您的位置</string>
+    <string name="zm_sip_title_request_imei_permission_for_india_cdr_569254">允許融訊暢聯會議存取裝置身分</string>
+    <string name="zm_sip_title_request_location_permission_208864">允許「融訊暢聯會議」存取您的位置？</string>
+    <string name="zm_sip_title_request_location_permission_274626">允許融訊暢聯會議存取您的位置</string>
     <string name="zm_sip_title_resume_call_in_monitor_148065">恢復該通話並結束目前通話</string>
     <string name="zm_sip_title_send_failed_117773">無法傳送訊息</string>
     <string name="zm_sip_title_start_call_in_monitor_148065">開始新通話並結束目前通話</string>
@@ -7585,7 +7585,7 @@
     <string name="zm_sip_upgrade_to_meeting_callout_progress_53992">視訊會議即將開始。</string>
     <string name="zm_sip_upgrade_to_meeting_failed_53992">無法升級為視訊會議</string>
     <string name="zm_sip_upgrade_to_meeting_failed_with_name_53992">無法邀請%s參加會議</string>
-    <string name="zm_sip_upgrade_to_meeting_incoming_progress_53992">%1$s正將此通話轉接至簡石會議視訊會議</string>
+    <string name="zm_sip_upgrade_to_meeting_incoming_progress_53992">%1$s正將此通話轉接至融訊暢聯會議視訊會議</string>
     <string name="zm_sip_upgrade_to_meeting_join_53992">加入會議</string>
     <string name="zm_sip_upgrade_to_meeting_stay_53992">保留通話</string>
     <string name="zm_sip_upgrade_to_video_call_53992">開會</string>
@@ -7620,7 +7620,7 @@
     <string name="zm_sip_whisper_unable_148065">目前無法耳語監聽</string>
     <string name="zm_sip_whispering_148065">正在耳語監聽</string>
     <string name="zm_sip_you_262203">您</string>
-    <string name="zm_sip_zoom_user_identity_74435">簡石會議使用者身分</string>
+    <string name="zm_sip_zoom_user_identity_74435">融訊暢聯會議使用者身分</string>
     <string name="zm_speaking_language_incorrect_tips_367869">您的口說語言是%s嗎</string>
     <string name="zm_sso_signin_email_domain_label_216537">選取網域</string>
     <string name="zm_sso_signin_email_hint_216537">我知道公司網域</string>
@@ -7638,7 +7638,7 @@
     <string name="zm_sub_cmc_meeting_card_ax_participant_list_589214">與會者清單，%1$s，%3$d位中的第%2$d位</string>
     <string name="zm_sub_cmc_meeting_card_ax_start_chat_589214">開始聊天</string>
     <string name="zm_sub_cmc_meeting_card_chat_with_everyone_589214">與所有人聊天</string>
-    <string name="zm_subscription_40_mins_message_501873">您的方案有會議時間限制。當您升級至簡石會議 One專業版時，便不再有此類限制。</string>
+    <string name="zm_subscription_40_mins_message_501873">您的方案有會議時間限制。當您升級至融訊暢聯會議 One專業版時，便不再有此類限制。</string>
     <string name="zm_subscription_40_mins_title_501873">需要40分鐘以上的時間？</string>
     <string name="zm_subscription_annual_501873">年度</string>
     <string name="zm_subscription_annual_price_501873">每年收取%1$s</string>
@@ -7648,30 +7648,30 @@
     <string name="zm_subscription_btn_pro_monthly_287238">%1$s%2$s/月</string>
     <string name="zm_subscription_btn_pro_monthly_then_287238">然後，%1$s%2$s/月</string>
     <string name="zm_subscription_cancel_learn_more_287238">深入瞭解</string>
-    <string name="zm_subscription_cancel_message2_378649">您將會失去簡石會議 One專業版功能的存取權限。您的方案將會被降級至基本版（免費帳戶）。不會產生新的費用。</string>
+    <string name="zm_subscription_cancel_message2_378649">您將會失去融訊暢聯會議 One專業版功能的存取權限。您的方案將會被降級至基本版（免費帳戶）。不會產生新的費用。</string>
     <string name="zm_subscription_cancel_message_287238">您的方案是透過Google Play商店所購買。請造訪Google Play說明中心，瞭解如何管理您的方案。</string>
     <string name="zm_subscription_cancel_subtitle2_287238">一旦您取消方案</string>
     <string name="zm_subscription_cancel_subtitle_287238">如果您決定透過Google Play商店取消，您將失去下列功能：</string>
     <string name="zm_subscription_cancel_title_287238">如何取消</string>
-    <string name="zm_subscription_canceled_subscriber_dialog_message_551882">重新啟動您的簡石會議 One專業版方案，即可使用最新的協作功能、生產力應用程式，以及更多功能。此外，還能暢享無時長限制的會議。</string>
+    <string name="zm_subscription_canceled_subscriber_dialog_message_551882">重新啟動您的融訊暢聯會議 One專業版方案，即可使用最新的協作功能、生產力應用程式，以及更多功能。此外，還能暢享無時長限制的會議。</string>
     <string name="zm_subscription_canceled_subscriber_dialog_ok_551882">重新啟動專業版</string>
-    <string name="zm_subscription_canceled_subscriber_dialog_title_551882">簡石會議已漸入佳境</string>
-    <string name="zm_subscription_change_tab_message_501873">升級至簡石會議 One專業版，讓您的通訊更臻完美。即刻暢享無時間限制的會議、進階協作，以及更多功能。</string>
+    <string name="zm_subscription_canceled_subscriber_dialog_title_551882">融訊暢聯會議已漸入佳境</string>
+    <string name="zm_subscription_change_tab_message_501873">升級至融訊暢聯會議 One專業版，讓您的通訊更臻完美。即刻暢享無時間限制的會議、進階協作，以及更多功能。</string>
     <string name="zm_subscription_change_tab_title_501873">能夠安心地隨處辦公</string>
     <string name="zm_subscription_description_1_501873">專業版</string>
-    <string name="zm_subscription_description_287238">當免費試用結束時，便會開始計費。在免費試用結束前取消，就不會向您收費。所有簡石會議訂閱的免費試用僅限一次。訂閱會在計費期間結束時自動續約。可隨時在Google Play上取消。選取方案並完成結帳，即表示同意簡石會議的《服務條款》及《隱私權聲明》。</string>
+    <string name="zm_subscription_description_287238">當免費試用結束時，便會開始計費。在免費試用結束前取消，就不會向您收費。所有融訊暢聯會議訂閱的免費試用僅限一次。訂閱會在計費期間結束時自動續約。可隨時在Google Play上取消。選取方案並完成結帳，即表示同意融訊暢聯會議的《服務條款》及《隱私權聲明》。</string>
     <string name="zm_subscription_description_2_501873">每次會議最長為30小時</string>
     <string name="zm_subscription_description_3_501873">會議次數無限制</string>
     <string name="zm_subscription_description_4_501873">指派主持人和聯席主持人</string>
-    <string name="zm_subscription_description_527186">因為您已使用過免費試用，現在會立即開始計費。訂閱會在計費期間結束時自動續約。可隨時在Google Play上取消。選取方案並完成結帳，即表示同意簡石會議的《服務條款》及《隱私權聲明》。</string>
+    <string name="zm_subscription_description_527186">因為您已使用過免費試用，現在會立即開始計費。訂閱會在計費期間結束時自動續約。可隨時在Google Play上取消。選取方案並完成結帳，即表示同意融訊暢聯會議的《服務條款》及《隱私權聲明》。</string>
     <string name="zm_subscription_description_5_501873">雲端錄製檔案（最多5GB）</string>
     <string name="zm_subscription_dialog_btn_not_now_287238">現在不要</string>
     <string name="zm_subscription_dialog_btn_ok_287238">深入瞭解</string>
-    <string name="zm_subscription_dialog_message_287238">升級到簡石會議專業版，享受無限制會議及更多功能。</string>
+    <string name="zm_subscription_dialog_message_287238">升級到融訊暢聯會議專業版，享受無限制會議及更多功能。</string>
     <string name="zm_subscription_dialog_message_501873">可自行安排無時間限制的會議並保持聯繫。</string>
-    <string name="zm_subscription_dialog_title_287238">充份運用簡石會議</string>
-    <string name="zm_subscription_dialog_title_501873">升級簡石會議</string>
-    <string name="zm_subscription_error_message_287238">很抱歉，目前並無您符合資格能透過Google Play購買的簡石會議專業版方案。</string>
+    <string name="zm_subscription_dialog_title_287238">充份運用融訊暢聯會議</string>
+    <string name="zm_subscription_dialog_title_501873">升級融訊暢聯會議</string>
+    <string name="zm_subscription_error_message_287238">很抱歉，目前並無您符合資格能透過Google Play購買的融訊暢聯會議專業版方案。</string>
     <string name="zm_subscription_free_trial_287238">%d天免費試用</string>
     <string name="zm_subscription_manage_plan_billing_annual_287238">年度</string>
     <string name="zm_subscription_manage_plan_billing_google_play_287238">Google Play</string>
@@ -7689,23 +7689,23 @@
     <string name="zm_subscription_message_378649">會議可長達30小時</string>
     <string name="zm_subscription_monthly_501873">月繳</string>
     <string name="zm_subscription_monthly_price_501873">%1$s/月</string>
-    <string name="zm_subscription_prompt_upgrade_dialog_message_551882">透過切換為年度簡石會議 One專業版方案，可節省高達21%%。點擊下方以檢視您省下的費用。</string>
+    <string name="zm_subscription_prompt_upgrade_dialog_message_551882">透過切換為年度融訊暢聯會議 One專業版方案，可節省高達21%%。點擊下方以檢視您省下的費用。</string>
     <string name="zm_subscription_prompt_upgrade_dialog_ok_551882">切換為年度方案</string>
     <string name="zm_subscription_prompt_upgrade_dialog_title_551882">利用年度方案節省更多</string>
     <string name="zm_subscription_select_378649">選取方案</string>
     <string name="zm_subscription_setting_287238">管理您的訂閱</string>
-    <string name="zm_subscription_setting_upgrade_378649">試用簡石會議 One專業版</string>
-    <string name="zm_subscription_setting_upgrade_501873">試用簡石會議 One專業版</string>
+    <string name="zm_subscription_setting_upgrade_378649">試用融訊暢聯會議 One專業版</string>
+    <string name="zm_subscription_setting_upgrade_501873">試用融訊暢聯會議 One專業版</string>
     <string name="zm_subscription_setting_upgrade_now_501873">立即升級</string>
     <string name="zm_subscription_start_free_trial_501873">免費試用%1$d天</string>
-    <string name="zm_subscription_subtitle_287238">透過簡石會議專業版享受無限量的群組會議</string>
-    <string name="zm_subscription_subtitle_378649">使用簡石會議 One專業版，暢享更多功能</string>
-    <string name="zm_subscription_success_dialog_message_287238">可能需要幾秒的時間來更新您的簡石會議帳戶。</string>
+    <string name="zm_subscription_subtitle_287238">透過融訊暢聯會議專業版享受無限量的群組會議</string>
+    <string name="zm_subscription_subtitle_378649">使用融訊暢聯會議 One專業版，暢享更多功能</string>
+    <string name="zm_subscription_success_dialog_message_287238">可能需要幾秒的時間來更新您的融訊暢聯會議帳戶。</string>
     <string name="zm_subscription_success_dialog_title_287238">您已成功購買</string>
-    <string name="zm_subscription_title_378649">簡石會議 One專業版</string>
+    <string name="zm_subscription_title_378649">融訊暢聯會議 One專業版</string>
     <string name="zm_subscription_upgrade_billing_options_287271">計費選項</string>
     <string name="zm_subscription_upgrade_billing_period_287271">計費週期</string>
-    <string name="zm_subscription_upgrade_desc_287271">可能需要幾秒的時間來更新您的簡石會議帳戶。</string>
+    <string name="zm_subscription_upgrade_desc_287271">可能需要幾秒的時間來更新您的融訊暢聯會議帳戶。</string>
     <string name="zm_subscription_upgrade_failed_desc_287271">我們無法連接至Google Play，也無法取得此產品的價格資訊。請稍後再試一次。</string>
     <string name="zm_subscription_upgrade_failed_title_287271">無法繼續</string>
     <string name="zm_subscription_upgrade_monthly_287271">每月•%1$s%2$s</string>
@@ -7750,7 +7750,7 @@
     <string name="zm_tab_content_meetings_52777">會議</string>
     <string name="zm_tab_content_person">私人檔案</string>
     <string name="zm_tab_content_person_135965">我的檔案</string>
-    <string name="zm_tab_content_rooms">簡石會議 Rooms</string>
+    <string name="zm_tab_content_rooms">融訊暢聯會議 Rooms</string>
     <string name="zm_tab_content_search_contents">內容</string>
     <string name="zm_tab_content_search_contents_115433">檔案</string>
     <string name="zm_tab_content_search_messages">訊息</string>
@@ -7785,7 +7785,7 @@
     <string name="zm_text_mfa_sms_resend_176897">%1$s或%2$s</string>
     <string name="zm_text_mfa_sms_resend_by_176897">透過簡訊或電話重新傳送驗證碼</string>
     <string name="zm_text_mfa_sms_resend_by_sms_176897">透過簡訊重新傳送驗證碼</string>
-    <string name="zm_text_mfa_sms_send_to_176897">簡石會議將會傳送驗證碼至</string>
+    <string name="zm_text_mfa_sms_send_to_176897">融訊暢聯會議將會傳送驗證碼至</string>
     <string name="zm_text_mfa_token_expired_176897">無法登入您的帳戶。請再試一次</string>
     <string name="zm_text_mfa_too_manny_176897">您已傳送太多驗證碼，請稍後再試一次。</string>
     <string name="zm_text_mfa_too_manny_failed_attemt_176897">嘗試失敗的次數過多，請稍後再試一次。</string>
@@ -7812,7 +7812,7 @@
     <string name="zm_thirdparty_sign_in_facebook_label_216537">透過Facebook登入</string>
     <string name="zm_thirdparty_sign_in_google_label_216537">透過Google登入</string>
     <string name="zm_thirdparty_sign_in_sso_label_216537">透過SSO登入</string>
-    <string name="zm_thread_ai_tip_with_external_569761">帳戶管理員還能啟用人工智慧技術（包括第三方模型）。簡石會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練簡石會議或第三方人工智慧模型。</string>
+    <string name="zm_thread_ai_tip_with_external_569761">帳戶管理員還能啟用人工智慧技術（包括第三方模型）。融訊暢聯會議不會使用任何音訊、視訊、聊天、畫面分享、附件或其他通訊類內容（例如投票結果、白板和回應）來訓練融訊暢聯會議或第三方人工智慧模型。</string>
     <string name="zm_thread_apps_add_543139">%1$s將%2$s應用程式新增至頻道</string>
     <string name="zm_thread_apps_add_v2_543139">%1$s已將%2$s應用程式新增至頻道</string>
     <string name="zm_thread_apps_owner_channel_admin_543139">帳戶管理員</string>
@@ -7862,7 +7862,7 @@
     <string name="zm_title_conf_chat_private_hosts_to_me_289161">主持人對我說</string>
     <string name="zm_title_conf_chat_private_to_289161">我對%s說（私密訊息）</string>
     <string name="zm_title_conf_chat_public_289161">%s對所有人說</string>
-    <string name="zm_title_conf_long">簡石會議會議ID：%s</string>
+    <string name="zm_title_conf_long">融訊暢聯會議會議ID：%s</string>
     <string name="zm_title_confim_stop_record_159402">當雲端錄製檔案就緒時，您會收到電子郵件通知。</string>
     <string name="zm_title_confim_stop_record_25514">您確定要停止雲端錄製嗎？如果是的話，當雲端錄製檔案就緒時，您會收到電子郵件通知。</string>
     <string name="zm_title_confirm_join_90859">立即加入會議？</string>
@@ -7879,7 +7879,7 @@
     <string name="zm_title_direct_number_184616">直撥號碼</string>
     <string name="zm_title_direct_number_31439">直撥號碼</string>
     <string name="zm_title_edit_meeting">編輯會議</string>
-    <string name="zm_title_enable_addrbook">尋找使用簡石會議的聯絡人</string>
+    <string name="zm_title_enable_addrbook">尋找使用融訊暢聯會議的聯絡人</string>
     <string name="zm_title_enable_phone_match_33300">啟用手機聯絡人比對功能</string>
     <string name="zm_title_enter_hostkey">輸入主持人金鑰來獲取主持人權限</string>
     <string name="zm_title_error">錯誤</string>
@@ -7898,12 +7898,12 @@
     <string name="zm_title_host_spotlight_unmute_98431">主持人已為所有人聚焦您的視訊。您要解除麥克風靜音並開始發言嗎？</string>
     <string name="zm_title_intergreated_phone_67420">電話</string>
     <string name="zm_title_invite">邀請</string>
-    <string name="zm_title_invite_contacts_33300">邀請聯絡人使用簡石會議</string>
-    <string name="zm_title_invite_email_topic">請加入正在進行的簡石會議會議</string>
+    <string name="zm_title_invite_contacts_33300">邀請聯絡人使用融訊暢聯會議</string>
+    <string name="zm_title_invite_email_topic">請加入正在進行的融訊暢聯會議會議</string>
     <string name="zm_title_invite_room_system">邀請會議室系統</string>
-    <string name="zm_title_invite_xxx">邀請%s使用簡石會議</string>
+    <string name="zm_title_invite_xxx">邀請%s使用融訊暢聯會議</string>
     <string name="zm_title_join_conf">加入會議</string>
-    <string name="zm_title_join_zoom_account_114850">加入%1$s的簡石會議帳戶</string>
+    <string name="zm_title_join_zoom_account_114850">加入%1$s的融訊暢聯會議帳戶</string>
     <string name="zm_title_linked_account">我的帳戶</string>
     <string name="zm_title_live_transcript_82883">即時轉錄文字</string>
     <string name="zm_title_local_dialing_184616">當地通話</string>
@@ -7918,7 +7918,7 @@
     <string name="zm_title_meeting_info">資訊</string>
     <string name="zm_title_meeting_info_211508">會議資訊</string>
     <string name="zm_title_meeting_information">會議資訊</string>
-    <string name="zm_title_meeting_invitation_email_topic">簡石會議會議邀請- %s</string>
+    <string name="zm_title_meeting_invitation_email_topic">融訊暢聯會議會議邀請- %s</string>
     <string name="zm_title_meeting_messages_46304">會議訊息</string>
     <string name="zm_title_mm_1_contact_request">1個聯絡人請求</string>
     <string name="zm_title_mm_add_phone_contacts">新增手機聯絡人</string>
@@ -7926,7 +7926,7 @@
     <string name="zm_title_my_phone_contacts_33300">我的手機聯絡人</string>
     <string name="zm_title_my_profile_192681">我的設定檔</string>
     <string name="zm_title_new_conf_chat_393200">%1$s傳給%2$s%3$s</string>
-    <string name="zm_title_new_version_ready">簡石會議有新版本了！</string>
+    <string name="zm_title_new_version_ready">融訊暢聯會議有新版本了！</string>
     <string name="zm_title_notification_exception_group_59554">例外頻道</string>
     <string name="zm_title_notification_exception_group_settings_59554">頻道通知設定</string>
     <string name="zm_title_notifications_dnd_19898">請勿打擾</string>
@@ -7937,7 +7937,7 @@
     <string name="zm_title_pbx_conference_leave_210413">離開並不會結束其他人的通話</string>
     <string name="zm_title_pbx_location_setting_186458">位置權限</string>
     <string name="zm_title_pbx_sms_optout_367968">使用者已選擇退出</string>
-    <string name="zm_title_permission_prompt">請允許簡石會議的存取請求。</string>
+    <string name="zm_title_permission_prompt">請允許融訊暢聯會議的存取請求。</string>
     <string name="zm_title_plist">與會者（%s）</string>
     <string name="zm_title_pmi_change_fail">PMI變更錯誤</string>
     <string name="zm_title_privacy_policy">《隱私權政策》</string>
@@ -8020,7 +8020,7 @@
     <string name="zm_title_webinar_chat_419060">網路研討會聊天</string>
     <string name="zm_title_webinar_raise_hand">舉手（%d）</string>
     <string name="zm_title_whiteboards_43757">白板</string>
-    <string name="zm_title_zoom_room_prex">簡石會議 Room</string>
+    <string name="zm_title_zoom_room_prex">融訊暢聯會議 Room</string>
     <string name="zm_toast_add_to_fecc_group_465896">您已新增%s至您的攝影機控制群組</string>
     <string name="zm_toast_indicator_create_failed_523488">無法設定動態指示器。</string>
     <string name="zm_toast_indicator_destroy_failed_523488">無法移除動態指示器。</string>
@@ -8072,7 +8072,7 @@
     <string name="zm_txt_request_passcode_166840">需要會議密碼</string>
     <string name="zm_txt_select_one_172332">選取一項</string>
     <string name="zm_txt_waiting_room_description_216417">僅有主持人准許的使用者才能加入會議</string>
-    <string name="zm_unable_to_join_desc_458869">錯誤代碼：%d，向簡石會議報告</string>
+    <string name="zm_unable_to_join_desc_458869">錯誤代碼：%d，向融訊暢聯會議報告</string>
     <string name="zm_unable_to_join_meeting_msg_93170">您的管理員已限制部分群組及使用者之間的通訊。</string>
     <string name="zm_unable_to_join_meeting_msg_multiple_devices_155685">您已在另一個裝置上加入此會議。</string>
     <string name="zm_unable_to_join_meeting_title_93170">無法加入此會議</string>
@@ -8084,7 +8084,7 @@
     <string name="zm_unstar_announcements_108966">對公告取消星號</string>
     <string name="zm_unstar_contact_requests_83123">對聯絡人請求取消星號</string>
     <string name="zm_user_join_fail_e2e_limit_text_329201">您未獲准加入此類型會議。請聯絡您的帳戶管理員以取得詳細資訊。</string>
-    <string name="zm_uuid_block_desc_458869">電子郵件與您的簡石會議帳戶相關聯。如果您並無簡石會議帳戶，請提供您的電子郵件。</string>
+    <string name="zm_uuid_block_desc_458869">電子郵件與您的融訊暢聯會議帳戶相關聯。如果您並無融訊暢聯會議帳戶，請提供您的電子郵件。</string>
     <string name="zm_valid_msg_warning_237940">網域無效</string>
     <string name="zm_video_action_item_pin_user_video_347908">釘選</string>
     <string name="zm_video_action_item_remove_user_video_347908">移除釘選視訊</string>
@@ -8151,14 +8151,14 @@
     <string name="zm_wb_zr_save_error_forbidden_title_400226">儲存失敗</string>
     <string name="zm_wb_zr_save_error_server_msg_400226">請稍後再試。</string>
     <string name="zm_wb_zr_save_error_server_title_400226">內部伺服器錯誤</string>
-    <string name="zm_wb_zr_save_error_unauth_msg_400226">結束簡石會議用戶端並再試一次。</string>
+    <string name="zm_wb_zr_save_error_unauth_msg_400226">結束融訊暢聯會議用戶端並再試一次。</string>
     <string name="zm_wb_zr_save_error_unauth_title_400226">驗證失敗</string>
     <string name="zm_wb_zr_save_msg_400226">要在%s內儲存白板並取得擁有權？</string>
     <string name="zm_wb_zr_save_paired_btn_ax_400226">已與%s會議室配對</string>
     <string name="zm_wb_zr_save_success_msg_400226">您是%s內白板的擁有者。</string>
     <string name="zm_wb_zr_save_success_title_400226">已成功儲存白板</string>
     <string name="zm_wb_zr_save_title_400226">儲存白板</string>
-    <string name="zm_wb_zr_save_unpair_btn_ax_400226">與簡石會議配對</string>
+    <string name="zm_wb_zr_save_unpair_btn_ax_400226">與融訊暢聯會議配對</string>
     <string name="zm_web_wb_load_error_tip">已發生白板錯誤（%s）</string>
     <string name="zm_webinar_attendee_confirm_not_join_359980">不加入</string>
     <string name="zm_webinar_end_msg_232344">此網路研討會已結束</string>
@@ -8179,7 +8179,7 @@
     <string name="zm_webinar_msg_user_will_rejoin_as_attendee">%s將以觀眾身分重新加入網路研討會。</string>
     <string name="zm_webinar_msg_user_will_rejoin_as_panelist">%s將以嘉賓身分重新加入網路研討會。</string>
     <string name="zm_webinar_out_of_time_account_owner_msg_232344">此網路研討會將於10分鐘後結束。您可以存取%s並將帳戶升級至進階版，即可取消40分鐘的時間限制。</string>
-    <string name="zm_webinar_out_of_time_end_account_owner_msg_374798">升級到進階版簡石會議 Webinars方案，即可取消40分鐘的時間限制。您可以造訪%s以取得詳細資訊。</string>
+    <string name="zm_webinar_out_of_time_end_account_owner_msg_374798">升級到進階版融訊暢聯會議 Webinars方案，即可取消40分鐘的時間限制。您可以造訪%s以取得詳細資訊。</string>
     <string name="zm_webinar_out_of_time_end_account_owner_msg_title_232344">將您的網路研討會從基本版升級為進階版</string>
     <string name="zm_webinar_out_of_time_not_account_owner_msg_232344">聯絡您的IT管理員以升級方案並取消40分鐘的時間限制。</string>
     <string name="zm_webinar_out_of_time_not_account_owner_msg_title_232344">您的網路研討會將於10分鐘後結束</string>
@@ -8256,7 +8256,7 @@
     <string name="zm_widget_upcoming_meetings_371496">即將開始的會議</string>
     <string name="zm_workspaces_419448">工作區預約</string>
     <string name="zm_workspaces_no_permission_564177">目前不支援使用工作區。請聯絡管理員以配置工作區，然後才開始使用。</string>
-    <string name="zm_workspaces_no_permission_by_apps_disabled_623212">無法使用工作區預約。驗證簡石會議 Apps是否已啟用，或是聯絡管理員以取得協助。</string>
+    <string name="zm_workspaces_no_permission_by_apps_disabled_623212">無法使用工作區預約。驗證融訊暢聯會議 Apps是否已啟用，或是聯絡管理員以取得協助。</string>
     <string name="zm_workspaces_no_permission_by_workspace_settings_623212">無法使用工作區預約。請聯絡管理員，確認是否已在帳戶設定中啟用工作區預約。</string>
     <string name="zm_xmpproom_des_358252">%1$d位成員 · %2$s（擁有者）</string>
     <string name="zm_xmpproom_item_catergrey_192276">您能夠加入的公開頻道</string>
@@ -8264,13 +8264,13 @@
     <string name="zm_yesterday_85318">昨天</string>
     <string formatted="false" name="zm_yesterday_time">昨天，${time}</string>
     <string name="zm_zapp_action_add_virtual_background_571890">%1$s想要新增%2$s？</string>
-    <string name="zm_zapp_action_chat_OP_disabled_366203">然而，並不支援簡石會議 Apps。</string>
-    <string name="zm_zapp_action_chat_OS_low_366203">然而，簡石會議 Apps僅適用於Android 9及更高版本。請更新您的作業系統以使用簡石會議 Apps。</string>
-    <string name="zm_zapp_action_chat_feature_disabled_366203">然而，您的帳戶管理員已停用簡石會議 Apps。</string>
+    <string name="zm_zapp_action_chat_OP_disabled_366203">然而，並不支援融訊暢聯會議 Apps。</string>
+    <string name="zm_zapp_action_chat_OS_low_366203">然而，融訊暢聯會議 Apps僅適用於Android 9及更高版本。請更新您的作業系統以使用融訊暢聯會議 Apps。</string>
+    <string name="zm_zapp_action_chat_feature_disabled_366203">然而，您的帳戶管理員已停用融訊暢聯會議 Apps。</string>
     <string name="zm_zapp_action_chat_invite_receiver_341906">%1$s邀請您使用%2$s。</string>
-    <string name="zm_zapp_action_chat_invite_sender_341906">您已傳送簡石會議 App邀請</string>
+    <string name="zm_zapp_action_chat_invite_sender_341906">您已傳送融訊暢聯會議 App邀請</string>
     <string name="zm_zapp_action_chat_invite_view_341906">檢視</string>
-    <string name="zm_zapp_action_chat_not_login_366203">然而，未登入的使用者無法使用簡石會議 Apps。</string>
+    <string name="zm_zapp_action_chat_not_login_366203">然而，未登入的使用者無法使用融訊暢聯會議 Apps。</string>
     <string name="zm_zapp_action_close_my_video_341906">%1$s想要停止視訊</string>
     <string name="zm_zapp_action_delete_virtual_background_571890">%1$s想要刪除%2$s？</string>
     <string name="zm_zapp_action_get_virtual_background_data_571890">允許%1$s存取儲存於您設定中的虛擬背景？</string>
@@ -8297,7 +8297,7 @@
     <string name="zm_zapp_close_sharing_app_err_341906">您無法在分享期間關閉應用程式！</string>
     <string name="zm_zapp_conf_invitation_dialog_message_341906">邀請%1$s使用%2$s？</string>
     <string name="zm_zapp_copy_send_link_341906">複製%1$s連結</string>
-    <string name="zm_zapp_default_name_519982">簡石會議 Apps</string>
+    <string name="zm_zapp_default_name_519982">融訊暢聯會議 Apps</string>
     <string name="zm_zapp_dialog_allow_341906">允許</string>
     <string name="zm_zapp_dialog_cancel_341906">取消</string>
     <string name="zm_zapp_dialog_install_content_341906">權限設定將會在瀏覽器視窗中開啟。</string>
@@ -8309,24 +8309,24 @@
     <string name="zm_zapp_get_paricipants_email_host_request_616644">主持人%2$s所使用的%1$s現正要求您的電子郵件：%3$s </string>
     <string name="zm_zapp_get_paricipants_email_request_616644">%2$s（不是主持人）所使用的%1$s現正要求您的電子郵件：%3$s </string>
     <string name="zm_zapp_guest_mode_action_add_app_519982">審查權限並新增此應用程式</string>
-    <string name="zm_zapp_guest_mode_action_sign_in_519982">登入簡石會議</string>
-    <string name="zm_zapp_guest_mode_chat_description_519982">簡石會議 Apps可在來賓模式下存取您或您裝置的相關資訊。瞭解更多關於來賓模式限制或應用程式的資訊。\n\n一經選取「接受」，即表示您同意使用本應用程式時遵守本應用程式的《條款》與《隱私權政策》。</string>
+    <string name="zm_zapp_guest_mode_action_sign_in_519982">登入融訊暢聯會議</string>
+    <string name="zm_zapp_guest_mode_chat_description_519982">融訊暢聯會議 Apps可在來賓模式下存取您或您裝置的相關資訊。瞭解更多關於來賓模式限制或應用程式的資訊。\n\n一經選取「接受」，即表示您同意使用本應用程式時遵守本應用程式的《條款》與《隱私權政策》。</string>
     <string name="zm_zapp_guest_mode_chat_description_limits_519982">來賓模式限制</string>
     <string name="zm_zapp_guest_mode_chat_description_privacy_519982">《隱私權政策》</string>
     <string name="zm_zapp_guest_mode_chat_description_terms_519982">《條款》</string>
     <string name="zm_zapp_guest_mode_chat_description_the_app_519982">應用程式</string>
-    <string name="zm_zapp_guest_mode_promote_authorize_add_dialog_519982">將%1$s新增至您的簡石會議 Apps以享受更加豐富的體驗</string>
+    <string name="zm_zapp_guest_mode_promote_authorize_add_dialog_519982">將%1$s新增至您的融訊暢聯會議 Apps以享受更加豐富的體驗</string>
     <string name="zm_zapp_guest_mode_promote_authorize_add_dialog_add_519982">新增</string>
-    <string name="zm_zapp_guest_mode_promote_authorize_login_dialog_519982">登入以個人化您的簡石會議 Apps體驗</string>
+    <string name="zm_zapp_guest_mode_promote_authorize_login_dialog_519982">登入以個人化您的融訊暢聯會議 Apps體驗</string>
     <string name="zm_zapp_guest_mode_promote_authorize_login_dialog_positive_519982">登入</string>
     <string name="zm_zapp_guest_mode_relaunch_error_app_disabled_519982">已停用應用程式。</string>
     <string name="zm_zapp_guest_mode_tip_519982">來賓模式</string>
     <string name="zm_zapp_guest_mode_tip_add_app_519982">若要解鎖所有功能，請審查權限並新增此應用程式。</string>
     <string name="zm_zapp_guest_mode_tip_bottom_519982">此應用程式仍然可以檢視及使用直接從您、會議主持人或其他第三方所收集到的資訊。</string>
     <string name="zm_zapp_guest_mode_tip_learn_more_519982">深入瞭解</string>
-    <string name="zm_zapp_guest_mode_tip_sign_in_519982">若要解鎖更多功能，請登入簡石會議。</string>
+    <string name="zm_zapp_guest_mode_tip_sign_in_519982">若要解鎖更多功能，請登入融訊暢聯會議。</string>
     <string name="zm_zapp_guest_mode_tip_top_519982">此應用程式目前處於來賓模式，可讓您使用此應用程式而無需將其新增至您的帳戶。</string>
-    <string name="zm_zapp_invitation_message_341906">這是簡石會議 APP邀請訊息</string>
+    <string name="zm_zapp_invitation_message_341906">這是融訊暢聯會議 APP邀請訊息</string>
     <string name="zm_zapp_invitation_sent_to_everyone_toast_341906">已邀請所有與會者</string>
     <string name="zm_zapp_link_copied_tip_341906">已複製%1$s連結</string>
     <string name="zm_zapp_market_apps">探索</string>
@@ -8344,14 +8344,14 @@
     <string name="zm_zapp_take_photo_dialog_title_511629">%1$s想要拍攝您的相片。</string>
     <string name="zm_zapp_tip_promote_share_screen_95395">請先停止進行中的分享</string>
     <string name="zm_zapp_toast_app_disabled_by_account_admin_541907">%1$s已停用。請聯絡貴組織的管理員以取得支援</string>
-    <string name="zm_zapp_toast_app_disabled_by_anonymous_635978">您未獲准在來賓模式下使用此簡石會議 App。請聯絡應用程式開發人員以取得詳細資訊。</string>
+    <string name="zm_zapp_toast_app_disabled_by_anonymous_635978">您未獲准在來賓模式下使用此融訊暢聯會議 App。請聯絡應用程式開發人員以取得詳細資訊。</string>
     <string name="zm_zapp_toast_app_disabled_by_mp_541907">%1$s已停用</string>
     <string name="zm_zapp_toast_app_removed_541907">%1$s已移除</string>
     <string name="zm_zapp_toast_timer_up">時間到</string>
     <string name="zm_zapps">應用程式</string>
     <string name="zm_zapps_open_592312">開啟應用程式</string>
     <string name="zm_zapps_title_341906">應用程式</string>
-    <string name="zm_zapps_title_555203">簡石會議 Apps</string>
+    <string name="zm_zapps_title_555203">融訊暢聯會議 Apps</string>
     <string name="zm_ze_companion_mode_asl_content_534617">繼續此程序可能會啟用視訊和音訊直播。</string>
     <string name="zm_ze_companion_mode_asl_title_534617">已啟用翻譯員直播</string>
     <string name="zm_ze_companion_mode_dlg_switch_content_522007">如果您在公開場合，請檢查您裝置的音量。</string>
@@ -8371,7 +8371,7 @@
     <string name="zm_ze_meeting_info_in_progress_503540">進行中</string>
     <string name="zm_ze_meeting_info_lobby_open_503540">大廳已開啟</string>
     <string name="zm_ze_meeting_info_title_503540">活動</string>
-    <string name="zm_ze_title">簡石會議 Events</string>
+    <string name="zm_ze_title">融訊暢聯會議 Events</string>
     <string name="zm_ze_verification_title_523701">驗證電子郵件</string>
     <string name="zm_zoom_apps_341906">應用程式</string>
     <string name="zm_zoom_calendar_410051">日曆</string>
@@ -8383,15 +8383,15 @@
     <string name="zm_zr_meeting_end_display_countdown_614541">此訊息將在%1$d秒後自動消失</string>
     <string name="zm_zr_meeting_end_msg_614541">您的工作階段已結束，是否想要保持連接至%1$s？</string>
     <string name="zm_zr_meeting_end_stay_connected_614541">保持連線</string>
-    <string name="zm_zr_open_zoom_app_438588">開啟簡石會議 App</string>
+    <string name="zm_zr_open_zoom_app_438588">開啟融訊暢聯會議 App</string>
     <string name="zm_zr_open_zoom_app_decline_438588">開啟「%1$s」已遭%2$s拒絕。</string>
-    <string name="zm_zr_open_zoom_app_is_not_same_meeting_556010">您必須與簡石會議 Room處於同一會議中，才能推播此應用程式。</string>
-    <string name="zm_zr_open_zoom_app_is_not_support_438588">在%2$s上不支援簡石會議 App「%1$s」。</string>
+    <string name="zm_zr_open_zoom_app_is_not_same_meeting_556010">您必須與融訊暢聯會議 Room處於同一會議中，才能推播此應用程式。</string>
+    <string name="zm_zr_open_zoom_app_is_not_support_438588">在%2$s上不支援融訊暢聯會議 App「%1$s」。</string>
     <string name="zm_zr_open_zoom_app_not_support_438588">（不支援）</string>
     <string name="zm_zr_open_zoom_app_on_this_device_438588">在此裝置上</string>
-    <string name="zm_zr_open_zoom_app_on_zr_438588">在簡石會議 Room開啟</string>
+    <string name="zm_zr_open_zoom_app_on_zr_438588">在融訊暢聯會議 Room開啟</string>
     <string name="zm_zr_open_zoom_app_on_zr_name_438588">在%s開啟</string>
     <string name="zm_zr_where_to_open_zoom_app_438588">您想在哪裡開啟「%s」？</string>
-    <string name="zm_zr_zoom_room_not_support_438588">不支援簡石會議 Room </string>
-    <string name="app_name_spark_local">簡石會議</string>
+    <string name="zm_zr_zoom_room_not_support_438588">不支援融訊暢聯會議 Room </string>
+    <string name="app_name_spark_local">RXeagle</string>
 </resources>

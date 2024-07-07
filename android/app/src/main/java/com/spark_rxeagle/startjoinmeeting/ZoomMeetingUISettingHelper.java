@@ -1,4 +1,4 @@
-package com.spark_jianshi.startjoinmeeting;
+package com.spark_rxeagle.startjoinmeeting;
 
 
 import us.zoom.sdk.InstantMeetingOptions;

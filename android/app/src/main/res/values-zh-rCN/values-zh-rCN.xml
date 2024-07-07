@@ -302,7 +302,7 @@
     <string name="js_sdk_action_set_vb_blur_341906">选择“允许”将移除你的虚拟背景并将周围环境模糊处理，以免参会者认出。</string>
     <string name="live_stream_title_618551">此会议正在直播中。</string>
     <string name="meeting_recorded_and_live_stream_title_618551">此会议正在录制和直播中。</string>
-    <string name="meeting_recorded_detail_618551">现在或以后（仅当录制后）与之共享此会议的任何人都可以查看此会议。账户所有者可以查看保存在简石会议云端的会议录制文件。</string>
+    <string name="meeting_recorded_detail_618551">现在或以后（仅当录制后）与之共享此会议的任何人都可以查看此会议。账户所有者可以查看保存在融讯畅联会议云端的会议录制文件。</string>
     <string name="meeting_recorded_title_618551">此会议正在录制中。</string>
     <string name="pbx_blocked_by_ib_332627">管理员已限制部分群组和用户之间的通信。</string>
     <string name="pbx_call_failed_out_of_location_471646">由于管理员已限制通话位置，需要启用相应的位置权限，否则无法拨打或接听电话</string>
@@ -407,7 +407,7 @@
     <string name="zm_accessibility_delete_group_59554">频道已删除。</string>
     <string name="zm_accessibility_delete_reaction_88133">删除表情</string>
     <string name="zm_accessibility_disabled_507595">%s，已禁用</string>
-    <string name="zm_accessibility_domains_title_200642">简石会议域菜单</string>
+    <string name="zm_accessibility_domains_title_200642">融讯畅联会议域菜单</string>
     <string name="zm_accessibility_downvote_548782">反对</string>
     <string name="zm_accessibility_everyone_select_120783">所有人，已选</string>
     <string name="zm_accessibility_feedback_edit_178871">请在此处输入你的反馈</string>
@@ -436,7 +436,7 @@
     <string name="zm_accessibility_language_interpretation_88102">语言传译：%1$s</string>
     <string name="zm_accessibility_learn_more_link_164409">了解更多链接</string>
     <string name="zm_accessibility_leave_group_59554">你已退出此频道。</string>
-    <string name="zm_accessibility_left_top_bar_gov_235253">你已连接到简石会议政府版</string>
+    <string name="zm_accessibility_left_top_bar_gov_235253">你已连接到融讯畅联会议政府版</string>
     <string name="zm_accessibility_link_99842">%s，链接</string>
     <string name="zm_accessibility_list_item_selected_361813">已选中%1$s（%2$s/%3$s）</string>
     <string name="zm_accessibility_list_item_unselected_361813">未选中%1$s（%2$s/%3$s）</string>
@@ -544,7 +544,7 @@
     <string name="zm_added_features_318150">新增功能</string>
     <string name="zm_addr_book_item_content_desc_109011">%s，按钮</string>
     <string name="zm_advanced_permissions_allow_everyone_reply_644242">允许所有人回复</string>
-    <string name="zm_ai_alert_join_webinar_578995">主持人可以录制、直播或存档本次网络研讨会，也可以将内容分享给其他应用和成员。可能会将录制文件分享给使用AI技术（可能包括第三方模型）的智能录制。简石会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练简石会议或第三方AI模型。\n\n具有相关权限的参会者也可以保存和共享网络研讨会转录文字。\n\n以嘉宾身份加入此网络研讨会，即表示你同意参与其中。</string>
+    <string name="zm_ai_alert_join_webinar_578995">主持人可以录制、直播或存档本次网络研讨会，也可以将内容分享给其他应用和成员。可能会将录制文件分享给使用AI技术（可能包括第三方模型）的智能录制。融讯畅联会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练融讯畅联会议或第三方AI模型。\n\n具有相关权限的参会者也可以保存和共享网络研讨会转录文字。\n\n以嘉宾身份加入此网络研讨会，即表示你同意参与其中。</string>
     <string name="zm_ai_companion_576027">AI Companion</string>
     <string name="zm_ai_companion_close_toast_576027">AI Companion已关闭</string>
     <string name="zm_ai_companion_disclaimer_title_576027">AI Companion已开启</string>
@@ -553,28 +553,28 @@
     <string name="zm_ai_companion_stop_576027">禁用AI Companion</string>
     <string name="zm_ai_companion_stop_msg_599160">禁用后，参会者将无法再在AI Companion面板中查看或提出问题</string>
     <string name="zm_ai_disable_who_can_see_txt_599160">谁可以向AIC提问？</string>
-    <string name="zm_ai_host_ask_to_speaker_asl_meeting_578995">如果你选择解除静音，会议中的其他成员将可以听到你的声音。如果主持人或参会者在你解除静音后决定录制、直播或存档本次会议，你的声音也将包含在内。可能会将录制文件分享给使用AI技术（可能包括第三方模型）的智能录制。简石会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练简石会议或第三方AI模型。</string>
-    <string name="zm_ai_host_ask_to_speaker_asl_webinar_578995">如果你选择解除静音，网络研讨会中的其他成员将可以听到你的声音。如果主持人或嘉宾在你解除静音后决定录制、直播或存档本次网络研讨会，你的声音也将包含在内。可能会将录制文件分享给使用AI技术（可能包括第三方模型）的智能录制。简石会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练简石会议或第三方AI模型。</string>
-    <string name="zm_ai_host_ask_to_speaker_msg_578995">如果你选择解除静音，网络研讨会中的其他成员将可以听到你的声音。如果主持人或嘉宾在你解除静音后决定录制、直播或存档本次网络研讨会，你的声音也将包含在内。可能会将录制文件分享给使用AI技术（可能包括第三方模型）的智能录制。简石会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练简石会议或第三方AI模型。\n\n具有相关权限的参会者也可以保存和共享网络研讨会转录文字。</string>
-    <string name="zm_ai_host_promote_msg_578995">作为嘉宾，你可以解除静音并开启视频，这意味着，网络研讨会中的其他成员将可以看到你。\n\n如果主持人或嘉宾在你解除静音后决定录制、直播或存档本次网络研讨会，你的参与也将包含在内。可能会将录制文件分享给使用AI技术（可能包括第三方模型）的智能录制。简石会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练简石会议或第三方AI模型。\n\n具有相关权限的参会者也可以保存和共享网络研讨会转录文字。</string>
+    <string name="zm_ai_host_ask_to_speaker_asl_meeting_578995">如果你选择解除静音，会议中的其他成员将可以听到你的声音。如果主持人或参会者在你解除静音后决定录制、直播或存档本次会议，你的声音也将包含在内。可能会将录制文件分享给使用AI技术（可能包括第三方模型）的智能录制。融讯畅联会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练融讯畅联会议或第三方AI模型。</string>
+    <string name="zm_ai_host_ask_to_speaker_asl_webinar_578995">如果你选择解除静音，网络研讨会中的其他成员将可以听到你的声音。如果主持人或嘉宾在你解除静音后决定录制、直播或存档本次网络研讨会，你的声音也将包含在内。可能会将录制文件分享给使用AI技术（可能包括第三方模型）的智能录制。融讯畅联会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练融讯畅联会议或第三方AI模型。</string>
+    <string name="zm_ai_host_ask_to_speaker_msg_578995">如果你选择解除静音，网络研讨会中的其他成员将可以听到你的声音。如果主持人或嘉宾在你解除静音后决定录制、直播或存档本次网络研讨会，你的声音也将包含在内。可能会将录制文件分享给使用AI技术（可能包括第三方模型）的智能录制。融讯畅联会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练融讯畅联会议或第三方AI模型。\n\n具有相关权限的参会者也可以保存和共享网络研讨会转录文字。</string>
+    <string name="zm_ai_host_promote_msg_578995">作为嘉宾，你可以解除静音并开启视频，这意味着，网络研讨会中的其他成员将可以看到你。\n\n如果主持人或嘉宾在你解除静音后决定录制、直播或存档本次网络研讨会，你的参与也将包含在内。可能会将录制文件分享给使用AI技术（可能包括第三方模型）的智能录制。融讯畅联会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练融讯畅联会议或第三方AI模型。\n\n具有相关权限的参会者也可以保存和共享网络研讨会转录文字。</string>
     <string name="zm_ai_icon_ax_text_576027">AI Companion</string>
-    <string name="zm_ai_icon_desc_545028">正在为简石会议 IQ功能（例如会议摘要和会议查询）转录此会议。<![CDATA[<a href="%1$s">了解更多</a>]]></string>
+    <string name="zm_ai_icon_desc_545028">正在为融讯畅联会议 IQ功能（例如会议摘要和会议查询）转录此会议。<![CDATA[<a href="%1$s">了解更多</a>]]></string>
     <string name="zm_ai_icon_tip_desc_576027">AI 功能（如会议摘要和AI Companion侧面板中包含的功能）已启用。<![CDATA[<a href="%1$s">了解更多</a>]]></string>
     <string name="zm_ai_setting_unenable_txt_599160">只有原主持人和在会议开始前分配了主持人权限的用户才能更改此设置。这是为了防止未经授权的用户更改AI Companion。</string>
     <string name="zm_ai_start_who_can_see_txt_599160">谁可以向AI Companion提问？</string>
-    <string name="zm_ai_summary_msg1_576027">会议摘要使用AI技术（可能包括第三方模型）。简石会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练简石会议或第三方AI模型。</string>
-    <string name="zm_ai_summary_msg1_578995">会议摘要使用AI技术（可能包括第三方模型）。简石会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练简石会议或第三方AI模型。<![CDATA[<a href="%1$s">了解更多</a>]]></string>
+    <string name="zm_ai_summary_msg1_576027">会议摘要使用AI技术（可能包括第三方模型）。融讯畅联会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练融讯畅联会议或第三方AI模型。</string>
+    <string name="zm_ai_summary_msg1_578995">会议摘要使用AI技术（可能包括第三方模型）。融讯畅联会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练融讯畅联会议或第三方AI模型。<![CDATA[<a href="%1$s">了解更多</a>]]></string>
     <string name="zm_ai_summary_msg2_576027">会议结束后，我们会将会议摘要发送给受邀者（基于为此会议配置的设置）。收到会议摘要的任何人都可以将其保存并共享给其他应用和成员。账户所有者可以访问会议摘要。</string>
     <string name="zm_ai_summary_msg2_578995">会议结束后，我们会将会议摘要发送给受邀者（基于为此会议配置的设置）。收到会议摘要的任何人都可以将其保存并共享给其他应用和成员。账户所有者可以访问会议摘要。</string>
     <string name="zm_ai_summary_msg3_576027">AI生成的内容可能不准确或具有误导性。始终检查准确性。</string>
     <string name="zm_ai_summary_msg3_578995">AI生成的内容可能不准确或具有误导性。始终检查准确性。</string>
     <string name="zm_ai_viewer_allow_to_talk_not_support_voip_des_578995">点击“解除静音”将连接电脑音频并解除静音。</string>
     <string name="zm_ai_viewer_allow_to_talk_telephoney_user_578995">已通过电话加会？请在电话上输入#%d#，然后点击自我解除静音。</string>
-    <string name="zm_alert_3d_avatar_consent_dialog_msg_510021">单击“确定”即表示你同意简石会议对设备中你的面部定位和移动进行分析。简石会议不会外泄和保留这些数据，只会将其用于生成选定的特效。</string>
+    <string name="zm_alert_3d_avatar_consent_dialog_msg_510021">单击“确定”即表示你同意融讯畅联会议对设备中你的面部定位和移动进行分析。融讯畅联会议不会外泄和保留这些数据，只会将其用于生成选定的特效。</string>
     <string name="zm_alert_3d_avatar_consent_dialog_title_510021">使用虚拟形象</string>
     <string name="zm_alert_account_inactive_or_locked_126436">你的账户已停用或已锁定</string>
     <string name="zm_alert_account_locked">你的账户在多次尝试登录失败后已被锁定</string>
-    <string name="zm_alert_auth_device_not_approved_180209">你的组织已限制简石会议移动设备访问经核准的设备。请在贵组织的移动应用商店下载简石会议应用。</string>
+    <string name="zm_alert_auth_device_not_approved_180209">你的组织已限制融讯畅联会议移动设备访问经核准的设备。请在贵组织的移动应用商店下载融讯畅联会议应用。</string>
     <string name="zm_alert_auth_error_code_msg">错误代码：%d</string>
     <string name="zm_alert_auth_token_failed_msg">认证失败，请重试</string>
     <string name="zm_alert_auth_zoom_failed_msg">邮箱或密码无效</string>
@@ -598,18 +598,18 @@
     <string name="zm_alert_change_cohost_confirm">是否要将联席主持人更改为%s？</string>
     <string name="zm_alert_change_host_confirm">是否要将主持人更改为%s？</string>
     <string name="zm_alert_change_panelist_appearance_result_message_331754">会议外观设置失败。请检查后再试。</string>
-    <string name="zm_alert_china_meeting_privacy_content_132493">此会议由中国的简石会议客户账户主持。为遵守中国法律，有关此次会议的信息将存储在中国。有关更多详细信息，请<![CDATA[<a href="%s">点击此处</a>。<div/>]]>加入此会议，即表示你同意将与本次会议相关的个人数据存储在中国。</string>
+    <string name="zm_alert_china_meeting_privacy_content_132493">此会议由中国的融讯畅联会议客户账户主持。为遵守中国法律，有关此次会议的信息将存储在中国。有关更多详细信息，请<![CDATA[<a href="%s">点击此处</a>。<div/>]]>加入此会议，即表示你同意将与本次会议相关的个人数据存储在中国。</string>
     <string name="zm_alert_china_meeting_privacy_title_132493">加入在中国主持的会议</string>
     <string name="zm_alert_confirm_end_conf">是否确定要结束此会议？</string>
     <string name="zm_alert_confirm_end_webinar_150183">是否确定要结束此网络研讨会？</string>
     <string name="zm_alert_connect_facebook_failed_msg">连接Facebook失败。</string>
     <string name="zm_alert_connect_google_failed_msg">连接Google失败</string>
     <string name="zm_alert_connect_ssosite_failed_msg">连接%s失败。</string>
-    <string name="zm_alert_connect_zoomus_failed_msg">连接简石会议失败。</string>
+    <string name="zm_alert_connect_zoomus_failed_msg">连接融讯畅联会议失败。</string>
     <string name="zm_alert_crash_report_btn_not_send_150320">不发送</string>
-    <string name="zm_alert_crash_report_btn_send_150320">发送至简石会议</string>
-    <string name="zm_alert_crash_report_desc_150320">生成故障报告以帮助简石会议解决此问题。选择“发送至简石会议”，即表示你授权简石会议根据我们的<![CDATA[<a href="%s">《隐私政策》</a>]]>访问此故障报告中的数据。</string>
-    <string name="zm_alert_crash_report_title_150320">简石会议意外退出</string>
+    <string name="zm_alert_crash_report_btn_send_150320">发送至融讯畅联会议</string>
+    <string name="zm_alert_crash_report_desc_150320">生成故障报告以帮助融讯畅联会议解决此问题。选择“发送至融讯畅联会议”，即表示你授权融讯畅联会议根据我们的<![CDATA[<a href="%s">《隐私政策》</a>]]>访问此故障报告中的数据。</string>
+    <string name="zm_alert_crash_report_title_150320">融讯畅联会议意外退出</string>
     <string name="zm_alert_create_avatar_cancel_creation_btn_exit_371962">退出且不保存</string>
     <string name="zm_alert_create_avatar_cancel_creation_btn_keep_editing_371962">否，继续编辑</string>
     <string name="zm_alert_create_avatar_cancel_creation_message_371962">是否确定要退出虚拟形象创建？</string>
@@ -618,7 +618,7 @@
     <string name="zm_alert_delete_history_confirm">是否要删除此会议的历史记录？</string>
     <string name="zm_alert_delete_meeting_confirm">是否要删除此会议？</string>
     <string name="zm_alert_delete_meeting_failed">删除会议失败。</string>
-    <string name="zm_alert_dial_into_meeting">你是否要自动拨号加会？\n\n拨号加会后，请切换回简石会议界面。</string>
+    <string name="zm_alert_dial_into_meeting">你是否要自动拨号加会？\n\n拨号加会后，请切换回融讯畅联会议界面。</string>
     <string name="zm_alert_dialog_log_off_title_273365">更新会话</string>
     <string name="zm_alert_disable_sign_up_alipay_block_154471">无法使用支付宝登录，请尝试列出的其他方式。</string>
     <string name="zm_alert_disable_sign_up_sms_block_154471">无法使用短信验证码登录，请尝试列出的其他方式。</string>
@@ -647,10 +647,10 @@
     <string name="zm_alert_focus_mode_confirm_start_title_271449">是否开启专注模式？</string>
     <string name="zm_alert_focus_mode_my_share_can_be_seen_by_hosts_msg_271149">只有主持人和联席主持人能够看到你共享的屏幕</string>
     <string name="zm_alert_focus_mode_started_msg_271149">会议处于专注模式：只有主持人和联席主持人能够看到你的视频。</string>
-    <string name="zm_alert_force_intune_client_login_message_132149">由于贵公司所设的限制，你只能使用“简石会议 for Intune”访问简石会议。是否要打开该应用？</string>
-    <string name="zm_alert_force_intune_client_login_title_132149">打开简石会议 for Intune</string>
-    <string name="zm_alert_force_normal_client_login_message_132149">由于贵公司所设的限制，你只能使用“简石会议 Cloud Meetings”访问简石会议。是否要打开该应用？</string>
-    <string name="zm_alert_force_normal_client_login_title_132149">打开简石会议 Cloud Meetings</string>
+    <string name="zm_alert_force_intune_client_login_message_132149">由于贵公司所设的限制，你只能使用“融讯畅联会议 for Intune”访问融讯畅联会议。是否要打开该应用？</string>
+    <string name="zm_alert_force_intune_client_login_title_132149">打开融讯畅联会议 for Intune</string>
+    <string name="zm_alert_force_normal_client_login_message_132149">由于贵公司所设的限制，你只能使用“融讯畅联会议 Cloud Meetings”访问融讯畅联会议。是否要打开该应用？</string>
+    <string name="zm_alert_force_normal_client_login_title_132149">打开融讯畅联会议 Cloud Meetings</string>
     <string name="zm_alert_force_vb_but_setting_disabled_msg_257657">你的管理员要求使用虚拟背景，但你已禁用“虚拟背景”。<![CDATA[<a href="%1$s">了解更多</a><br></br>]]>要启用此设置，请前往会议设置。</string>
     <string name="zm_alert_force_vb_but_setting_disabled_title_257657">启用虚拟背景以开启视频</string>
     <string name="zm_alert_force_vb_device_not_support_msg_257657">你的管理员要求使用虚拟背景，但你的设备不支持此功能。&lt;a href="%1$s">了解更多&lt;/a></string>
@@ -671,41 +671,41 @@
     <string name="zm_alert_join_tip_87408">如果你与主持人属于同一组织，请登录后加会。否则，将以访客身份加入会议。</string>
     <string name="zm_alert_leave_conf">是否要离开此会议？</string>
     <string name="zm_alert_leave_webinar_150183">是否要离开此网络研讨会？</string>
-    <string name="zm_alert_link_error_btn_106299">从简石会议下载</string>
-    <string name="zm_alert_link_error_content_106299">你的设备没有兼容的CPU来运行所下载的简石会议应用。要继续使用简石会议，请从简石会议 Web下载。</string>
+    <string name="zm_alert_link_error_btn_106299">从融讯畅联会议下载</string>
+    <string name="zm_alert_link_error_content_106299">你的设备没有兼容的CPU来运行所下载的融讯畅联会议应用。要继续使用融讯畅联会议，请从融讯畅联会议 Web下载。</string>
     <string name="zm_alert_link_error_title_106299">不支持的设备</string>
     <string name="zm_alert_live_streaming_failed">无法在%s上直播此网络研讨会</string>
     <string name="zm_alert_live_streaming_meeting_failed_336019">无法在%s上直播此会议。请重新开始直播。</string>
     <string name="zm_alert_lock_share_confirm">锁定后，只有主持人可以共享屏幕。</string>
-    <string name="zm_alert_login_disable_19086">你无法使用此方式登录简石会议账户。请与IT管理员联系以获取帮助。</string>
+    <string name="zm_alert_login_disable_19086">你无法使用此方式登录融讯畅联会议账户。请与IT管理员联系以获取帮助。</string>
     <string name="zm_alert_login_failed">登录失败</string>
     <string name="zm_alert_login_to_schedule_confirm">请登录后安排会议。</string>
     <string name="zm_alert_login_to_show_mymeetings_confirm">请登录后获取会议信息。</string>
     <string name="zm_alert_login_to_start_free_video_call_confirm">请登录后使用视频通话。</string>
     <string name="zm_alert_login_to_start_free_voice_call_confirm">请登录后使用语音通话。</string>
     <string name="zm_alert_login_to_start_meeting_confirm">请登录后召开会议。</string>
-    <string name="zm_alert_login_with_google_13762">你必须使用Google账户凭据登录简石会议</string>
-    <string name="zm_alert_login_with_sso_13762">你必须使用单点登录(SSO)凭据登录简石会议</string>
+    <string name="zm_alert_login_with_google_13762">你必须使用Google账户凭据登录融讯畅联会议</string>
+    <string name="zm_alert_login_with_sso_13762">你必须使用单点登录(SSO)凭据登录融讯畅联会议</string>
     <string name="zm_alert_logout">是否要退出登录？</string>
     <string name="zm_alert_logout_169686">是否要退出登录？</string>
     <string name="zm_alert_logout_retry_title_164066">由于网络问题无法退出登录</string>
     <string name="zm_alert_logout_while_clips_running_cancel_btn_549633">继续录制</string>
     <string name="zm_alert_logout_while_clips_running_confirm_btn_549633">退出登录</string>
-    <string name="zm_alert_logout_while_clips_running_message_549633">退出登录简石会议账户将停止录制，并且不会保存你录制的剪辑。</string>
+    <string name="zm_alert_logout_while_clips_running_message_549633">退出登录融讯畅联会议账户将停止录制，并且不会保存你录制的剪辑。</string>
     <string name="zm_alert_logout_while_clips_running_title_549633">退出登录并停止录制</string>
     <string name="zm_alert_meeting_alert">会议提醒</string>
     <string name="zm_alert_msg_alterhost_170568">你要添加为备选主持人的一名或多名人员不是授权用户或者不是此账户中的成员。移除以下用户以继续：%s</string>
     <string name="zm_alert_msg_context_failed">无法读取消息上下文。</string>
     <string name="zm_alert_msg_internal_checked_526944">云录制和电话/SIP/H.323拨入等部分服务将不会在内部会议中提供。</string>
     <string name="zm_alert_msg_success">成功</string>
-    <string name="zm_alert_need_install_intune_portal_153711">要使用简石会议 for Intune，必须安装Microsoft Intune Company Portal应用。点击\"前往Store\"以继续。</string>
-    <string name="zm_alert_net_failed_133459">无法连接到简石会议，请检查你的网络连接后再试。</string>
+    <string name="zm_alert_need_install_intune_portal_153711">要使用融讯畅联会议 for Intune，必须安装Microsoft Intune Company Portal应用。点击\"前往Store\"以继续。</string>
+    <string name="zm_alert_net_failed_133459">无法连接到融讯畅联会议，请检查你的网络连接后再试。</string>
     <string name="zm_alert_network_disconnected">连接失败。请检查你的网络连接后再试。</string>
     <string name="zm_alert_no_browser_btn_go_to_download_100635">前往Store</string>
     <string name="zm_alert_no_browser_message_100635">要继续登录，你需要下载浏览器。</string>
     <string name="zm_alert_no_browser_title_100635">需要浏览器</string>
     <string name="zm_alert_no_sdcard">没有SD卡</string>
-    <string name="zm_alert_non_annotation_joined">由于已禁用注释功能，参会者需要升级到最新版简石会议才能共享屏幕</string>
+    <string name="zm_alert_non_annotation_joined">由于已禁用注释功能，参会者需要升级到最新版融讯畅联会议才能共享屏幕</string>
     <string name="zm_alert_other_from_main_session_is_sharing_222609">有人从主会场共享屏幕时，你无法共享屏幕</string>
     <string name="zm_alert_other_is_sharing">其他参会者正在共享，此时你无法进行屏幕共享。</string>
     <string name="zm_alert_phone_bypass_40122">验证码在你尝试登录失败5次后已过期，请重新获取验证码。</string>
@@ -721,8 +721,8 @@
     <string name="zm_alert_remind_archived_content_meeting_267230">此会议中的一个或多个参会者将根据其账户的政策进行存档。这些参会者的账户所有者将收到会议内容，并将其分享给其他应用和成员。<![CDATA[<a href="%1$s">了解更多</a>]]>\n\n如果留在会议中，即表示你同意存档。</string>
     <string name="zm_alert_remind_archived_title_meeting_267230">此会议正在存档中</string>
     <string name="zm_alert_remind_archived_title_webinar_267230">此网络研讨会正在存档中											</string>
-    <string name="zm_alert_remind_ask_speak_content_1_408786">如果你选择解除静音，网络研讨会中的其他成员将可以听到你的声音。如果主持人或嘉宾在你解除静音后决定录制、直播或存档本次网络研讨会，你的声音也将包含在内。如果录制文件存储在云端，则可能会分享给智能录制以供分析和用于改进简石会议的产品。\n\n具有相关权限的参会者也可以保存和共享网络研讨会转录文字。\n\n点击“解除静音”将连接电脑音频并解除静音。</string>
-    <string name="zm_alert_remind_ask_speak_content_2_408786">如果你选择解除静音，网络研讨会中的其他成员将可以听到你的声音。如果主持人或嘉宾在你解除静音后决定录制、直播或存档本次网络研讨会，你的声音也将包含在内。如果录制文件存储在云端，则可能会分享给智能录制以供分析和用于改进简石会议的产品。\n\n具有相关权限的参会者也可以保存和共享网络研讨会转录文字。\n\n点击“解除静音”将连接电脑音频并解除静音。\n\n已通过电话加会？ 请在电话上输入#%d#，然后点击自我解除静音。</string>
+    <string name="zm_alert_remind_ask_speak_content_1_408786">如果你选择解除静音，网络研讨会中的其他成员将可以听到你的声音。如果主持人或嘉宾在你解除静音后决定录制、直播或存档本次网络研讨会，你的声音也将包含在内。如果录制文件存储在云端，则可能会分享给智能录制以供分析和用于改进融讯畅联会议的产品。\n\n具有相关权限的参会者也可以保存和共享网络研讨会转录文字。\n\n点击“解除静音”将连接电脑音频并解除静音。</string>
+    <string name="zm_alert_remind_ask_speak_content_2_408786">如果你选择解除静音，网络研讨会中的其他成员将可以听到你的声音。如果主持人或嘉宾在你解除静音后决定录制、直播或存档本次网络研讨会，你的声音也将包含在内。如果录制文件存储在云端，则可能会分享给智能录制以供分析和用于改进融讯畅联会议的产品。\n\n具有相关权限的参会者也可以保存和共享网络研讨会转录文字。\n\n点击“解除静音”将连接电脑音频并解除静音。\n\n已通过电话加会？ 请在电话上输入#%d#，然后点击自我解除静音。</string>
     <string name="zm_alert_remind_ask_speak_title_267230">主持人希望你发言											</string>
     <string name="zm_alert_remind_join_webinear_content_267230">主持人可以录制、直播或存档本次网络研讨会，也可以直播网络研讨会并将录制文件分享给其他应用和成员。\n\n以嘉宾身份加入此网络研讨会，即表示你同意参与其中。											</string>
     <string name="zm_alert_remind_join_webinear_title_267230">你正在以嘉宾身份加入%s											</string>
@@ -741,7 +741,7 @@
     <string name="zm_alert_remind_recording_title_meeting_524862">此会议正在录制中</string>
     <string name="zm_alert_remind_recording_title_webinar_68355">此网络研讨会正在录制中</string>
     <string name="zm_alert_remind_revelant_webinar_notice_539679">具有相关权限的参会者也可以保存和共享网络研讨会转录文字。</string>
-    <string name="zm_alert_rooted_warning_msg_42807">你的设备似乎已被破解。这可能会导致个人数据丢失、崩溃或其他错误。我们不建议在已破解的设备上使用简石会议。</string>
+    <string name="zm_alert_rooted_warning_msg_42807">你的设备似乎已被破解。这可能会导致个人数据丢失、崩溃或其他错误。我们不建议在已破解的设备上使用融讯畅联会议。</string>
     <string name="zm_alert_rooted_warning_title_42807">安全警告</string>
     <string name="zm_alert_select_count_reach_max_59554">本频道成员人数已达上限</string>
     <string name="zm_alert_share_file_failed">无法共享文件。</string>
@@ -758,7 +758,7 @@
     <string name="zm_alert_switch_account_retry_title_594857">由于网络问题，无法切换账户</string>
     <string name="zm_alert_switch_account_while_clips_running_cancel_btn_549633">继续录制</string>
     <string name="zm_alert_switch_account_while_clips_running_confirm_btn_549633">切换账户</string>
-    <string name="zm_alert_switch_account_while_clips_running_message_549633">切换简石会议账户将停止录制，并且不会保存你录制的剪辑。</string>
+    <string name="zm_alert_switch_account_while_clips_running_message_549633">切换融讯畅联会议账户将停止录制，并且不会保存你录制的剪辑。</string>
     <string name="zm_alert_switch_account_while_clips_running_title_549633">切换账户并停止录制</string>
     <string name="zm_alert_switch_call_direct_share_97592">你正在另一场会议中，是否退出当前会议并加入此会议？</string>
     <string name="zm_alert_switch_call_join_new_meeting_message_160917">你需要离开此会议才能加入新会议。</string>
@@ -769,17 +769,17 @@
     <string name="zm_alert_sync_msg_failed_msg_33341">无法加载内容。<u>请重试</u></string>
     <string name="zm_alert_title_edit_recurring_meeting_526853">你正在编辑周期性会议</string>
     <string name="zm_alert_title_internal_checked_526944">启用内部会议</string>
-    <string name="zm_alert_unable_save_meeting_260492">无法保存会议。要为%s安排或编辑会议，请前往简石会议 Web门户。</string>
+    <string name="zm_alert_unable_save_meeting_260492">无法保存会议。要为%s安排或编辑会议，请前往融讯畅联会议 Web门户。</string>
     <string name="zm_alert_unable_schedule_for_289102">无法为%1$s (%2$s)安排会议</string>
     <string name="zm_alert_unknown_error">未知错误</string>
     <string name="zm_alert_unshare_file_failed">无法删除文件。</string>
     <string name="zm_alert_unshare_group_msg_59554">仅从频道中移除此文件-&lt;%s>，不会从你的个人文件中删除</string>
     <string name="zm_alert_unshare_msg_59554">取消共享不会删除文件，但当前频道成员将无法再访问该文件。</string>
     <string name="zm_alert_unsupported_format">尚不支持此文档格式，请选择图片或PDF文档！</string>
-    <string name="zm_alert_update_latest_version_156645">请更新到最新版简石会议，然后重试。</string>
+    <string name="zm_alert_update_latest_version_156645">请更新到最新版融讯畅联会议，然后重试。</string>
     <string name="zm_alert_upload_file_failed">无法上传文件</string>
     <string name="zm_alert_upload_files_failed">无法上传文件。</string>
-    <string name="zm_alert_use_web_setting_169895">你的日程设置已与简石会议 Web门户同步</string>
+    <string name="zm_alert_use_web_setting_169895">你的日程设置已与融讯畅联会议 Web门户同步</string>
     <string name="zm_alert_vb_disable_by_admin_msg_174032">如需开启此设置，请联系账户管理员寻求帮助</string>
     <string name="zm_alert_vb_disable_by_admin_title_174032">虚拟背景已被管理员关闭</string>
     <string name="zm_alert_vb_disable_by_oneself_msg_174032">如需开启此设置，请前往Web设置</string>
@@ -789,12 +789,12 @@
     <string name="zm_all_return_to_main_session_339098">所有参会者将在%d秒后返回主会场</string>
     <string name="zm_allow_device_deny_msg_382015">你的登录请求已在其他设备上遭到拒绝。</string>
     <string name="zm_allow_device_deny_title_382015">登录已被拒绝</string>
-    <string name="zm_allow_device_desc_468352">为协助确保账户安全，简石会议已向你的其他设备发送通知以验证此次登录。\n <![CDATA[点击通知上的<b>允许</b>以继续。]]></string>
+    <string name="zm_allow_device_desc_468352">为协助确保账户安全，融讯畅联会议已向你的其他设备发送通知以验证此次登录。\n <![CDATA[点击通知上的<b>允许</b>以继续。]]></string>
     <string name="zm_allow_device_dlg_label_browser_382015">浏览器：%s</string>
     <string name="zm_allow_device_dlg_label_location_382015">位置：%s</string>
     <string name="zm_allow_device_dlg_label_os_382015">操作系统：%s</string>
     <string name="zm_allow_device_dlg_label_time_382015">时间：%s</string>
-    <string name="zm_allow_device_dlg_title_382015">你的简石会议账户正在登录其他设备。</string>
+    <string name="zm_allow_device_dlg_title_382015">你的融讯畅联会议账户正在登录其他设备。</string>
     <string name="zm_allow_device_no_notification_468352">未收到通知？</string>
     <string name="zm_allow_device_notification_msg_382015">是否登录到其他设备？查看并允许</string>
     <string name="zm_allow_device_or_468352">或者， </string>
@@ -857,8 +857,8 @@
     <string name="zm_anno_vanishing_pen_484713">消失笔</string>
     <string name="zm_anno_view_all_whiteboards_46296">查看所有白板</string>
     <string name="zm_announcements_108966">公告</string>
-    <string name="zm_app_full_name">简石会议 Cloud Meetings</string>
-    <string name="zm_app_name">简石会议</string>
+    <string name="zm_app_full_name">融讯畅联会议 Cloud Meetings</string>
+    <string name="zm_app_name">融讯畅联会议</string>
     <string name="zm_archive_account_owner_msg_262229">其<![CDATA[<a href="%s">账户所有者</a>]]>将收到会议内容，并可将其分享给其他应用和成员。</string>
     <string name="zm_archive_archive_disclaimer_msg">此会议中的一个或多个参会者将根据其账户的政策进行存档。</string>
     <string name="zm_archive_audio_236360">音频</string>
@@ -885,10 +885,10 @@
     <string name="zm_at_buddy_list_overmany_hint_when_key_not_empty_384998">添加更多文本以优化搜索</string>
     <string name="zm_attendee_join_meeting_fail_msg_331303">要加入会议，请登录收到此会议邀请的账户。</string>
     <string name="zm_attendee_join_meeting_fail_title_331303">使用受邀参加会议的电子邮件登录</string>
-    <string name="zm_attendee_join_webinar_fail_msg_331303">作为观众，你需要使用简石会议账户加入会议，该账户使用你注册时所用的电子邮件。</string>
+    <string name="zm_attendee_join_webinar_fail_msg_331303">作为观众，你需要使用融讯畅联会议账户加入会议，该账户使用你注册时所用的电子邮件。</string>
     <string name="zm_attendee_join_webinar_fail_title_331303">你需要登录至已注册网络研讨会的账户</string>
     <string name="zm_authenticate_to_212554">通过%s验证</string>
-    <string name="zm_auto_please_sign_in_549281">你必须登录才能使用简石会议。请在安全的情况下停车并登录简石会议。</string>
+    <string name="zm_auto_please_sign_in_549281">你必须登录才能使用融讯畅联会议。请在安全的情况下停车并登录融讯畅联会议。</string>
     <string name="zm_auto_reply_title_502727">自定义自动响应</string>
     <string name="zm_autologin_expired_join_title_156663">仅限内部会议</string>
     <string name="zm_autologin_expired_title_156663">会话已过期</string>
@@ -954,7 +954,7 @@
     <string name="zm_basic_plus_extend_meeting_end_result_sub_description_4_528114">截至%1$s还剩0次延长</string>
     <string name="zm_basic_plus_extend_meeting_end_result_sub_title_528114">延长</string>
     <string name="zm_basic_plus_extend_meeting_end_result_title_528114">会议结果</string>
-    <string name="zm_basic_plus_extend_meeting_end_result_unlock_528114">升级到简石会议 One专业版后，便可解锁不限次数的30小时会议和付费功能。</string>
+    <string name="zm_basic_plus_extend_meeting_end_result_unlock_528114">升级到融讯畅联会议 One专业版后，便可解锁不限次数的30小时会议和付费功能。</string>
     <string name="zm_basic_plus_extend_meeting_end_result_upgrade_btn_528114">升级</string>
     <string name="zm_basic_plus_extend_meeting_end_result_upgrade_duration_528114">持续时间：80分钟</string>
     <string name="zm_basic_plus_extend_meeting_end_success_extended_result_title_528114">你的会议已延长！</string>
@@ -1158,7 +1158,7 @@
     <string name="zm_btn_invite_buddy_favorite">添加</string>
     <string name="zm_btn_invite_buddy_im">添加好友</string>
     <string name="zm_btn_invite_to_conf">邀请参会</string>
-    <string name="zm_btn_invite_to_get_zoom">邀请其他人使用简石会议</string>
+    <string name="zm_btn_invite_to_get_zoom">邀请其他人使用融讯畅联会议</string>
     <string name="zm_btn_join">加入会议</string>
     <string name="zm_btn_join_a_meeting">加入会议</string>
     <string name="zm_btn_join_a_meeting_on_welcome">加入会议</string>
@@ -1236,14 +1236,14 @@
     <string name="zm_btn_qa">问答</string>
     <string name="zm_btn_quit_42807">退出</string>
     <string name="zm_btn_raise_hand">举手</string>
-    <string name="zm_btn_rate_58802">在Google Play商店中给简石会议评分</string>
+    <string name="zm_btn_rate_58802">在Google Play商店中给融讯畅联会议评分</string>
     <string name="zm_btn_rate_on_googleplay_no_58802">不，谢谢</string>
     <string name="zm_btn_rate_on_googleplay_yes_58802">立即评分</string>
     <string name="zm_btn_reactions_324770">回应</string>
     <string name="zm_btn_recall">删除</string>
     <string name="zm_btn_reclaim_host">获取主持人权限</string>
     <string name="zm_btn_reclaim_host_294520">收回主持人权限</string>
-    <string name="zm_btn_recommend">向他人推荐简石会议</string>
+    <string name="zm_btn_recommend">向他人推荐融讯畅联会议</string>
     <string name="zm_btn_reconnect">重新连接</string>
     <string name="zm_btn_rectangle">矩形</string>
     <string name="zm_btn_redownload">重新下载</string>
@@ -1263,7 +1263,7 @@
     <string name="zm_btn_reset_610730">重置</string>
     <string name="zm_btn_reset_default_19898">重置为默认设置</string>
     <string name="zm_btn_resize">调整大小</string>
-    <string name="zm_btn_restart_zoom_88133">重启简石会议</string>
+    <string name="zm_btn_restart_zoom_88133">重启融讯畅联会议</string>
     <string name="zm_btn_resume_camera_179638">继续使用摄像头</string>
     <string name="zm_btn_retry">重试</string>
     <string name="zm_btn_return_to_conf">返回会议</string>
@@ -1275,7 +1275,7 @@
     <string name="zm_btn_room_btn_start_from_my_phone_179549">从我的手机开始</string>
     <string name="zm_btn_room_btn_start_from_room_179549">从会议室开始</string>
     <string name="zm_btn_room_btn_unpair_179549">取消配对</string>
-    <string name="zm_btn_room_controller_download_zrc_179549">简石会议想要打开浏览器进行下载</string>
+    <string name="zm_btn_room_controller_download_zrc_179549">融讯畅联会议想要打开浏览器进行下载</string>
     <string name="zm_btn_room_detecting_room_179549">正在检测会议室</string>
     <string name="zm_btn_room_would_you_like_to_179549">是否想要</string>
     <string name="zm_btn_save">保存</string>
@@ -1388,7 +1388,7 @@
     <string name="zm_btn_unshare_group_59554">在此频道中删除</string>
     <string name="zm_btn_unshare_my_pronouns_273492">取消公开我的代称</string>
     <string name="zm_btn_upcoming">我的会议</string>
-    <string name="zm_btn_upcoming_meetings_21854">即将召开的简石会议会议</string>
+    <string name="zm_btn_upcoming_meetings_21854">即将召开的融讯畅联会议会议</string>
     <string name="zm_btn_update">立即更新</string>
     <string name="zm_btn_update_62061">更新</string>
     <string name="zm_btn_upgrade_560245">升级</string>
@@ -1417,14 +1417,14 @@
     <string name="zm_call_by_phone_have_no_number_edit_hint_129757">无法输入</string>
     <string name="zm_call_by_phone_have_no_number_tip_129757">未找到你的电话号码。请联系管理员。</string>
     <string name="zm_call_by_phone_tip_129757">你只能使用“打电话给我”拨打自己的电话号码来加入音频会议</string>
-    <string name="zm_call_feedback_dialog_message_264870">我们已检测到最近一次通话存在一些问题。单击“发送至简石会议”将通话记录提交到简石会议。这些信息将帮助我们优化未来体验。</string>
+    <string name="zm_call_feedback_dialog_message_264870">我们已检测到最近一次通话存在一些问题。单击“发送至融讯畅联会议”将通话记录提交到融讯畅联会议。这些信息将帮助我们优化未来体验。</string>
     <string name="zm_call_feedback_dialog_negative_button_264870">不发送</string>
     <string name="zm_call_feedback_dialog_positive_button_264870">发送</string>
-    <string name="zm_call_feedback_dialog_title_264870">简石会议 Phone问题报告</string>
+    <string name="zm_call_feedback_dialog_title_264870">融讯畅联会议 Phone问题报告</string>
     <string name="zm_call_in_use_own_phone_number_129757">请使用电话%1$s拨入会议。</string>
     <string name="zm_call_in_use_own_phone_number_243737">请使用%s拨入会议。</string>
     <string name="zm_call_in_use_phone_number_below_243737">请使用以下号码之一拨入会议</string>
-    <string name="zm_call_phone_des_243737">通过电话连接到音频后，请确保返回简石会议会议应用程序</string>
+    <string name="zm_call_phone_des_243737">通过电话连接到音频后，请确保返回融讯畅联会议会议应用程序</string>
     <string name="zm_call_phone_tip_243737">提示：请在电话拨入后返回应用</string>
     <string name="zm_call_phone_title_243737">选择号码</string>
     <string name="zm_call_waiting_volume_353890">呼叫等待音量</string>
@@ -1543,7 +1543,7 @@
     <string name="zm_chk_watermark_156353">添加水印</string>
     <string name="zm_clips_453189">剪辑</string>
     <string name="zm_clips_auto_logout_in_clips_message_560245">你已退出登录账户</string>
-    <string name="zm_clips_auto_logout_in_clips_title_560245">简石会议 Clips已中断</string>
+    <string name="zm_clips_auto_logout_in_clips_title_560245">融讯畅联会议 Clips已中断</string>
     <string name="zm_clips_block_start_clips_due_to_meeting_message_453189">请结束会议后再录制剪辑。</string>
     <string name="zm_clips_block_start_clips_due_to_meeting_title_453189">开始剪辑</string>
     <string name="zm_clips_block_start_clips_due_to_sip_message_453189">请结束通话后再录制剪辑。</string>
@@ -1553,7 +1553,7 @@
     <string name="zm_clips_cannot_create_clip_dialog_message_586745">联系管理员以获取创建剪辑的权限。</string>
     <string name="zm_clips_cannot_create_clip_dialog_title_586745">无法创建剪辑</string>
     <string name="zm_clips_enable_setting_and_create_clip_dialog_confirm_button_586745">启用并创建剪辑</string>
-    <string name="zm_clips_enable_setting_and_create_clip_dialog_message_586745">启用设置以使用简石会议 Clips。启用后，你就可以录制自己和屏幕以创建剪辑。</string>
+    <string name="zm_clips_enable_setting_and_create_clip_dialog_message_586745">启用设置以使用融讯畅联会议 Clips。启用后，你就可以录制自己和屏幕以创建剪辑。</string>
     <string name="zm_clips_enable_setting_and_create_clip_dialog_title_586745">启用设置并创建剪辑</string>
     <string name="zm_clips_error_screen_wording_body_560245">网络加载失败</string>
     <string name="zm_clips_error_screen_wording_title_560245">无法创建剪辑</string>
@@ -1564,7 +1564,7 @@
     <string name="zm_clips_limitation_screen_wording_bottom_for_non_admin_560245">删除剪辑以继续录制，或联系管理员以升级到付费套餐。</string>
     <string name="zm_clips_limitation_screen_wording_title_560245">你已达到%s个剪辑的使用限制。</string>
     <string name="zm_clips_main_screen_placeholder_wording_453189">点击录制按钮开始。\n然后共享你的屏幕。</string>
-    <string name="zm_clips_notification_text_453189">简石会议 Clips正在运行</string>
+    <string name="zm_clips_notification_text_453189">融讯畅联会议 Clips正在运行</string>
     <string name="zm_clips_receiving_meeting_call_in_clips_continue_recording_button_453189">继续录制</string>
     <string name="zm_clips_receiving_meeting_call_in_clips_message_453189">你需要停止录制剪辑才能继续</string>
     <string name="zm_clips_receiving_meeting_call_in_clips_stop_recording_button_453189">停止录制</string>
@@ -1575,9 +1575,9 @@
     <string name="zm_clips_recording_finish_dialog_message_453189">完成录制后，你的剪辑将保存到库中。</string>
     <string name="zm_clips_recording_finish_dialog_title_453189">停止录制</string>
     <string name="zm_clips_recording_general_error_dialog_message_453189">发生错误：%s</string>
-    <string name="zm_clips_recording_general_error_dialog_title_453189">简石会议 Clips已中断</string>
+    <string name="zm_clips_recording_general_error_dialog_title_453189">融讯畅联会议 Clips已中断</string>
     <string name="zm_clips_recording_general_error_dialog_title_592264">无法创建剪辑</string>
-    <string name="zm_clips_recording_permission_revoked_message_592264">错误%s。你需要相关权限才能创建剪辑。请联系简石会议支持团队或管理员。</string>
+    <string name="zm_clips_recording_permission_revoked_message_592264">错误%s。你需要相关权限才能创建剪辑。请联系融讯畅联会议支持团队或管理员。</string>
     <string name="zm_clips_recording_skip_finishing_dialog_cancel_btn_453189">继续上传</string>
     <string name="zm_clips_recording_skip_finishing_dialog_confirm_btn_453189">停止上传</string>
     <string name="zm_clips_recording_skip_finishing_dialog_message_453189">如果停止上传，剪辑将不会保存。</string>
@@ -1629,7 +1629,7 @@
     <string name="zm_content_desc_dial_toll_call_18332">付费电话</string>
     <string name="zm_content_file_downloaded_result_is_unavailable_text_89710">文件已被删除。无法下载。</string>
     <string name="zm_content_file_list_title_text_89710">聊天</string>
-    <string name="zm_content_share_desc_52777">输入共享密钥或会议号以共享到简石会议 Room。</string>
+    <string name="zm_content_share_desc_52777">输入共享密钥或会议号以共享到融讯畅联会议 Room。</string>
     <string name="zm_context_menu_match_phone_130965">关联电话号码</string>
     <string name="zm_context_menu_privacy_policy_289221">《隐私政策》</string>
     <string name="zm_context_menu_privacy_service_130965">《隐私服务》</string>
@@ -1750,14 +1750,14 @@
     <string name="zm_delete_message_and_file_212554">删除消息和文件</string>
     <string name="zm_delete_message_only_212554">仅删除消息</string>
     <string name="zm_des_participant_307501">参会者</string>
-    <string name="zm_des_pbx_location_setting_186458">允许简石会议在进行紧急通话时访问你的位置。</string>
-    <string name="zm_des_pbx_location_setting_332597">允许简石会议增强对你所在位置的访问权限，以进行紧急通话和启用基于位置的访问和呼叫路由等高级功能。</string>
+    <string name="zm_des_pbx_location_setting_186458">允许融讯畅联会议在进行紧急通话时访问你的位置。</string>
+    <string name="zm_des_pbx_location_setting_332597">允许融讯畅联会议增强对你所在位置的访问权限，以进行紧急通话和启用基于位置的访问和呼叫路由等高级功能。</string>
     <string name="zm_des_plist_cc_307499">字幕输入者</string>
     <string name="zm_desc_alterhost_21201">%1$s和其他%2$d</string>
     <string name="zm_desc_fingerprint_login_22438">使用指纹，更快捷/更轻松地访问账户</string>
     <string name="zm_desc_more_than_three_countries_19247">%1$s和其它%2$d个国家</string>
     <string name="zm_desc_two_countries_19247">%1$s和%2$s</string>
-    <string name="zm_description_add_buddy">输入电子邮件查找简石会议联系人</string>
+    <string name="zm_description_add_buddy">输入电子邮件查找融讯畅联会议联系人</string>
     <string name="zm_description_btn_audio_source_bluetooth">通过蓝牙播放声音。</string>
     <string name="zm_description_btn_audio_source_ear_phone">通过听筒播放声音。</string>
     <string name="zm_description_btn_audio_source_speaker_phone">通过扬声器播放声音。</string>
@@ -1815,7 +1815,7 @@
     <string name="zm_description_mm_presence_away_40739">离开。</string>
     <string name="zm_description_mm_presence_busy_256131">忙碌。</string>
     <string name="zm_description_mm_presence_dnd_19903">在会议中</string>
-    <string name="zm_description_mm_presence_dnd_33945">在简石会议会议中</string>
+    <string name="zm_description_mm_presence_dnd_33945">在融讯畅联会议会议中</string>
     <string name="zm_description_mm_presence_idle">空闲。</string>
     <string name="zm_description_mm_presence_offline">离线。</string>
     <string name="zm_description_mm_presence_xa_19903">请勿打扰</string>
@@ -1824,7 +1824,7 @@
     <string name="zm_description_msg_myself_lower_hand_17843">手放下</string>
     <string name="zm_description_msg_myself_raise_hand_17843">举手</string>
     <string name="zm_description_msg_xxx_lower_hand">%s的手已放下。</string>
-    <string name="zm_description_not_zoom_meeting_63007">不是简石会议会议</string>
+    <string name="zm_description_not_zoom_meeting_63007">不是融讯畅联会议会议</string>
     <string name="zm_description_offair_267913">当前视图，直播未开始。</string>
     <string name="zm_description_passcode_security_166840">必须在“安全”下启用一个或两个选项</string>
     <string name="zm_description_passcode_security_202232">必须启用一个或多个安全功能</string>
@@ -1855,7 +1855,7 @@
     <string name="zm_description_scene_sign_language">当前视图，手语模式。</string>
     <string name="zm_description_scene_toolbar_hided_598922">双击显示工具栏</string>
     <string name="zm_description_scene_toolbar_showed_598922">双击隐藏工具栏</string>
-    <string name="zm_description_schedule_internal_526944">在内部会议模式下，媒体将保留在组织的网络范围内。部分简石会议服务可能不可用。</string>
+    <string name="zm_description_schedule_internal_526944">在内部会议模式下，媒体将保留在组织的网络范围内。部分融讯畅联会议服务可能不可用。</string>
     <string name="zm_description_schedule_pmi_21201">如果启用此选项，你在此更改的会议选项将应用于使用你个人会议号的所有会议。</string>
     <string name="zm_description_share">共享</string>
     <string name="zm_description_snackbar_message_prefix_196619">置顶消息： </string>
@@ -1949,7 +1949,7 @@
     <string name="zm_domains_label_gov_200642">政府机构用户</string>
     <string name="zm_domains_remove_url_200642">移除实名网址%s</string>
     <string name="zm_domains_remove_url_txt_200642">将从此设备中移除已保存的与此实名网址相关的登录信息。</string>
-    <string name="zm_domains_title_200642">简石会议域</string>
+    <string name="zm_domains_title_200642">融讯畅联会议域</string>
     <string name="zm_download_failed_82691">验证失败</string>
     <string name="zm_download_success">下载已完成</string>
     <string name="zm_downloading">正在下载</string>
@@ -2334,7 +2334,7 @@
     <string name="zm_gr_backstage_webinar_start_date_time_267913">此网络研讨会将于%1$s，%2$s开始</string>
     <string name="zm_gr_backstage_webinar_start_end_time_267913">%1$s-%2$s · %3$s</string>
     <string name="zm_gr_backstage_webinar_start_time_267913">此网络研讨会将于%1$s开始</string>
-    <string name="zm_gr_change_user_need_upgrade_267913">要更改角色，%s必须使用最新版简石会议</string>
+    <string name="zm_gr_change_user_need_upgrade_267913">要更改角色，%s必须使用最新版融讯畅联会议</string>
     <string name="zm_gr_end_webinar_for_all">结束网络研讨会</string>
     <string name="zm_gr_end_webinar_for_attendees">对观众结束网络研讨会</string>
     <string name="zm_gr_end_webinar_for_attendees_tips">这会对所有观众结束网络研讨会，并将后台中的所有嘉宾移至主舞台。</string>
@@ -2397,10 +2397,10 @@
     <string name="zm_hint_already_my_contact_152253">已在你的联系人列表中</string>
     <string name="zm_hint_at_all_disabled_467643">频道所有者已禁用@all</string>
     <string name="zm_hint_buddy_invite_email">请在此输入电子邮件地址，多个地址间用逗号分隔。</string>
-    <string name="zm_hint_call_zoom_audio_14480">简石会议语音会议</string>
-    <string name="zm_hint_call_zoom_video_14480">简石会议视频会议</string>
+    <string name="zm_hint_call_zoom_audio_14480">融讯畅联会议语音会议</string>
+    <string name="zm_hint_call_zoom_video_14480">融讯畅联会议视频会议</string>
     <string name="zm_hint_cannot_add_someone_to_your_camera_control_group_465893">你无法将%s添加到摄像头控制群组，因为他们不是你的联系人</string>
-    <string name="zm_hint_cannot_chat_zoomroom">你无法使用简石会议 Room聊天。</string>
+    <string name="zm_hint_cannot_chat_zoomroom">你无法使用融讯畅联会议 Room聊天。</string>
     <string name="zm_hint_cannot_send_e2e_msg">你无法发送消息</string>
     <string name="zm_hint_company_domain">公司域名</string>
     <string name="zm_hint_company_email">你的公司邮箱</string>
@@ -2431,7 +2431,7 @@
     <string name="zm_hint_msg_send_failed">消息发送失败</string>
     <string name="zm_hint_name_contact_group_68451">为联系人群组命名</string>
     <string name="zm_hint_name_group_59554">为频道命名</string>
-    <string name="zm_hint_not_personal_note_109011">例如，简石会议助力你拥抱未来</string>
+    <string name="zm_hint_not_personal_note_109011">例如，融讯畅联会议助力你拥抱未来</string>
     <string name="zm_hint_not_personal_note_13602">今天过的怎么样？</string>
     <string name="zm_hint_passcode_schedule_171920">输入密码</string>
     <string name="zm_hint_password_set_new">设置新密码</string>
@@ -2505,10 +2505,10 @@
     <string name="zm_idp_sso_dialog_sign_join_new_error_msg_401051">你需要退出登录当前账户并退出当前会议，稍后再试。</string>
     <string name="zm_idp_sso_dialog_sign_join_new_error_title_401051">无法使用新账户加入会议</string>
     <string name="zm_idp_sso_dialog_sign_join_title_401051">登录并加入会议</string>
-    <string name="zm_idp_sso_dialog_sign_msg_401051">你即将使用%1$s(%2$s)登录简石会议。</string>
+    <string name="zm_idp_sso_dialog_sign_msg_401051">你即将使用%1$s(%2$s)登录融讯畅联会议。</string>
     <string name="zm_idp_sso_dialog_sign_new_error_msg_401051">你需要退出登录当前账户，稍后再试。</string>
     <string name="zm_idp_sso_dialog_sign_new_error_title_401051">无法登录新账户</string>
-    <string name="zm_idp_sso_dialog_sign_title_401051">登录简石会议</string>
+    <string name="zm_idp_sso_dialog_sign_title_401051">登录融讯畅联会议</string>
     <string name="zm_idp_verify_ax_291884">已验证个人信息</string>
     <string name="zm_idp_verify_btn_display_291884">显示来自%s的已验证个人信息</string>
     <string name="zm_idp_verify_info_auth_291884">%s需要进行身份验证，以显示你的已验证个人信息徽章。</string>
@@ -2518,12 +2518,12 @@
     <string name="zm_idp_verify_info_display_291884">%1$s已验证<![CDATA[<b>%2$s</b>]]>的此个人信息</string>
     <string name="zm_idp_verify_info_loading_291884">正在加载已验证的个人信息...</string>
     <string name="zm_im_add_a_channel_tab_596696">%1$s已添加选项卡“%2$s”</string>
-    <string name="zm_im_add_to_zoom_contact_209114">邀请成为简石会议联系人</string>
+    <string name="zm_im_add_to_zoom_contact_209114">邀请成为融讯畅联会议联系人</string>
     <string name="zm_im_add_to_zoom_contact_request_sent_209114">请求已发送</string>
     <string name="zm_im_add_to_zoom_contact_select_email_209114">选择电子邮件地址</string>
     <string name="zm_im_add_to_zoom_contact_send_209114">发送联系人请求</string>
     <string name="zm_im_add_to_zoom_contact_send_desc_224840">如果此用户接受你的请求，你的个人信息(%1$s)将对此联系人可见。</string>
-    <string name="zm_im_add_to_zoom_contact_tips_209114">成为简石会议联系人即可举行会议或聊天</string>
+    <string name="zm_im_add_to_zoom_contact_tips_209114">成为融讯畅联会议联系人即可举行会议或聊天</string>
     <string name="zm_im_channel_title_chat_tab_459929">聊天</string>
     <string name="zm_im_channel_title_tabs_chat_459929">频道选项卡(%1$d)</string>
     <string name="zm_im_chatlist_filter_clear_description_516881">清除筛选器%s</string>
@@ -2547,9 +2547,9 @@
     <string name="zm_im_external_invite_consent_system_message_629735">已发送邀请给%1$s。如果对方接受此邀请，便会将其添加到此频道。</string>
     <string name="zm_im_external_user_tips_317398">有外部用户</string>
     <string name="zm_im_external_user_tips_desc_317398">此聊天包括组织以外的成员。此聊天中的每个成员及其组织中具有相关权限的人员均可查看此处共享的消息和附件，并可分享给其他应用和成员（取决于账户设置）。</string>
-    <string name="zm_im_invite_as_zoom_contact_221346">邀请成为简石会议联系人</string>
-    <string name="zm_im_invite_to_zoom_221346">邀请使用简石会议</string>
-    <string name="zm_im_invite_zoom_contact_221346">邀请简石会议联系人</string>
+    <string name="zm_im_invite_as_zoom_contact_221346">邀请成为融讯畅联会议联系人</string>
+    <string name="zm_im_invite_to_zoom_221346">邀请使用融讯畅联会议</string>
+    <string name="zm_im_invite_zoom_contact_221346">邀请融讯畅联会议联系人</string>
     <string name="zm_im_mention_divider_label">今日提及</string>
     <string name="zm_im_mention_empty_tip_552428">尚无提及！</string>
     <string name="zm_im_mention_empty_tip_desc_552428">每次在消息中提到你时，\n可以从这里跳转到目标位置。</string>
@@ -2566,21 +2566,21 @@
     <string name="zm_in_meeting_setting_caption_and_translation_translation_478812">翻译语言：%s</string>
     <string name="zm_in_pbo_339098">你现在已在个人讨论组中</string>
     <string name="zm_in_progress_lobby_btn_text_432121">进入会议大堂</string>
-    <string name="zm_inapp_subscription_plan_cancelled_desc_378649">你已取消简石会议 One专业版的下次自动续订。在%1$s之前，你仍可享受简石会议 One专业版的各项权益。</string>
+    <string name="zm_inapp_subscription_plan_cancelled_desc_378649">你已取消融讯畅联会议 One专业版的下次自动续订。在%1$s之前，你仍可享受融讯畅联会议 One专业版的各项权益。</string>
     <string name="zm_inapp_subscription_plan_cancelled_title_287870">已取消自动续订</string>
-    <string name="zm_inapp_subscription_plan_expired_desc_378649">你仍可以使用设有会议时长限制的简石会议 One基础版。</string>
-    <string name="zm_inapp_subscription_plan_expired_title_378649">你的简石会议 One专业版套餐已到期</string>
+    <string name="zm_inapp_subscription_plan_expired_desc_378649">你仍可以使用设有会议时长限制的融讯畅联会议 One基础版。</string>
+    <string name="zm_inapp_subscription_plan_expired_title_378649">你的融讯畅联会议 One专业版套餐已到期</string>
     <string name="zm_inapp_subscription_renew_plan_287870">立即续订</string>
-    <string name="zm_inapp_subscription_upgrade_free_meeting_desc_378649">获取简石会议 One专业版，畅享无时间限制的会议以及更多功能。</string>
+    <string name="zm_inapp_subscription_upgrade_free_meeting_desc_378649">获取融讯畅联会议 One专业版，畅享无时间限制的会议以及更多功能。</string>
     <string name="zm_inapp_subscription_upgrade_free_meeting_title_287870">你的免费会议已结束</string>
     <string name="zm_inapp_subscription_upgrade_success_desc_287870">你已成功购买</string>
     <string name="zm_inapp_subscription_upgrade_success_title_287870">全部设置完成</string>
     <string name="zm_inapp_subscription_upgrade_third_time_30_minutes_desc_287870">解锁40分钟的时长限制，畅享无缝且专业的会议体验。</string>
     <string name="zm_inapp_subscription_upgrade_third_time_30_minutes_title_287870">你的会议将在10分钟后结束</string>
-    <string name="zm_input_age_illegal_msg_148333">你目前不符合注册简石会议的条件</string>
+    <string name="zm_input_age_illegal_msg_148333">你目前不符合注册融讯畅联会议的条件</string>
     <string name="zm_input_age_illegal_sign_in_title_148333">登录失败</string>
     <string name="zm_input_age_illegal_title_148333">注册失败</string>
-    <string name="zm_input_illegal_sign_in_msg_148333">你目前不符合登录简石会议的条件</string>
+    <string name="zm_input_illegal_sign_in_msg_148333">你目前不符合登录融讯畅联会议的条件</string>
     <string name="zm_intergeated_phone_not_set_31439">未设置</string>
     <string name="zm_intergeated_phone_receive_shared_calls_507595">接收共享通话</string>
     <string name="zm_intergeated_phone_receive_shared_calls_active_nums_507595">%d在线</string>
@@ -2593,26 +2593,26 @@
     <string name="zm_intergeated_phone_receive_shared_calls_slg_507595">共享线路群组</string>
     <string name="zm_intergeated_phone_tips_115402">要查看或更改你的设置，请在线访问<![CDATA[<a href="%s">我的账户</a>]]>。</string>
     <string name="zm_internal_meeting_allow_join_in_join_fail_title_572904">这是私人模式会议</string>
-    <string name="zm_internal_meeting_allow_join_not_same_account_join_fail_msg_572904">你能够以内部用户身份切换到其他简石会议账户以加入此会议，或者以访客身份加入。\n单击“以访客身份加入”，即表示你同意加入在由主持人账户所有者控制的数据中心主持的会议。</string>
-    <string name="zm_internal_meeting_allow_join_not_sign_in_join_fail_msg_572904">你能够以内部用户身份登录简石会议以加入此会议，或者以访客身份加入。\n单击“以访客身份加入”，即表示你同意加入在由主持人账户所有者控制的数据中心主持的会议。</string>
+    <string name="zm_internal_meeting_allow_join_not_same_account_join_fail_msg_572904">你能够以内部用户身份切换到其他融讯畅联会议账户以加入此会议，或者以访客身份加入。\n单击“以访客身份加入”，即表示你同意加入在由主持人账户所有者控制的数据中心主持的会议。</string>
+    <string name="zm_internal_meeting_allow_join_not_sign_in_join_fail_msg_572904">你能够以内部用户身份登录融讯畅联会议以加入此会议，或者以访客身份加入。\n单击“以访客身份加入”，即表示你同意加入在由主持人账户所有者控制的数据中心主持的会议。</string>
     <string name="zm_internal_meeting_join_fail_join_as_a_guest_to_join_btn_572904">以访客身份加入</string>
     <string name="zm_internal_meeting_join_fail_sign_in_to_join_btn_572904">登录以加会</string>
     <string name="zm_internal_meeting_join_fail_switch_account_to_join_btn_572904">切换账户加会</string>
     <string name="zm_internal_meeting_no_allow_join_in_join_fail_title_572904">仅已授权的参会者可参加本次会议</string>
-    <string name="zm_internal_meeting_no_allow_join_not_same_account_join_fail_msg_572904">点击“切换账户加会”以使用授权参加此会议的身份登录简石会议。</string>
-    <string name="zm_internal_meeting_no_allow_join_not_sign_in_join_fail_msg_572904">点击“登录以加会”以使用授权参加此会议的身份登录简石会议。</string>
+    <string name="zm_internal_meeting_no_allow_join_not_same_account_join_fail_msg_572904">点击“切换账户加会”以使用授权参加此会议的身份登录融讯畅联会议。</string>
+    <string name="zm_internal_meeting_no_allow_join_not_sign_in_join_fail_msg_572904">点击“登录以加会”以使用授权参加此会议的身份登录融讯畅联会议。</string>
     <string name="zm_internal_webinar_allow_join_in_join_fail_title_572904">这是私人模式网络研讨会</string>
-    <string name="zm_internal_webinar_allow_join_not_same_account_join_fail_msg_572904">你能够以内部用户身份切换到其他简石会议账户以加入此网络研讨会，或者以访客身份加入。\n单击“以访客身份加入”，即表示你同意加入在由主持人账户所有者控制的数据中心主持的网络研讨会。</string>
-    <string name="zm_internal_webinar_allow_join_not_sign_in_join_fail_msg_572904">你能够以内部用户身份登录简石会议以加入此网络研讨会，或者以访客身份加入。\n单击“以访客身份加入”，即表示你同意加入在由主持人账户所有者控制的数据中心主持的网络研讨会。</string>
+    <string name="zm_internal_webinar_allow_join_not_same_account_join_fail_msg_572904">你能够以内部用户身份切换到其他融讯畅联会议账户以加入此网络研讨会，或者以访客身份加入。\n单击“以访客身份加入”，即表示你同意加入在由主持人账户所有者控制的数据中心主持的网络研讨会。</string>
+    <string name="zm_internal_webinar_allow_join_not_sign_in_join_fail_msg_572904">你能够以内部用户身份登录融讯畅联会议以加入此网络研讨会，或者以访客身份加入。\n单击“以访客身份加入”，即表示你同意加入在由主持人账户所有者控制的数据中心主持的网络研讨会。</string>
     <string name="zm_internal_webinar_no_allow_join_in_join_fail_title_572904">仅已授权的参会者可参加本次网络研讨会</string>
-    <string name="zm_internal_webinar_no_allow_join_not_same_account_join_fail_msg_572904">点击“切换账户加会”以使用授权参加此网络研讨会的身份登录简石会议。</string>
-    <string name="zm_internal_webinar_no_allow_join_not_sign_in_join_fail_msg_572904">点击“登录以加会”以使用授权参加此网络研讨会的身份登录简石会议。</string>
+    <string name="zm_internal_webinar_no_allow_join_not_same_account_join_fail_msg_572904">点击“切换账户加会”以使用授权参加此网络研讨会的身份登录融讯畅联会议。</string>
+    <string name="zm_internal_webinar_no_allow_join_not_sign_in_join_fail_msg_572904">点击“登录以加会”以使用授权参加此网络研讨会的身份登录融讯畅联会议。</string>
     <string name="zm_invite2_meeting_by_phone_new_audio_auto_564801">自动重新连接到会议音频</string>
     <string name="zm_invite2_meeting_by_phone_new_audio_manual_564801">手动重新连接到会议音频</string>
     <string name="zm_invite_by_zoom_phone_caller_id_240490">通话ID</string>
-    <string name="zm_invite_by_zoom_phone_default_number_240490">简石会议默认号码</string>
+    <string name="zm_invite_by_zoom_phone_default_number_240490">融讯畅联会议默认号码</string>
     <string name="zm_invite_by_zoom_phone_greet_option_240490">加入会议前需要问候</string>
-    <string name="zm_invite_by_zoom_phone_label_240490">通过简石会议 Phone邀请</string>
+    <string name="zm_invite_by_zoom_phone_label_240490">通过融讯畅联会议 Phone邀请</string>
     <string name="zm_invite_by_zoom_phone_options_240490">邀请选项</string>
     <string name="zm_invite_by_zoom_phone_press_option_240490">加入会议前需要按1</string>
     <string name="zm_invite_call_input_msg_393647">写下消息...</string>
@@ -2629,7 +2629,7 @@
     <string name="zm_iq_summary_stop_490934">停止摘要</string>
     <string name="zm_iq_summary_stopped_576027">会议摘要已关闭</string>
     <string name="zm_join_auth_fail_authorized_account_557352">使用已授权加入此会议的电子邮件地址登录。</string>
-    <string name="zm_join_auth_fail_login_commercial_zoom_557352">主持人要求进行简石会议商业版平台验证才能加入此会议。请使用简石会议商业版账户登录后再加入。</string>
+    <string name="zm_join_auth_fail_login_commercial_zoom_557352">主持人要求进行融讯畅联会议商业版平台验证才能加入此会议。请使用融讯畅联会议商业版账户登录后再加入。</string>
     <string name="zm_join_auth_fail_msg_164979">此会议需要身份验证</string>
     <string name="zm_join_auth_fail_sign_in_title_610286">登录以加入此会议</string>
     <string name="zm_join_auth_fail_sign_title_164979">登录以加会</string>
@@ -2637,19 +2637,19 @@
     <string name="zm_join_bo_room_183819">讨论\n组</string>
     <string name="zm_join_error_message_net_error_179549">请离开此会议室的会议以开始新会议</string>
     <string name="zm_join_from_waiting_room_357092">加入会议遇到问题。请重试。</string>
-    <string name="zm_join_gov_warning_msg_344210">无法加入此会议，因为主持人要求进行简石会议政府版验证。请使用简石会议政府版账户登录后加入此会议。</string>
+    <string name="zm_join_gov_warning_msg_344210">无法加入此会议，因为主持人要求进行融讯畅联会议政府版验证。请使用融讯畅联会议政府版账户登录后加入此会议。</string>
     <string name="zm_join_meeting_fail_dialog_intercloud_msg_364406">你被禁止加入此会议。请联系你的管理员寻求帮助。</string>
     <string name="zm_join_meeting_fail_dialog_msg_164409">%1$s（错误代码：%2$d）</string>
     <string name="zm_join_meeting_fail_dialog_title_164409">发生未知错误</string>
     <string name="zm_join_next_meeting_conflict_title_439951">你想加入哪个会议？</string>
     <string name="zm_join_next_meeting_shortcut_short_label_304115">加入下一场会议</string>
-    <string name="zm_join_normal_warning_msg_344210">主持人要求进行简石会议商业版平台验证才能加入此会议。请使用简石会议商业版账户登录后再加入。</string>
+    <string name="zm_join_normal_warning_msg_344210">主持人要求进行融讯畅联会议商业版平台验证才能加入此会议。请使用融讯畅联会议商业版账户登录后再加入。</string>
     <string name="zm_join_webinarbo_fail_title_513452">加入讨论组失败</string>
     <string name="zm_kubi_bluetooth_turn_on_request">是否要打开蓝牙以连接Kubi？</string>
     <string name="zm_kubi_connect_kubi_list_title">连接Kubi</string>
     <string name="zm_kubi_disconnect_kubi_xxx">断开%s</string>
     <string name="zm_kubi_no_kubi_found">未发现Kubi设备</string>
-    <string name="zm_kubi_request_location_permission">要连接Kubi，你需要授予简石会议获取此设备的位置的权限。</string>
+    <string name="zm_kubi_request_location_permission">要连接Kubi，你需要授予融讯畅联会议获取此设备的位置的权限。</string>
     <string name="zm_kubi_request_to_turn_on_gps">要连接Kubi，你需要打开此设备的定位服务(GPS)。</string>
     <string name="zm_kubi_status_connected">Kubi已连接</string>
     <string name="zm_kubi_status_connecting">正在连接Kubi</string>
@@ -2730,7 +2730,7 @@
     <string name="zm_lbl_add_contacts_79032">添加联系人</string>
     <string name="zm_lbl_add_invitees">选择邀请方式</string>
     <string name="zm_lbl_add_members_same_org_with_admin_358252">你只能添加频道所有者所在组织的用户。</string>
-    <string name="zm_lbl_add_number_description_161035">个人信息中的号码将对简石会议联系人可见。</string>
+    <string name="zm_lbl_add_number_description_161035">个人信息中的号码将对融讯畅联会议联系人可见。</string>
     <string name="zm_lbl_add_phone_contact_33300">邀请手机联系人</string>
     <string name="zm_lbl_add_reply_88133">回复</string>
     <string name="zm_lbl_add_value_185075">添加值</string>
@@ -2834,7 +2834,7 @@
     <string name="zm_lbl_audio_option_telephony">电话</string>
     <string name="zm_lbl_audio_option_voip">设备音频</string>
     <string name="zm_lbl_audio_option_voip_and_telephony_detail_127873">电话和设备音频</string>
-    <string name="zm_lbl_audio_option_zoom_phone_424277">简石会议 Phone音频</string>
+    <string name="zm_lbl_audio_option_zoom_phone_424277">融讯畅联会议 Phone音频</string>
     <string name="zm_lbl_audio_option_zoom_phone_title_424277">如需听见其他人的声音，请连接语音</string>
     <string name="zm_lbl_auto_connect_audio_92027">自动连接音频</string>
     <string name="zm_lbl_auto_connect_audio_alert_message_92027">请添加你的电话号码以完成“自动连接音频”设置</string>
@@ -2858,7 +2858,7 @@
     <string name="zm_lbl_below_new_comment_88133">新回复</string>
     <string name="zm_lbl_below_new_msg_68444">新消息</string>
     <string name="zm_lbl_blocked">已屏蔽</string>
-    <string name="zm_lbl_blur_snapshot_description_127987">启用此选项可在切换任务时隐藏简石会议窗口快照中的潜在敏感信息。</string>
+    <string name="zm_lbl_blur_snapshot_description_127987">启用此选项可在切换任务时隐藏融讯畅联会议窗口快照中的潜在敏感信息。</string>
     <string name="zm_lbl_buddy_added">已添加</string>
     <string name="zm_lbl_buddy_invite_email">要邀请他人使用Google IM，请在下方输入对方的电子邮箱：</string>
     <string name="zm_lbl_buddy_invite_invitation_msg">想与你聊天</string>
@@ -2873,7 +2873,7 @@
     <string name="zm_lbl_ch_mthd_120783">选择方法</string>
     <string name="zm_lbl_ch_user_type_120783">选择用户类型</string>
     <string name="zm_lbl_change_feedback_12050">点击更改你的反馈</string>
-    <string name="zm_lbl_change_pw_confirm_message_107846">更改登录密码将在所有其他设备上登出简石会议。是否继续？</string>
+    <string name="zm_lbl_change_pw_confirm_message_107846">更改登录密码将在所有其他设备上登出融讯畅联会议。是否继续？</string>
     <string name="zm_lbl_change_pw_confirm_title_107846">将我从所有设备登出</string>
     <string name="zm_lbl_channel_type_title_160938">频道类型</string>
     <string name="zm_lbl_chat_send_hint_giphy_and_preview_card_condition_416255">必须先有消息，然后才能发送这些附件</string>
@@ -2902,8 +2902,8 @@
     <string name="zm_lbl_contact_from_outlook_58879">从Outlook联系人添加</string>
     <string name="zm_lbl_contact_from_phone_58879">从Android联系人添加</string>
     <string name="zm_lbl_contact_group_description">%1$s创建</string>
-    <string name="zm_lbl_contact_invite_zoom_58879">邀请使用简石会议</string>
-    <string name="zm_lbl_contact_invite_zoom_des_58879">注册并使用简石会议后，可与其他用户畅享开会、聊天等多种功能。</string>
+    <string name="zm_lbl_contact_invite_zoom_58879">邀请使用融讯畅联会议</string>
+    <string name="zm_lbl_contact_invite_zoom_des_58879">注册并使用融讯畅联会议后，可与其他用户畅享开会、聊天等多种功能。</string>
     <string name="zm_lbl_contact_private_groups_59554">私人频道(%d)</string>
     <string name="zm_lbl_contact_public_groups_59554">公共频道 (%d)</string>
     <string name="zm_lbl_contact_request_sent">联系人请求已发送至\n%s</string>
@@ -2911,7 +2911,7 @@
     <string name="zm_lbl_content_load_error">加载错误，&lt;font color="#2da5ff">请重试&lt;/font></string>
     <string name="zm_lbl_content_me">我</string>
     <string name="zm_lbl_content_no_share">私人</string>
-    <string name="zm_lbl_content_not_support_preview_50227">无法在简石会议中预览该文件。是否使用其他应用打开？</string>
+    <string name="zm_lbl_content_not_support_preview_50227">无法在融讯畅联会议中预览该文件。是否使用其他应用打开？</string>
     <string name="zm_lbl_content_personal_result_empty_212356">你发送的文件将显示在此处</string>
     <string name="zm_lbl_content_result_empty_after_apply_filters_212356">未找到符合条件的文件</string>
     <string name="zm_lbl_content_search_result_empty">无内容</string>
@@ -2931,14 +2931,14 @@
     <string name="zm_lbl_content_time_other_day_format">%1$s %2$s</string>
     <string name="zm_lbl_content_time_today_format">今天%s</string>
     <string name="zm_lbl_content_upload_file_59554">将照片或文件上传到你的个人文件夹，以便稍后与其他用户或频道共享</string>
-    <string name="zm_lbl_content_whiteboard_result_empty_212356">共享自简石会议 Rooms的白板将显示在此处</string>
+    <string name="zm_lbl_content_whiteboard_result_empty_212356">共享自融讯畅联会议 Rooms的白板将显示在此处</string>
     <string name="zm_lbl_content_you">你</string>
     <string name="zm_lbl_context_menu_call_back">回电</string>
     <string name="zm_lbl_context_menu_delete">删除</string>
     <string name="zm_lbl_copy_invite_link_155922">复制邀请链接</string>
     <string name="zm_lbl_copy_to_clipboard">复制到剪贴板</string>
     <string name="zm_lbl_copy_url_160566">复制链接</string>
-    <string name="zm_lbl_copyright">Copyright ©%1$s 简石会议 Video Communications, Inc. All rights reserved.</string>
+    <string name="zm_lbl_copyright">Copyright ©%1$s 融讯畅联会议 Video Communications, Inc. All rights reserved.</string>
     <string name="zm_lbl_create_group_all_members_181697">由所有频道成员</string>
     <string name="zm_lbl_create_group_classification_285659">分类</string>
     <string name="zm_lbl_create_group_edit_external_160938">可以添加外部用户</string>
@@ -2999,7 +2999,7 @@
     <string name="zm_lbl_disable_original_sound_145354">禁用原声</string>
     <string name="zm_lbl_display_name_253961">显示名称</string>
     <string name="zm_lbl_display_name_contact_admin_hint_253961">要编辑你的显示名称，请联系你的账户管理员。</string>
-    <string name="zm_lbl_display_name_hint_253961">输入你希望简石会议联系人看到的名称（例如，你的名字、全名或昵称）</string>
+    <string name="zm_lbl_display_name_hint_253961">输入你希望融讯畅联会议联系人看到的名称（例如，你的名字、全名或昵称）</string>
     <string name="zm_lbl_do_not_disturb_19898">请勿打扰</string>
     <string name="zm_lbl_do_not_remind_me_23626">不再提醒</string>
     <string name="zm_lbl_domain_list_120783">域列表</string>
@@ -3007,7 +3007,7 @@
     <string name="zm_lbl_download_emoji_process_23626">下载表情(%d%%)…</string>
     <string name="zm_lbl_draft_88133">[草稿]</string>
     <string name="zm_lbl_drive_mode_description_262860">驾驶途中，向右轻扫可关闭视频和音频</string>
-    <string name="zm_lbl_drop_message_hint_88133">重启简石会议才能使此更改生效。</string>
+    <string name="zm_lbl_drop_message_hint_88133">重启融讯畅联会议才能使此更改生效。</string>
     <string name="zm_lbl_drop_mode_hint_88133">将有新回复的消息移至聊天底部</string>
     <string name="zm_lbl_duration">会议时长</string>
     <string name="zm_lbl_edit_dial_in_country_127873">编辑拨入国家或地区</string>
@@ -3025,7 +3025,7 @@
     <string name="zm_lbl_emoji_one_category_people_23626">表情&amp;人物</string>
     <string name="zm_lbl_emoji_one_category_symbols_23626">符号</string>
     <string name="zm_lbl_emoji_one_category_travel_23626">旅行&amp;地点</string>
-    <string name="zm_lbl_emoji_pkg_title_23626">简石会议表情包</string>
+    <string name="zm_lbl_emoji_pkg_title_23626">融讯畅联会议表情包</string>
     <string name="zm_lbl_emoji_receive_emoji_23626">%s发送了一个新表情</string>
     <string name="zm_lbl_enable_address_book">匹配手机通讯录</string>
     <string name="zm_lbl_enable_driving_mode">驾驶模式</string>
@@ -3033,8 +3033,8 @@
     <string name="zm_lbl_enable_kubi_robot_device_262860">启用Kubi设备</string>
     <string name="zm_lbl_enable_kubi_robot_device_instructions">加入会议时自动连接Kubi Robot设备。（在允许远程控制摄像头的会议中你可以远程控制Kubi遥控设备。）</string>
     <string name="zm_lbl_enable_original_sound_145354">启用原声</string>
-    <string name="zm_lbl_enable_phone_match_33300">启用匹配手机通讯录，帮助你找到更多使用简石会议的联系人</string>
-    <string name="zm_lbl_enable_phone_match_alert_79032">启用匹配手机通讯录，帮助你找到更多使用简石会议的联系人</string>
+    <string name="zm_lbl_enable_phone_match_33300">启用匹配手机通讯录，帮助你找到更多使用融讯畅联会议的联系人</string>
+    <string name="zm_lbl_enable_phone_match_alert_79032">启用匹配手机通讯录，帮助你找到更多使用融讯畅联会议的联系人</string>
     <string name="zm_lbl_enable_waiting_room_127873">启用等候室</string>
     <string name="zm_lbl_encryption_ecb_155209">你的连接已加密</string>
     <string name="zm_lbl_encryption_gcm_155209">你正在使用增强型加密</string>
@@ -3118,7 +3118,7 @@
     <string name="zm_lbl_hide_pin_des_196619">你仍可以在置顶历史记录中查看。</string>
     <string name="zm_lbl_hide_pin_title_196619">隐藏置顶消息</string>
     <string name="zm_lbl_hide_profile_picture_success_toast_200528">主持人已隐藏所有头像</string>
-    <string name="zm_lbl_hint_enable_phone_match">启用匹配手机通讯录，帮助你找到更多使用简石会议的联系人</string>
+    <string name="zm_lbl_hint_enable_phone_match">启用匹配手机通讯录，帮助你找到更多使用融讯畅联会议的联系人</string>
     <string name="zm_lbl_hint_in_top_33341">↑ %s</string>
     <string name="zm_lbl_history_pin_215559"><![CDATA[<strong>%s</strong>已将<font color="#2da5ff" >一条消息</font>置顶到此频道]]></string>
     <string name="zm_lbl_history_pin_byself_215559"><![CDATA[你已将<font color="#2da5ff" >一条消息</font>置顶到此频道]]></string>
@@ -3145,11 +3145,11 @@
     <string name="zm_lbl_image_239318">图片</string>
     <string name="zm_lbl_import_phone_contacts_tips_647192">导入</string>
     <string name="zm_lbl_in_meeting_info_data_center_customer_network_151960">你已连接到企业部署数据中心。</string>
-    <string name="zm_lbl_in_meeting_info_data_center_hybrid_network_151960">你已通过企业部署数据中心连接到简石会议全球网络。</string>
+    <string name="zm_lbl_in_meeting_info_data_center_hybrid_network_151960">你已通过企业部署数据中心连接到融讯畅联会议全球网络。</string>
     <string name="zm_lbl_in_meeting_info_data_center_hybrid_network_437612">你已连接到主持人的账户所有者控制的数据中心。(<![CDATA[<a href="%s">了解更多</a>]]>)</string>
-    <string name="zm_lbl_in_meeting_info_data_center_zoom_network_151960">你已通过%s数据中心连接到简石会议全球网络。</string>
+    <string name="zm_lbl_in_meeting_info_data_center_zoom_network_151960">你已通过%s数据中心连接到融讯畅联会议全球网络。</string>
     <string name="zm_lbl_in_meeting_info_data_center_zoom_network_one_160920">你已通过%2$s数据中心连接到%1$s。</string>
-    <string name="zm_lbl_in_meeting_info_data_center_zoom_network_one_437612">你已通过简石会议账户所有者控制的数据中心连接到位于%2$s的%1$s。(<![CDATA[<a href="%3$s">了解更多</a>]]>)</string>
+    <string name="zm_lbl_in_meeting_info_data_center_zoom_network_one_437612">你已通过融讯畅联会议账户所有者控制的数据中心连接到位于%2$s的%1$s。(<![CDATA[<a href="%3$s">了解更多</a>]]>)</string>
     <string name="zm_lbl_in_meeting_info_data_center_zoom_network_other_160920">你已通过%2$s和%3$s数据中心连接到%1$s。</string>
     <string name="zm_lbl_in_meeting_info_original_host_151960">原主持人</string>
     <string name="zm_lbl_in_meeting_settings_add_watermark_147675">向共享内容添加水印</string>
@@ -3176,15 +3176,15 @@
     <string name="zm_lbl_invalid_email_112365">电子邮件地址无效</string>
     <string name="zm_lbl_invite_buddy_fb">邀请Facebook联系人</string>
     <string name="zm_lbl_invite_buddy_google">邀请Google IM联系人</string>
-    <string name="zm_lbl_invite_buddy_zoom">邀请简石会议联系人</string>
+    <string name="zm_lbl_invite_buddy_zoom">邀请融讯畅联会议联系人</string>
     <string name="zm_lbl_invite_connect_phone_contacts_105180">匹配手机通讯录</string>
-    <string name="zm_lbl_invite_connect_phone_contacts_tips_647192">是否要查看简石会议上的手机联系人</string>
+    <string name="zm_lbl_invite_connect_phone_contacts_tips_647192">是否要查看融讯畅联会议上的手机联系人</string>
     <string name="zm_lbl_invite_link_151880">邀请链接</string>
     <string name="zm_lbl_invite_room_system">邀请H.323/SIP会议室系统</string>
     <string name="zm_lbl_invite_somebody_to_meeting_194181">邀请%s加入会议</string>
-    <string name="zm_lbl_invite_zoom_105180">邀请他人使用简石会议</string>
-    <string name="zm_lbl_invite_zoom_33300">邀请他人使用简石会议</string>
-    <string name="zm_lbl_invite_zoom_rooms">邀请简石会议 Rooms</string>
+    <string name="zm_lbl_invite_zoom_105180">邀请他人使用融讯畅联会议</string>
+    <string name="zm_lbl_invite_zoom_33300">邀请他人使用融讯畅联会议</string>
+    <string name="zm_lbl_invite_zoom_rooms">邀请融讯畅联会议 Rooms</string>
     <string name="zm_lbl_invite_zpa_352631">邀请座机</string>
     <string name="zm_lbl_ip_address_82945">IP地址</string>
     <string name="zm_lbl_jbh_desp_206906">选择参会者可以在会议开始前多长时间内加会</string>
@@ -3258,7 +3258,7 @@
     <string name="zm_lbl_meeting2chat_post_meeting_218634">%s已主持一场会议											</string>
     <string name="zm_lbl_meeting2chat_posted_283901">你的会议中资料卡已共享到你与<![CDATA[<b>%s</b>]]>的对话中</string>
     <string name="zm_lbl_meeting2chat_sns_mynote_content_283901">将你的会议中资料卡重新共享到%1$s</string>
-    <string name="zm_lbl_meeting2chat_sns_mynote_title_283901">%1$s（你）的简石会议会议</string>
+    <string name="zm_lbl_meeting2chat_sns_mynote_title_283901">%1$s（你）的融讯畅联会议会议</string>
     <string name="zm_lbl_meeting2chat_sns_session_283901">%1$s的会议中资料卡</string>
     <string name="zm_lbl_meeting2chat_title_11_218634">%s的个人会议室</string>
     <string name="zm_lbl_meeting2chat_title_group_218634">%s的会议室											</string>
@@ -3273,7 +3273,7 @@
     <string name="zm_lbl_meeting_chat_card_shared_with_you_377277">%1$s已将来自%2$s的会议聊天共享给你。</string>
     <string name="zm_lbl_meeting_chat_card_view_meeting_card_377277">查看会议聊天</string>
     <string name="zm_lbl_meeting_chat_total_participants_in_meeting_377277">%d名参会者正在会议中</string>
-    <string name="zm_lbl_meeting_default_topic_121401">简石会议会议</string>
+    <string name="zm_lbl_meeting_default_topic_121401">融讯畅联会议会议</string>
     <string name="zm_lbl_meeting_hide_join_leave_tip_117565">参会者加入时隐藏名称</string>
     <string name="zm_lbl_meeting_hide_my_video_33098">在画廊视图中隐藏我的视频</string>
     <string name="zm_lbl_meeting_hide_no_video_101131">隐藏非视频参会者</string>
@@ -3313,7 +3313,7 @@
     <string name="zm_lbl_min_115416">%d分钟</string>
     <string name="zm_lbl_min_ago_271177">%d分钟前</string>
     <string name="zm_lbl_mirror_effect_on_join_meeting_137415">视频镜像</string>
-    <string name="zm_lbl_mm_add_buddy_by_email">通过电子邮件地址添加简石会议联系人</string>
+    <string name="zm_lbl_mm_add_buddy_by_email">通过电子邮件地址添加融讯畅联会议联系人</string>
     <string name="zm_lbl_mm_add_buddy_by_phone_contacts">手机联系人</string>
     <string name="zm_lbl_mobile_offline_33945">离线</string>
     <string name="zm_lbl_mobile_online_33945">在线</string>
@@ -3328,8 +3328,8 @@
     <string name="zm_lbl_my_contacts_des_33300">添加或邀请联系人</string>
     <string name="zm_lbl_name_instructions">请输入你的名称</string>
     <string name="zm_lbl_name_passcode_instructions_171920">请输入你的名称和会议密码</string>
-    <string name="zm_lbl_ncp_epidemic_cn_profile_137975">在全球爆发COVID-19疫情期间，简石会议临时为用户提供不限时长的会议服务</string>
-    <string name="zm_lbl_ncp_epidemic_cn_schedule_137975">在全球爆发COVID-19疫情期间，简石会议临时面向基础版（免费）用户提供不限时长的会议服务。</string>
+    <string name="zm_lbl_ncp_epidemic_cn_profile_137975">在全球爆发COVID-19疫情期间，融讯畅联会议临时为用户提供不限时长的会议服务</string>
+    <string name="zm_lbl_ncp_epidemic_cn_schedule_137975">在全球爆发COVID-19疫情期间，融讯畅联会议临时面向基础版（免费）用户提供不限时长的会议服务。</string>
     <string name="zm_lbl_new_meeting_to_share_118692">开始新会议以共享...</string>
     <string name="zm_lbl_new_meeting_to_share_no_zoom_message_118692">是否要召开会议以共享此文件？</string>
     <string name="zm_lbl_new_suspend_activity_description_536039">所有人的视频和音频都将关闭，屏幕共享将停止，讨论组将关闭，会议也将被锁定。<![CDATA[<a href="%1$s">了解更多</a>]]></string>
@@ -3349,7 +3349,7 @@
     <string name="zm_lbl_notification_all_msg_456591">所有消息</string>
     <string name="zm_lbl_notification_all_msg_sub_title_398217">接收所有消息活动的通知</string>
     <string name="zm_lbl_notification_dnd_19898">%1$s - %2$s</string>
-    <string name="zm_lbl_notification_dnd_des_19898">启用请勿打扰后，简石会议不会向你发送通知。</string>
+    <string name="zm_lbl_notification_dnd_des_19898">启用请勿打扰后，融讯畅联会议不会向你发送通知。</string>
     <string name="zm_lbl_notification_dnd_des_361276">启用“请勿打扰”后，你将不会收到通知。</string>
     <string name="zm_lbl_notification_exception_group_59554">例外频道</string>
     <string name="zm_lbl_notification_exception_group_des_59554">设置特定频道或会话的通知规则</string>
@@ -3374,7 +3374,7 @@
     <string name="zm_lbl_notification_snoozed_min_abbrev_361276">%d分钟</string>
     <string name="zm_lbl_notification_snoozed_resume_in_19898">通知将在%1$s %2$s后恢复</string>
     <string name="zm_lbl_notification_snoozed_turn_off_19898">关闭</string>
-    <string name="zm_lbl_notification_turn_on_system_328037">打开通知即可立即看到新消息和提醒，即使你不在简石会议应用程序中</string>
+    <string name="zm_lbl_notification_turn_on_system_328037">打开通知即可立即看到新消息和提醒，即使你不在融讯畅联会议应用程序中</string>
     <string name="zm_lbl_notify_call_me_26374">当我收到会议邀请时通知我：</string>
     <string name="zm_lbl_notify_everyone_59554">通知频道中的所有人</string>
     <string name="zm_lbl_notify_me_19898">通知方式：</string>
@@ -3384,7 +3384,7 @@
     <string name="zm_lbl_only_auth_join_120783">只有经过身份验证的用户才能加入</string>
     <string name="zm_lbl_onprem_learn_more_122473">你是企业部署用户。<![CDATA[<a href="%s">了解更多</a>]]></string>
     <string name="zm_lbl_open_chat_152253">打开聊天</string>
-    <string name="zm_lbl_open_contacts_permission_33300">同步通讯录前，你需要打开手机设置，点击设置>应用程序>简石会议>权限。然后开启权限。</string>
+    <string name="zm_lbl_open_contacts_permission_33300">同步通讯录前，你需要打开手机设置，点击设置>应用程序>融讯畅联会议>权限。然后开启权限。</string>
     <string name="zm_lbl_or_sign_in_with">或者使用其他账户登录</string>
     <string name="zm_lbl_original_audio_in_meeting_145354">使用原声</string>
     <string name="zm_lbl_original_audio_in_meeting_262860">使用原始音频</string>
@@ -3420,9 +3420,9 @@
     <string name="zm_lbl_password_uper_lower_character_fail">密码需同时包含大小写字母。</string>
     <string name="zm_lbl_pdf_page_number">第%d页</string>
     <string name="zm_lbl_people_in_waiting">等待中(%d)</string>
-    <string name="zm_lbl_people_not_using_zoom">邀请其他人使用简石会议</string>
+    <string name="zm_lbl_people_not_using_zoom">邀请其他人使用融讯畅联会议</string>
     <string name="zm_lbl_people_on_hold">等待状态(%d)</string>
-    <string name="zm_lbl_people_using_zoom">简石会议联系人</string>
+    <string name="zm_lbl_people_using_zoom">融讯畅联会议联系人</string>
     <string name="zm_lbl_personal_info_unable_save_137135">无法保存</string>
     <string name="zm_lbl_personal_meeting_change_fail_137135">由于管理员设置了限制，你无法更改%s </string>
     <string name="zm_lbl_personal_meeting_id">个人会议号</string>
@@ -3531,7 +3531,7 @@
     <string name="zm_lbl_presence_calendar_69119">有日程安排</string>
     <string name="zm_lbl_presence_change_40739">更改状态</string>
     <string name="zm_lbl_presence_dnd_19903">在会议中</string>
-    <string name="zm_lbl_presence_dnd_33945">在简石会议会议中</string>
+    <string name="zm_lbl_presence_dnd_33945">在融讯畅联会议会议中</string>
     <string name="zm_lbl_presence_dnd_64479">通话中</string>
     <string name="zm_lbl_presence_status_312112">状态</string>
     <string name="zm_lbl_presence_status_available_40739">在线</string>
@@ -3636,7 +3636,7 @@
     <string name="zm_lbl_report_participant_issue_offensive_200528">冒犯、非法或辱骂行为</string>
     <string name="zm_lbl_report_participant_issue_other_150328">其他</string>
     <string name="zm_lbl_report_participant_issue_other_301491">我将稍后告知你</string>
-    <string name="zm_lbl_report_participant_issue_privacy_declaration_150328">发送此报告，即表示你授权简石会议按照其<![CDATA[<a href="%s">《隐私政策》</a>]]>访问此报告中的所有数据。此类数据包括所有随附的照片、你的用户信息、你举报的用户的用户信息以及所有相关会议信息。</string>
+    <string name="zm_lbl_report_participant_issue_privacy_declaration_150328">发送此报告，即表示你授权融讯畅联会议按照其<![CDATA[<a href="%s">《隐私政策》</a>]]>访问此报告中的所有数据。此类数据包括所有随附的照片、你的用户信息、你举报的用户的用户信息以及所有相关会议信息。</string>
     <string name="zm_lbl_report_participant_issue_private_info_200528">隐私信息</string>
     <string name="zm_lbl_report_participant_issue_result_dialog_description_200528">我们的信任与安全团队将在会后向你发送电子邮件，以了解事件的详细信息。</string>
     <string name="zm_lbl_report_participant_issue_result_dialog_msg_with_link_158189">我们将进一步调查，并根据调查结果采取行动。<![CDATA[<a href="%1$s">了解更多</a>]]>关于保障会议安全的方法。</string>
@@ -3786,7 +3786,7 @@
     <string name="zm_lbl_time_zone">时区</string>
     <string name="zm_lbl_title_event_283295">ZOOM EVENTS</string>
     <string name="zm_lbl_title_meeting_184616">会议</string>
-    <string name="zm_lbl_title_pbx_184616">简石会议 Phone</string>
+    <string name="zm_lbl_title_pbx_184616">融讯畅联会议 Phone</string>
     <string name="zm_lbl_title_uc_184616">UC套餐</string>
     <string name="zm_lbl_title_webinar_184616">网络研讨会</string>
     <string name="zm_lbl_to">结束</string>
@@ -3851,7 +3851,7 @@
     <string name="zm_lbl_wait_moment_23626">请稍等…</string>
     <string name="zm_lbl_waiting_room_chat_title_host">主持人</string>
     <string name="zm_lbl_warn_autologoff">根据账户安全要求，系统检测到你在%d分钟内没有进行任何操作，已自动退出登录。</string>
-    <string name="zm_lbl_warn_autologoff_sso">你已退出登录简石会议账户。请重新登录以继续使用简石会议。</string>
+    <string name="zm_lbl_warn_autologoff_sso">你已退出登录融讯畅联会议账户。请重新登录以继续使用融讯畅联会议。</string>
     <string name="zm_lbl_web_phone_number_124795">电话</string>
     <string name="zm_lbl_webinar_attendee">显示观众</string>
     <string name="zm_lbl_webinar_id2_150183">网络研讨会ID</string>
@@ -3862,8 +3862,8 @@
     <string name="zm_lbl_wlc_title3_295657">通过屏幕共享进行实时协作</string>
     <string name="zm_lbl_wlc_title4_295657">开始使用</string>
     <string name="zm_lbl_xxx_minutes">%d分钟</string>
-    <string name="zm_lbl_xxx_s_meeting_no_s">%s的简石会议会议</string>
-    <string name="zm_lbl_xxx_s_meeting_s">%s的简石会议会议</string>
+    <string name="zm_lbl_xxx_s_meeting_no_s">%s的融讯畅联会议会议</string>
+    <string name="zm_lbl_xxx_s_meeting_s">%s的融讯畅联会议会议</string>
     <string name="zm_lbl_yesterday">昨天</string>
     <string name="zm_lbl_yesterday_196942">昨天</string>
     <string name="zm_lbl_you_unpin_message_215559"><![CDATA[你已取消置顶<font color="#2da5ff" >一条消息</font>]]></string>
@@ -4003,10 +4003,10 @@
     <string name="zm_login_to_start_conf">登录</string>
     <string name="zm_login_uuid_block_email_hint_366822">输入电子邮件</string>
     <string name="zm_login_uuid_block_error_msg_366822">无法登录。（错误代码：1132）</string>
-    <string name="zm_login_uuid_block_input_email_366822">与你的简石会议账户关联的电子邮件</string>
+    <string name="zm_login_uuid_block_input_email_366822">与你的融讯畅联会议账户关联的电子邮件</string>
     <string name="zm_login_uuid_block_input_name_366822">你的全名</string>
     <string name="zm_login_uuid_block_name_hint_366822">输入你的全名</string>
-    <string name="zm_login_uuid_block_privacy_366822">发送此表单，即表示你授权简石会议根据其<![CDATA[<a href="%1$s">《隐私声明》</a>]]>访问此报告中的所有数据。</string>
+    <string name="zm_login_uuid_block_privacy_366822">发送此表单，即表示你授权融讯畅联会议根据其<![CDATA[<a href="%1$s">《隐私声明》</a>]]>访问此报告中的所有数据。</string>
     <string name="zm_login_uuid_block_title_366822">报告问题：1132</string>
     <string name="zm_login_uuid_block_toast_msg_366822">报告已提交</string>
     <string name="zm_login_with_apple_account_504738">Apple账户</string>
@@ -4031,16 +4031,16 @@
     <string name="zm_meeting_info_event_page_toast_167537">事件页面链接已复制到剪贴板</string>
     <string name="zm_meeting_info_event_view_167537">查看事件</string>
     <string name="zm_meeting_info_meeting_details_167537">会议详情</string>
-    <string name="zm_meeting_invitation_ics_name">简石会议会议</string>
-    <string name="zm_meeting_limit_app_subscription_schedule_more_than_40mins_end_378649">你的简石会议 One基础版套餐设有40分钟的会议时长限制。体验简石会议 One专业版，畅享无时间限制的会议。</string>
+    <string name="zm_meeting_invitation_ics_name">融讯畅联会议会议</string>
+    <string name="zm_meeting_limit_app_subscription_schedule_more_than_40mins_end_378649">你的融讯畅联会议 One基础版套餐设有40分钟的会议时长限制。体验融讯畅联会议 One专业版，畅享无时间限制的会议。</string>
     <string name="zm_meeting_limit_end_titlle_369375">你的免费会议已结束</string>
-    <string name="zm_meeting_limit_host_30mins_msg_378649">需要更多时间？简石会议 One专业版可提供无时间限制的会议以及更多功能。</string>
+    <string name="zm_meeting_limit_host_30mins_msg_378649">需要更多时间？融讯畅联会议 One专业版可提供无时间限制的会议以及更多功能。</string>
     <string name="zm_meeting_limit_titlle_30mins_369375">你的免费会议将在10分钟后结束</string>
     <string name="zm_meeting_limit_user_30mins_msg_369375">需要更多时间？请联系你的管理员升级至无时间限制的会议套餐。</string>
     <string name="zm_meeting_list_view_event_167580">查看事件</string>
     <string name="zm_meeting_regrister_checkbox_492297">在以后的会议中使用当前名称和电子邮件</string>
-    <string name="zm_meeting_regrister_tip_msg_492297">请输入与简石会议账户关联的电子邮件地址</string>
-    <string name="zm_meeting_regrister_title_492297">输入简石会议账户名称和电子邮件</string>
+    <string name="zm_meeting_regrister_tip_msg_492297">请输入与融讯畅联会议账户关联的电子邮件地址</string>
+    <string name="zm_meeting_regrister_title_492297">输入融讯畅联会议账户名称和电子邮件</string>
     <string name="zm_meeting_regrister_warning_msg_492297">你提供的名称和电子邮件地址将与主持人和账户所有者共享。他们还可使用此信息并共享给应用和其他人</string>
     <string name="zm_meeting_setting_aspect_ratio_description_170495">“调整至合适大小”会为你裁剪完整的视频视图。“原始大小”将确保你和其他参会者看到相同的视图。</string>
     <string name="zm_meeting_setting_aspect_ratio_option_fit_160553">调整至合适大小</string>
@@ -4068,7 +4068,7 @@
     <string name="zm_meeting_txt_pmc_sendto_everyone_456610">会议群聊</string>
     <string name="zm_meeting_txt_pmc_sync_retry_356334">重试</string>
     <string name="zm_meeting_txt_pmc_tip_title_356334">只需单个平台即可进行所有会议聊天</string>
-    <string name="zm_meeting_txt_pmc_update_version_msg_356334">你无法查看此内容。要查看此内容，请更新到最新版简石会议。</string>
+    <string name="zm_meeting_txt_pmc_update_version_msg_356334">你无法查看此内容。要查看此内容，请更新到最新版融讯畅联会议。</string>
     <string name="zm_meeting_txt_privilege_everyone_and_anyone_356334">成员和访客及所有人公屏聊天和私聊</string>
     <string name="zm_meeting_txt_privilege_everyone_and_anyone_456610">会议群聊以及所有人公屏聊天和私聊</string>
     <string name="zm_meeting_txt_remove_reaction_393200">已从“%2$s”中移除%1$s回应</string>
@@ -4096,7 +4096,7 @@
     <string name="zm_mi_add_to_existing_contact">添加到现有手机联系人</string>
     <string name="zm_mi_add_to_fecc_group_465896">添加到摄像头控制群组</string>
     <string name="zm_mi_add_vip_contact_362284">添加到VIP联系人</string>
-    <string name="zm_mi_add_zoom_contact">添加简石会议联系人</string>
+    <string name="zm_mi_add_zoom_contact">添加融讯畅联会议联系人</string>
     <string name="zm_mi_allow_attendee_raisehand">允许观众举手</string>
     <string name="zm_mi_allow_attendees_chat_75334">允许观众与以下人员聊天</string>
     <string name="zm_mi_allow_attendees_chat_with_147675">与以下人员聊天：</string>
@@ -4162,7 +4162,7 @@
     <string name="zm_mi_remove_from_fecc_group_465896">从摄像头控制群组中移除</string>
     <string name="zm_mi_remove_spotlight_371962">移除焦点视频</string>
     <string name="zm_mi_remove_vip_contact_362284">从VIP联系人移除</string>
-    <string name="zm_mi_remove_zoom_contact">删除简石会议联系人</string>
+    <string name="zm_mi_remove_zoom_contact">删除融讯畅联会议联系人</string>
     <string name="zm_mi_report_participant_150328">举报参会者</string>
     <string name="zm_mi_return_to_conf">返回会议</string>
     <string name="zm_mi_separate_audio_116180">分离音频和视频</string>
@@ -4610,13 +4610,13 @@
     <string name="zm_mm_lbl_remove_success_actioner_416576">消息已移除。</string>
     <string name="zm_mm_lbl_rename_contact_group_68451">重命名群组</string>
     <string name="zm_mm_lbl_resend_message">重发消息</string>
-    <string name="zm_mm_lbl_room_contacts_68451">简石会议 Rooms</string>
+    <string name="zm_mm_lbl_room_contacts_68451">融讯畅联会议 Rooms</string>
     <string name="zm_mm_lbl_room_systems_82945">会议室系统</string>
     <string name="zm_mm_lbl_saved_session">将群组保存到联系人列表</string>
     <string name="zm_mm_lbl_saved_session_list_empty_hint">你可以通过群聊中的“将群组保存到联系人列表”功能将群组联系人保存在这里。</string>
     <string name="zm_mm_lbl_search_in_channel_188011">在频道中搜索</string>
     <string name="zm_mm_lbl_search_in_chat_188011">在聊天中搜索</string>
-    <string name="zm_mm_lbl_send_from_ZR_194181">（发送自简石会议 Room）</string>
+    <string name="zm_mm_lbl_send_from_ZR_194181">（发送自融讯畅联会议 Room）</string>
     <string name="zm_mm_lbl_set_group_topic_instructions">在此输入一个新主题</string>
     <string name="zm_mm_lbl_shared_message_406646">共享的消息</string>
     <string name="zm_mm_lbl_show_session_notification">通知</string>
@@ -4634,7 +4634,7 @@
     <string name="zm_mm_lbl_transfer_admin_to_59554">此频道的管理员已从%s更改为你</string>
     <string name="zm_mm_lbl_transfer_admin_to_muc_61520">此群聊的管理员已从%s更改为你</string>
     <string name="zm_mm_lbl_try_again_70196">重试</string>
-    <string name="zm_mm_lbl_unable_share_video_file_329881">无法将视频文件共享到简石会议。</string>
+    <string name="zm_mm_lbl_unable_share_video_file_329881">无法将视频文件共享到融讯畅联会议。</string>
     <string name="zm_mm_lbl_unassign_sub_admin_358252">取消分配为管理员</string>
     <string name="zm_mm_lbl_unassign_sub_admin_dialog_btn_358252">取消分配</string>
     <string name="zm_mm_lbl_unassign_sub_admin_dialog_message_358252">%s将成为普通成员。他们将无法分配其他频道管理员、编辑频道或管理发布权限。</string>
@@ -4658,7 +4658,7 @@
     <string name="zm_mm_msg_add_buddies_to_group_failed_302262">无法添加联系人，请稍后再试。</string>
     <string name="zm_mm_msg_add_buddies_to_group_failed_59554">无法将联系人添加到频道。（错误代码：%d）</string>
     <string name="zm_mm_msg_add_buddies_to_group_failed_too_many_buddies_59554">本频道成员人数已达上限</string>
-    <string name="zm_mm_msg_add_contact_failed">无法添加简石会议联系人</string>
+    <string name="zm_mm_msg_add_contact_failed">无法添加融讯畅联会议联系人</string>
     <string name="zm_mm_msg_add_contact_request_sent_150672">联系人请求已发送至%s</string>
     <string name="zm_mm_msg_add_max_allowed_buddies_302262">最多同时添加%d名成员。</string>
     <string name="zm_mm_msg_already_buddy_54665">已经是你的联系人，无需发送请求</string>
@@ -4673,12 +4673,12 @@
     <string name="zm_mm_msg_at_me_plus_counter_421942">%d \@我+</string>
     <string name="zm_mm_msg_audio_too_short">录制的语音太短。</string>
     <string name="zm_mm_msg_call_82273">呼叫</string>
-    <string name="zm_mm_msg_cannot_add_buddy_no_connection">Messenger已断开连接，无法添加简石会议联系人。</string>
-    <string name="zm_mm_msg_cannot_add_contact_of_older_version">无法添加此联系人，对方使用的简石会议客户端版本过低。</string>
-    <string name="zm_mm_msg_cannot_block_buddy_no_connection">Messenger已断开连接，无法屏蔽简石会议联系人。</string>
-    <string name="zm_mm_msg_cannot_chat_with_old_version">此联系人使用的简石会议客户端版本过低，不支持聊天功能。</string>
-    <string name="zm_mm_msg_cannot_remove_buddy_no_connection">Messenger已断开连接，无法删除简石会议联系人。</string>
-    <string name="zm_mm_msg_cannot_unblock_buddy_no_connection">Messenger已断开连接，无法将简石会议联系人解除屏蔽。</string>
+    <string name="zm_mm_msg_cannot_add_buddy_no_connection">Messenger已断开连接，无法添加融讯畅联会议联系人。</string>
+    <string name="zm_mm_msg_cannot_add_contact_of_older_version">无法添加此联系人，对方使用的融讯畅联会议客户端版本过低。</string>
+    <string name="zm_mm_msg_cannot_block_buddy_no_connection">Messenger已断开连接，无法屏蔽融讯畅联会议联系人。</string>
+    <string name="zm_mm_msg_cannot_chat_with_old_version">此联系人使用的融讯畅联会议客户端版本过低，不支持聊天功能。</string>
+    <string name="zm_mm_msg_cannot_remove_buddy_no_connection">Messenger已断开连接，无法删除融讯畅联会议联系人。</string>
+    <string name="zm_mm_msg_cannot_unblock_buddy_no_connection">Messenger已断开连接，无法将融讯畅联会议联系人解除屏蔽。</string>
     <string name="zm_mm_msg_change_group_topic_failed">无法更改主题</string>
     <string name="zm_mm_msg_change_group_topic_failed_383011">目前无法将MUC转换为频道。请联系你的账户管理员</string>
     <string name="zm_mm_msg_change_user_name_failed">无法更改你的显示名称。</string>
@@ -4719,7 +4719,7 @@
     <string name="zm_mm_msg_network_unavailable">网络不可用</string>
     <string name="zm_mm_msg_network_unavailable_394910">网络不可用，点击以重新连接</string>
     <string name="zm_mm_msg_no_emoji">[表情]</string>
-    <string name="zm_mm_msg_out_of_storage_29760">设备存储空间不足。请释放空间以避免在使用简石会议时发生中断。</string>
+    <string name="zm_mm_msg_out_of_storage_29760">设备存储空间不足。请释放空间以避免在使用融讯畅联会议时发生中断。</string>
     <string name="zm_mm_msg_play_audio_failed">无法播放语音消息。</string>
     <string name="zm_mm_msg_quit_group_failed_59554">无法退出此频道。（错误代码：%d）</string>
     <string name="zm_mm_msg_rcd_can_be_not_record_in_meeting_336321">会议期间无法录制语音消息</string>
@@ -4743,13 +4743,13 @@
     <string name="zm_mm_msg_save_emoji_failed">无法保存为表情。</string>
     <string name="zm_mm_msg_saved_to_album">已保存到相册</string>
     <string name="zm_mm_msg_saved_to_album_failed_102727">保存到相册失败</string>
-    <string name="zm_mm_msg_search_contact_invite_to_zoom">邀请使用简石会议</string>
-    <string name="zm_mm_msg_search_contact_result_empty">无法找到使用%1$s的简石会议用户</string>
+    <string name="zm_mm_msg_search_contact_invite_to_zoom">邀请使用融讯畅联会议</string>
+    <string name="zm_mm_msg_search_contact_result_empty">无法找到使用%1$s的融讯畅联会议用户</string>
     <string name="zm_mm_msg_search_contact_result_is_buddy">%1$s已经在你的联系人列表中。</string>
     <string name="zm_mm_msg_send_email_255208">发送电子邮件</string>
     <string name="zm_mm_msg_send_file_prompt">选择要发送的文件。</string>
     <string name="zm_mm_msg_send_message_82273">发送消息</string>
-    <string name="zm_mm_msg_service_in_proxy_connect_590862">由于网络限制，某些简石会议功能目前可能无法使用。</string>
+    <string name="zm_mm_msg_service_in_proxy_connect_590862">由于网络限制，某些融讯畅联会议功能目前可能无法使用。</string>
     <string name="zm_mm_msg_service_normal_connect_590862">点击以重试</string>
     <string name="zm_mm_msg_service_proxy_connect_590862">连接到受限网络以获得有限的功能</string>
     <string name="zm_mm_msg_service_unavailable_77078">网络不稳定，点击以重新连接</string>
@@ -4815,9 +4815,9 @@
     <string name="zm_mm_pin_history_empty_196619">置顶消息将实时显示在此处</string>
     <string name="zm_mm_pin_history_pinned_by_196619">由%1$s置顶</string>
     <string name="zm_mm_pin_history_pinned_by_self_196619">由你置顶</string>
-    <string name="zm_mm_proxy_connect_alert_view_body_635971">你可以重试，或连接到受限制的简石会议体验。</string>
+    <string name="zm_mm_proxy_connect_alert_view_body_635971">你可以重试，或连接到受限制的融讯畅联会议体验。</string>
     <string name="zm_mm_proxy_connect_alert_view_link_635971">连接到受限制的体验</string>
-    <string name="zm_mm_proxy_connect_alert_view_title_626569">与简石会议的连接不可用</string>
+    <string name="zm_mm_proxy_connect_alert_view_title_626569">与融讯畅联会议的连接不可用</string>
     <string name="zm_mm_read_receipt_588707">已读的人员(%1$d/%2$d)</string>
     <string name="zm_mm_read_receipt_bracket_588707">已读的人员(%1$d/%2$d)</string>
     <string name="zm_mm_read_receipt_one_one_588707">已读</string>
@@ -4890,7 +4890,7 @@
     <string name="zm_mm_search_global_recent_searches_clear_all_msg_176644">是否要清除最近的所有搜索记录？</string>
     <string name="zm_mm_search_global_recent_searches_clear_all_title_176644">清除最近的搜索记录</string>
     <string name="zm_mm_search_global_title_18680">搜索指定的内容</string>
-    <string name="zm_mm_send_to_zoom_buddies">发送给简石会议联系人</string>
+    <string name="zm_mm_send_to_zoom_buddies">发送给融讯畅联会议联系人</string>
     <string name="zm_mm_sent_messages_empty_tips_623063">你没有已发送的消息</string>
     <string name="zm_mm_sent_messages_empty_tips_description_623063">发送消息后可在此处查看消息历史记录</string>
     <string name="zm_mm_set_muc_info_no_privilege_dialog_msg_417355">无法编辑频道名称。现在只允许所有者和管理员更改频道名称。</string>
@@ -4905,7 +4905,7 @@
     <string name="zm_mm_share_invite_link_adding_a_new_email_contact_hint_459929">即将完成！请输入完整的电子邮件。</string>
     <string name="zm_mm_share_invite_link_adding_a_new_email_sms_app_not_found_459929">在联系人共享邀请链接之前，请先安装短信应用程序</string>
     <string name="zm_mm_share_invite_link_almost_there_enter_complete_email_459929">即将完成！请输入完整的电子邮件。</string>
-    <string name="zm_mm_share_invite_link_email_subject_invite_459929">来自%s的简石会议邀请</string>
+    <string name="zm_mm_share_invite_link_email_subject_invite_459929">来自%s的融讯畅联会议邀请</string>
     <string name="zm_mm_share_invite_link_expire_all_links_dialog_cancel_459929">取消</string>
     <string name="zm_mm_share_invite_link_expire_all_links_dialog_msg_459929">更改邀请链接设置后，你将停用先前共享的所有链接</string>
     <string name="zm_mm_share_invite_link_expire_all_links_dialog_ok_459929">确定</string>
@@ -4936,22 +4936,22 @@
     <string name="zm_mm_share_invite_link_invite_share_reset_link_content_description_459929">重置链接，按钮</string>
     <string name="zm_mm_share_invite_link_invite_share_your_channel_inivte_link_459929">你的频道邀请链接</string>
     <string name="zm_mm_share_invite_link_invite_to_chat_via_link_570838">通过链接邀请加入聊天</string>
-    <string name="zm_mm_share_invite_link_line1_459929">%s想要连接并将你添加到简石会议聊天。</string>
+    <string name="zm_mm_share_invite_link_line1_459929">%s想要连接并将你添加到融讯畅联会议聊天。</string>
     <string name="zm_mm_share_invite_link_line2_459929">请在%d天内单击下方链接接受邀请：</string>
     <string name="zm_mm_share_invite_link_line3_459929">如果你不想接受邀请，请忽略此消息。</string>
     <string name="zm_mm_share_invite_link_line4_459929">谢谢。</string>
     <string name="zm_mm_share_invite_link_new_contact_459929">新联系人</string>
-    <string name="zm_mm_share_invite_link_no_matches_are_found_in_your_zoom_contacts_459929">简石会议联系人中未找到匹配项</string>
+    <string name="zm_mm_share_invite_link_no_matches_are_found_in_your_zoom_contacts_459929">融讯畅联会议联系人中未找到匹配项</string>
     <string name="zm_mm_share_invite_link_no_matches_found_459929">未找到匹配项。是否尝试使用电子邮件？</string>
     <string name="zm_mm_share_invite_link_reset_link_459929">重置链接</string>
     <string name="zm_mm_share_invite_link_welcome_to_zoom_no_thanks_459929">不，谢谢</string>
     <string name="zm_mm_share_invite_link_welcome_to_zoom_request_to_join_459929">申请加入</string>
-    <string name="zm_mm_share_invite_link_welcome_to_zoom_sub_title_459929">你已受邀加入简石会议团队聊天频道。点击“申请加入”以请求访问此频道。</string>
-    <string name="zm_mm_share_invite_link_welcome_to_zoom_title_459929">欢迎使用简石会议！</string>
+    <string name="zm_mm_share_invite_link_welcome_to_zoom_sub_title_459929">你已受邀加入融讯畅联会议团队聊天频道。点击“申请加入”以请求访问此频道。</string>
+    <string name="zm_mm_share_invite_link_welcome_to_zoom_title_459929">欢迎使用融讯畅联会议！</string>
     <string name="zm_mm_share_invite_link_zoom_chat_accept_459929">接受</string>
     <string name="zm_mm_share_invite_link_zoom_chat_decline_459929">拒绝</string>
     <string name="zm_mm_share_invite_link_zoom_chat_sub_title_459929">申请加入此频道，即表示你确认该频道中的所有人及其组织中具有相关权限的人员均可查看你在此处共享的消息和附件，并可分享给其他应用和成员。</string>
-    <string name="zm_mm_share_invite_link_zoom_chat_title_459929">简石会议 Team Chat</string>
+    <string name="zm_mm_share_invite_link_zoom_chat_title_459929">融讯畅联会议 Team Chat</string>
     <string name="zm_mm_share_note_edit_hint_406646">（可选）留言... </string>
     <string name="zm_mm_share_note_from_406646">共享自%1$s</string>
     <string name="zm_mm_share_note_from_group_name_406646">(%1$s)</string>
@@ -4976,7 +4976,7 @@
     <string name="zm_mm_starred_radio_contact_owp40">联系人</string>
     <string name="zm_mm_starred_radio_message_owp40">消息</string>
     <string name="zm_mm_starred_title_name_owp40">已加星标</string>
-    <string name="zm_mm_starred_zoom_room_65147">为简石会议 Room加星标</string>
+    <string name="zm_mm_starred_zoom_room_65147">为融讯畅联会议 Room加星标</string>
     <string name="zm_mm_tap_to_shoot_144953">点击可拍摄</string>
     <string name="zm_mm_tap_to_shoot_retake_144953">重拍</string>
     <string name="zm_mm_tap_to_shoot_send_144953">发送</string>
@@ -5016,26 +5016,26 @@
     <string name="zm_mm_unable_access_session_639251">无法访问此会话</string>
     <string name="zm_mm_unknow_call_35364">来电</string>
     <string name="zm_mm_unstar_message_65147">取消消息星标</string>
-    <string name="zm_mm_unstarred_zoom_room_65147">取消简石会议 Room的星标</string>
+    <string name="zm_mm_unstarred_zoom_room_65147">取消融讯畅联会议 Room的星标</string>
     <string name="zm_mm_update_message_time_104206">已更新</string>
     <string name="zm_mm_update_message_time_362664">（已更新）</string>
     <string name="zm_mme_menu_bookmark_274700">加书签</string>
     <string name="zm_mme_menu_bookmark_remove_274700">移除书签</string>
     <string name="zm_mme_starred_message_title_name_274700">已加书签的消息</string>
-    <string name="zm_move_meeting_error_message_error_179549">无法连接简石会议 Room，请重试。</string>
-    <string name="zm_move_meeting_error_message_version_179549">无法连接简石会议 Room，请升级简石会议 Room版本并重试</string>
+    <string name="zm_move_meeting_error_message_error_179549">无法连接融讯畅联会议 Room，请重试。</string>
+    <string name="zm_move_meeting_error_message_version_179549">无法连接融讯畅联会议 Room，请升级融讯畅联会议 Room版本并重试</string>
     <string name="zm_msg_aaudio_type_warning_188709">音频选项已更新为“仅设备音频”，因为无可用拨入国家/地区</string>
     <string formatted="false" name="zm_msg_accept_call">%1$s在%2$s接受了你的呼叫</string>
     <string name="zm_msg_access_history_alert_42597">群组新成员将无法查看历史消息，是否继续？</string>
     <string name="zm_msg_account_conflict_274395">你的账户在其他设备登录，已自动退出登录</string>
-    <string name="zm_msg_account_sign_up_ret_52083">我们已向%s发送确认邮件，请点击确认链接以激活并开始使用简石会议服务。</string>
+    <string name="zm_msg_account_sign_up_ret_52083">我们已向%s发送确认邮件，请点击确认链接以激活并开始使用融讯畅联会议服务。</string>
     <string name="zm_msg_activate_account_failed">无法激活你的账户。请检查你的网络连接后再试。</string>
-    <string name="zm_msg_active_email_did_not_receive_192681">请查看确认链接以激活并开始使用简石会议服务。</string>
+    <string name="zm_msg_active_email_did_not_receive_192681">请查看确认链接以激活并开始使用融讯畅联会议服务。</string>
     <string name="zm_msg_active_email_sent">我们已向此邮箱发送确认邮件。</string>
     <string name="zm_msg_active_email_sent_224978">激活邮件已发送</string>
     <string name="zm_msg_add_contact_group_68451">添加到群组</string>
     <string name="zm_msg_add_to_fecc_group_465896">如果你单击“添加”，他们将能够在今后所有会议中控制你的设备的摄像头</string>
-    <string name="zm_msg_addrbook_enabled">当前可以显示你手机通讯录中使用简石会议的联系人。</string>
+    <string name="zm_msg_addrbook_enabled">当前可以显示你手机通讯录中使用融讯畅联会议的联系人。</string>
     <string name="zm_msg_addrbook_enabled_159819">你已成功匹配你的手机通讯录！</string>
     <string name="zm_msg_admin_leave_channel_358252">你是此频道的所有者。你可以删除频道或在退出前分配新的所有者以便为现有成员保留频道。</string>
     <string name="zm_msg_admin_leave_chat_358252">你是此聊天的所有者。你可以删除聊天或在退出前分配新的所有者以便为现有成员保留聊天。</string>
@@ -5059,7 +5059,7 @@
     <string name="zm_msg_audio_calling">拨号中…</string>
     <string name="zm_msg_audio_changed_to_phone">你正在使用电话</string>
     <string name="zm_msg_audio_changed_to_voip">你正在使用设备音频。</string>
-    <string name="zm_msg_audio_changed_to_zoom_phone_424277">你正在使用简石会议 Phone音频</string>
+    <string name="zm_msg_audio_changed_to_zoom_phone_424277">你正在使用融讯畅联会议 Phone音频</string>
     <string name="zm_msg_audio_connected_45416">你的电话音频现已关联此平板电脑。</string>
     <string name="zm_msg_audio_merged_by_cohost_116180">%s（联席主持人）已为你合并音频</string>
     <string name="zm_msg_audio_merged_by_host_116180">主持人已为你合并音频</string>
@@ -5069,7 +5069,7 @@
     <string name="zm_msg_audio_separate_by_cohost_116180">你的音频已由%s（联席主持人）分离</string>
     <string name="zm_msg_audio_separate_by_host_116180">你的音频已由主持人分离</string>
     <string name="zm_msg_audio_stopped_by_call_offhook">会议已被静音</string>
-    <string name="zm_msg_basic_user_upgrade_end_free_meeting_378649">请联系IT团队升级到简石会议 One付费套餐，以获取不限时会议。</string>
+    <string name="zm_msg_basic_user_upgrade_end_free_meeting_378649">请联系IT团队升级到融讯畅联会议 One付费套餐，以获取不限时会议。</string>
     <string name="zm_msg_bind_phone_hint_137212">为了保障你的账户安全，请绑定电话号码</string>
     <string name="zm_msg_block_regions_warning_188709">会议邀请中的拨入选项已更新，因为阻止地区的用户已更改。你必须至少为音频选项选择一个拨入国家/地区，然后再保存</string>
     <string name="zm_msg_blur_snapshot_title_127987">切换任务时隐藏敏感信息</string>
@@ -5145,7 +5145,7 @@
     <string name="zm_msg_conffail_callnotthere_confirm_167974">会议号无效。请检查后再试。</string>
     <string name="zm_msg_conffail_callover_confirm">主持人已结束此会议</string>
     <string name="zm_msg_conffail_cannot_rejoin_by_removed_44379">你无法重新加入此会议，因为此前你已被主持人移除。</string>
-    <string name="zm_msg_conffail_certificate_changed">无法连接到简石会议视频会议服务器。如果已安装防火墙，请联系IT管理员以允许访问“*.%1$s”。如需了解更多信息，请访问：%2$s</string>
+    <string name="zm_msg_conffail_certificate_changed">无法连接到融讯畅联会议视频会议服务器。如果已安装防火墙，请联系IT管理员以允许访问“*.%1$s”。如需了解更多信息，请访问：%2$s</string>
     <string name="zm_msg_conffail_ended_83221">此会议已结束</string>
     <string name="zm_msg_conffail_ended_by_admin_83221">你的管理员已结束此会议</string>
     <string name="zm_msg_conffail_internal_only_17745">仅已授权的参会者可参加本次会议</string>
@@ -5154,22 +5154,22 @@
     <string name="zm_msg_conffail_locked_confirm">主持人已锁定此会议。</string>
     <string name="zm_msg_conffail_locked_confirm_webinar_557352">主持人已锁定此网络研讨会。</string>
     <string name="zm_msg_conffail_meeting_name_unvalid">个人会议室名称不正确，请检查后再试。</string>
-    <string name="zm_msg_conffail_needupdate_confirm">简石会议有新版本啦！请立即更新。</string>
+    <string name="zm_msg_conffail_needupdate_confirm">融讯畅联会议有新版本啦！请立即更新。</string>
     <string name="zm_msg_conffail_neterror_confirm">无法连接服务器，请检查你的网络连接后再试。错误代码：%d</string>
     <string name="zm_msg_conffail_no_mmr_confirm">服务器正忙，请稍后再试。</string>
     <string name="zm_msg_conffail_retry_confirm">服务器正忙，请稍后再试。</string>
-    <string name="zm_msg_conffail_signin_join_17745">点击“登录”以使用授权参加本次会议的邮箱地址登录简石会议。</string>
+    <string name="zm_msg_conffail_signin_join_17745">点击“登录”以使用授权参加本次会议的邮箱地址登录融讯畅联会议。</string>
     <string name="zm_msg_conffail_single_meeting_restricted_confirm">你当前有一场会议正在召开，请结束该会议后再开始新会议。</string>
     <string name="zm_msg_conffail_single_meeting_restricted_jbh_confirm">主持人正在召开另一场会议，该会议结束后，你即可加入本场会议。</string>
     <string name="zm_msg_conffail_unknownerror_confirm">会议发生意外错误。\n错误代码：%d</string>
     <string name="zm_msg_conffail_userfull_confirm">本场会议已达%d人上限，请稍后再试。</string>
     <string name="zm_msg_conffail_webinar_register_denied_241555">主持人已将你从网络研讨会移除，无法重新加入。</string>
-    <string name="zm_msg_conffail_webinar_register_enforce_login">你需要使用指定的简石会议账户登录后加会，请联系会议主持人了解详情。</string>
+    <string name="zm_msg_conffail_webinar_register_enforce_login">你需要使用指定的融讯畅联会议账户登录后加会，请联系会议主持人了解详情。</string>
     <string name="zm_msg_conffail_webinar_register_full">很抱歉，该研讨会人数已满。</string>
     <string name="zm_msg_conffail_webinar_register_with_host_email">如果你是主持人，请登录以开始网络研讨会。</string>
     <string name="zm_msg_conffail_webinar_register_with_panelist_email">如果你是受邀嘉宾，请点击邀请邮件中的链接加入网络研讨会。</string>
-    <string name="zm_msg_configure_account_indication">你的简石会议账户中必须有联系人，才能将他们添加到公司联系人。请点击“配置账户”添加。</string>
-    <string name="zm_msg_confirm_create_account_31350">确认你的个人信息以创建简石会议账户</string>
+    <string name="zm_msg_configure_account_indication">你的融讯畅联会议账户中必须有联系人，才能将他们添加到公司联系人。请点击“配置账户”添加。</string>
+    <string name="zm_msg_confirm_create_account_31350">确认你的个人信息以创建融讯畅联会议账户</string>
     <string name="zm_msg_confirm_delete_channel_268796">你将永久删除此频道中的所有消息、文件和其他相关信息。此操作无法撤消。</string>
     <string name="zm_msg_confirm_delete_chat_268796">你将永久删除此聊天中的所有消息、文件和其他相关信息。此操作无法撤消。</string>
     <string name="zm_msg_confirm_group_call">你即将开始会议并邀请此群组的所有成员加入，是否确定？</string>
@@ -5214,11 +5214,11 @@
     <string name="zm_msg_delete_file_confirm_89710">是否删除文件？</string>
     <string name="zm_msg_delete_file_in_chats_warning_89710">是否确定要从&lt;%s>中删除此文件？此共享文件将仅从此聊天中移除。</string>
     <string name="zm_msg_delete_file_warning_59554">此文件还将从已共享的所有频道和聊天中删除</string>
-    <string name="zm_msg_delete_file_warning_89710">是否确定要从简石会议中永久删除此文件？此操作不可撤消。</string>
-    <string name="zm_msg_delete_other_meeting_120521">这是为<![CDATA[<b>%s</b>]]>安排的会议。你可以在7天内在简石会议 Web的最近删除页面恢复此会议。</string>
+    <string name="zm_msg_delete_file_warning_89710">是否确定要从融讯畅联会议中永久删除此文件？此操作不可撤消。</string>
+    <string name="zm_msg_delete_other_meeting_120521">这是为<![CDATA[<b>%s</b>]]>安排的会议。你可以在7天内在融讯畅联会议 Web的最近删除页面恢复此会议。</string>
     <string name="zm_msg_delete_other_meeting_192308">这是为<![CDATA[<b>%s</b>]]>安排的会议。</string>
-    <string name="zm_msg_delete_self_meeting_120521">你可以在7天内在简石会议 Web的最近删除页面恢复此会议。</string>
-    <string name="zm_msg_delete_self_meeting_192308">你可以在7天内在简石会议 Web门户的最近删除页面恢复此会议。</string>
+    <string name="zm_msg_delete_self_meeting_120521">你可以在7天内在融讯畅联会议 Web的最近删除页面恢复此会议。</string>
+    <string name="zm_msg_delete_self_meeting_192308">你可以在7天内在融讯畅联会议 Web门户的最近删除页面恢复此会议。</string>
     <string name="zm_msg_delete_timeout_19888">无法删除此消息。你只能删除过去两年内发送的消息。</string>
     <string name="zm_msg_delivery_error_70196">消息传递错误</string>
     <string name="zm_msg_devices_not_supported">很抱歉，我们还不支持这个设备!</string>
@@ -5227,7 +5227,7 @@
     <string name="zm_msg_disconnected_try_again">连接失败，请稍后再试。</string>
     <string name="zm_msg_disconnected_try_again_302262">网络故障。请检查网络连接，然后重试。</string>
     <string name="zm_msg_dismiss_question_34305">已关闭的问题无法再作答。</string>
-    <string name="zm_msg_domains_edit_120783">使用以下指定域名登录简石会议</string>
+    <string name="zm_msg_domains_edit_120783">使用以下指定域名登录融讯畅联会议</string>
     <string name="zm_msg_doubletap_enter_pinvideo">双击取消固定视频</string>
     <string name="zm_msg_doubletap_leave_pinvideo">取消固定视频</string>
     <string name="zm_msg_download_file_failed_239318">下载失败\n请点击重试</string>
@@ -5244,7 +5244,7 @@
     <string name="zm_msg_e2e_cannot_send_message_need_sso_sign_in_176236">目前无法发送消息。请使用SSO登录。</string>
     <string name="zm_msg_e2e_chatslist_decrypt_failed">[加密消息]</string>
     <string name="zm_msg_e2e_decrypt_failed_12310">[无法解密消息]</string>
-    <string name="zm_msg_e2e_decrypt_later_12310">简石会议将在获得可用密钥后继续尝试解密消息。</string>
+    <string name="zm_msg_e2e_decrypt_later_12310">融讯畅联会议将在获得可用密钥后继续尝试解密消息。</string>
     <string name="zm_msg_e2e_encryed_message">消息已加密。</string>
     <string name="zm_msg_e2e_get_invite">%s邀请你聊天</string>
     <string name="zm_msg_e2e_invite_accepted">%s已接受你的聊天邀请</string>
@@ -5258,18 +5258,18 @@
     <string name="zm_msg_enable_addrbook">我们不会保存任何联系人信息。</string>
     <string name="zm_msg_enable_original_sound_prompt_msg_118397">共享音频时无法启用原声。</string>
     <string name="zm_msg_enable_original_sound_prompt_title_118397">无法启用原声</string>
-    <string name="zm_msg_encrypt_db_content_152173">你的账户管理员要求对聊天记录和联系人进行一次性加密。重启简石会议后将立即开始加密。</string>
+    <string name="zm_msg_encrypt_db_content_152173">你的账户管理员要求对聊天记录和联系人进行一次性加密。重启融讯畅联会议后将立即开始加密。</string>
     <string name="zm_msg_encrypt_db_title_152173">重启以加密你的数据</string>
     <string name="zm_msg_encrypt_now_152173">立即重启</string>
     <string name="zm_msg_encrypt_remind_later_152173">以后再说</string>
-    <string name="zm_msg_end_to_end_172332">你的加密密钥存储于本地。任何人甚至简石会议均无法获取该密钥。</string>
+    <string name="zm_msg_end_to_end_172332">你的加密密钥存储于本地。任何人甚至融讯畅联会议均无法获取该密钥。</string>
     <string name="zm_msg_end_to_end_des_172332">端到端加密会议暂不支持云功能，包括云录制、电话/SIP/H.323拨入等。</string>
     <string name="zm_msg_end_to_end_enhance_172332">你的加密密钥存储于云端。</string>
     <string name="zm_msg_enter_new_sharing_key_meeting_id_52777">对于使用其他网络的用户，必须执行这一步骤以实施其他安全措施。请输入新的共享密钥</string>
     <string name="zm_msg_enter_valid_sharing_key_meeting_id_52777">请输入有效的共享密钥或会议号</string>
     <string name="zm_msg_enter_verification_code">请输入短信验证码</string>
     <string name="zm_msg_error_message_app_disabled_by_admin_212554">此应用已被账户管理员禁用。请联系你的账户管理员。</string>
-    <string name="zm_msg_error_message_app_disabled_by_zoom_212554">此应用已被简石会议暂时禁用。</string>
+    <string name="zm_msg_error_message_app_disabled_by_zoom_212554">此应用已被融讯畅联会议暂时禁用。</string>
     <string name="zm_msg_error_message_app_not_found_212554">未找到应用程序。</string>
     <string name="zm_msg_error_message_no_permission_212554">无权限。</string>
     <string name="zm_msg_error_message_perform_action_error_file_is_open_212554">无法对此文件执行操作，因为文件已打开。</string>
@@ -5284,7 +5284,7 @@
     <string name="zm_msg_expeled_by_host_44379">主持人已将你从此会议中移除。</string>
     <string name="zm_msg_expeled_by_host_webinar_375812">主持人已将你从此网络研讨会中移除。</string>
     <string name="zm_msg_expired_verification_code_109213">验证码已过期，请重新发送。</string>
-    <string name="zm_msg_feedback_welcome">如需技术支持，请访问&lt;a href="%s">技术支持&lt;/a>。我们也欢迎任何关于简石会议的意见、想法和建议。请在这里填写反馈：</string>
+    <string name="zm_msg_feedback_welcome">如需技术支持，请访问&lt;a href="%s">技术支持&lt;/a>。我们也欢迎任何关于融讯畅联会议的意见、想法和建议。请在这里填写反馈：</string>
     <string name="zm_msg_file_download_paused_progress_239318">%d%%已下载</string>
     <string name="zm_msg_file_downloading_progress_239318">%d%%正在下载…</string>
     <string name="zm_msg_file_format_not_exist_msg_137127">%1$s不存在，无法发送</string>
@@ -5308,32 +5308,32 @@
     <string name="zm_msg_file_too_large_168763">无法发送超过%dMB的文件</string>
     <string name="zm_msg_file_transfer_disabled_86061">[%s向你发送了一个文件。由于文件传输功能已被禁用，无法预览此文件。]</string>
     <string name="zm_msg_forgot_passwd_137212">如果你是电话号码注册用户，当你忘记密码时，请尝试通过“短信验证码登录”。</string>
-    <string name="zm_msg_free_meeting_timeout">本场免费会议已结束。感谢你选择简石会议！</string>
-    <string name="zm_msg_gdpr_sing_in_41396">简石会议正在更新《服务条款》和《隐私政策》，旨在让你更清楚地了解简石会议收集了哪些数据、如何使用这些数据以及你对个人数据有哪些控制权。如果你选择继续使用简石会议，即表示你接受更新后的《服务条款》和《隐私政策》。</string>
-    <string name="zm_msg_gdrp_new_user_join_meeting_41396">使用简石会议前，你需要同意《服务条款》和《隐私政策》。</string>
+    <string name="zm_msg_free_meeting_timeout">本场免费会议已结束。感谢你选择融讯畅联会议！</string>
+    <string name="zm_msg_gdpr_sing_in_41396">融讯畅联会议正在更新《服务条款》和《隐私政策》，旨在让你更清楚地了解融讯畅联会议收集了哪些数据、如何使用这些数据以及你对个人数据有哪些控制权。如果你选择继续使用融讯畅联会议，即表示你接受更新后的《服务条款》和《隐私政策》。</string>
+    <string name="zm_msg_gdrp_new_user_join_meeting_41396">使用融讯畅联会议前，你需要同意《服务条款》和《隐私政策》。</string>
     <string name="zm_msg_group_deleted_68451">群组已删除。</string>
     <string name="zm_msg_hint_delete_contact_group_68451">此群组中的联系人不会被删除。</string>
     <string name="zm_msg_hint_remove_buddy_from_group_68451">你无法撤消此操作</string>
     <string name="zm_msg_host_disable_web_wb_623182">由于主持人的设置，无法打开白板。</string>
     <string name="zm_msg_host_lot_connection_159719">请稍等，主持人连接中断</string>
-    <string name="zm_msg_host_paid_title">感谢你选择简石会议！</string>
+    <string name="zm_msg_host_paid_title">感谢你选择融讯畅联会议！</string>
     <string name="zm_msg_host_privilege_revoked_promt_365851">已撤销主持人权限</string>
     <string name="zm_msg_illegal_image">图片无效。</string>
     <string name="zm_msg_img_too_large">图片大小超出限制(8MB)。请以文件方式发送。</string>
     <string name="zm_msg_immersive_dowloading_206958">正在加载沉浸式视图</string>
     <string name="zm_msg_immersive_download_failed_206958">无法下载沉浸式视图包</string>
-    <string name="zm_msg_immersive_parse_xml_failed_206958">无法下载沉浸式视图包。请确保已更新至最新版简石会议。</string>
-    <string name="zm_msg_immersive_parser_version_not_compatible_258863">主持人已开启沉浸式视图。请更新至简石会议最新版以获取完整体验。</string>
+    <string name="zm_msg_immersive_parse_xml_failed_206958">无法下载沉浸式视图包。请确保已更新至最新版融讯畅联会议。</string>
+    <string name="zm_msg_immersive_parser_version_not_compatible_258863">主持人已开启沉浸式视图。请更新至融讯畅联会议最新版以获取完整体验。</string>
     <string name="zm_msg_immersive_scene_started_by_host_258863">主持人已开启沉浸式视图</string>
     <string name="zm_msg_immersive_scene_stopped_by_host_258863">主持人已停止沉浸式视图</string>
-    <string name="zm_msg_immersive_scene_weak_processing_power_258863">主持人已开启沉浸式视图。由于设备处理能力无法支持简石会议的完整体验，视图已更改。</string>
+    <string name="zm_msg_immersive_scene_weak_processing_power_258863">主持人已开启沉浸式视图。由于设备处理能力无法支持融讯畅联会议的完整体验，视图已更改。</string>
     <string name="zm_msg_incorrect_number_292311">请提供正确的电话号码。</string>
     <string name="zm_msg_indication_email_verified">邮箱已验证</string>
     <string name="zm_msg_indication_forgetpwd_192681">请输入你的电子邮件地址以便重置密码。你可能要到垃圾邮件中查找密码重置邮件，或将no-reply@best-meeting.com添加至白名单。</string>
     <string name="zm_msg_indication_resetpwd">请设置新登录密码。</string>
     <string name="zm_msg_install_app_137212"> 请安装%1$s，然后重试。</string>
-    <string formatted="false" name="zm_msg_invitation_message_template">%1$s正通过简石会议呼叫你，点击此链接即可加入。\r\n%2$s</string>
-    <string name="zm_msg_invite_by_sms_33300">我使用简石会议进行视频会议和聊天。前往https://meeting.sanyuanshi.com/download获取免费应用程序。</string>
+    <string formatted="false" name="zm_msg_invitation_message_template">%1$s正通过融讯畅联会议呼叫你，点击此链接即可加入。\r\n%2$s</string>
+    <string name="zm_msg_invite_by_sms_33300">我使用融讯畅联会议进行视频会议和聊天。前往https://meeting.sanyuanshi.com/download获取免费应用程序。</string>
     <string name="zm_msg_invite_indication_message_1">1. 前往%1$s</string>
     <string name="zm_msg_invite_indication_message_2">2. 输入ID：</string>
     <string name="zm_msg_invite_indication_title">呼叫并附言：</string>
@@ -5356,7 +5356,7 @@
     <string name="zm_msg_link_account">请绑定你的账户以便召开或安排会议，并拥有你的个人会议号。</string>
     <string name="zm_msg_link_copied_314715">链接已复制</string>
     <string name="zm_msg_link_copied_to_clipboard_91380">链接已复制到剪贴板</string>
-    <string name="zm_msg_link_not_valid_206668">此链接无效，简石会议无法打开。</string>
+    <string name="zm_msg_link_not_valid_206668">此链接无效，融讯畅联会议无法打开。</string>
     <string name="zm_msg_link_to_chat_channel_432965">团队聊天频道链接</string>
     <string name="zm_msg_link_to_chat_message_432965">团队聊天消息链接</string>
     <string name="zm_msg_load_dir_fail">加载目录\"%s\"失败！</string>
@@ -5365,8 +5365,8 @@
     <string name="zm_msg_load_file_fail_without_name">加载文件失败！</string>
     <string name="zm_msg_loading">正在加载...</string>
     <string name="zm_msg_loading_image_to_share">正在加载图片…</string>
-    <string name="zm_msg_log_off_tips_1_day_273365">%1$s要求你每%2$s登录一次简石会议。你的会话将于%3$s过期。</string>
-    <string name="zm_msg_log_off_tips_5_min_273365">%1$s要求你每%2$s登录一次简石会议。你的会话将在5分钟后过期。</string>
+    <string name="zm_msg_log_off_tips_1_day_273365">%1$s要求你每%2$s登录一次融讯畅联会议。你的会话将于%3$s过期。</string>
+    <string name="zm_msg_log_off_tips_5_min_273365">%1$s要求你每%2$s登录一次融讯畅联会议。你的会话将在5分钟后过期。</string>
     <string name="zm_msg_login_as_host">主持人%1$s没有入会，如果你是主持人%2$s，请登录。</string>
     <string name="zm_msg_login_expired">你的登录已失效，请重新登录。</string>
     <string name="zm_msg_login_expired_title">登录失败</string>
@@ -5380,9 +5380,9 @@
     <string name="zm_msg_meeting_being_archiving_dlg_262229">如果留在会议中，即表示你同意将此会议的%s存档。</string>
     <string name="zm_msg_meeting_end">主持人已结束此会议</string>
     <string name="zm_msg_meeting_end_by_host_start_another_meeting">由于当前账户已在别处发起新会议，本场会议已结束</string>
-    <string name="zm_msg_meeting_info_data_center_299543">你已通过美国数据中心连接到简石会议全球网络。</string>
+    <string name="zm_msg_meeting_info_data_center_299543">你已通过美国数据中心连接到融讯畅联会议全球网络。</string>
     <string name="zm_msg_meeting_need_register">参加会议前，请先完成注册。</string>
-    <string name="zm_msg_meeting_permission">为确保最佳会议体验，请授权简石会议访问你的麦克风、摄像头和存储。</string>
+    <string name="zm_msg_meeting_permission">为确保最佳会议体验，请授权融讯畅联会议访问你的麦克风、摄像头和存储。</string>
     <string name="zm_msg_meeting_player_reminder_for_attendee_title">会议提醒</string>
     <string name="zm_msg_meeting_player_reminder_for_host_title">升级账户</string>
     <string name="zm_msg_meeting_remote_admin_join_113385">本次会议正由管理员控制。</string>
@@ -5406,7 +5406,7 @@
     <string name="zm_msg_meeting_xxx_are_cohost">%s已成为联席主持人。</string>
     <string name="zm_msg_meeting_you_are_cohost">你已成为联席主持人</string>
     <string name="zm_msg_meeting_youarehost">你已成为主持人</string>
-    <string name="zm_msg_meetingno_hook_title">%s可能是简石会议会议号或电话号码，你可以：</string>
+    <string name="zm_msg_meetingno_hook_title">%s可能是融讯畅联会议会议号或电话号码，你可以：</string>
     <string name="zm_msg_memory_size_insufficient">可用存储空间不足</string>
     <string name="zm_msg_message_file_86061">[文件]</string>
     <string name="zm_msg_move_contact_68451">移动至群组</string>
@@ -5439,7 +5439,7 @@
     <string name="zm_msg_no_dial_in_country_select_235870">未选择拨入国家/地区</string>
     <string name="zm_msg_no_favorite_contacts">没有公司联系人</string>
     <string name="zm_msg_no_favorite_contacts_sub_note">点击上方的添加按钮添加公司联系人</string>
-    <string name="zm_msg_no_new_version">简石会议已是最新版本。</string>
+    <string name="zm_msg_no_new_version">融讯畅联会议已是最新版本。</string>
     <string name="zm_msg_no_online_contacts_zoom">没有联系人在线</string>
     <string name="zm_msg_no_polls_quizzes_tips_271813">没有可发起的问卷或测验。请在<![CDATA[<a href="%s">Web门户</a>]]>中新建问卷或测验。</string>
     <string name="zm_msg_no_polls_quizzes_tips_331151">没有要发起的问卷或测验。</string>
@@ -5447,13 +5447,13 @@
     <string name="zm_msg_no_system_contacts">你的通讯录中没有任何联系人。</string>
     <string name="zm_msg_no_upcoming_meetings">没有即将召开的会议</string>
     <string name="zm_msg_no_upcoming_meetings_sub_note">已安排的会议将显示在此处。</string>
-    <string name="zm_msg_no_zoom_contacts">还没有简石会议联系人</string>
+    <string name="zm_msg_no_zoom_contacts">还没有融讯畅联会议联系人</string>
     <string name="zm_msg_no_zoom_groups_59554">尚未创建任何频道。</string>
     <string name="zm_msg_not_checked_292937">未选中</string>
     <string name="zm_msg_not_selected_292937">未选定</string>
-    <string name="zm_msg_notice_choose_domain_114850">我们正在使用%1$s设置商业账户。由于你的简石会议账户使用的是带有\"%2$s\"的电子邮件地址，因此你需要选择加入该账户或更改为新的电子邮件地址。</string>
+    <string name="zm_msg_notice_choose_domain_114850">我们正在使用%1$s设置商业账户。由于你的融讯畅联会议账户使用的是带有\"%2$s\"的电子邮件地址，因此你需要选择加入该账户或更改为新的电子邮件地址。</string>
     <string name="zm_msg_notification_group_in_31105">在</string>
-    <string name="zm_msg_notification_login_102727">请登录简石会议... </string>
+    <string name="zm_msg_notification_login_102727">请登录融讯畅联会议... </string>
     <string name="zm_msg_notify_scheduler_login">如果你是主持人，请登录以开始会议</string>
     <string name="zm_msg_number_not_support_41171">你拨打的号码不受支持</string>
     <string name="zm_msg_only_paid_user_can_modify_pmi">升级到专业版以便更改你的个人会议号</string>
@@ -5553,7 +5553,7 @@
     <string name="zm_msg_remove_favorite_confirm">从公司联系人列表中删除%s。</string>
     <string name="zm_msg_remove_from_group_68451">从群组中移除</string>
     <string name="zm_msg_remove_title_416576">移除消息</string>
-    <string name="zm_msg_report_confirm_147675">你的反馈对于帮助我们确保简石会议社区的安全非常重要。<![CDATA[<a href="%1$s">了解更多</a>]]>关于保障会议安全的方法。</string>
+    <string name="zm_msg_report_confirm_147675">你的反馈对于帮助我们确保融讯畅联会议社区的安全非常重要。<![CDATA[<a href="%1$s">了解更多</a>]]>关于保障会议安全的方法。</string>
     <string name="zm_msg_report_confirm_with_link_158189">我们将进一步调查，并根据调查结果采取行动。<![CDATA[<a href="%1$s">了解更多</a>]]>关于保障会议安全的方法。</string>
     <string name="zm_msg_report_confirm_without_link_158189">我们将进一步调查，并根据调查结果采取行动。了解更多关于保障会议安全的方法。</string>
     <string name="zm_msg_request_host_record_decline_608902">主持人已拒绝你的录制到云端的请求</string>
@@ -5561,7 +5561,7 @@
     <string name="zm_msg_request_host_record_error_host_bo_608902">当主持人和你处于不同的场景（例如，不同的讨论组）时，无法发送请求。</string>
     <string name="zm_msg_request_host_record_error_host_cloud_recording_608902">无法发送请求，因为主持人已进行云录制。</string>
     <string name="zm_msg_request_host_record_error_host_local_recording_608902">无法发送请求，因为主持人已进行本地录制。</string>
-    <string name="zm_msg_request_host_record_failed_643568">因为主持人使用已过时的简石会议客户端版本、不在会议中，或者由于其他原因而导致无法发送请求。</string>
+    <string name="zm_msg_request_host_record_failed_643568">因为主持人使用已过时的融讯畅联会议客户端版本、不在会议中，或者由于其他原因而导致无法发送请求。</string>
     <string name="zm_msg_request_host_record_sent_608902">已发送请求</string>
     <string name="zm_msg_request_host_record_timeout_608902">云录制请求超时</string>
     <string name="zm_msg_request_host_record_title_608902">请求会议主持人录制到云端</string>
@@ -5603,10 +5603,10 @@
     <string name="zm_msg_signup_verified_on_other_device">已在其他设备上验证你的邮箱？</string>
     <string name="zm_msg_sip_in_progress_14480">正在进行内部通话</string>
     <string name="zm_msg_smart_recording_desc_588772">已启用使用AI Companion的智能录制</string>
-    <string name="zm_msg_smart_recording_disclaimer_588772"><![CDATA[<br><br>如果录制文件存储在简石会议云端，则<a href="%1$s">账户所有者</a>可以观看此录制文件。授权参会者可以录制会议并将其录制文件共享给其他应用和成员。<br/><br/>如果上述录制文件存储在简石会议云端，可能会将录制文件分享给使用AI技术（可能包括第三方模型）的智能录制。简石会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练简石会议或第三方AI模型。<br/><br/>如果留在会议中，即表示你同意录制。]]></string>
-    <string name="zm_msg_sms_invitation_content">我在使用简石会议进行视频会议和聊天。点击https://meeting.sanyuanshi.com/download免费下载。</string>
-    <string formatted="false" name="zm_msg_sms_invite_in_meeting">点击${joinMeetingUrl}加入简石会议会议。</string>
-    <string formatted="false" name="zm_msg_sms_invite_scheduled_meeting">点击${joinMeetingUrl}开始或加入已安排的简石会议会议。</string>
+    <string name="zm_msg_smart_recording_disclaimer_588772"><![CDATA[<br><br>如果录制文件存储在融讯畅联会议云端，则<a href="%1$s">账户所有者</a>可以观看此录制文件。授权参会者可以录制会议并将其录制文件共享给其他应用和成员。<br/><br/>如果上述录制文件存储在融讯畅联会议云端，可能会将录制文件分享给使用AI技术（可能包括第三方模型）的智能录制。融讯畅联会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练融讯畅联会议或第三方AI模型。<br/><br/>如果留在会议中，即表示你同意录制。]]></string>
+    <string name="zm_msg_sms_invitation_content">我在使用融讯畅联会议进行视频会议和聊天。点击https://meeting.sanyuanshi.com/download免费下载。</string>
+    <string formatted="false" name="zm_msg_sms_invite_in_meeting">点击${joinMeetingUrl}加入融讯畅联会议会议。</string>
+    <string formatted="false" name="zm_msg_sms_invite_scheduled_meeting">点击${joinMeetingUrl}开始或加入已安排的融讯畅联会议会议。</string>
     <string name="zm_msg_sms_phonenum">发送消息给%s</string>
     <string name="zm_msg_star_bot_419005">为应用加星标</string>
     <string name="zm_msg_star_channel_78010">为频道加星标</string>
@@ -5625,15 +5625,15 @@
     <string name="zm_msg_terms_service_137212">《服务条款》</string>
     <string name="zm_msg_thanks_for_feedback">谢谢你的反馈！你的反馈对我们至关重要，我们将努力改善我们的服务。</string>
     <string name="zm_msg_turn_off_notifications_unless_mentioned_459625">仅在提及时通知</string>
-    <string name="zm_msg_unable_access_camera">请在本机设置中允许简石会议访问摄像头。</string>
-    <string name="zm_msg_unable_access_contact_477324">请在设备设置中允许简石会议访问你的联系人。</string>
-    <string name="zm_msg_unable_access_mic">请在本机设置中允许简石会议访问麦克风。</string>
-    <string name="zm_msg_unable_access_notifications_437508">请在设备设置中允许简石会议显示通知。</string>
-    <string name="zm_msg_unable_access_notifications_516165">请在设备设置中允许简石会议访问你的蓝牙。</string>
-    <string name="zm_msg_unable_access_phone_311356">请在设备设置中允许简石会议访问你的电话。</string>
-    <string name="zm_msg_unable_access_photos_464150">请允许简石会议通过设备设置访问你的照片。</string>
-    <string name="zm_msg_unable_access_storage">请在本机设置中允许简石会议访问存储设备。</string>
-    <string name="zm_msg_unable_to_connect_50129">确保你已连接到互联网，并且简石会议连接不会被防火墙或代理阻止。\n（错误%d）</string>
+    <string name="zm_msg_unable_access_camera">请在本机设置中允许融讯畅联会议访问摄像头。</string>
+    <string name="zm_msg_unable_access_contact_477324">请在设备设置中允许融讯畅联会议访问你的联系人。</string>
+    <string name="zm_msg_unable_access_mic">请在本机设置中允许融讯畅联会议访问麦克风。</string>
+    <string name="zm_msg_unable_access_notifications_437508">请在设备设置中允许融讯畅联会议显示通知。</string>
+    <string name="zm_msg_unable_access_notifications_516165">请在设备设置中允许融讯畅联会议访问你的蓝牙。</string>
+    <string name="zm_msg_unable_access_phone_311356">请在设备设置中允许融讯畅联会议访问你的电话。</string>
+    <string name="zm_msg_unable_access_photos_464150">请允许融讯畅联会议通过设备设置访问你的照片。</string>
+    <string name="zm_msg_unable_access_storage">请在本机设置中允许融讯畅联会议访问存储设备。</string>
+    <string name="zm_msg_unable_to_connect_50129">确保你已连接到互联网，并且融讯畅联会议连接不会被防火墙或代理阻止。\n（错误%d）</string>
     <string name="zm_msg_unable_to_create_poll_331151">此会议可创建的问卷数量已达上限。</string>
     <string name="zm_msg_unable_to_create_poll_or_quiz_331151">此会议可创建的问卷/测验数量已达上限。</string>
     <string name="zm_msg_unable_to_record_114474">无法获取加密密钥。请稍后再试</string>
@@ -5654,12 +5654,12 @@
     <string name="zm_msg_unstar_contact_68451">取消联系人星标</string>
     <string name="zm_msg_unsupport_message_13802">[需要升级到最新版才能查看此消息。]</string>
     <string name="zm_msg_update_required_join_62061">你必须使用%s或更高版本的应用才能加入本次会议，请更新以继续。</string>
-    <string name="zm_msg_update_required_join_no_version_154751">请更新到最新版简石会议以加入此次会议。</string>
+    <string name="zm_msg_update_required_join_no_version_154751">请更新到最新版融讯畅联会议以加入此次会议。</string>
     <string name="zm_msg_update_required_sign_62061">你必须使用%s或更高版本的应用才能登录，请更新以继续。</string>
-    <string name="zm_msg_update_required_sign_no_version_154751">请更新到最新版简石会议以登录。</string>
+    <string name="zm_msg_update_required_sign_no_version_154751">请更新到最新版融讯畅联会议以登录。</string>
     <string name="zm_msg_upgrade_first_end_free_meeting_45927">如果你现在安排，我们将会取消你下一次群组会议的40分钟时长限制。</string>
     <string name="zm_msg_upgrade_free_meeting_45927">我们已取消下次群组会议的40分钟时长限制。</string>
-    <string name="zm_msg_upgrade_free_meeting_failed_15609">简石会议无法延长你的免费会议时长。会议将在满40分钟后结束。\n（错误代码：%d）</string>
+    <string name="zm_msg_upgrade_free_meeting_failed_15609">融讯畅联会议无法延长你的免费会议时长。会议将在满40分钟后结束。\n（错误代码：%d）</string>
     <string name="zm_msg_upgrade_free_meeting_failed_title_15609">延长会议时长失败</string>
     <string name="zm_msg_upgrade_free_meeting_success_15609">本次会议不再有时长限制</string>
     <string name="zm_msg_user_joined_41162">%1$s已加入</string>
@@ -5704,7 +5704,7 @@
     <string name="zm_msg_waiting_share_s">%s已开始共享屏幕</string>
     <string name="zm_msg_waiting_webinear_start">请稍候，网络研讨会即将开始。</string>
     <string name="zm_msg_warn_muc_traffic_limit">消息发送过于频繁，请稍候再试。</string>
-    <string name="zm_msg_warning_disable_address_book_matching_content">将无法显示你的手机通讯录中使用简石会议的联系人。</string>
+    <string name="zm_msg_warning_disable_address_book_matching_content">将无法显示你的手机通讯录中使用融讯畅联会议的联系人。</string>
     <string name="zm_msg_warning_disable_address_book_matching_title">解除绑定</string>
     <string name="zm_msg_webhoot_new_notification">%s：[新通知]</string>
     <string name="zm_msg_webinar_need_register">你需要先注册才能加入此会议。</string>
@@ -5721,7 +5721,7 @@
     <string name="zm_msg_zoom_phone_connect_failed_424277">无法连接</string>
     <string name="zm_msg_zoom_phone_connected_424277">电话已连接</string>
     <string name="zm_msg_zoom_phone_connecting_424277">电话正在连接...</string>
-    <string name="zm_msg_zr_version_is_too_old_52777">无法连接到简石会议 Room。请在iPad控制器上输入会议号或选择演示。</string>
+    <string name="zm_msg_zr_version_is_too_old_52777">无法连接到融讯畅联会议 Room。请在iPad控制器上输入会议号或选择演示。</string>
     <string name="zm_multi_captions_hint_478812">开启字幕会将所有参会者的发言语言设置为你设置的语言。</string>
     <string name="zm_multi_captions_language_setting_283773">发言语言：%s</string>
     <string name="zm_multi_captions_language_title_283773">发言语言</string>
@@ -5765,8 +5765,8 @@
     <string name="zm_new_bo_room_full_alert_msg_526866">我们无法将你添加到%s。已达到讨论组参会者人数上限。</string>
     <string name="zm_new_bo_room_limit_526866">已达到讨论组参会者人数上限。</string>
     <string name="zm_no_audio_type_support_129757">此会议不支持通过拨入或呼叫我加会。你无法连接到音频。</string>
-    <string name="zm_no_longer_receive_update_desc_438135">这是最新的简石会议更新，可支持Android 5。为了接收未来的简石会议更新，你需要使用Android 6.0或更高版本。你目前使用的是Android %s</string>
-    <string name="zm_no_longer_receive_update_title_438135">你很快就不会再收到简石会议更新</string>
+    <string name="zm_no_longer_receive_update_desc_438135">这是最新的融讯畅联会议更新，可支持Android 5。为了接收未来的融讯畅联会议更新，你需要使用Android 6.0或更高版本。你目前使用的是Android %s</string>
+    <string name="zm_no_longer_receive_update_title_438135">你很快就不会再收到融讯畅联会议更新</string>
     <string name="zm_no_pbo_open_tip_339098">无个人讨论组开放</string>
     <string name="zm_no_permission_239946">未正常工作</string>
     <string name="zm_not_allow_host_unmute_btn_169817">不允许</string>
@@ -5776,13 +5776,13 @@
     <string name="zm_notes_collaboration_start_message_522958">%s想要与你在笔记上进行协作。</string>
     <string name="zm_notes_collaboration_start_title_522958">记录笔记的邀请</string>
     <string name="zm_notes_title_522966">笔记</string>
-    <string name="zm_notification_channel_name_43235">简石会议通知</string>
-    <string name="zm_notification_sip_missed_channel_name_194688">简石会议 Phone未接来电</string>
+    <string name="zm_notification_channel_name_43235">融讯畅联会议通知</string>
+    <string name="zm_notification_sip_missed_channel_name_194688">融讯畅联会议 Phone未接来电</string>
     <string name="zm_notification_text_forward_211695">转接自%1$s</string>
     <string name="zm_notification_text_transfer_211695">转接自%1$s</string>
-    <string name="zm_notification_zoom_meeting_income_166672">简石会议会议邀请</string>
-    <string name="zm_notification_zoom_phone_incall_111498">简石会议 Phone正在通话中</string>
-    <string name="zm_notification_zoom_phone_income_111498">简石会议 Phone来电</string>
+    <string name="zm_notification_zoom_meeting_income_166672">融讯畅联会议会议邀请</string>
+    <string name="zm_notification_zoom_phone_incall_111498">融讯畅联会议 Phone正在通话中</string>
+    <string name="zm_notification_zoom_phone_income_111498">融讯畅联会议 Phone来电</string>
     <string name="zm_number_phone_calls_31368">%1$d个通话</string>
     <string name="zm_on_request_local_livestream_privilege_received_alert_deny_btn_426839">拒绝</string>
     <string name="zm_on_request_local_livestream_privilege_received_alert_grant_btn_426839">授予</string>
@@ -5796,9 +5796,9 @@
     <string name="zm_open_diff_lobby_confirm_dialog_title_432121">你已加入其他会议大堂</string>
     <string name="zm_open_whiteboard_374512">打开白板</string>
     <string name="zm_open_whiteboard_err_374512">未知错误(%d)。请联系你的IT管理员。</string>
-    <string name="zm_open_whiteboard_err_version_not_support_374512">你当前的简石会议 Room版本不支持白板功能。请联系你的IT管理员。</string>
-    <string name="zm_open_whiteboard_err_zr_wb_turned_off_374512">简石会议 Room的白板功能已关闭。请联系你的IT管理员。</string>
-    <string name="zm_open_whiteboard_to_zr_open_374512">在Office 简石会议上打开“%s”</string>
+    <string name="zm_open_whiteboard_err_version_not_support_374512">你当前的融讯畅联会议 Room版本不支持白板功能。请联系你的IT管理员。</string>
+    <string name="zm_open_whiteboard_err_zr_wb_turned_off_374512">融讯畅联会议 Room的白板功能已关闭。请联系你的IT管理员。</string>
+    <string name="zm_open_whiteboard_to_zr_open_374512">在Office 融讯畅联会议上打开“%s”</string>
     <string name="zm_option_add_to_camera_control_group_465893">添加到摄像头控制群组</string>
     <string name="zm_option_remove_from_camera_control_group_465893">从摄像头控制群组中移除</string>
     <string name="zm_option_start_camera_control_465893">启动摄像头控制</string>
@@ -5811,7 +5811,7 @@
     <string name="zm_organize_navigation_bar_header_614589">包含在导航栏中（最多5个）</string>
     <string name="zm_organize_navigation_bar_hint_614589">调整底部导航栏中的顺序和项目</string>
     <string name="zm_organize_navigation_bar_title_614589">整理导航栏</string>
-    <string name="zm_organize_navigation_fragment_header_614589">整理选项卡栏以支持简石会议体验中最常用的功能。调整顺序，添加和移除显示的项目。</string>
+    <string name="zm_organize_navigation_fragment_header_614589">整理选项卡栏以支持融讯畅联会议体验中最常用的功能。调整顺序，添加和移除显示的项目。</string>
     <string name="zm_organize_navigation_fragment_title_614589">整理导航栏</string>
     <string name="zm_organize_remove_feature_ax_614589">移除%s</string>
     <string name="zm_otp_account_block_msg_344945">由于你的尝试登录失败次数已达到上限%2$d次，你的账户将被冻结%1$d分钟</string>
@@ -5825,14 +5825,14 @@
     <string name="zm_otp_token_expired_344945">输入验证码的时间过长。请返回并再次登录。</string>
     <string name="zm_outlook_private_meeting_317030">私人预约</string>
     <string name="zm_pac_warning_msg_369420">你正处于个人电话会议中。</string>
-    <string name="zm_pair_error_message_admin_disable_179549">你的管理员已禁用此简石会议 Room的配对功能</string>
+    <string name="zm_pair_error_message_admin_disable_179549">你的管理员已禁用此融讯畅联会议 Room的配对功能</string>
     <string name="zm_pair_error_message_invaild_sharing_key_179549">共享密钥无效，请重试。</string>
     <string name="zm_pair_error_message_net_error_179549">网络错误，请稍后再试。</string>
-    <string name="zm_pair_error_message_not_same_account_604475">配对不成功：你的账户和简石会议 Room并未登录到相同简石会议账户</string>
-    <string name="zm_pair_error_message_not_support_home_device_179549">此简石会议 for Home设备不允许其他人配对</string>
-    <string name="zm_pair_error_message_not_support_version_179549">你当前的简石会议 Room版本不支持配对功能。要使用配对功能，请升级至5.5.0或更高版本。</string>
+    <string name="zm_pair_error_message_not_same_account_604475">配对不成功：你的账户和融讯畅联会议 Room并未登录到相同融讯畅联会议账户</string>
+    <string name="zm_pair_error_message_not_support_home_device_179549">此融讯畅联会议 for Home设备不允许其他人配对</string>
+    <string name="zm_pair_error_message_not_support_version_179549">你当前的融讯畅联会议 Room版本不支持配对功能。要使用配对功能，请升级至5.5.0或更高版本。</string>
     <string name="zm_pair_with_room_179549">与会议室配对</string>
-    <string name="zm_paired_successtip_179549">你的电话已和简石会议 Room配对</string>
+    <string name="zm_paired_successtip_179549">你的电话已和融讯畅联会议 Room配对</string>
     <string name="zm_paired_user_ax_387478">协作模式</string>
     <string name="zm_panelist_join_fail_msg_331303">作为受邀嘉宾，你必须登录与受邀参加此网络研讨会的电子邮件相关联的账户。</string>
     <string name="zm_panelist_join_fail_title_331303">登录与受邀担任嘉宾的电子邮件相关联的账户</string>
@@ -5941,8 +5941,8 @@
     <string name="zm_pbx_call_out_phone_confirm_phone_error_internal_error_tips_553196">你的电话号码似乎是内部号码。请更改电话号码。</string>
     <string name="zm_pbx_call_out_phone_confirm_phone_error_invalid_tips_553196">你的电话号码无效。请更改电话号码。</string>
     <string name="zm_pbx_call_out_phone_confirm_phone_error_sms_tips_553196">你的电话号码似乎已被禁止接收短信验证码。请更改电话号码。</string>
-    <string name="zm_pbx_call_out_phone_confirm_phone_polocy_553196"><![CDATA[简石会议受验证码保护，并且适用Google<a href="%1$s">《隐私政策》</a>和<a href="%2$s">《服务条款》</a>。]]></string>
-    <string name="zm_pbx_call_out_phone_confirm_phone_tips_553196">出于账户安全的考虑，简石会议希望确保此号码确实是你的号码。简石会议将向以下电话号码发送验证码。</string>
+    <string name="zm_pbx_call_out_phone_confirm_phone_polocy_553196"><![CDATA[融讯畅联会议受验证码保护，并且适用Google<a href="%1$s">《隐私政策》</a>和<a href="%2$s">《服务条款》</a>。]]></string>
+    <string name="zm_pbx_call_out_phone_confirm_phone_tips_553196">出于账户安全的考虑，融讯畅联会议希望确保此号码确实是你的号码。融讯畅联会议将向以下电话号码发送验证码。</string>
     <string name="zm_pbx_call_out_phone_hint_553196">你的电话号码</string>
     <string name="zm_pbx_call_out_phone_text_title_553196">电话号码</string>
     <string name="zm_pbx_call_out_phone_verify_code_error_tips1_553196">尝试获取短信验证码的次数过多。</string>
@@ -5953,7 +5953,7 @@
     <string name="zm_pbx_call_out_tab_call_again_error_tips_553196">你呼叫的用户正忙，\n请稍后再试。</string>
     <string name="zm_pbx_call_out_tab_ring_out_tip_553196">你正在使用呼出。%s</string>
     <string name="zm_pbx_call_out_title_553196">呼出</string>
-    <string name="zm_pbx_call_out_title_description_553196">允许你使用座机或手机通过你的简石会议 Phone号码和通话ID来拨打电话，从而隐藏你的座机或手机号码。</string>
+    <string name="zm_pbx_call_out_title_description_553196">允许你使用座机或手机通过你的融讯畅联会议 Phone号码和通话ID来拨打电话，从而隐藏你的座机或手机号码。</string>
     <string name="zm_pbx_call_out_turn_off_553196">关闭</string>
     <string name="zm_pbx_call_send_msg_action1_393647">我现在不方便讲话。</string>
     <string name="zm_pbx_call_summary_failed_611081">总结失败。</string>
@@ -6003,10 +6003,10 @@
     <string name="zm_pbx_emergency_calling_address_personal_475046">个人地址</string>
     <string name="zm_pbx_emergency_calling_enter_curr_addr_475046">输入当前地址</string>
     <string name="zm_pbx_emergency_calling_setting_curr_location_475046">当前位置</string>
-    <string name="zm_pbx_emergency_calling_setting_desc_475046">来自简石会议的紧急通话将重定向到原生手机应用程序。</string>
+    <string name="zm_pbx_emergency_calling_setting_desc_475046">来自融讯畅联会议的紧急通话将重定向到原生手机应用程序。</string>
     <string name="zm_pbx_emergency_calling_setting_desc_no_wifi_475046">只有连接WiFi的情况下才能拨打紧急通话。</string>
     <string name="zm_pbx_emergency_calling_setting_dialog_desc_loc_serv_475046">如果使用定位服务，GPS将确定你的大概位置，或者可以输入地址提高准确性（可选）。你输入的地址将保存到当前WiFi网络。</string>
-    <string name="zm_pbx_emergency_calling_setting_dialog_desc_req_loc_permission_475046">你的管理员已要求你启用对你的位置的增强访问权限， 以便根据IP地址、无线接入点ID和GPS坐标（如可用）确定你的位置， 从而让简石会议更好地帮助确定你的位置，且仅用于响应你的紧急通话。</string>
+    <string name="zm_pbx_emergency_calling_setting_dialog_desc_req_loc_permission_475046">你的管理员已要求你启用对你的位置的增强访问权限， 以便根据IP地址、无线接入点ID和GPS坐标（如可用）确定你的位置， 从而让融讯畅联会议更好地帮助确定你的位置，且仅用于响应你的紧急通话。</string>
     <string name="zm_pbx_emergency_calling_setting_dialog_keep_loc_serv_475046">持续使用定位服务</string>
     <string name="zm_pbx_emergency_calling_setting_edit_company_addr_475046">无法编辑公司地址。</string>
     <string name="zm_pbx_emergency_calling_setting_network_bssid_475046">BSSID</string>
@@ -6054,7 +6054,7 @@
     <string name="zm_pbx_history_summary_share_with_611081">共享对象</string>
     <string name="zm_pbx_history_summary_share_with_select_611081">选择</string>
     <string name="zm_pbx_history_summary_share_with_selected_611081">已选中%d人</string>
-    <string name="zm_pbx_history_summary_vote_successful_611081">感谢你向简石会议提供反馈。</string>
+    <string name="zm_pbx_history_summary_vote_successful_611081">感谢你向融讯畅联会议提供反馈。</string>
     <string name="zm_pbx_info_call_duration_179220">通话时长：%1$s</string>
     <string name="zm_pbx_invite_to_meeting_choose_meeting_131469">选择会议</string>
     <string name="zm_pbx_invite_to_meeting_desc_131469">将此用户移至任何会议</string>
@@ -6071,12 +6071,12 @@
     <string name="zm_pbx_lbl_call_recording_disable_101955">管理员已禁用通话录音</string>
     <string name="zm_pbx_lbl_call_recording_enable_101955">管理员已启用通话录音</string>
     <string name="zm_pbx_lbl_detecting_room_148025">正在检测会议室...</string>
-    <string name="zm_pbx_lbl_hand_off_148025">将此通话移至简石会议 Room</string>
-    <string name="zm_pbx_lbl_hand_off_failed_148025">此会议室不支持简石会议 Phone，请选择其他会议室。</string>
-    <string name="zm_pbx_lbl_hand_off_not_same_account_148025">接力失败，你的简石会议 Phone和简石会议 Room必须使用同一账户。</string>
+    <string name="zm_pbx_lbl_hand_off_148025">将此通话移至融讯畅联会议 Room</string>
+    <string name="zm_pbx_lbl_hand_off_failed_148025">此会议室不支持融讯畅联会议 Phone，请选择其他会议室。</string>
+    <string name="zm_pbx_lbl_hand_off_not_same_account_148025">接力失败，你的融讯畅联会议 Phone和融讯畅联会议 Room必须使用同一账户。</string>
     <string name="zm_pbx_lbl_hand_off_other_failed_148025">接力失败，请稍后再试。</string>
     <string name="zm_pbx_lbl_room_detected_148025">检测到...</string>
-    <string name="zm_pbx_lbl_sharing_key_148025">输入共享密钥以将通话接力到简石会议 Room</string>
+    <string name="zm_pbx_lbl_sharing_key_148025">输入共享密钥以将通话接力到融讯畅联会议 Room</string>
     <string name="zm_pbx_live_transcript_288876">实时转录文字</string>
     <string name="zm_pbx_live_transcript_accessibility_next_button_288876">查找下一个</string>
     <string name="zm_pbx_live_transcript_accessibility_previous_button_288876">查找上一个</string>
@@ -6103,10 +6103,10 @@
     <string name="zm_pbx_message_transfered_system_message_510500">已由%1$s转接给%2$s</string>
     <string name="zm_pbx_message_transferring_hint_510500">正在等待%1$s回复...\n已由%2$s转接</string>
     <string name="zm_pbx_mms_gif_too_large_187397">GIF文件大小超过2MB，无法发送</string>
-    <string name="zm_pbx_msg_contact_extension_call_389341">使用简石会议 Phone%1$s呼叫</string>
-    <string name="zm_pbx_msg_contact_extension_call_summary_389341">使用简石会议 Phone呼叫</string>
-    <string name="zm_pbx_msg_contact_extension_text_389341">使用简石会议 Phone%1$s发送文本</string>
-    <string name="zm_pbx_msg_contact_extension_text_summary_389341">使用简石会议 Phone发送文本</string>
+    <string name="zm_pbx_msg_contact_extension_call_389341">使用融讯畅联会议 Phone%1$s呼叫</string>
+    <string name="zm_pbx_msg_contact_extension_call_summary_389341">使用融讯畅联会议 Phone呼叫</string>
+    <string name="zm_pbx_msg_contact_extension_text_389341">使用融讯畅联会议 Phone%1$s发送文本</string>
+    <string name="zm_pbx_msg_contact_extension_text_summary_389341">使用融讯畅联会议 Phone发送文本</string>
     <string name="zm_pbx_msg_global_search_all_423022">搜索全部</string>
     <string name="zm_pbx_msg_mygreeting_block_400025">电话或会议正在进行，请稍后再试</string>
     <string name="zm_pbx_msg_search_331511">在对话中搜索</string>
@@ -6161,7 +6161,7 @@
     <string name="zm_pbx_search_common_area_104213">（公共区域）</string>
     <string name="zm_pbx_search_group_104213">（群组）</string>
     <string name="zm_pbx_search_receptionist_104213">（接线员）</string>
-    <string name="zm_pbx_setting_desc_video_greeting_290287">内部简石会议 Phone呼叫者将看到此视频问候，外部呼叫者则会听到你的语音问候。</string>
+    <string name="zm_pbx_setting_desc_video_greeting_290287">内部融讯畅联会议 Phone呼叫者将看到此视频问候，外部呼叫者则会听到你的语音问候。</string>
     <string name="zm_pbx_setting_hide_incoming_call_in_meeting_511242">开会时隐藏来电</string>
     <string name="zm_pbx_setting_title_video_greeting_290287">视频问候</string>
     <string name="zm_pbx_setting_transcript_automatically_288876">自动开始实时转录文字</string>
@@ -6243,7 +6243,7 @@
     <string name="zm_pbx_trash_title_remove_all_voicemail_232709">清除所有语音邮件</string>
     <string name="zm_pbx_trash_title_remove_items_232709">删除%d个项目</string>
     <string name="zm_pbx_turn_on_call_summary_tip_learn_more_btn_611081">了解更多</string>
-    <string name="zm_pbx_turn_on_call_summary_tip_message_1_611081">通话摘要使用AI技术（可能包括第三方模型）。简石会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练简石会议或第三方AI模型。</string>
+    <string name="zm_pbx_turn_on_call_summary_tip_message_1_611081">通话摘要使用AI技术（可能包括第三方模型）。融讯畅联会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练融讯畅联会议或第三方AI模型。</string>
     <string name="zm_pbx_turn_on_call_summary_tip_message_2_611081">AI生成的内容可能不准确或具有误导性。始终检查准确性。</string>
     <string name="zm_pbx_turn_on_call_summary_tip_title_611081">开启使用AI Companion的通话摘要</string>
     <string name="zm_pbx_turn_on_call_summary_tip_turn_on_btn_611081">同意并开启</string>
@@ -6335,7 +6335,7 @@
     <string name="zm_pbx_voicemail_task_dialog_extract_error_548782">无法提取任务。请重试或联系IT支持团队。</string>
     <string name="zm_pbx_voicemail_task_dialog_extract_try_again_548782">重试</string>
     <string name="zm_pbx_voicemail_task_dialog_extracting_548782">AI Companion正在提取任务...</string>
-    <string name="zm_pbx_voicemail_task_dialog_reminder_content_548782">语音邮件任务使用AI技术（可能包括第三方模型）。简石会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练简石会议或第三方AI模型。<![CDATA[<a href="%s">了解更多</a>]]></string>
+    <string name="zm_pbx_voicemail_task_dialog_reminder_content_548782">语音邮件任务使用AI技术（可能包括第三方模型）。融讯畅联会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练融讯畅联会议或第三方AI模型。<![CDATA[<a href="%s">了解更多</a>]]></string>
     <string name="zm_pbx_voicemail_task_dialog_reminder_sub_content_548782">AI生成的内容可能不准确或具有误导性。始终检查准确性。</string>
     <string name="zm_pbx_voicemail_task_dialog_save_error_548782">无法保存任务。请重试或联系IT支持团队。</string>
     <string name="zm_pbx_voicemail_task_dialog_task_unavailable_548782">任务不可用。</string>
@@ -6365,15 +6365,15 @@
     <string name="zm_pbx_voicemail_view_devices_386885">查看设备</string>
     <string name="zm_pbx_you_100064">%1$s（你）</string>
     <string name="zm_pbx_your_inbox_100064">你的</string>
-    <string name="zm_permission_change_config_desc">更改简石会议应用配置</string>
-    <string name="zm_permission_change_config_label">更改简石会议应用配置</string>
+    <string name="zm_permission_change_config_desc">更改融讯畅联会议应用配置</string>
+    <string name="zm_permission_change_config_label">更改融讯畅联会议应用配置</string>
     <string name="zm_permission_chat_limit_550043">你无权发送聊天消息！</string>
     <string name="zm_permission_goto_change_setting_464150">更改设置</string>
     <string name="zm_permission_granted_239946">正常工作</string>
-    <string name="zm_permission_group">简石会议应用配置工具</string>
+    <string name="zm_permission_group">融讯畅联会议应用配置工具</string>
     <string name="zm_permission_guide_calendar_connect_570994">已连接</string>
-    <string name="zm_permission_guide_calendar_desc_478150">允许简石会议访问日历，以便轻松安排会议并直接通过应用加入即将召开的会议。</string>
-    <string name="zm_permission_guide_calendar_desc_570994">通过连接到外部日历及联系人或设备日历，轻松访问简石会议会议。</string>
+    <string name="zm_permission_guide_calendar_desc_478150">允许融讯畅联会议访问日历，以便轻松安排会议并直接通过应用加入即将召开的会议。</string>
+    <string name="zm_permission_guide_calendar_desc_570994">通过连接到外部日历及联系人或设备日历，轻松访问融讯畅联会议会议。</string>
     <string name="zm_permission_guide_calendar_enable_478150">访问日历</string>
     <string name="zm_permission_guide_calendar_enable_570994">连接</string>
     <string name="zm_permission_guide_calendar_title_478150">绝不错过你的会议</string>
@@ -6382,22 +6382,22 @@
     <string name="zm_permission_guide_fingerprint_desc_478150">启用指纹提高安全性，并更快速地访问账户。</string>
     <string name="zm_permission_guide_fingerprint_enable_478150">启用指纹</string>
     <string name="zm_permission_guide_fingerprint_title_478150">指纹</string>
-    <string name="zm_permission_guide_finish_desc_478150">欢迎使用简石会议，这是一款适用于团队聊天、电话、会议等场合的应用。</string>
+    <string name="zm_permission_guide_finish_desc_478150">欢迎使用融讯畅联会议，这是一款适用于团队聊天、电话、会议等场合的应用。</string>
     <string name="zm_permission_guide_finish_title_478150">你已准备就绪！</string>
     <string name="zm_permission_guide_notification_desc_478150">允许通知，以便我们可在会议即将开始或有人尝试联系你时通知你。</string>
-    <string name="zm_permission_guide_notification_desc_556858">启用通知以接收有关消息、会议、产品提示和优惠的提醒。你可以在简石会议应用设置中管理这些内容。</string>
+    <string name="zm_permission_guide_notification_desc_556858">启用通知以接收有关消息、会议、产品提示和优惠的提醒。你可以在融讯畅联会议应用设置中管理这些内容。</string>
     <string name="zm_permission_guide_notification_enable_478150">启用通知</string>
     <string name="zm_permission_guide_notification_title_478150">接收通知</string>
-    <string name="zm_permission_guide_profile_desc_478150">你的头像和显示名称将在会议期间、团队聊天和个人信息中向其他简石会议用户显示。</string>
+    <string name="zm_permission_guide_profile_desc_478150">你的头像和显示名称将在会议期间、团队聊天和个人信息中向其他融讯畅联会议用户显示。</string>
     <string name="zm_permission_guide_profile_display_desc_478150">输入名称（例如你的名字、姓氏或昵称）</string>
     <string name="zm_permission_guide_profile_title_478150">个性化你的个人信息</string>
     <string name="zm_permission_guide_profile_upload_478150">上传图片（可选）</string>
     <string name="zm_permission_guide_profile_upload_image_478150">上传图片</string>
-    <string name="zm_permission_guide_subscription_desc_551882">使用简石会议 One专业版即可畅享不限时会议、云录制、高效办公应用以及更多功能。立即免费试用！</string>
+    <string name="zm_permission_guide_subscription_desc_551882">使用融讯畅联会议 One专业版即可畅享不限时会议、云录制、高效办公应用以及更多功能。立即免费试用！</string>
     <string name="zm_permission_guide_subscription_ok_551882">立即了解</string>
-    <string name="zm_permission_guide_subscription_title_551882">免费试用简石会议 One专业版</string>
-    <string name="zm_permission_read_config_desc">读取简石会议应用配置。</string>
-    <string name="zm_permission_read_config_label">读取简石会议应用配置</string>
+    <string name="zm_permission_guide_subscription_title_551882">免费试用融讯畅联会议 One专业版</string>
+    <string name="zm_permission_read_config_desc">读取融讯畅联会议应用配置。</string>
+    <string name="zm_permission_read_config_label">读取融讯畅联会议应用配置</string>
     <string name="zm_personal_bo_plist_label_339098">在个人讨论组中</string>
     <string name="zm_personal_bo_plist_leave_label_339098">正在离开个人讨论组</string>
     <string name="zm_personal_breakout_room_leave_title_339098">个人讨论组将在%d秒后关闭</string>
@@ -6417,7 +6417,7 @@
     <string name="zm_picker_media_manage_item_change_setting_613747">更改设置</string>
     <string name="zm_picker_media_manage_item_select_more_613747">选择更多媒体</string>
     <string name="zm_picker_media_permission_manage_613747">管理</string>
-    <string name="zm_picker_media_permission_tip_613747">你已授予简石会议访问选定数量照片和视频的权限</string>
+    <string name="zm_picker_media_permission_tip_613747">你已授予融讯畅联会议访问选定数量照片和视频的权限</string>
     <string name="zm_picker_over_max_count_tips">你只能选择%1$d张图片</string>
     <string name="zm_picker_photos_title">选择图片</string>
     <string name="zm_picker_preview_with_count">预览(%1$d)</string>
@@ -6572,13 +6572,13 @@
     <string name="zm_qr_connect_error_580145">出现错误。请重试</string>
     <string name="zm_qr_connect_hint_already_connected_580145">%s已经是你的联系人</string>
     <string name="zm_qr_connect_invite_with_qr_code_580145">通过二维码邀请</string>
-    <string name="zm_qr_connect_on_zoom_580145">发送联系人请求以在简石会议上进行联系</string>
-    <string name="zm_qr_connect_request_sent_580145">如果对方接受请求，此人员将添加到你的简石会议联系人</string>
+    <string name="zm_qr_connect_on_zoom_580145">发送联系人请求以在融讯畅联会议上进行联系</string>
+    <string name="zm_qr_connect_request_sent_580145">如果对方接受请求，此人员将添加到你的融讯畅联会议联系人</string>
     <string name="zm_qr_connect_reset_qr_code_610730">重置二维码</string>
     <string name="zm_qr_connect_reset_qr_code_description_610730">你将收到新代码。现有代码将失效。</string>
-    <string name="zm_qr_connect_sent_contact_request_580145">如果%s接受你的请求，你将被添加为简石会议联系人。</string>
-    <string name="zm_qr_connect_share_code_580145">与他人共享此二维码，以便他们可以在简石会议上与你联系</string>
-    <string name="zm_qr_connect_with_on_zoom_580145">在简石会议上联系%s</string>
+    <string name="zm_qr_connect_sent_contact_request_580145">如果%s接受你的请求，你将被添加为融讯畅联会议联系人。</string>
+    <string name="zm_qr_connect_share_code_580145">与他人共享此二维码，以便他们可以在融讯畅联会议上与你联系</string>
+    <string name="zm_qr_connect_with_on_zoom_580145">在融讯畅联会议上联系%s</string>
     <string name="zm_qr_error_1010_289199">你不属于此组织</string>
     <string name="zm_qr_error_30051002_541811">二维码扫描失败，请重试。</string>
     <string name="zm_qr_error_30051005_489923">无法删除。请联系管理员。</string>
@@ -6598,10 +6598,10 @@
     <string name="zm_qr_not_identified_289199">未识别二维码</string>
     <string name="zm_qr_scan_code_289199">扫描二维码</string>
     <string name="zm_queries_tip_warn_msg_576027">AI Companion侧面板已启用。正在为此功能生成临时转录文字。</string>
-    <string name="zm_query_disclaimer_desc1_545028">AI Companion使用AI技术（可能包括第三方模型）。主持人和参会者可以在会议期间提问，并可通过会议转录文字生成答案。简石会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练简石会议或第三方AI模型。<![CDATA[<a href="%1$s">了解更多</a>]]></string>
+    <string name="zm_query_disclaimer_desc1_545028">AI Companion使用AI技术（可能包括第三方模型）。主持人和参会者可以在会议期间提问，并可通过会议转录文字生成答案。融讯畅联会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练融讯畅联会议或第三方AI模型。<![CDATA[<a href="%1$s">了解更多</a>]]></string>
     <string name="zm_query_disclaimer_desc1_576027">AI Companion使用AI技术（可能包括第三方模型）。主持人和参会者可以在会议期间提问，并可通过临时会议转录文字生成答案。</string>
     <string name="zm_query_disclaimer_desc2_545028">AI生成的内容可能不准确或具有误导性。始终检查准确性。</string>
-    <string name="zm_query_disclaimer_desc2_576027">简石会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练简石会议或第三方AI模型。</string>
+    <string name="zm_query_disclaimer_desc2_576027">融讯畅联会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练融讯畅联会议或第三方AI模型。</string>
     <string name="zm_rc_mouse_icon">鼠标图标</string>
     <string name="zm_rc_mouse_icon_description">拖动鼠标图标可移动远程鼠标指针</string>
     <string name="zm_rc_one_finger_double_taps">单指双击</string>
@@ -6781,8 +6781,8 @@
     <string name="zm_search_sort_by_most_recently_added_acc_button_212554">最近最常添加，按钮</string>
     <string name="zm_search_sort_by_most_recently_added_acc_selected_212554">已选择“最近最常添加”</string>
     <string name="zm_search_sort_by_title_212554">排序方式</string>
-    <string name="zm_security_certificate_question_42900">你无法连接到简石会议，因为所提供的安全证书无法验证。请联系你的IT部门寻求帮助。</string>
-    <string name="zm_security_certificate_question_detail_42900">你的连接不是专用连接。攻击者可能会试图从简石会议窃取你的个人或财务信息。\n\n此服务器无法证明它是简石会议。其安全证书来自%s。</string>
+    <string name="zm_security_certificate_question_42900">你无法连接到融讯畅联会议，因为所提供的安全证书无法验证。请联系你的IT部门寻求帮助。</string>
+    <string name="zm_security_certificate_question_detail_42900">你的连接不是专用连接。攻击者可能会试图从融讯畅联会议窃取你的个人或财务信息。\n\n此服务器无法证明它是融讯畅联会议。其安全证书来自%s。</string>
     <string name="zm_security_certificate_title_42900">安全警告：不受信任的服务器证书</string>
     <string name="zm_security_whiteboards_370523">共享白板</string>
     <string name="zm_security_zoom_notes_522958">共享笔记</string>
@@ -6792,11 +6792,11 @@
     <string name="zm_send_log_mail_478872">邮件</string>
     <string name="zm_send_log_mail_choose_title_479569">通过电子邮件发送日志</string>
     <string name="zm_send_log_mail_tip_no_mail_app_479569">请先安装邮件应用</string>
-    <string name="zm_send_log_server_478872">简石会议 Server</string>
+    <string name="zm_send_log_server_478872">融讯畅联会议 Server</string>
     <string name="zm_send_log_server_hint_email_478872">请输入你的电子邮件</string>
     <string name="zm_send_log_server_optional_478872">可选</string>
     <string name="zm_send_log_server_required_478872">必填</string>
-    <string name="zm_service_notification_channel_name_43235">简石会议服务通知</string>
+    <string name="zm_service_notification_channel_name_43235">融讯畅联会议服务通知</string>
     <string name="zm_session_contact_request_accept_byother">%1$s接受了你的联系人请求</string>
     <string name="zm_session_contact_request_decline_byother">%1$s拒绝了你的联系人请求</string>
     <string name="zm_session_recive_contact_request_107052">%1$s想加你为联系人</string>
@@ -6812,20 +6812,20 @@
     <string name="zm_setting_other_label_556858">其他</string>
     <string name="zm_setting_other_text_556858">密切关注最新产品信息、推荐和其他消息</string>
     <string name="zm_setting_promotions_label_556858">促销</string>
-    <string name="zm_setting_promotions_text_556858">获取有关简石会议产品和服务的折扣、优惠和促销的提醒</string>
+    <string name="zm_setting_promotions_text_556858">获取有关融讯畅联会议产品和服务的折扣、优惠和促销的提醒</string>
     <string name="zm_setting_select_one_160553">选择一项</string>
     <string name="zm_setting_use_original_sound_desc_238514">可通过此选项在会议中启用或禁用原声。原声将禁用降噪功能。</string>
     <string name="zm_settings_other_318150">其他</string>
     <string name="zm_settings_show_avatar_inmeeting_chat_297789">在会议中聊天消息旁显示用户个人信息图标</string>
     <string name="zm_share_212554">共享</string>
-    <string name="zm_share_chat_group_host_belong_413279">发送给所有人的新消息将保存到%s中的简石会议 Team Chat。</string>
-    <string name="zm_share_chat_group_nhost_belong_413279">发送给所有人的新消息将保存到%s中的简石会议 Team Chat。你可以向主持人询问更多详细信息。</string>
-    <string name="zm_share_chat_naccount_413279">发送给所有人的新消息将保存到简石会议 Team Chat。你可以创建一个简石会议账户并向主持人寻求更多详细信息。</string>
-    <string name="zm_share_chat_nhost_nbelong_413279">发送给所有人的新消息将保存到简石会议 Team Chat。你可以向主持人询问更多详细信息。</string>
-    <string name="zm_share_chat_stop_413279">消息将不会保存到简石会议 Team Chat。</string>
-    <string name="zm_share_chat_you_host_belong_413279">发送给所有人的新消息将保存到与你之间的简石会议 Team Chat。</string>
-    <string name="zm_share_chat_you_host_nbelong_413279">发送给所有人的新消息将保存到与%s之间的简石会议 Team Chat。</string>
-    <string name="zm_share_chat_you_nhost_belong_413279">发送给所有人的新消息将保存到与你之间的简石会议 Team Chat。你可以向主持人询问更多详细信息。</string>
+    <string name="zm_share_chat_group_host_belong_413279">发送给所有人的新消息将保存到%s中的融讯畅联会议 Team Chat。</string>
+    <string name="zm_share_chat_group_nhost_belong_413279">发送给所有人的新消息将保存到%s中的融讯畅联会议 Team Chat。你可以向主持人询问更多详细信息。</string>
+    <string name="zm_share_chat_naccount_413279">发送给所有人的新消息将保存到融讯畅联会议 Team Chat。你可以创建一个融讯畅联会议账户并向主持人寻求更多详细信息。</string>
+    <string name="zm_share_chat_nhost_nbelong_413279">发送给所有人的新消息将保存到融讯畅联会议 Team Chat。你可以向主持人询问更多详细信息。</string>
+    <string name="zm_share_chat_stop_413279">消息将不会保存到融讯畅联会议 Team Chat。</string>
+    <string name="zm_share_chat_you_host_belong_413279">发送给所有人的新消息将保存到与你之间的融讯畅联会议 Team Chat。</string>
+    <string name="zm_share_chat_you_host_nbelong_413279">发送给所有人的新消息将保存到与%s之间的融讯畅联会议 Team Chat。</string>
+    <string name="zm_share_chat_you_nhost_belong_413279">发送给所有人的新消息将保存到与你之间的融讯畅联会议 Team Chat。你可以向主持人询问更多详细信息。</string>
     <string name="zm_shared_spaces_disabled_525481">共享空间功能已禁用</string>
     <string name="zm_shared_spaces_no_channels_yet_525481">你目前没有任何频道。</string>
     <string name="zm_shared_spaces_no_shared_spaces_yet_525481">你目前没有任何共享空间。</string>
@@ -6847,16 +6847,16 @@
     <string name="zm_sign_to_join_129757">登录以加会</string>
     <string name="zm_sign_up_fingerprint_error_592624">尝试次数过多。请稍后再试。</string>
     <string name="zm_signed_out_clock_out_reason_506789">你只能在工作时间使用你的账户。</string>
-    <string name="zm_signed_out_clock_out_reason_517706">你只能在已打卡的情况下访问简石会议。</string>
+    <string name="zm_signed_out_clock_out_reason_517706">你只能在已打卡的情况下访问融讯畅联会议。</string>
     <string name="zm_signed_out_clock_out_title_506789">你已退出登录</string>
     <string name="zm_signin_account_accounts_desc_546560">账户</string>
     <string name="zm_signin_account_active_account_desc_546560">当前活动账户</string>
     <string name="zm_signin_account_active_status_546560">活动</string>
     <string name="zm_signin_add_account_391710">添加账户</string>
-    <string name="zm_signin_channel_terms_442801">简石会议受验证码保护，并且适用Google&lt;a href="%1$s">《隐私政策》&lt;/a>和&lt;a href="%2$s">《服务条款》&lt;/a>。</string>
+    <string name="zm_signin_channel_terms_442801">融讯畅联会议受验证码保护，并且适用Google&lt;a href="%1$s">《隐私政策》&lt;/a>和&lt;a href="%2$s">《服务条款》&lt;/a>。</string>
     <string name="zm_signin_history_391710">登录历史记录</string>
     <string name="zm_signin_microsoft_btn_570994">Microsoft</string>
-    <string name="zm_signin_no_login_method_480330">你的请求遇到问题。请联系简石会议账户管理员寻求帮助。</string>
+    <string name="zm_signin_no_login_method_480330">你的请求遇到问题。请联系融讯畅联会议账户管理员寻求帮助。</string>
     <string name="zm_signin_other_method_442801">其他登录方式</string>
     <string name="zm_signin_remove_account_391710">移除账户</string>
     <string name="zm_signin_remove_account_failure_391710">移除账户失败</string>
@@ -6880,20 +6880,20 @@
     <string name="zm_signout_account_desc_546560">如果退出登录所选账户，将无法直接切换到此账户。</string>
     <string name="zm_signout_accounts_546560">是否退出登录所选账户？</string>
     <string name="zm_signout_accounts_desc_546560">如果退出登录所选账户，将无法直接切换到这些账户。</string>
-    <string name="zm_signup_accept_terms_442801"><![CDATA[继续操作即表示我同意<a href="%1$s">简石会议的《隐私声明》</a>和<a href="%2$s">《服务条款》</a>。]]></string>
-    <string name="zm_signup_agreement_506850">简石会议协议</string>
-    <string name="zm_signup_agreement_approve_desc_506850">我愿意接收简石会议发送的有关产品、服务和行业趋势的市场营销信息。我了解自己可以随时取消订阅。</string>
-    <string name="zm_signup_agreement_data_collection_506850"><![CDATA[我同意<a href="%1$s">简石会议的《数据收集和使用同意书》。</a><font color="#DE2828">*</font>]]></string>
-    <string name="zm_signup_agreement_desc_506850">请接受必填项目后再继续操作。如果你不接受，将无法注册简石会议。<![CDATA[<font color="#DE2828">*</font>标记为必填项目。]]></string>
-    <string name="zm_signup_agreement_terms_506850"><![CDATA[我同意<a href="%1$s">简石会议的《隐私声明》</a>和<a href="%2$s">《服务条款》。</a><font color="#DE2828">*</font>]]></string>
+    <string name="zm_signup_accept_terms_442801"><![CDATA[继续操作即表示我同意<a href="%1$s">融讯畅联会议的《隐私声明》</a>和<a href="%2$s">《服务条款》</a>。]]></string>
+    <string name="zm_signup_agreement_506850">融讯畅联会议协议</string>
+    <string name="zm_signup_agreement_approve_desc_506850">我愿意接收融讯畅联会议发送的有关产品、服务和行业趋势的市场营销信息。我了解自己可以随时取消订阅。</string>
+    <string name="zm_signup_agreement_data_collection_506850"><![CDATA[我同意<a href="%1$s">融讯畅联会议的《数据收集和使用同意书》。</a><font color="#DE2828">*</font>]]></string>
+    <string name="zm_signup_agreement_desc_506850">请接受必填项目后再继续操作。如果你不接受，将无法注册融讯畅联会议。<![CDATA[<font color="#DE2828">*</font>标记为必填项目。]]></string>
+    <string name="zm_signup_agreement_terms_506850"><![CDATA[我同意<a href="%1$s">融讯畅联会议的《隐私声明》</a>和<a href="%2$s">《服务条款》。</a><font color="#DE2828">*</font>]]></string>
     <string name="zm_signup_birth_error_442801">请输入有效的出生年份</string>
     <string name="zm_signup_birth_txt__442801">选择你的出生日期</string>
     <string name="zm_signup_continue_442801">继续</string>
     <string name="zm_signup_email_hint_442801">user@example.com</string>
     <string name="zm_signup_email_subscription_442801">电子邮件订阅</string>
-    <string name="zm_signup_email_subscription_desc_442801">我愿意接收简石会议发送的有关产品、优惠和行业趋势的信息。我了解自己可以随时取消订阅。</string>
+    <string name="zm_signup_email_subscription_desc_442801">我愿意接收融讯畅联会议发送的有关产品、优惠和行业趋势的信息。我了解自己可以随时取消订阅。</string>
     <string name="zm_signup_enter_name_tip_442801">输入你的名称并设置密码</string>
-    <string name="zm_signup_illegal_age_msg_442801">抱歉，你目前无法注册简石会议</string>
+    <string name="zm_signup_illegal_age_msg_442801">抱歉，你目前无法注册融讯畅联会议</string>
     <string name="zm_signup_input_birth_years_442801">出生年份</string>
     <string name="zm_signup_input_firstname_442801">请输入你的名字</string>
     <string name="zm_signup_input_lastname_442801">请输入你的姓氏</string>
@@ -6916,7 +6916,7 @@
     <string name="zm_signup_password_rule_title_480330">新密码必须：\n</string>
     <string name="zm_signup_password_rule_title_597275">密码必须至少包括：</string>
     <string name="zm_signup_password_rule_uppercase_597275">1个大写字母</string>
-    <string name="zm_signup_review_agreement_506850"><![CDATA[请仔细阅读<font color="#007AFF" >简石会议协议</font>]]></string>
+    <string name="zm_signup_review_agreement_506850"><![CDATA[请仔细阅读<font color="#007AFF" >融讯畅联会议协议</font>]]></string>
     <string name="zm_signup_select_other_method_442801">或选择你的注册方式</string>
     <string name="zm_signup_thirdparty_apple_label_442801">使用Apple继续</string>
     <string name="zm_signup_thirdparty_facebook_label_442801">使用Facebook继续</string>
@@ -6962,7 +6962,7 @@
     <string name="zm_sip_already_listen_148065">你已在监听</string>
     <string name="zm_sip_already_whisper_148065">你已在进行密语监听</string>
     <string name="zm_sip_ar_from_text_141814">自：</string>
-    <string name="zm_sip_ask_pop_permission_67420">为获得最佳通话体验，简石会议可能会要求允许在应用上方显示弹出窗口</string>
+    <string name="zm_sip_ask_pop_permission_67420">为获得最佳通话体验，融讯畅联会议可能会要求允许在应用上方显示弹出窗口</string>
     <string name="zm_sip_audio_downloading_warn_61381">音频文件仍在下载中</string>
     <string name="zm_sip_audio_play_failed_315867">播放失败</string>
     <string name="zm_sip_authorization_name_74435">授权名称</string>
@@ -6971,8 +6971,8 @@
     <string name="zm_sip_battery_optimization_category_title">电池优化</string>
     <string name="zm_sip_battery_optimization_dialog_btn_never">不再提醒</string>
     <string name="zm_sip_battery_optimization_dialog_content_msg">
-        Android全新的电池优化设置将阻止简石会议 Phone在设备进入休眠和应用待机模式时接听来电。\n\n
-        为确保继续接听来电，请在下个屏幕中选择“是”以使简石会议在后台保持连接。
+        Android全新的电池优化设置将阻止融讯畅联会议 Phone在设备进入休眠和应用待机模式时接听来电。\n\n
+        为确保继续接听来电，请在下个屏幕中选择“是”以使融讯畅联会议在后台保持连接。
     </string>
     <string name="zm_sip_battery_optimization_dialog_title">重要提醒</string>
     <string name="zm_sip_blind_transfer_des_521205">不与新用户通话直接转接</string>
@@ -7018,9 +7018,9 @@
     <string name="zm_sip_call_answered_by_99631">%1$s已接听%2$s的来电</string>
     <string name="zm_sip_call_assistant_61383">%1$s·致电%2$s</string>
     <string name="zm_sip_call_calling_503">正在呼叫</string>
-    <string name="zm_sip_call_control_details_message_277291">简石会议目前支持以下通话控件：拨打电话、接受或拒绝来电、开始或停止录音、结束通话。在未来版本中可能会添加其他通话控件。请参阅%s的文档以确定支持哪些通话控件。</string>
-    <string name="zm_sip_call_control_details_message_278713">简石会议目前支持以下通话控件：拨打电话、接听或拒接来电、保持或恢复通话、盲转接或询问转接、驻留或取消驻留通话、监听、密语监听、强插监听或接管通话、开始或停止录音、升级为会议以及结束通话。在未来版本中可能会添加其他通话控件。请参阅%s的文档以确定支持哪些通话控件。</string>
-    <string name="zm_sip_call_control_details_message_288897">简石会议目前支持以下通话控件：拨打电话、接听或拒接来电、保持或恢复通话、盲转接或询问转接、开始或停止录音、升级为会议以及结束通话。在未来版本中可能会添加其他通话控件。请参阅%s的文档以确定支持哪些通话控件。</string>
+    <string name="zm_sip_call_control_details_message_277291">融讯畅联会议目前支持以下通话控件：拨打电话、接受或拒绝来电、开始或停止录音、结束通话。在未来版本中可能会添加其他通话控件。请参阅%s的文档以确定支持哪些通话控件。</string>
+    <string name="zm_sip_call_control_details_message_278713">融讯畅联会议目前支持以下通话控件：拨打电话、接听或拒接来电、保持或恢复通话、盲转接或询问转接、驻留或取消驻留通话、监听、密语监听、强插监听或接管通话、开始或停止录音、升级为会议以及结束通话。在未来版本中可能会添加其他通话控件。请参阅%s的文档以确定支持哪些通话控件。</string>
+    <string name="zm_sip_call_control_details_message_288897">融讯畅联会议目前支持以下通话控件：拨打电话、接听或拒接来电、保持或恢复通话、盲转接或询问转接、开始或停止录音、升级为会议以及结束通话。在未来版本中可能会添加其他通话控件。请参阅%s的文档以确定支持哪些通话控件。</string>
     <string name="zm_sip_call_control_details_title_277291">通话控件详情：</string>
     <string name="zm_sip_call_control_dialog_content_263745">选择你希望%s管理这些控件的时间。以后可随时在设置中更改。</string>
     <string name="zm_sip_call_control_dialog_options_now_263745">现在</string>
@@ -7033,7 +7033,7 @@
     <string name="zm_sip_call_control_setting_footer_288897">管理的通话控件：拨打电话、接听或拒接来电、保持或恢复通话、盲转接或询问转接、开始或停止录音、升级为会议以及结束通话。</string>
     <string name="zm_sip_call_control_setting_header_263745">第三方通话控件</string>
     <string name="zm_sip_call_control_setting_title_263745">通话控件</string>
-    <string name="zm_sip_call_control_tooltip_319270">简石会议支持第三方应用中的多种功能。要获取完整列表和版本兼容性信息，请查看<![CDATA[<a href="%s">支持页面</a>]]>。</string>
+    <string name="zm_sip_call_control_tooltip_319270">融讯畅联会议支持第三方应用中的多种功能。要获取完整列表和版本兼容性信息，请查看<![CDATA[<a href="%s">支持页面</a>]]>。</string>
     <string name="zm_sip_call_duration1_104213">%1$s   </string>
     <string name="zm_sip_call_duration_61381">%1$s录音</string>
     <string name="zm_sip_call_failed_486_27110">对方正忙</string>
@@ -7071,7 +7071,7 @@
     <string name="zm_sip_call_queue_opt_out_all_desc_314902">你必须为所有队列选择退出原因，否则所有队列都无法退出。</string>
     <string name="zm_sip_call_queue_opt_out_all_title_314902">选择退出原因</string>
     <string name="zm_sip_call_removed_from_private_call_park_group_599001">已将你从私人通话驻留群组%1$s中移除</string>
-    <string name="zm_sip_call_title_111498">简石会议 Phone</string>
+    <string name="zm_sip_call_title_111498">融讯畅联会议 Phone</string>
     <string name="zm_sip_call_to_262203">%1$s · 呼出至%2$s</string>
     <string name="zm_sip_call_transfer_262203">%1$s · 转接自%2$s</string>
     <string name="zm_sip_call_transfer_61383">%1$s·转接自%2$s</string>
@@ -7145,14 +7145,14 @@
     <string name="zm_sip_end_and_continue_income_meeting_148065">结束通话并接受</string>
     <string name="zm_sip_end_listen_166977">结束并监听</string>
     <string name="zm_sip_end_meeting_accept_108086">结束会议并接受</string>
-    <string name="zm_sip_error_block_function_272402">已禁用简石会议 Phone移动端的通话和短信/彩信功能。请联系管理员了解详情。</string>
+    <string name="zm_sip_error_block_function_272402">已禁用融讯畅联会议 Phone移动端的通话和短信/彩信功能。请联系管理员了解详情。</string>
     <string name="zm_sip_error_call_404_124905">你拨打的号码无法接通</string>
     <string name="zm_sip_error_call_408_99728">呼叫请求超时，请检查网络设置。</string>
     <string name="zm_sip_error_call_480_99728">你拨打的号码暂时无法接通，请稍后再拨。</string>
     <string name="zm_sip_error_call_486_129845">你拨打的电话正在通话中，请稍后再拨。</string>
     <string name="zm_sip_error_call_603_99728">对方已拒接电话</string>
     <string name="zm_sip_error_call_99728">呼叫失败（代码：%s）</string>
-    <string name="zm_sip_error_certificate">无法拨打电话。证书文件存在问题，请联系简石会议支持团队。</string>
+    <string name="zm_sip_error_certificate">无法拨打电话。证书文件存在问题，请联系融讯畅联会议支持团队。</string>
     <string name="zm_sip_error_data_99728">网络连接不佳，音频质量可能会受到影响。</string>
     <string name="zm_sip_error_device_113584">无法连接到你的音频设备</string>
     <string name="zm_sip_error_invite_to_meeting_error_250011">无法邀请%1$s加入会议</string>
@@ -7183,7 +7183,7 @@
     <string name="zm_sip_hidden_my_caller_id_559215">通话ID（隐藏）：%1$s</string>
     <string name="zm_sip_hide_caller_id_not_available_dialog_msg_463260">由于已分配的政策，通话ID屏蔽功能不可用。请联系管理员寻求更多帮助。</string>
     <string name="zm_sip_hide_my_caller_id_64644">隐藏通话ID</string>
-    <string name="zm_sip_hide_my_caller_id_for_india_dialog_content_543663">由于印度电信法规限制，简石会议 Phone印度用户无法隐藏通话ID。</string>
+    <string name="zm_sip_hide_my_caller_id_for_india_dialog_content_543663">由于印度电信法规限制，融讯畅联会议 Phone印度用户无法隐藏通话ID。</string>
     <string name="zm_sip_hide_my_caller_id_may_not_work_155207">在某些国家或地区可能无法正常使用</string>
     <string name="zm_sip_hide_my_caller_id_may_not_work_dialog_msg_155207">主叫隐藏功能可能并不适用于所有国家或地区。</string>
     <string name="zm_sip_hide_my_caller_id_may_not_work_dialog_show_btn_155207">不再显示</string>
@@ -7227,7 +7227,7 @@
     <string name="zm_sip_income_meeting_insip_108086">保持并接受</string>
     <string name="zm_sip_income_meeting_insip_audio_pop_108086">你的电话将被保留，音频将切换至会议</string>
     <string name="zm_sip_income_meeting_insip_monitor_148065">结束通话并接受</string>
-    <string name="zm_sip_income_pop_title_26673">简石会议 Phone...</string>
+    <string name="zm_sip_income_pop_title_26673">融讯畅联会议 Phone...</string>
     <string name="zm_sip_income_status_text_26673">正在呼叫…</string>
     <string name="zm_sip_incoming_call_assistant_61383">致电%1$s</string>
     <string name="zm_sip_incoming_call_maybe_spam_183009">可能是垃圾电话： </string>
@@ -7236,7 +7236,7 @@
     <string name="zm_sip_incoming_call_text_111498">正在呼叫你...</string>
     <string name="zm_sip_incoming_call_ticker_111498">%1$s正在呼叫你</string>
     <string name="zm_sip_incoming_call_transfer_61383">转接自%1$s</string>
-    <string name="zm_sip_inhold_in_call_offhook_66040">简石会议 Phone处于保持状态</string>
+    <string name="zm_sip_inhold_in_call_offhook_66040">融讯畅联会议 Phone处于保持状态</string>
     <string name="zm_sip_inmeeting_108086">会议中</string>
     <string name="zm_sip_invalid_recipient_117773">收件人无效</string>
     <string name="zm_sip_invalid_recipient_msg_136896">你的消息没有有效的收件人，请核对号码。</string>
@@ -7274,7 +7274,7 @@
     <string name="zm_sip_merge_call_title_111496">合并通话</string>
     <string name="zm_sip_merge_into_meeting_fail_108093">合并失败</string>
     <string name="zm_sip_merge_into_meeting_fail_get_meeting_info_108093">无法获取会议信息</string>
-    <string name="zm_sip_merge_into_meeting_fail_no_meeting_108093">没有正在进行的简石会议会议</string>
+    <string name="zm_sip_merge_into_meeting_fail_no_meeting_108093">没有正在进行的融讯畅联会议会议</string>
     <string name="zm_sip_merged_dialog_title_61394">已合并通话</string>
     <string name="zm_sip_merged_tap_to_end_call_61394">点击可结束通话</string>
     <string name="zm_sip_merged_tap_to_end_call_93257">%1$s - 点击可结束通话</string>
@@ -7284,7 +7284,7 @@
     <string name="zm_sip_minimized_call_window_description_92481">最小化通话窗口，%s</string>
     <string name="zm_sip_minimized_call_window_description_time_format_92481">最小化通话窗口，%1$d分钟%2$d秒</string>
     <string name="zm_sip_missed_call_61381">未接来电%1$s</string>
-    <string name="zm_sip_missed_sip_call_ticker_111899">未接听来自%1$s的简石会议 Phone通话</string>
+    <string name="zm_sip_missed_sip_call_ticker_111899">未接听来自%1$s的融讯畅联会议 Phone通话</string>
     <string name="zm_sip_missed_sip_call_title_111899">未接来电</string>
     <string name="zm_sip_monitor_call_error_busy_148065">你呼叫的用户正忙，请稍后再试。</string>
     <string name="zm_sip_monitor_call_inmeeting_msg_148065">如果继续监听通话，你的音频将从会议切换到电话。</string>
@@ -7300,15 +7300,15 @@
     <string name="zm_sip_msg_delete_voicemail_169819">此语音邮件将被永久删除，此操作无法撤消。</string>
     <string name="zm_sip_msg_end_call_in_monitor_148065">你将结束当前正在监听的通话</string>
     <string name="zm_sip_msg_intercom_call_288412">%1$s正在通话中，与%2$s对讲将中断通话。是否确定要进行对讲？</string>
-    <string name="zm_sip_msg_minimize_display_pop_381756">请通过应用设置允许简石会议在后台运行时显示弹出窗口。</string>
+    <string name="zm_sip_msg_minimize_display_pop_381756">请通过应用设置允许融讯畅联会议在后台运行时显示弹出窗口。</string>
     <string name="zm_sip_msg_record_videomail_inmeeting_290287">现在无法录制视频邮件，因为你正在会议中。</string>
-    <string name="zm_sip_msg_request_imei_permission_for_india_cdr_569254">简石会议希望访问你的手机状态和设备身份，包括但不限于IMEI，具体取决于提供简石会议 Phone的国家/地区的监管要求。</string>
-    <string name="zm_sip_msg_request_location_permission_332597">你的管理员要求你在设备设置中启用与简石会议的位置共享。共享位置将允许简石会议在紧急通话中帮助报告你的位置，以及启用高级功能（例如基于位置的访问和呼叫路由）。你的位置信息将仅用于此用途。</string>
-    <string name="zm_sip_msg_request_location_permission_338281">简石会议想要访问你的位置，以便在管理员启用时向你提供额外的功能，例如紧急服务、基于位置的访问和呼叫路由。正在使用的位置信息将包括IP地址、无线接入点ID和GPS坐标（如可用）。</string>
-    <string name="zm_sip_msg_request_location_permission_for_india_cdr_516678">简石会议想要访问你的位置，以便在管理员启用时向你提供额外的功能，例如紧急服务、基于位置的访问和呼叫路由。根据提供简石会议 Phone的国家/地区的监管要求，必须具备对于定位服务的访问权限。正在使用的位置信息将包括IP地址、无线接入点ID和GPS坐标（如可用）。</string>
-    <string name="zm_sip_msg_request_location_permission_initial_332597">简石会议想要访问你的位置，以便在管理员启用时向你提供额外的功能，例如紧急服务、基于位置的访问和呼叫路由。正在使用的位置信息将包括IP地址、无线接入点ID和GPS坐标（如可用）。</string>
-    <string name="zm_sip_msg_request_location_permission_retrigger_274626">你的管理员要求你启用简石会议位置共享。系统可以根据IP地址、无线接入点ID和GPS坐标（如可用）来确定你的位置。这样简石会议可以帮助确定你的位置，且仅用于响应你的紧急通话。</string>
-    <string name="zm_sip_msg_unable_access_location_148057">请在设备设置中允许简石会议访问你的位置。</string>
+    <string name="zm_sip_msg_request_imei_permission_for_india_cdr_569254">融讯畅联会议希望访问你的手机状态和设备身份，包括但不限于IMEI，具体取决于提供融讯畅联会议 Phone的国家/地区的监管要求。</string>
+    <string name="zm_sip_msg_request_location_permission_332597">你的管理员要求你在设备设置中启用与融讯畅联会议的位置共享。共享位置将允许融讯畅联会议在紧急通话中帮助报告你的位置，以及启用高级功能（例如基于位置的访问和呼叫路由）。你的位置信息将仅用于此用途。</string>
+    <string name="zm_sip_msg_request_location_permission_338281">融讯畅联会议想要访问你的位置，以便在管理员启用时向你提供额外的功能，例如紧急服务、基于位置的访问和呼叫路由。正在使用的位置信息将包括IP地址、无线接入点ID和GPS坐标（如可用）。</string>
+    <string name="zm_sip_msg_request_location_permission_for_india_cdr_516678">融讯畅联会议想要访问你的位置，以便在管理员启用时向你提供额外的功能，例如紧急服务、基于位置的访问和呼叫路由。根据提供融讯畅联会议 Phone的国家/地区的监管要求，必须具备对于定位服务的访问权限。正在使用的位置信息将包括IP地址、无线接入点ID和GPS坐标（如可用）。</string>
+    <string name="zm_sip_msg_request_location_permission_initial_332597">融讯畅联会议想要访问你的位置，以便在管理员启用时向你提供额外的功能，例如紧急服务、基于位置的访问和呼叫路由。正在使用的位置信息将包括IP地址、无线接入点ID和GPS坐标（如可用）。</string>
+    <string name="zm_sip_msg_request_location_permission_retrigger_274626">你的管理员要求你启用融讯畅联会议位置共享。系统可以根据IP地址、无线接入点ID和GPS坐标（如可用）来确定你的位置。这样融讯畅联会议可以帮助确定你的位置，且仅用于响应你的紧急通话。</string>
+    <string name="zm_sip_msg_unable_access_location_148057">请在设备设置中允许融讯畅联会议访问你的位置。</string>
     <string name="zm_sip_msg_unable_record_greeing_inmeeting_400025">现在无法录制问候，因为你正在会议中。</string>
     <string name="zm_sip_my_called_number_559215">被叫号码：%1$s</string>
     <string name="zm_sip_my_caller_id_61381">通话ID：%1$s</string>
@@ -7372,7 +7372,7 @@
     <string name="zm_sip_recording_same_request_in_progress_37980">录音正在处理中</string>
     <string name="zm_sip_recording_share_msg_call_from_37980">来电方：%s </string>
     <string name="zm_sip_recording_share_msg_call_to_37980">呼叫%s </string>
-    <string name="zm_sip_recording_share_title_37980">简石会议</string>
+    <string name="zm_sip_recording_share_title_37980">融讯畅联会议</string>
     <string name="zm_sip_reg_error_403_88945">注册失败：你的账户已停用，请联系管理员。（错误代码：%1$d）</string>
     <string name="zm_sip_reg_error_408_88945">注册失败。请检查你的网络连接后再试。（错误代码：%1$d）</string>
     <string name="zm_sip_reg_error_503_88945">注册失败：服务不可用，请稍后再试。（错误代码：%1$d）</string>
@@ -7389,8 +7389,8 @@
     <string name="zm_sip_send_log_brief_hint_required_101987">解释发生的情况...（必填）</string>
     <string name="zm_sip_send_log_brief_limit_101987">已达%d个字符数上限</string>
     <string name="zm_sip_send_log_button_101987">发送</string>
-    <string name="zm_sip_send_log_desc_101987">如果你在使用简石会议 Phone时遇到问题，请联系简石会议技术支持人员。你可以按照支持人员的要求将问题报告给简石会议以进行故障排除。</string>
-    <string name="zm_sip_send_log_desc_send_log_148869">发送此报告，即表示你同意简石会议根据简石会议的<![CDATA[<a href="%s">《隐私政策》</a>]]>访问解决此问题所需的数据。</string>
+    <string name="zm_sip_send_log_desc_101987">如果你在使用融讯畅联会议 Phone时遇到问题，请联系融讯畅联会议技术支持人员。你可以按照支持人员的要求将问题报告给融讯畅联会议以进行故障排除。</string>
+    <string name="zm_sip_send_log_desc_send_log_148869">发送此报告，即表示你同意融讯畅联会议根据融讯畅联会议的<![CDATA[<a href="%s">《隐私政策》</a>]]>访问解决此问题所需的数据。</string>
     <string name="zm_sip_send_log_desc_send_log_150295">此日志将包含有关你的设备和此应用的信息，用于解决技术问题并改善我们的服务</string>
     <string name="zm_sip_send_log_feature_chat_114606">聊天</string>
     <string name="zm_sip_send_log_feature_meeting_114606">会议</string>
@@ -7473,7 +7473,7 @@
     <string name="zm_sip_sms_other_member_released_224489">%1$s (%2$s) 已释放此对话</string>
     <string name="zm_sip_sms_other_member_replied_224489">%1$s (%2$s) 已选择回复</string>
     <string name="zm_sip_sms_receive_notification_224489">接收通知</string>
-    <string name="zm_sip_sms_receive_notification_off_desc_287637">开启通知，以便在你未使用简石会议应用时看到消息</string>
+    <string name="zm_sip_sms_receive_notification_off_desc_287637">开启通知，以便在你未使用融讯畅联会议应用时看到消息</string>
     <string name="zm_sip_sms_release_224489">释放</string>
     <string name="zm_sip_sms_release_ar_261011">自动接线员线路</string>
     <string name="zm_sip_sms_release_cq_261011">队列</string>
@@ -7533,9 +7533,9 @@
     <string name="zm_sip_title_new_sms_117773">新短信</string>
     <string name="zm_sip_title_number_117773">号码</string>
     <string name="zm_sip_title_pickup_call_in_monitor_148065">接听电话并结束当前通话</string>
-    <string name="zm_sip_title_request_imei_permission_for_india_cdr_569254">允许简石会议访问设备身份</string>
-    <string name="zm_sip_title_request_location_permission_208864">是否允许\"简石会议\"访问你的位置？</string>
-    <string name="zm_sip_title_request_location_permission_274626">允许简石会议访问你的位置</string>
+    <string name="zm_sip_title_request_imei_permission_for_india_cdr_569254">允许融讯畅联会议访问设备身份</string>
+    <string name="zm_sip_title_request_location_permission_208864">是否允许\"融讯畅联会议\"访问你的位置？</string>
+    <string name="zm_sip_title_request_location_permission_274626">允许融讯畅联会议访问你的位置</string>
     <string name="zm_sip_title_resume_call_in_monitor_148065">恢复通话并结束当前通话</string>
     <string name="zm_sip_title_send_failed_117773">无法发送消息</string>
     <string name="zm_sip_title_start_call_in_monitor_148065">发起新通话并结束当前通话</string>
@@ -7587,7 +7587,7 @@
     <string name="zm_sip_upgrade_to_meeting_callout_progress_53992">视频会议即将开始。</string>
     <string name="zm_sip_upgrade_to_meeting_failed_53992">无法升级到视频会议</string>
     <string name="zm_sip_upgrade_to_meeting_failed_with_name_53992">无法邀请%s加入会议</string>
-    <string name="zm_sip_upgrade_to_meeting_incoming_progress_53992">%1$s正在将此通话移至简石会议视频会议</string>
+    <string name="zm_sip_upgrade_to_meeting_incoming_progress_53992">%1$s正在将此通话移至融讯畅联会议视频会议</string>
     <string name="zm_sip_upgrade_to_meeting_join_53992">加入会议</string>
     <string name="zm_sip_upgrade_to_meeting_stay_53992">保持通话</string>
     <string name="zm_sip_upgrade_to_video_call_53992">召开会议</string>
@@ -7622,7 +7622,7 @@
     <string name="zm_sip_whisper_unable_148065">目前无法密语监听</string>
     <string name="zm_sip_whispering_148065">密语监听中</string>
     <string name="zm_sip_you_262203">你</string>
-    <string name="zm_sip_zoom_user_identity_74435">简石会议用户身份</string>
+    <string name="zm_sip_zoom_user_identity_74435">融讯畅联会议用户身份</string>
     <string name="zm_speaking_language_incorrect_tips_367869">你的发言语言是%s吗</string>
     <string name="zm_sso_signin_email_domain_label_216537">选择域</string>
     <string name="zm_sso_signin_email_hint_216537">我知道公司域名</string>
@@ -7640,7 +7640,7 @@
     <string name="zm_sub_cmc_meeting_card_ax_participant_list_589214">参会者列表，%1$s，%3$d位中的第%2$d位</string>
     <string name="zm_sub_cmc_meeting_card_ax_start_chat_589214">开始聊天</string>
     <string name="zm_sub_cmc_meeting_card_chat_with_everyone_589214">与所有人聊天</string>
-    <string name="zm_subscription_40_mins_message_501873">你的套餐有会议时间限制。升级到简石会议 One专业版后将取消该限制。</string>
+    <string name="zm_subscription_40_mins_message_501873">你的套餐有会议时间限制。升级到融讯畅联会议 One专业版后将取消该限制。</string>
     <string name="zm_subscription_40_mins_title_501873">需要40分钟以上的时间？</string>
     <string name="zm_subscription_annual_501873">年付</string>
     <string name="zm_subscription_annual_price_501873">每年收取%1$s</string>
@@ -7650,30 +7650,30 @@
     <string name="zm_subscription_btn_pro_monthly_287238">%1$s%2$s/月</string>
     <string name="zm_subscription_btn_pro_monthly_then_287238">接下来%1$s%2$s/月</string>
     <string name="zm_subscription_cancel_learn_more_287238">了解更多</string>
-    <string name="zm_subscription_cancel_message2_378649">你将无法访问简石会议 One专业版功能。你的套餐将降级到基础版（免费账户）。将不会产生新的费用。</string>
+    <string name="zm_subscription_cancel_message2_378649">你将无法访问融讯畅联会议 One专业版功能。你的套餐将降级到基础版（免费账户）。将不会产生新的费用。</string>
     <string name="zm_subscription_cancel_message_287238">你的套餐是通过Google Play商店购买的。请访问Google Play帮助中心，了解如何管理套餐。</string>
     <string name="zm_subscription_cancel_subtitle2_287238">一旦你取消套餐</string>
     <string name="zm_subscription_cancel_subtitle_287238">如果你决定通过Google Play商店取消，你将失去以下功能：</string>
     <string name="zm_subscription_cancel_title_287238">如何取消</string>
-    <string name="zm_subscription_canceled_subscriber_dialog_message_551882">重新激活简石会议 One专业版套餐以访问最新的协作功能、高效办公应用以及更多功能。此外，还可畅享不限时会议。</string>
+    <string name="zm_subscription_canceled_subscriber_dialog_message_551882">重新激活融讯畅联会议 One专业版套餐以访问最新的协作功能、高效办公应用以及更多功能。此外，还可畅享不限时会议。</string>
     <string name="zm_subscription_canceled_subscriber_dialog_ok_551882">重新激活专业版</string>
-    <string name="zm_subscription_canceled_subscriber_dialog_title_551882">简石会议不断进行优化</string>
-    <string name="zm_subscription_change_tab_message_501873">升级至简石会议 One专业版，提升你的通信能力。立即畅享无时间限制的会议以及高级协作等功能。</string>
+    <string name="zm_subscription_canceled_subscriber_dialog_title_551882">融讯畅联会议不断进行优化</string>
+    <string name="zm_subscription_change_tab_message_501873">升级至融讯畅联会议 One专业版，提升你的通信能力。立即畅享无时间限制的会议以及高级协作等功能。</string>
     <string name="zm_subscription_change_tab_title_501873">能够安心地随处办公</string>
-    <string name="zm_subscription_description_1_501873">简石会议 One专业版</string>
-    <string name="zm_subscription_description_287238">免费试用结束后开始计费。如果在免费试用结束前取消，则不会收取费用。所有简石会议订阅的免费试用仅限一次。计费周期结束后，订阅会自动续订。可在Google Play随时取消。选择套餐并完成结账即表示你接受简石会议的《服务条款》和《隐私声明》。</string>
+    <string name="zm_subscription_description_1_501873">融讯畅联会议 One专业版</string>
+    <string name="zm_subscription_description_287238">免费试用结束后开始计费。如果在免费试用结束前取消，则不会收取费用。所有融讯畅联会议订阅的免费试用仅限一次。计费周期结束后，订阅会自动续订。可在Google Play随时取消。选择套餐并完成结账即表示你接受融讯畅联会议的《服务条款》和《隐私声明》。</string>
     <string name="zm_subscription_description_2_501873">每次会议最长为30小时</string>
     <string name="zm_subscription_description_3_501873">会议次数无限制</string>
     <string name="zm_subscription_description_4_501873">分配主持人和联席主持人</string>
-    <string name="zm_subscription_description_527186">因为您已使用过免费试用，现在会立即开始计费。计费周期结束后，订阅会自动续订。可在Google Play随时取消。选择套餐并完成结账即表示您接受简石会议的《服务条款》和《隐私声明》。</string>
+    <string name="zm_subscription_description_527186">因为您已使用过免费试用，现在会立即开始计费。计费周期结束后，订阅会自动续订。可在Google Play随时取消。选择套餐并完成结账即表示您接受融讯畅联会议的《服务条款》和《隐私声明》。</string>
     <string name="zm_subscription_description_5_501873">云录制文件（最高5GB）</string>
     <string name="zm_subscription_dialog_btn_not_now_287238">以后再说</string>
     <string name="zm_subscription_dialog_btn_ok_287238">了解更多</string>
-    <string name="zm_subscription_dialog_message_287238">升级至简石会议专业版可获得无限制会议及更多功能。</string>
+    <string name="zm_subscription_dialog_message_287238">升级至融讯畅联会议专业版可获得无限制会议及更多功能。</string>
     <string name="zm_subscription_dialog_message_501873">可自行安排不限时的会议并保持联系。</string>
-    <string name="zm_subscription_dialog_title_287238">充分利用简石会议</string>
-    <string name="zm_subscription_dialog_title_501873">升级简石会议</string>
-    <string name="zm_subscription_error_message_287238">抱歉，目前没有你可以通过Google Play购买的简石会议专业版套餐。</string>
+    <string name="zm_subscription_dialog_title_287238">充分利用融讯畅联会议</string>
+    <string name="zm_subscription_dialog_title_501873">升级融讯畅联会议</string>
+    <string name="zm_subscription_error_message_287238">抱歉，目前没有你可以通过Google Play购买的融讯畅联会议专业版套餐。</string>
     <string name="zm_subscription_free_trial_287238">%d天免费试用</string>
     <string name="zm_subscription_manage_plan_billing_annual_287238">年付</string>
     <string name="zm_subscription_manage_plan_billing_google_play_287238">Google Play</string>
@@ -7691,23 +7691,23 @@
     <string name="zm_subscription_message_378649">会议可长达30小时</string>
     <string name="zm_subscription_monthly_501873">月付</string>
     <string name="zm_subscription_monthly_price_501873">%1$s/月</string>
-    <string name="zm_subscription_prompt_upgrade_dialog_message_551882">通过切换为年度简石会议 One专业版套餐，最多可节省21%%。点击下方查看你节省的费用。</string>
+    <string name="zm_subscription_prompt_upgrade_dialog_message_551882">通过切换为年度融讯畅联会议 One专业版套餐，最多可节省21%%。点击下方查看你节省的费用。</string>
     <string name="zm_subscription_prompt_upgrade_dialog_ok_551882">切换为年付套餐</string>
     <string name="zm_subscription_prompt_upgrade_dialog_title_551882">利用年付套餐节省更多</string>
     <string name="zm_subscription_select_378649">选择套餐</string>
     <string name="zm_subscription_setting_287238">管理你的订阅</string>
-    <string name="zm_subscription_setting_upgrade_378649">试用简石会议 One专业版</string>
-    <string name="zm_subscription_setting_upgrade_501873">试用简石会议 One专业版</string>
+    <string name="zm_subscription_setting_upgrade_378649">试用融讯畅联会议 One专业版</string>
+    <string name="zm_subscription_setting_upgrade_501873">试用融讯畅联会议 One专业版</string>
     <string name="zm_subscription_setting_upgrade_now_501873">立即升级</string>
     <string name="zm_subscription_start_free_trial_501873">免费试用%1$d天</string>
-    <string name="zm_subscription_subtitle_287238">使用简石会议专业版获取无限量群组会议</string>
-    <string name="zm_subscription_subtitle_378649">获取简石会议 One专业版，畅享更多功能</string>
-    <string name="zm_subscription_success_dialog_message_287238">更新你的简石会议账户可能需要几秒钟的时间。</string>
+    <string name="zm_subscription_subtitle_287238">使用融讯畅联会议专业版获取无限量群组会议</string>
+    <string name="zm_subscription_subtitle_378649">获取融讯畅联会议 One专业版，畅享更多功能</string>
+    <string name="zm_subscription_success_dialog_message_287238">更新你的融讯畅联会议账户可能需要几秒钟的时间。</string>
     <string name="zm_subscription_success_dialog_title_287238">你已成功购买</string>
-    <string name="zm_subscription_title_378649">简石会议 One专业版</string>
+    <string name="zm_subscription_title_378649">融讯畅联会议 One专业版</string>
     <string name="zm_subscription_upgrade_billing_options_287271">计费选项</string>
     <string name="zm_subscription_upgrade_billing_period_287271">计费周期</string>
-    <string name="zm_subscription_upgrade_desc_287271">更新你的简石会议账户可能需要几秒钟的时间。</string>
+    <string name="zm_subscription_upgrade_desc_287271">更新你的融讯畅联会议账户可能需要几秒钟的时间。</string>
     <string name="zm_subscription_upgrade_failed_desc_287271">我们无法连接到Google Play，也无法检索此产品的定价信息。请稍后再试。</string>
     <string name="zm_subscription_upgrade_failed_title_287271">无法继续</string>
     <string name="zm_subscription_upgrade_monthly_287271">每月•%1$s%2$s</string>
@@ -7752,7 +7752,7 @@
     <string name="zm_tab_content_meetings_52777">会议</string>
     <string name="zm_tab_content_person">私人文件</string>
     <string name="zm_tab_content_person_135965">我的文件</string>
-    <string name="zm_tab_content_rooms">简石会议 Rooms</string>
+    <string name="zm_tab_content_rooms">融讯畅联会议 Rooms</string>
     <string name="zm_tab_content_search_contents">内容</string>
     <string name="zm_tab_content_search_contents_115433">文件</string>
     <string name="zm_tab_content_search_messages">消息</string>
@@ -7787,7 +7787,7 @@
     <string name="zm_text_mfa_sms_resend_176897">%1$s或%2$s</string>
     <string name="zm_text_mfa_sms_resend_by_176897">重新发送短信验证码或拨打验证电话</string>
     <string name="zm_text_mfa_sms_resend_by_sms_176897">重新发送短信验证码</string>
-    <string name="zm_text_mfa_sms_send_to_176897">简石会议将发送验证码至</string>
+    <string name="zm_text_mfa_sms_send_to_176897">融讯畅联会议将发送验证码至</string>
     <string name="zm_text_mfa_token_expired_176897">无法登录账户，请重试</string>
     <string name="zm_text_mfa_too_manny_176897">验证码发送过于频繁，请稍后再试。</string>
     <string name="zm_text_mfa_too_manny_failed_attemt_176897">尝试失败次数过多，请稍后再试。</string>
@@ -7814,7 +7814,7 @@
     <string name="zm_thirdparty_sign_in_facebook_label_216537">使用Facebook登录</string>
     <string name="zm_thirdparty_sign_in_google_label_216537">使用Google登录</string>
     <string name="zm_thirdparty_sign_in_sso_label_216537">使用SSO登录</string>
-    <string name="zm_thread_ai_tip_with_external_569761">账户管理员还可以启用AI技术（包括第三方模型）。简石会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练简石会议或第三方AI模型。</string>
+    <string name="zm_thread_ai_tip_with_external_569761">账户管理员还可以启用AI技术（包括第三方模型）。融讯畅联会议不会使用任何音频、视频、聊天、屏幕共享、附件或其他类似通信的内容（如问卷结果、白板和回应）来训练融讯畅联会议或第三方AI模型。</string>
     <string name="zm_thread_apps_add_543139">%1$s将%2$s应用添加到频道</string>
     <string name="zm_thread_apps_add_v2_543139">%1$s已将%2$s应用添加到频道</string>
     <string name="zm_thread_apps_owner_channel_admin_543139">账户管理员</string>
@@ -7864,7 +7864,7 @@
     <string name="zm_title_conf_chat_private_hosts_to_me_289161">主持人对我说</string>
     <string name="zm_title_conf_chat_private_to_289161">我对%s说（私聊）</string>
     <string name="zm_title_conf_chat_public_289161">%s对所有人说</string>
-    <string name="zm_title_conf_long">简石会议会议号：%s</string>
+    <string name="zm_title_conf_long">融讯畅联会议会议号：%s</string>
     <string name="zm_title_confim_stop_record_159402">当云录制文件准备就绪时，你将收到邮件通知。</string>
     <string name="zm_title_confim_stop_record_25514">是否要停止云录制？如果是的话，当云录制文件准备就绪时，你将收到邮件通知。</string>
     <string name="zm_title_confirm_join_90859">是否立即加入会议？</string>
@@ -7881,7 +7881,7 @@
     <string name="zm_title_direct_number_184616">直线号码</string>
     <string name="zm_title_direct_number_31439">直线号码</string>
     <string name="zm_title_edit_meeting">编辑会议</string>
-    <string name="zm_title_enable_addrbook">查找使用简石会议的联系人</string>
+    <string name="zm_title_enable_addrbook">查找使用融讯畅联会议的联系人</string>
     <string name="zm_title_enable_phone_match_33300">启用匹配手机通讯录功能</string>
     <string name="zm_title_enter_hostkey">输入主持人密钥来获取主持人权限</string>
     <string name="zm_title_error">错误</string>
@@ -7900,12 +7900,12 @@
     <string name="zm_title_host_spotlight_unmute_98431">主持人已为所有人聚焦你的视频。是否解除静音以发言？</string>
     <string name="zm_title_intergreated_phone_67420">电话</string>
     <string name="zm_title_invite">邀请</string>
-    <string name="zm_title_invite_contacts_33300">邀请联系人使用简石会议</string>
-    <string name="zm_title_invite_email_topic">请加入正在召开的简石会议会议</string>
+    <string name="zm_title_invite_contacts_33300">邀请联系人使用融讯畅联会议</string>
+    <string name="zm_title_invite_email_topic">请加入正在召开的融讯畅联会议会议</string>
     <string name="zm_title_invite_room_system">邀请会议室系统</string>
-    <string name="zm_title_invite_xxx">邀请%s使用简石会议</string>
+    <string name="zm_title_invite_xxx">邀请%s使用融讯畅联会议</string>
     <string name="zm_title_join_conf">加入会议</string>
-    <string name="zm_title_join_zoom_account_114850">加入%1$s的简石会议账户</string>
+    <string name="zm_title_join_zoom_account_114850">加入%1$s的融讯畅联会议账户</string>
     <string name="zm_title_linked_account">我的账户</string>
     <string name="zm_title_live_transcript_82883">实时转录文字</string>
     <string name="zm_title_local_dialing_184616">本地通话</string>
@@ -7920,7 +7920,7 @@
     <string name="zm_title_meeting_info">信息</string>
     <string name="zm_title_meeting_info_211508">会议信息</string>
     <string name="zm_title_meeting_information">会议信息</string>
-    <string name="zm_title_meeting_invitation_email_topic">简石会议会议邀请 - %s</string>
+    <string name="zm_title_meeting_invitation_email_topic">融讯畅联会议会议邀请 - %s</string>
     <string name="zm_title_meeting_messages_46304">会议消息</string>
     <string name="zm_title_mm_1_contact_request">1个联系人请求</string>
     <string name="zm_title_mm_add_phone_contacts">添加手机联系人</string>
@@ -7928,7 +7928,7 @@
     <string name="zm_title_my_phone_contacts_33300">我的手机通讯录</string>
     <string name="zm_title_my_profile_192681">我的个人信息</string>
     <string name="zm_title_new_conf_chat_393200">%1$s发送给%2$s%3$s</string>
-    <string name="zm_title_new_version_ready">简石会议有新版本啦！</string>
+    <string name="zm_title_new_version_ready">融讯畅联会议有新版本啦！</string>
     <string name="zm_title_notification_exception_group_59554">例外频道</string>
     <string name="zm_title_notification_exception_group_settings_59554">频道通知设置</string>
     <string name="zm_title_notifications_dnd_19898">请勿打扰</string>
@@ -7939,7 +7939,7 @@
     <string name="zm_title_pbx_conference_leave_210413">离开不会结束其他人的通话</string>
     <string name="zm_title_pbx_location_setting_186458">位置权限</string>
     <string name="zm_title_pbx_sms_optout_367968">用户已选择退出</string>
-    <string name="zm_title_permission_prompt">请允许简石会议的访问请求。</string>
+    <string name="zm_title_permission_prompt">请允许融讯畅联会议的访问请求。</string>
     <string name="zm_title_plist">参会者(%s)</string>
     <string name="zm_title_pmi_change_fail">PMI更改失败</string>
     <string name="zm_title_privacy_policy">《隐私政策》</string>
@@ -8022,7 +8022,7 @@
     <string name="zm_title_webinar_chat_419060">网络研讨会聊天</string>
     <string name="zm_title_webinar_raise_hand">举手(%d)</string>
     <string name="zm_title_whiteboards_43757">白板</string>
-    <string name="zm_title_zoom_room_prex">简石会议 Room</string>
+    <string name="zm_title_zoom_room_prex">融讯畅联会议 Room</string>
     <string name="zm_toast_add_to_fecc_group_465896">你已将%s添加到摄像头控制群组</string>
     <string name="zm_toast_indicator_create_failed_523488">无法设置动态指示器。</string>
     <string name="zm_toast_indicator_destroy_failed_523488">无法移除动态指示器。</string>
@@ -8074,7 +8074,7 @@
     <string name="zm_txt_request_passcode_166840">需要会议密码</string>
     <string name="zm_txt_select_one_172332">选择一项</string>
     <string name="zm_txt_waiting_room_description_216417">只有主持人允许的用户可以加入会议</string>
-    <string name="zm_unable_to_join_desc_458869">错误代码：%d，报告至简石会议</string>
+    <string name="zm_unable_to_join_desc_458869">错误代码：%d，报告至融讯畅联会议</string>
     <string name="zm_unable_to_join_meeting_msg_93170">管理员已限制部分群组和用户之间的通信。</string>
     <string name="zm_unable_to_join_meeting_msg_multiple_devices_155685">你已通过其他设备加入此会议。</string>
     <string name="zm_unable_to_join_meeting_title_93170">无法加入此会议</string>
@@ -8086,7 +8086,7 @@
     <string name="zm_unstar_announcements_108966">取消公告的星标</string>
     <string name="zm_unstar_contact_requests_83123">取消联系人请求的星标</string>
     <string name="zm_user_join_fail_e2e_limit_text_329201">你被禁止加入此类型的会议。请联系你的账户管理员了解详情。</string>
-    <string name="zm_uuid_block_desc_458869">电子邮件已与你的简石会议账户关联。如果没有简石会议账户，请提供你的电子邮件。</string>
+    <string name="zm_uuid_block_desc_458869">电子邮件已与你的融讯畅联会议账户关联。如果没有融讯畅联会议账户，请提供你的电子邮件。</string>
     <string name="zm_valid_msg_warning_237940">域名无效</string>
     <string name="zm_video_action_item_pin_user_video_347908">固定</string>
     <string name="zm_video_action_item_remove_user_video_347908">移除固定视频</string>
@@ -8153,14 +8153,14 @@
     <string name="zm_wb_zr_save_error_forbidden_title_400226">保存失败</string>
     <string name="zm_wb_zr_save_error_server_msg_400226">请稍后再试。</string>
     <string name="zm_wb_zr_save_error_server_title_400226">内部服务器错误</string>
-    <string name="zm_wb_zr_save_error_unauth_msg_400226">退出简石会议客户端并重试。</string>
+    <string name="zm_wb_zr_save_error_unauth_msg_400226">退出融讯畅联会议客户端并重试。</string>
     <string name="zm_wb_zr_save_error_unauth_title_400226">验证失败</string>
     <string name="zm_wb_zr_save_msg_400226">是否在%s中保存白板并获得其所有权？</string>
     <string name="zm_wb_zr_save_paired_btn_ax_400226">已与%s会议室配对</string>
     <string name="zm_wb_zr_save_success_msg_400226">你是%s中白板的所有者。</string>
     <string name="zm_wb_zr_save_success_title_400226">白板已成功保存</string>
     <string name="zm_wb_zr_save_title_400226">保存白板</string>
-    <string name="zm_wb_zr_save_unpair_btn_ax_400226">与简石会议配对</string>
+    <string name="zm_wb_zr_save_unpair_btn_ax_400226">与融讯畅联会议配对</string>
     <string name="zm_web_wb_load_error_tip">出现白板错误(%s)</string>
     <string name="zm_webinar_attendee_confirm_not_join_359980">不加入</string>
     <string name="zm_webinar_end_msg_232344">此网络研讨会已结束</string>
@@ -8181,7 +8181,7 @@
     <string name="zm_webinar_msg_user_will_rejoin_as_attendee">%s将以观众身份重新加入网络研讨会。</string>
     <string name="zm_webinar_msg_user_will_rejoin_as_panelist">%s将以嘉宾身份重新加入网络研讨会。</string>
     <string name="zm_webinar_out_of_time_account_owner_msg_232344">此网络研讨会将于10分钟后结束。你可以访问%s，将账户升级为高级版以取消40分钟的时长限制。</string>
-    <string name="zm_webinar_out_of_time_end_account_owner_msg_374798">升级到付费简石会议 Webinars套餐，取消40分钟的时长限制。访问%s，了解详情。</string>
+    <string name="zm_webinar_out_of_time_end_account_owner_msg_374798">升级到付费融讯畅联会议 Webinars套餐，取消40分钟的时长限制。访问%s，了解详情。</string>
     <string name="zm_webinar_out_of_time_end_account_owner_msg_title_232344">将你的网络研讨会从基础版升级为高级版</string>
     <string name="zm_webinar_out_of_time_not_account_owner_msg_232344">请联系IT管理员升级套餐，取消40分钟的时长限制。</string>
     <string name="zm_webinar_out_of_time_not_account_owner_msg_title_232344">你的网络研讨会将在10分钟后结束</string>
@@ -8258,7 +8258,7 @@
     <string name="zm_widget_upcoming_meetings_371496">即将召开的会议</string>
     <string name="zm_workspaces_419448">工作区预约</string>
     <string name="zm_workspaces_no_permission_564177">当前不支持使用工作区。使用前请联系管理员配置工作区。</string>
-    <string name="zm_workspaces_no_permission_by_apps_disabled_623212">无法使用工作区预约。验证是否已启用简石会议 Apps，或联系管理员寻求帮助。</string>
+    <string name="zm_workspaces_no_permission_by_apps_disabled_623212">无法使用工作区预约。验证是否已启用融讯畅联会议 Apps，或联系管理员寻求帮助。</string>
     <string name="zm_workspaces_no_permission_by_workspace_settings_623212">无法使用工作区预约。请联系管理员，确认是否已在账户设置中启用工作区预约。</string>
     <string name="zm_xmpproom_des_358252">%1$d名成员 · %2$s（所有者）</string>
     <string name="zm_xmpproom_item_catergrey_192276">你可以加入的公共频道</string>
@@ -8266,13 +8266,13 @@
     <string name="zm_yesterday_85318">昨天</string>
     <string formatted="false" name="zm_yesterday_time">昨天，${time}</string>
     <string name="zm_zapp_action_add_virtual_background_571890">%1$s想要添加%2$s？</string>
-    <string name="zm_zapp_action_chat_OP_disabled_366203">但是，简石会议 Apps不受支持。</string>
-    <string name="zm_zapp_action_chat_OS_low_366203">但是，简石会议 Apps仅适用于Android 9及更高版本。请更新操作系统以使用简石会议 Apps。</string>
-    <string name="zm_zapp_action_chat_feature_disabled_366203">但是，账户管理员已禁用简石会议 Apps。</string>
+    <string name="zm_zapp_action_chat_OP_disabled_366203">但是，融讯畅联会议 Apps不受支持。</string>
+    <string name="zm_zapp_action_chat_OS_low_366203">但是，融讯畅联会议 Apps仅适用于Android 9及更高版本。请更新操作系统以使用融讯畅联会议 Apps。</string>
+    <string name="zm_zapp_action_chat_feature_disabled_366203">但是，账户管理员已禁用融讯畅联会议 Apps。</string>
     <string name="zm_zapp_action_chat_invite_receiver_341906">%1$s邀请你使用%2$s。</string>
-    <string name="zm_zapp_action_chat_invite_sender_341906">你已发送简石会议 App邀请</string>
+    <string name="zm_zapp_action_chat_invite_sender_341906">你已发送融讯畅联会议 App邀请</string>
     <string name="zm_zapp_action_chat_invite_view_341906">查看</string>
-    <string name="zm_zapp_action_chat_not_login_366203">但是，未登录用户无法使用简石会议 Apps。</string>
+    <string name="zm_zapp_action_chat_not_login_366203">但是，未登录用户无法使用融讯畅联会议 Apps。</string>
     <string name="zm_zapp_action_close_my_video_341906">%1$s想要停止视频</string>
     <string name="zm_zapp_action_delete_virtual_background_571890">%1$s想要删除%2$s？</string>
     <string name="zm_zapp_action_get_virtual_background_data_571890">是否允许%1$s访问保存在设置中的虚拟背景？</string>
@@ -8299,7 +8299,7 @@
     <string name="zm_zapp_close_sharing_app_err_341906">你无法在共享过程中关闭应用！</string>
     <string name="zm_zapp_conf_invitation_dialog_message_341906">是否邀请%1$s使用%2$s？</string>
     <string name="zm_zapp_copy_send_link_341906">复制%1$s链接</string>
-    <string name="zm_zapp_default_name_519982">简石会议 Apps</string>
+    <string name="zm_zapp_default_name_519982">融讯畅联会议 Apps</string>
     <string name="zm_zapp_dialog_allow_341906">允许</string>
     <string name="zm_zapp_dialog_cancel_341906">取消</string>
     <string name="zm_zapp_dialog_install_content_341906">权限设置将在浏览器窗口中打开。</string>
@@ -8311,24 +8311,24 @@
     <string name="zm_zapp_get_paricipants_email_host_request_616644">主持人%2$s使用的%1$s正在请求你的电子邮件：%3$s </string>
     <string name="zm_zapp_get_paricipants_email_request_616644">%2$s（不是主持人）使用的%1$s正在请求你的电子邮件：%3$s </string>
     <string name="zm_zapp_guest_mode_action_add_app_519982">审核权限并添加此应用</string>
-    <string name="zm_zapp_guest_mode_action_sign_in_519982">登录简石会议</string>
-    <string name="zm_zapp_guest_mode_chat_description_519982">简石会议 Apps可以使用访客模式访问有关你或你的设备的信息。了解更多关于访客模式限制或应用的信息。\n\n选择“接受”即表示你同意使用此应用时遵守此应用的《条款》和《隐私政策》。</string>
+    <string name="zm_zapp_guest_mode_action_sign_in_519982">登录融讯畅联会议</string>
+    <string name="zm_zapp_guest_mode_chat_description_519982">融讯畅联会议 Apps可以使用访客模式访问有关你或你的设备的信息。了解更多关于访客模式限制或应用的信息。\n\n选择“接受”即表示你同意使用此应用时遵守此应用的《条款》和《隐私政策》。</string>
     <string name="zm_zapp_guest_mode_chat_description_limits_519982">访客模式限制</string>
     <string name="zm_zapp_guest_mode_chat_description_privacy_519982">《隐私政策》</string>
     <string name="zm_zapp_guest_mode_chat_description_terms_519982">《条款》</string>
     <string name="zm_zapp_guest_mode_chat_description_the_app_519982">应用</string>
-    <string name="zm_zapp_guest_mode_promote_authorize_add_dialog_519982">向简石会议 Apps添加%1$s以获得更加丰富的体验</string>
+    <string name="zm_zapp_guest_mode_promote_authorize_add_dialog_519982">向融讯畅联会议 Apps添加%1$s以获得更加丰富的体验</string>
     <string name="zm_zapp_guest_mode_promote_authorize_add_dialog_add_519982">添加</string>
-    <string name="zm_zapp_guest_mode_promote_authorize_login_dialog_519982">登录以个性化你的简石会议 Apps体验</string>
+    <string name="zm_zapp_guest_mode_promote_authorize_login_dialog_519982">登录以个性化你的融讯畅联会议 Apps体验</string>
     <string name="zm_zapp_guest_mode_promote_authorize_login_dialog_positive_519982">登录</string>
     <string name="zm_zapp_guest_mode_relaunch_error_app_disabled_519982">应用已被禁用。</string>
     <string name="zm_zapp_guest_mode_tip_519982">访客模式</string>
     <string name="zm_zapp_guest_mode_tip_add_app_519982">要解锁所有功能，请审核权限并添加此应用。</string>
     <string name="zm_zapp_guest_mode_tip_bottom_519982">此应用仍然可以查看和使用直接从你、会议主持人或其他第三方处收集的信息。</string>
     <string name="zm_zapp_guest_mode_tip_learn_more_519982">了解更多</string>
-    <string name="zm_zapp_guest_mode_tip_sign_in_519982">要解锁更多功能，请登录简石会议。</string>
+    <string name="zm_zapp_guest_mode_tip_sign_in_519982">要解锁更多功能，请登录融讯畅联会议。</string>
     <string name="zm_zapp_guest_mode_tip_top_519982">此应用处于访客模式，你可以在不将其添加到账户的情况下使用此应用。</string>
-    <string name="zm_zapp_invitation_message_341906">这是一条简石会议 App邀请消息</string>
+    <string name="zm_zapp_invitation_message_341906">这是一条融讯畅联会议 App邀请消息</string>
     <string name="zm_zapp_invitation_sent_to_everyone_toast_341906">已邀请所有参会者</string>
     <string name="zm_zapp_link_copied_tip_341906">已复制%1$s链接</string>
     <string name="zm_zapp_market_apps">发现</string>
@@ -8346,14 +8346,14 @@
     <string name="zm_zapp_take_photo_dialog_title_511629">%1$s想要为你拍照。</string>
     <string name="zm_zapp_tip_promote_share_screen_95395">请先停止正在进行的共享</string>
     <string name="zm_zapp_toast_app_disabled_by_account_admin_541907">%1$s已禁用，请联系贵组织的管理员寻求支持</string>
-    <string name="zm_zapp_toast_app_disabled_by_anonymous_635978">你未获准在访客模式下使用此简石会议 App。请联系应用开发人员了解详情。</string>
+    <string name="zm_zapp_toast_app_disabled_by_anonymous_635978">你未获准在访客模式下使用此融讯畅联会议 App。请联系应用开发人员了解详情。</string>
     <string name="zm_zapp_toast_app_disabled_by_mp_541907">%1$s已禁用</string>
     <string name="zm_zapp_toast_app_removed_541907">%1$s已移除</string>
     <string name="zm_zapp_toast_timer_up">时间到</string>
     <string name="zm_zapps">应用</string>
     <string name="zm_zapps_open_592312">打开应用</string>
     <string name="zm_zapps_title_341906">应用</string>
-    <string name="zm_zapps_title_555203">简石会议 Apps</string>
+    <string name="zm_zapps_title_555203">融讯畅联会议 Apps</string>
     <string name="zm_ze_companion_mode_asl_content_534617">继续此流程可能会启用视频和音频直播。</string>
     <string name="zm_ze_companion_mode_asl_title_534617">已启用传译员直播</string>
     <string name="zm_ze_companion_mode_dlg_switch_content_522007">如果你在公共场合，请检查设备音量。</string>
@@ -8373,7 +8373,7 @@
     <string name="zm_ze_meeting_info_in_progress_503540">进行中</string>
     <string name="zm_ze_meeting_info_lobby_open_503540">大堂已开放</string>
     <string name="zm_ze_meeting_info_title_503540">活动</string>
-    <string name="zm_ze_title">简石会议 Events</string>
+    <string name="zm_ze_title">融讯畅联会议 Events</string>
     <string name="zm_ze_verification_title_523701">验证电子邮件</string>
     <string name="zm_zoom_apps_341906">应用</string>
     <string name="zm_zoom_calendar_410051">日历</string>
@@ -8385,15 +8385,15 @@
     <string name="zm_zr_meeting_end_display_countdown_614541">此消息将于%1$d秒后自动消失</string>
     <string name="zm_zr_meeting_end_msg_614541">你的会话已结束，是否要保持连接到%1$s？</string>
     <string name="zm_zr_meeting_end_stay_connected_614541">保持连接</string>
-    <string name="zm_zr_open_zoom_app_438588">打开简石会议 App</string>
+    <string name="zm_zr_open_zoom_app_438588">打开融讯畅联会议 App</string>
     <string name="zm_zr_open_zoom_app_decline_438588">打开“%1$s”已被%2$s拒绝。</string>
-    <string name="zm_zr_open_zoom_app_is_not_same_meeting_556010">你必须与简石会议 Room处于同一会议中才能推送此应用。</string>
-    <string name="zm_zr_open_zoom_app_is_not_support_438588">%2$s上不支持简石会议 App“%1$s”。</string>
+    <string name="zm_zr_open_zoom_app_is_not_same_meeting_556010">你必须与融讯畅联会议 Room处于同一会议中才能推送此应用。</string>
+    <string name="zm_zr_open_zoom_app_is_not_support_438588">%2$s上不支持融讯畅联会议 App“%1$s”。</string>
     <string name="zm_zr_open_zoom_app_not_support_438588">（不支持）</string>
     <string name="zm_zr_open_zoom_app_on_this_device_438588">在此设备上</string>
-    <string name="zm_zr_open_zoom_app_on_zr_438588">在简石会议 Room打开</string>
+    <string name="zm_zr_open_zoom_app_on_zr_438588">在融讯畅联会议 Room打开</string>
     <string name="zm_zr_open_zoom_app_on_zr_name_438588">在%s打开</string>
     <string name="zm_zr_where_to_open_zoom_app_438588">你想在哪里打开“%s”？</string>
-    <string name="zm_zr_zoom_room_not_support_438588">不支持简石会议 Room </string>
-    <string name="app_name_spark_local">简石会议</string>
+    <string name="zm_zr_zoom_room_not_support_438588">不支持融讯畅联会议 Room </string>
+    <string name="app_name_spark_local">RXeagle</string>
 </resources>
