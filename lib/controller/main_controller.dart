@@ -49,11 +49,14 @@ class MainController extends GetxController
 
   ConnectionUtil netUtil = ConnectionUtil();
 
+  static const local_en = Locale('en', 'US');
+  static const local_cn = Locale('zh', 'CN');
+
   // 多语言选项配置
-  var currentLocale = ui.window.locale.obs;
+  var currentLocale = local_en.obs; // ui.window.locale.obs;
   List<Locale> supportedLocales = [
-    const Locale('zh', 'CN'),
-    const Locale('en', 'US'),
+    local_cn,
+    local_en,
     // const Locale.fromSubtags(
     //     languageCode: 'zh', scriptCode: 'Hans', countryCode: 'CN'),
   ];
@@ -66,12 +69,12 @@ class MainController extends GetxController
   void resetLanguageLocale() {
     String langCode = currentLocale.value.languageCode;
     if (langCode == 'zh') {
-      currentLocale = const Locale('zh', 'CN').obs;
+      currentLocale = local_cn.obs;
     } else if (langCode == 'en') {
-      currentLocale = const Locale('en', 'US').obs;
+      currentLocale = local_en.obs;
     } else {
       // 默认语言
-      currentLocale = const Locale('en', 'US').obs;
+      currentLocale = local_en.obs;
     }
   }
 
@@ -155,7 +158,7 @@ class MainController extends GetxController
   void pageInitForScheduleMeeting() {
     choseScheduleDateTime.value = DateTime.now();
     choseScheduleDuration.value = DateTime(0, 0, 0, 1);
-    mainState.timeZoneSelected.value = 'Asia/Shanghai';
+    mainState.timeZoneSelected.value = 'UTC'; //'Asia/Shanghai';
     mainState.needScheduleMeetingPwd.value = false;
     mainState.showEnablePMIBtn.value = false;
     mainState.hostEnableVideo.value = true;

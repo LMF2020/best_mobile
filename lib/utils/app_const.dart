@@ -12,12 +12,12 @@ class APP {
   static const String disclaimerLoginPageAgreeTerm = "我已同意";
   static const String disclaimerJoinPageAgreeTerm = "点击 \"加入\", 即表示您同意我们的";
   static const String disclaimerPolicyContent = "《用户协议》";
-  static const String disclaimerPolicyContentUrl =
-      'https://$domain/terms/policy';
+  static const String disclaimerPolicyContentUrl = '';
+  // 'https://$domain/terms/policy';
 
   static const String disclaimerPrivacyContent = "《隐私政策》";
-  static const String disclaimerPrivacyContentUrl =
-      'https://$domain/terms/privacy';
+  static const String disclaimerPrivacyContentUrl = '';
+  // 'https://$domain/terms/privacy';
 
   /// 是否开启隐私声明选项
   static const bool showPolicyTerms = true;

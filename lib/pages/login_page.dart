@@ -54,9 +54,9 @@ class LoginPage extends GetView<MainController> {
                           ),
 
                           // 欢迎登陆和下划线部分
-                          const Text(
-                            '欢迎登录',
-                            style: TextStyle(
+                          Text(
+                            'login.welcome'.tr,
+                            style: const TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
                             ),
@@ -171,6 +171,7 @@ class LoginPage extends GetView<MainController> {
                                   )),
                             ],
                           ),
+                          const SizedBox(height: 15),
 
                           /// 免责声明
                           if (APP.showPolicyTerms)
@@ -185,43 +186,50 @@ class LoginPage extends GetView<MainController> {
                                       },
                                     )),
                                 // 用户协议隐私声明的超链接
-                                RichText(
-                                  text: TextSpan(children: [
-                                    const TextSpan(
-                                      text: APP
-                                          .disclaimerLoginPageAgreeTerm, // 我已同意
-                                      style: TextStyle(color: Colors.black),
-                                    ),
-                                    TextSpan(
-                                      text: APP.disclaimerPolicyContent, // 用户协议
-                                      style:
-                                          const TextStyle(color: Colors.blue),
-                                      recognizer: TapGestureRecognizer()
-                                        ..onTap = () async {
-                                          final url = Uri.parse(APP
-                                              .disclaimerPolicyContentUrl); // 用户协议URL
-                                          if (await canLaunchUrl(url)) {
-                                            await launchUrl(url);
-                                          }
-                                        },
-                                    ),
-                                    TextSpan(
-                                      text:
-                                          APP.disclaimerPrivacyContent, // 隐私政策
-                                      style:
-                                          const TextStyle(color: Colors.blue),
-                                      recognizer: TapGestureRecognizer()
-                                        ..onTap = () async {
-                                          final url = Uri.parse(
-                                              APP.disclaimerPrivacyContentUrl);
 
-                                          /// 隐私政策URL
-                                          if (await canLaunchUrl(url)) {
-                                            await launchUrl(url);
-                                          }
-                                        },
-                                    )
-                                  ]),
+                                Expanded(
+                                  child: RichText(
+                                    overflow: TextOverflow.ellipsis,
+                                    softWrap: true,
+                                    text: TextSpan(children: [
+                                      TextSpan(
+                                        text: 'disclaimerLoginPageAgreeTerm'
+                                            .tr, // 我已同意
+                                        style: const TextStyle(
+                                            color: Colors.black),
+                                      ),
+                                      TextSpan(
+                                        text: 'disclaimerPolicyContent'
+                                            .tr, // 用户协议
+                                        style:
+                                            const TextStyle(color: Colors.blue),
+                                        recognizer: TapGestureRecognizer()
+                                          ..onTap = () async {
+                                            final url = Uri.parse(APP
+                                                .disclaimerPolicyContentUrl); // 用户协议URL
+                                            if (await canLaunchUrl(url)) {
+                                              await launchUrl(url);
+                                            }
+                                          },
+                                      ),
+                                      TextSpan(
+                                        text: 'disclaimerPolicyContentUrl'
+                                            .tr, // 隐私政策
+                                        style:
+                                            const TextStyle(color: Colors.blue),
+                                        recognizer: TapGestureRecognizer()
+                                          ..onTap = () async {
+                                            final url = Uri.parse(APP
+                                                .disclaimerPrivacyContentUrl);
+
+                                            /// 隐私政策URL
+                                            if (await canLaunchUrl(url)) {
+                                              await launchUrl(url);
+                                            }
+                                          },
+                                      )
+                                    ]),
+                                  ),
                                 )
                               ], //<Widget>[]
                             ), //Row

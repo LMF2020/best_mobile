@@ -17,7 +17,7 @@ class TimezoneDropdown extends StatelessWidget {
         onChanged: (value) {
           state.timeZoneSelected.value = value!;
         },
-        items: <String>['Asia/Shanghai', 'UTC']
+        items: <String>['UTC', 'Asia/Shanghai']
             .map<DropdownMenuItem<String>>((value) {
           return DropdownMenuItem(
             value: value,

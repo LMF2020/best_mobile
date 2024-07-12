@@ -188,17 +188,14 @@ class JoinMeetingPage extends StatelessWidget {
                         style: ButtonStyle(
                           minimumSize:
                               WidgetStateProperty.all(const Size(120, 40)),
-                          backgroundColor:
-                              WidgetStateProperty.all(Colors.blue),
+                          backgroundColor: WidgetStateProperty.all(Colors.blue),
                           foregroundColor:
                               WidgetStateProperty.all(Colors.white),
                           textStyle: WidgetStateProperty.all(
                               const TextStyle(fontSize: 12)),
                           // 设置文字样式
-                          shape: WidgetStateProperty.all(
-                              RoundedRectangleBorder(
-                                  borderRadius:
-                                      BorderRadius.circular(12))), // 设置形状
+                          shape: WidgetStateProperty.all(RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12))), // 设置形状
                         ),
                         onPressed: state.isButtonDisabled.isTrue
                             ? null
@@ -350,13 +347,13 @@ class JoinMeetingPage extends StatelessWidget {
                   if (APP.showPolicyTerms)
                     RichText(
                       text: TextSpan(children: [
-                        const TextSpan(
-                          text: APP.disclaimerJoinPageAgreeTerm, // 我同意
-                          style: TextStyle(
+                        TextSpan(
+                          text: 'disclaimerJoinPageAgreeTerm'.tr, // 我同意
+                          style: const TextStyle(
                               color: Colors.black, fontWeight: FontWeight.bold),
                         ),
                         TextSpan(
-                          text: APP.disclaimerPolicyContent, // 用户协议
+                          text: 'disclaimerPolicyContent'.tr, // 用户协议
                           style: const TextStyle(color: Colors.blue),
                           recognizer: TapGestureRecognizer()
                             ..onTap = () async {
@@ -368,7 +365,7 @@ class JoinMeetingPage extends StatelessWidget {
                             },
                         ),
                         TextSpan(
-                          text: APP.disclaimerPrivacyContent, // 隐私政策
+                          text: 'disclaimerPolicyContentUrl'.tr, // 隐私政策
                           style: const TextStyle(color: Colors.blue),
                           recognizer: TapGestureRecognizer()
                             ..onTap = () async {

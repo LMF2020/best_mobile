@@ -10,7 +10,6 @@ import MobileRTC
     
     var authenticationDelegate: AuthenticationDelegate
     var eventSink: FlutterEventSink?
-    var productName = "简石会议";
     var appGroupID = "group.com.sanyuanshi.mobile.meeting.g"
     
     override init() {
@@ -187,7 +186,7 @@ extension AppDelegate {
             }
 
             //Joining the meeting and storing the response
-            meetingService?.customizeMeetingTitle(productName)
+//            meetingService?.customizeMeetingTitle(productName)
             let response = meetingService?.joinMeeting(with: joinMeetingParameters)
 
             if let response = response {

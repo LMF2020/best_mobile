@@ -105,6 +105,10 @@ class Messages extends Translations {
           'schedule.default_meeting_topic': ' 的会议',
           'my.schedule_meeting_topic': '我的预约会议',
           'meeting.clear_history': '清除历史记录',
+          'disclaimerLoginPageAgreeTerm': '我已同意',
+          'disclaimerJoinPageAgreeTerm': '点击 "加入", 即表示您同意我们的',
+          'disclaimerPolicyContent': '《用户协议》',
+          'disclaimerPolicyContentUrl': '《隐私政策》',
         },
         'en_US': {
           'client.version': 'Version ',
@@ -114,7 +118,7 @@ class Messages extends Translations {
           'login.pwd': 'Password',
           'login.pwd.hint': 'Please input password',
           'login.btn': 'Login',
-          'login.welcome': 'Welcome Aboard',
+          'login.welcome': 'Welcome to Login',
           'login.back_to_login': 'Back to Login',
           'check.enter.valid.email': 'Please enter a valid email',
           'check.enter.pwd.required': 'Password is required',
@@ -126,7 +130,7 @@ class Messages extends Translations {
           'btn.confirm': 'Yes',
           'btn.cancel': 'No',
           'btn.new_meeting': 'New Meeting',
-          'btn.join_meeting': 'Join',
+          'btn.join_meeting': 'Join Now',
           'btn.join_meeting_without_login': 'Join Meeting',
           'btn.schedule_meeting': 'Schedule',
           'btn.del_meeting': 'Delete',
@@ -211,6 +215,11 @@ class Messages extends Translations {
           'schedule.default_meeting_topic': ' \'s meeting',
           'my.schedule_meeting_topic': 'My schedule meeting',
           'meeting.clear_history': 'Clear history',
+          'disclaimerLoginPageAgreeTerm': 'I accept',
+          'disclaimerJoinPageAgreeTerm':
+              'By clicking "Join Now," you acknowledge our',
+          'disclaimerPolicyContent': '《Term of Service》',
+          'disclaimerPolicyContentUrl': '《Privacy Policy》',
         }
       };
 }
