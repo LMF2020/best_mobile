@@ -218,7 +218,10 @@ class MeetingPage extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.center,
 
                             /// 显示年月日-时分秒
-                            children: [dateYmdText, dateHmsText],
+                            children: [
+                              dateYmdText,
+                              Expanded(child: dateHmsText)
+                            ],
                           ),
                           title: Align(
                             alignment: Alignment.center,

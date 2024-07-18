@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'package:sparkmob/config/route_config.dart';
 import 'package:sparkmob/controller/main_controller.dart';
 import 'package:sparkmob/controller/main_state.dart';
+import 'package:sparkmob/utils/alert.dart';
 import 'package:sparkmob/utils/app_const.dart';
 import 'package:sparkmob/widgets/connection_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -22,6 +23,10 @@ class JoinMeetingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     MainController controller = Get.find();
     MainState state = controller.mainState;
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      AlertUtil.showFraudAlert();
+    });
 
     /// 从本地读取缓存的加会用户名，不存在则尝试获取登录用户名，未登录则为空
     var displayName = controller.getData(APP.keyJoinDisplayName);

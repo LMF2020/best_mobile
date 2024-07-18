@@ -47,6 +47,6 @@ class APP {
   static const String keyPassword = "pwd";
   static const String keyJoinDisplayName = "joinDisplayName";
   static const String keyMeetingHistory = "meetingHistory";
-  static const String clientVerAndroid = "v1.0.3";
-  static const String clientVerIOS = "v1.0.7";
+  static const String clientVerAndroid = "v1.0.5";
+  static const String clientVerIOS = "v1.0.8";
 }
